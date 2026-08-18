@@ -53,17 +53,10 @@ the snapshot. Everything else stays fresh.
 
 ---
 
-## 3. GitHub Pages deployment — assumed to be enabled by `gh` (verify)
+## 3. ~~GitHub Pages deployment~~ — RESOLVED, no action needed
 
-**What I needed:** Pages enabled on the new public repo so the site goes live.
-**Why I couldn't proceed:** I attempted to enable Pages via the API; if the
-`gh` token lacks the `pages` write permission or the repo is too new, the
-enable call may have been rejected.
-**What I tried:** `gh api repos/ons96/free-llm-chat-leaderboard/pages` to enable
-(source branch `main`, path `/`).
-**What you need to do (if not already live):** In the repo settings → Pages,
-set Source = "Deploy from a branch", Branch = `main`, folder = `/` (root).
-The site will be at https://ons96.github.io/free-llm-chat-leaderboard/.
+Pages was enabled via the GitHub API during the build (source: branch `main`, path `/`).
+Live at https://ons96.github.io/free-llm-chat-leaderboard/.
 
 ---
 
