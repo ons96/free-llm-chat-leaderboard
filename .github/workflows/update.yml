@@ -12,6 +12,10 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      # Job-level so the step can gate on its presence (secrets context is not
+      # allowed in step-level `if:` conditions).
+      VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -32,9 +36,7 @@ jobs:
       # no port forwarding, no pty. If the secret is absent this step is
       # skipped entirely and the committed snapshot is used instead.
       - name: Fetch gateway config from VPS-40
-        if: ${{ secrets.VPS_SSH_KEY != '' }}
-        env:
-          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        if: env.VPS_SSH_KEY != ''
         run: |
           mkdir -p gateway-config
           echo "$VPS_SSH_KEY" > /tmp/vps_deploy_key
