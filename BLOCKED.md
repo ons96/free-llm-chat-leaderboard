@@ -29,15 +29,17 @@ the API when absent, so this is purely an upgrade.
 
 ---
 
-## 2. ~~Gateway config auto-refresh in CI~~ — RESOLVED
+## 2. ~~Gateway config auto-refresh~~ — RESOLVED
 
-Wired up on 2026-08-18. A dedicated, restricted SSH deploy key (`VPS_SSH_KEY`
-repo secret) lets the weekly workflow pull the live gateway config from VPS-40.
-The key is locked down on the VPS via an `authorized_keys` forced command: it
-can ONLY run `~/bin/gw-config-fetch.sh`, which tars exactly the 5 config files
-the pipeline needs. No shell access, no port forwarding, no pty, host key
-pinned in the workflow. The workflow skips the fetch gracefully if the secret
-is ever removed, falling back to the committed snapshot.
+Implemented 2026-08-18, with zero new credentials: a cron on VPS-40 itself
+(`~/bin/lb-gateway-sync.sh`, Mon 05:30 UTC, before the CI job at 06:00)
+pulls the leaderboard repo, parses its **own** gateway config with
+`scripts/parse_gateway.py`, and pushes `data/gateway_models.json` if changed.
+The weekly CI job then merges it as usual. No SSH deploy key, no repo secrets
+— the VPS uses its existing `gh` auth (ons96, repo scope). An initial
+SSH-deploy-key approach was tested and discarded: VPS-40's firewall blocks
+port 22 from GitHub Actions runners, and the VPS-push design is simpler and
+needs no credentials at all.
 
 ---
 

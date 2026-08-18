@@ -21,19 +21,17 @@ Live: https://ons96.github.io/free-llm-chat-leaderboard/
 
 | # | Source | Access | Notes |
 |---|--------|--------|-------|
-| 1 | **VPS-40 gateway config** (`LLM-API-Key-Proxy`) | live fetch over SSH via restricted deploy key (falls back to committed snapshot) | 84 free-tier providers, 586 model records, virtual-model chains, dead-provider flags. Tagged `source: gateway`. |
+| 1 | **VPS-40 gateway config** (`LLM-API-Key-Proxy`) | pushed weekly by a cron on VPS-40 itself (no secrets needed) | 84 free-tier providers, 586 model records, virtual-model chains, dead-provider flags. Tagged `source: gateway`. |
 | 2 | **Artificial Analysis** | public page RSC scrape (no auth); official Data API v2 if `AA_API_KEY` is set | `intelligenceIndex`, `omniscience` accuracy/hallucination-rate, context, prices for top ~29 models. |
 | 3 | **OpenRouter** models API | no auth | IDs ending in `:free` (currently 16). |
 | 4 | **Hand-maintained JSONs** | `data/arena_scores.json`, `data/free_chat_uis.json` | See "Updating hand-maintained data". |
 | 5 | **free-llm-benchmarking** (real-probe speed) | public repo CSVs | TTFT / tokens-per-sec for free providers (mostly aggregators; used where it matches). |
 
-Cadence: the GitHub Action refreshes **all sources** — including the gateway
-config, which it pulls live from VPS-40 over SSH using a dedicated, restricted
-deploy key (see "Gateway auto-refresh" in BLOCKED.md for how it's locked
-down) — weekly (Mon 06:00 UTC) plus on manual dispatch, then commits
-`models.json`; Pages auto-deploys. If the `VPS_SSH_KEY` secret is ever
-removed, the workflow gracefully skips the fetch and uses the committed
-snapshot.
+Cadence: a cron on VPS-40 pushes the gateway snapshot (Mon 05:30 UTC), then
+the GitHub Action refreshes all other sources (AA, OpenRouter, arena,
+benchmarks) weekly (Mon 06:00 UTC) plus on manual dispatch, merges everything
+into `models.json` and commits; Pages auto-deploys. No secrets are involved
+anywhere in the gateway refresh — the VPS owns its config and pushes it.
 
 ## Scoring methodology
 
@@ -75,8 +73,9 @@ worthless, so intelligence is a hard floor.
   pipeline — the auto list covers it).
 - **`data/free_chat_uis.json`** — models free only via consumer chat apps
   (ChatGPT Free, Gemini app, Le Chat, etc.). Edit URLs/limits as they change.
-- **`data/gateway_models.json`** — auto-regenerated weekly by CI (live fetch
-  from VPS-40). Manual refresh from a local config mirror:
+- **`data/gateway_models.json`** — auto-refreshed weekly by a cron on VPS-40
+  (`~/bin/lb-gateway-sync.sh`), which parses its own config and pushes.
+  Manual refresh from a local config mirror:
   `python3 scripts/parse_gateway.py <config-dir>`.
 
 ## Running locally
@@ -130,12 +129,13 @@ These are reasonable defaults I chose without asking; override any of them:
 3. **AA API key not present** → used the no-auth public-page RSC scrape (the
    same technique as `ai-leaderboard`) instead of the official API. The
    pipeline uses the official API automatically if `AA_API_KEY` is ever set.
-4. **Gateway auto-refresh in CI** — approved by the user on 2026-08-18: a
-   dedicated ed25519 deploy key (`VPS_SSH_KEY` secret) fetches the live
-   gateway config weekly. Locked down via a VPS `authorized_keys` forced
-   command so the key can ONLY tar the 5 config files the pipeline needs (no
-   shell, no port forwarding, no pty; host key pinned in the workflow). The
-   workflow falls back to the committed snapshot if the secret is absent.
+4. **Gateway auto-refresh via VPS cron** — approved by the user on
+   2026-08-18. A cron on VPS-40 (`lb-gateway-sync.sh`, Mon 05:30 UTC) parses
+   its own gateway config and pushes `gateway_models.json`; the CI merges it
+   at 06:00. Zero new credentials: the VPS uses its existing `gh` auth, and
+   no repo secrets or deploy keys exist. (An SSH-deploy-key variant was
+   tried first but VPS-40's firewall blocks port 22 from GitHub runners; the
+   push design is simpler anyway.)
 5. **Arena as intelligence fallback + tiebreaker**: models without an AA score
    use arena ELO (mapped to 0–100) as the intelligence signal, and arena ELO
    is the 0.10 preference component.

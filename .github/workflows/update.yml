@@ -12,10 +12,6 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    env:
-      # Job-level so the step can gate on its presence (secrets context is not
-      # allowed in step-level `if:` conditions).
-      VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,31 +24,10 @@ jobs:
       - name: Install deps
         run: pip install --quiet pyyaml
 
-      # Fetch the live gateway config from VPS-40 using a dedicated, restricted
-      # deploy key (VPS_SSH_KEY). The key is forced-command-only on the VPS:
-      # it can ONLY run ~/bin/gw-config-fetch.sh, which tars exactly the 5
-      # config files the pipeline needs (providers_database, virtual_models,
-      # static_virtual_models, dead_providers, chain_pins). No shell access,
-      # no port forwarding, no pty. If the secret is absent this step is
-      # skipped entirely and the committed snapshot is used instead.
-      - name: Fetch gateway config from VPS-40
-        if: env.VPS_SSH_KEY != ''
-        run: |
-          mkdir -p gateway-config
-          echo "$VPS_SSH_KEY" > /tmp/vps_deploy_key
-          chmod 600 /tmp/vps_deploy_key
-          # Pin the VPS host key (ed25519) to prevent MITM.
-          echo "40.233.101.233 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK+LBwhXGjPQsX7hB4rZdOAiJi0/+22qUjmcTl13RXrk" > /tmp/vps_known_hosts
-          ssh -i /tmp/vps_deploy_key \
-              -o UserKnownHostsFile=/tmp/vps_known_hosts \
-              -o StrictHostKeyChecking=yes \
-              -o BatchMode=yes \
-              -o ConnectTimeout=15 \
-              ubuntu@40.233.101.233 fetch-gateway-config > /tmp/gw.tar.gz
-          tar -xzf /tmp/gw.tar.gz -C gateway-config
-          python3 scripts/parse_gateway.py gateway-config
-          rm -f /tmp/vps_deploy_key
-
+      # The gateway snapshot (data/gateway_models.json) is refreshed by a cron
+      # on VPS-40 itself (Mon 05:30 UTC, before this job at 06:00): the VPS
+      # parses its own config and pushes the snapshot to main. No secrets are
+      # needed here; this job merges the committed snapshot with the rest.
       - name: Refresh data
         env:
           # Optional: AA Data API key. When absent the pipeline falls back to
