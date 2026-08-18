@@ -29,27 +29,15 @@ the API when absent, so this is purely an upgrade.
 
 ---
 
-## 2. Gateway config auto-refresh in CI — medium impact, needs an SSH key
+## 2. ~~Gateway config auto-refresh in CI~~ — RESOLVED
 
-**What I needed:** SSH access from GitHub Actions to VPS-40
-(40.233.101.233) to pull the live gateway config each week.
-**Why I couldn't proceed:** Committing a VPS SSH private key as a repo secret
-is a security decision only you can make; the autonomy directive says don't
-create credentials I don't have.
-**What I tried:** Pulled the config myself over SSH (works with
-`~/.ssh/oracle.key`) and committed a snapshot in `data/gateway_models.json`
-(586 model records, 84 free-tier providers). The weekly CI refreshes every
-other source but uses the committed gateway snapshot.
-**Impact:** Gateway model/provider changes won't appear until you regenerate
-the snapshot. Everything else stays fresh.
-**What you need to do (optional):**
-- Option A (no secrets): periodically run locally
-  `python3 scripts/parse_gateway.py <dir-with-gateway-configs>` and commit the
-  updated `data/gateway_models.json`.
-- Option B (full automation): add an SSH deploy key for VPS-40 as a repo
-  secret (e.g. `VPS_SSH_KEY`), then wire a step in
-  `.github/workflows/update.yml` to scp the config and run `parse_gateway.py`.
-  Not wired up by default for safety.
+Wired up on 2026-08-18. A dedicated, restricted SSH deploy key (`VPS_SSH_KEY`
+repo secret) lets the weekly workflow pull the live gateway config from VPS-40.
+The key is locked down on the VPS via an `authorized_keys` forced command: it
+can ONLY run `~/bin/gw-config-fetch.sh`, which tars exactly the 5 config files
+the pipeline needs. No shell access, no port forwarding, no pty, host key
+pinned in the workflow. The workflow skips the fetch gracefully if the secret
+is ever removed, falling back to the committed snapshot.
 
 ---
 

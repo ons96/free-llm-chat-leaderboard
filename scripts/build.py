@@ -12,8 +12,9 @@ Steps:
   5. merge.py            (normalize + fuzzy match across sources)
   6. score.py            (quality gate + composite chat score -> data/models.json)
 
-data/gateway_models.json is a committed snapshot (the CI has no SSH access to
-the VPS); it is intentionally NOT refreshed here. Regenerate it locally with:
+data/gateway_models.json is the gateway snapshot, refreshed by CI via the
+restricted VPS_SSH_KEY deploy key before this script runs. To refresh it
+manually from a local config mirror:
     python3 scripts/parse_gateway.py <dir-with-gateway-configs>
 """
 import subprocess

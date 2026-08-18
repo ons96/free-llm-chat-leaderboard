@@ -21,16 +21,19 @@ Live: https://ons96.github.io/free-llm-chat-leaderboard/
 
 | # | Source | Access | Notes |
 |---|--------|--------|-------|
-| 1 | **VPS-40 gateway config** (`LLM-API-Key-Proxy`) | committed snapshot `data/gateway_models.json` | 84 free-tier providers, 586 model records, virtual-model chains, dead-provider flags. Tagged `source: gateway`. |
+| 1 | **VPS-40 gateway config** (`LLM-API-Key-Proxy`) | live fetch over SSH via restricted deploy key (falls back to committed snapshot) | 84 free-tier providers, 586 model records, virtual-model chains, dead-provider flags. Tagged `source: gateway`. |
 | 2 | **Artificial Analysis** | public page RSC scrape (no auth); official Data API v2 if `AA_API_KEY` is set | `intelligenceIndex`, `omniscience` accuracy/hallucination-rate, context, prices for top ~29 models. |
 | 3 | **OpenRouter** models API | no auth | IDs ending in `:free` (currently 16). |
 | 4 | **Hand-maintained JSONs** | `data/arena_scores.json`, `data/free_chat_uis.json` | See "Updating hand-maintained data". |
 | 5 | **free-llm-benchmarking** (real-probe speed) | public repo CSVs | TTFT / tokens-per-sec for free providers (mostly aggregators; used where it matches). |
 
-Cadence: the GitHub Action refreshes sources 2, 3, 5 (and the arena
-leaderboard) weekly (Mon 06:00 UTC) plus on manual dispatch, then commits
-`models.json`; Pages auto-deploys. Source 1 (gateway) is a committed snapshot
-and is **not** refreshed in CI (no SSH access) — see BLOCKED.md.
+Cadence: the GitHub Action refreshes **all sources** — including the gateway
+config, which it pulls live from VPS-40 over SSH using a dedicated, restricted
+deploy key (see "Gateway auto-refresh" in BLOCKED.md for how it's locked
+down) — weekly (Mon 06:00 UTC) plus on manual dispatch, then commits
+`models.json`; Pages auto-deploys. If the `VPS_SSH_KEY` secret is ever
+removed, the workflow gracefully skips the fetch and uses the committed
+snapshot.
 
 ## Scoring methodology
 
@@ -72,8 +75,9 @@ worthless, so intelligence is a hard floor.
   pipeline — the auto list covers it).
 - **`data/free_chat_uis.json`** — models free only via consumer chat apps
   (ChatGPT Free, Gemini app, Le Chat, etc.). Edit URLs/limits as they change.
-- **`data/gateway_models.json`** — regenerate from a fresh gateway config
-  mirror: `python3 scripts/parse_gateway.py <config-dir>`.
+- **`data/gateway_models.json`** — auto-regenerated weekly by CI (live fetch
+  from VPS-40). Manual refresh from a local config mirror:
+  `python3 scripts/parse_gateway.py <config-dir>`.
 
 ## Running locally
 
@@ -126,9 +130,12 @@ These are reasonable defaults I chose without asking; override any of them:
 3. **AA API key not present** → used the no-auth public-page RSC scrape (the
    same technique as `ai-leaderboard`) instead of the official API. The
    pipeline uses the official API automatically if `AA_API_KEY` is ever set.
-4. **Gateway snapshot committed, not live-fetched in CI** — CI has no SSH key,
-   so `gateway_models.json` is generated locally and committed. Weekly CI
-   refreshes everything else.
+4. **Gateway auto-refresh in CI** — approved by the user on 2026-08-18: a
+   dedicated ed25519 deploy key (`VPS_SSH_KEY` secret) fetches the live
+   gateway config weekly. Locked down via a VPS `authorized_keys` forced
+   command so the key can ONLY tar the 5 config files the pipeline needs (no
+   shell, no port forwarding, no pty; host key pinned in the workflow). The
+   workflow falls back to the committed snapshot if the secret is absent.
 5. **Arena as intelligence fallback + tiebreaker**: models without an AA score
    use arena ELO (mapped to 0–100) as the intelligence signal, and arena ELO
    is the 0.10 preference component.
@@ -154,7 +161,7 @@ index.html                  # frontend (vanilla JS, dark, sortable)
 data/
   models.json               # GENERATED merged+scored output (the data layer)
   models_raw.json           # GENERATED merged (pre-score)
-  gateway_models.json       # committed snapshot of VPS-40 gateway config
+  gateway_models.json       # snapshot of VPS-40 gateway config (CI-refreshed)
   arena_scores.json         # hand-maintained top-60 arena scores
   free_chat_uis.json        # hand-maintained free chat apps
   sources/                  # GENERATED raw source snapshots

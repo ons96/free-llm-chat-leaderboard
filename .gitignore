@@ -3,3 +3,6 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+
+# Fetched gateway config (CI-only; the parsed snapshot is what gets committed)
+gateway-config/

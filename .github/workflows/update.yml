@@ -24,7 +24,34 @@ jobs:
       - name: Install deps
         run: pip install --quiet pyyaml
 
-      - name: Refresh data (skips gateway snapshot — committed, no SSH in CI)
+      # Fetch the live gateway config from VPS-40 using a dedicated, restricted
+      # deploy key (VPS_SSH_KEY). The key is forced-command-only on the VPS:
+      # it can ONLY run ~/bin/gw-config-fetch.sh, which tars exactly the 5
+      # config files the pipeline needs (providers_database, virtual_models,
+      # static_virtual_models, dead_providers, chain_pins). No shell access,
+      # no port forwarding, no pty. If the secret is absent this step is
+      # skipped entirely and the committed snapshot is used instead.
+      - name: Fetch gateway config from VPS-40
+        if: ${{ secrets.VPS_SSH_KEY != '' }}
+        env:
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          mkdir -p gateway-config
+          echo "$VPS_SSH_KEY" > /tmp/vps_deploy_key
+          chmod 600 /tmp/vps_deploy_key
+          # Pin the VPS host key (ed25519) to prevent MITM.
+          echo "40.233.101.233 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIK+LBwhXGjPQsX7hB4rZdOAiJi0/+22qUjmcTl13RXrk" > /tmp/vps_known_hosts
+          ssh -i /tmp/vps_deploy_key \
+              -o UserKnownHostsFile=/tmp/vps_known_hosts \
+              -o StrictHostKeyChecking=yes \
+              -o BatchMode=yes \
+              -o ConnectTimeout=15 \
+              ubuntu@40.233.101.233 fetch-gateway-config > /tmp/gw.tar.gz
+          tar -xzf /tmp/gw.tar.gz -C gateway-config
+          python3 scripts/parse_gateway.py gateway-config
+          rm -f /tmp/vps_deploy_key
+
+      - name: Refresh data
         env:
           # Optional: AA Data API key. When absent the pipeline falls back to
           # the no-auth public-page scrape, so the run still succeeds.

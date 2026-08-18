@@ -2,19 +2,20 @@
 """Parse the VPS-40 LLM-API-Key-Proxy gateway config into a normalized snapshot.
 
 The gateway config lives on VPS 40 (40.233.101.233) at
-~/LLM-API-Key-Proxy/config/. Because GitHub Actions cannot SSH into the VPS
-without a key secret, this script runs locally (or wherever the config files
-are available) and writes data/gateway_models.json, which IS committed.
+~/LLM-API-Key-Proxy/config/. In CI the workflow fetches the config over SSH
+(restricted VPS_SSH_KEY deploy key) into ./gateway-config and calls this
+script. Locally you can point it at any mirror of the config files.
 
 Usage:
     python3 scripts/parse_gateway.py [CONFIG_DIR] [OUTPUT]
 
-The CONFIG_DIR defaults to ../gateway-config (a local mirror) and falls back
-to the standard VPS paths if present.
+The CONFIG_DIR defaults to ./gateway-config (CI's fetch target) and falls
+back to other local paths if present.
 """
 import json
 import os
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 try:
@@ -225,10 +226,11 @@ def main():
             pinned.add((e.get("provider"), e.get("model")))
 
     output = {
-        "generated_at": None,
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source_note": (
-            "Snapshot of VPS-40 LLM-API-Key-Proxy config. Regenerate with "
-            "scripts/parse_gateway.py against a fresh config mirror."
+            "Snapshot of VPS-40 LLM-API-Key-Proxy config, auto-refreshed weekly "
+            "by the CI workflow via the restricted VPS_SSH_KEY deploy key. "
+            "Regenerate manually with scripts/parse_gateway.py <config-dir>."
         ),
         "providers_total": len(providers),
         "providers_free_tier": len([p for p in providers if p.get("free_tier")]),
