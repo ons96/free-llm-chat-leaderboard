@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T06:21:33Z",
+  "generated_at": "2026-08-18T06:26:59Z",
   "source_note": "Snapshot of VPS-40 LLM-API-Key-Proxy config, auto-refreshed weekly by the CI workflow via the restricted VPS_SSH_KEY deploy key. Regenerate manually with scripts/parse_gateway.py <config-dir>.",
   "providers_total": 86,
   "providers_free_tier": 84,
