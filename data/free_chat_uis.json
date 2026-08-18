@@ -1,0 +1,24 @@
+{
+  "note": "Hand-maintained list of models that are free ONLY via consumer chat apps (not via API). These are the 'free via chat UI' rows in the leaderboard. Update URLs/limits as they change. Seed date: 2026-08-18.",
+  "last_updated": "2026-08-18",
+  "models": [
+    { "id": "gpt-5", "ui": "ChatGPT Free", "url": "https://chatgpt.com", "limits": "Free tier: limited GPT-5 messages; unlimited GPT-5 mini" },
+    { "id": "gpt-5-mini", "ui": "ChatGPT Free", "url": "https://chatgpt.com", "limits": "Unlimited on free tier" },
+    { "id": "gemini-3-flash", "ui": "Google Gemini app", "url": "https://gemini.google.com", "limits": "Free: Gemini 3.x Flash with rate limits; Pro limited" },
+    { "id": "gemini-3-pro", "ui": "Google Gemini app", "url": "https://gemini.google.com", "limits": "Free tier: limited Pro queries per day" },
+    { "id": "gemini-2.5-flash", "ui": "Google Gemini app / AI Studio", "url": "https://aistudio.google.com", "limits": "AI Studio free tier, generous rate limits" },
+    { "id": "claude-sonnet-4-5", "ui": "Claude Free", "url": "https://claude.ai", "limits": "Free tier: limited Sonnet messages per day" },
+    { "id": "claude-haiku-4-5", "ui": "Claude Free", "url": "https://claude.ai", "limits": "Free tier: faster, higher quota than Sonnet" },
+    { "id": "grok-4", "ui": "xAI Grok free", "url": "https://grok.com", "limits": "Free tier with limits; X account required" },
+    { "id": "grok-3", "ui": "xAI Grok free", "url": "https://grok.com", "limits": "Free tier with limits" },
+    { "id": "deepseek-v4", "ui": "DeepSeek Chat", "url": "https://chat.deepseek.com", "limits": "Free web chat; may have usage caps" },
+    { "id": "deepseek-r1", "ui": "DeepSeek Chat", "url": "https://chat.deepseek.com", "limits": "Free web chat" },
+    { "id": "kimi-k2.5", "ui": "Kimi (Moonshot)", "url": "https://kimi.moonshot.cn", "limits": "Free web chat" },
+    { "id": "glm-5", "ui": "Zhipu ChatGLM", "url": "https://chatglm.cn", "limits": "Free web chat" },
+    { "id": "qwen3-max", "ui": "Qwen Chat (Alibaba)", "url": "https://chat.qwen.ai", "limits": "Free web chat" },
+    { "id": "llama-4-scout", "ui": "Meta AI", "url": "https://www.meta.ai", "limits": "Free in Meta apps" },
+    { "id": "mistral-large", "ui": "Mistral Le Chat", "url": "https://chat.mistral.ai", "limits": "Free tier with rate limits" },
+    { "id": "mistral-medium", "ui": "Mistral Le Chat", "url": "https://chat.mistral.ai", "limits": "Free tier with rate limits" },
+    { "id": "perplexity", "ui": "Perplexity Free", "url": "https://www.perplexity.ai", "limits": "Free tier: limited searches" }
+  ]
+}

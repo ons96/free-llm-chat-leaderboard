@@ -1,0 +1,47 @@
+name: Refresh leaderboard data
+
+on:
+  schedule:
+    # Weekly, Monday 06:00 UTC — keeps Actions usage minimal (free tier friendly)
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install --quiet pyyaml
+
+      - name: Refresh data (skips gateway snapshot — committed, no SSH in CI)
+        env:
+          # Optional: AA Data API key. When absent the pipeline falls back to
+          # the no-auth public-page scrape, so the run still succeeds.
+          AA_API_KEY: ${{ secrets.AA_API_KEY }}
+        run: python3 scripts/build.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: refresh leaderboard data ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      # GitHub Pages deploys automatically on push to main (configured via the
+      # Pages settings with source branch main, path /).

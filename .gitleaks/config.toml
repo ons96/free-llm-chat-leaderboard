@@ -1,0 +1,22 @@
+# Repo-local gitleaks config (extends the bundled defaults).
+#
+# The default `generic-api-key` rule flags long hyphenated alphanumeric tokens
+# in the GENERATED public data files below — those tokens are model names
+# (e.g. "claude-opus-4-6-thinking") from the arena.ai text leaderboard, NOT
+# secrets. The files are derived from public sources by scripts/build.py.
+#
+# Everything else still gets scanned with default rules.
+
+[allowlist]
+description = "Generated public benchmark/leaderboard data files (model names look like keys)"
+paths = [
+  '''^data/sources/arena_leaderboard\.json$''',
+  '''^data/sources/aa_models\.json$''',
+  '''^data/sources/openrouter_free\.json$''',
+  '''^data/sources/benchmark_speed\.json$''',
+  '''^data/models_raw\.json$''',
+  '''^data/models\.json$''',
+  '''^data/gateway_models\.json$''',
+  '''^data/arena_scores\.json$''',
+  '''^data/free_chat_uis\.json$''',
+]

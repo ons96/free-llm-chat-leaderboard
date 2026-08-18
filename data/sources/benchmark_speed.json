@@ -1,0 +1,6021 @@
+{
+ "fetched_at": "2026-08-18T04:44:06Z",
+ "source_repo": "ons96/free-llm-benchmarking",
+ "leaderboard_rows": [
+  {
+   "rank": "1",
+   "provider": "groq",
+   "model": "allam-2-7b",
+   "effort": "",
+   "TTFT_sec": "0.283",
+   "TPS": "1404.2",
+   "avg_tokens": "445",
+   "10K_total_sec": "7.4"
+  },
+  {
+   "rank": "2",
+   "provider": "groq",
+   "model": "openai/gpt-oss-20b",
+   "effort": "",
+   "TTFT_sec": "0.139",
+   "TPS": "839.0",
+   "avg_tokens": "526",
+   "10K_total_sec": "12.1"
+  },
+  {
+   "rank": "3",
+   "provider": "groq",
+   "model": "openai/gpt-oss-safeguard-20b",
+   "effort": "",
+   "TTFT_sec": "0.322",
+   "TPS": "763.7",
+   "avg_tokens": "973",
+   "10K_total_sec": "13.4"
+  },
+  {
+   "rank": "4",
+   "provider": "groq",
+   "model": "openai/gpt-oss-120b",
+   "effort": "",
+   "TTFT_sec": "1.016",
+   "TPS": "480.8",
+   "avg_tokens": "478",
+   "10K_total_sec": "21.8"
+  },
+  {
+   "rank": "5",
+   "provider": "groq",
+   "model": "groq/compound-mini",
+   "effort": "",
+   "TTFT_sec": "0.291",
+   "TPS": "456.2",
+   "avg_tokens": "1034",
+   "10K_total_sec": "22.2"
+  },
+  {
+   "rank": "6",
+   "provider": "navy",
+   "model": "gemini-2.5-flash",
+   "effort": "",
+   "TTFT_sec": "0.961",
+   "TPS": "296.3",
+   "avg_tokens": "221",
+   "10K_total_sec": "34.7"
+  },
+  {
+   "rank": "7",
+   "provider": "navy",
+   "model": "gpt-5.4-mini",
+   "effort": "",
+   "TTFT_sec": "0.697",
+   "TPS": "287.3",
+   "avg_tokens": "239",
+   "10K_total_sec": "35.5"
+  },
+  {
+   "rank": "8",
+   "provider": "groq",
+   "model": "groq/compound",
+   "effort": "",
+   "TTFT_sec": "0.464",
+   "TPS": "248.2",
+   "avg_tokens": "1642",
+   "10K_total_sec": "40.8"
+  },
+  {
+   "rank": "9",
+   "provider": "navy",
+   "model": "gpt-5.1",
+   "effort": "",
+   "TTFT_sec": "0.769",
+   "TPS": "230.4",
+   "avg_tokens": "387",
+   "10K_total_sec": "44.2"
+  },
+  {
+   "rank": "10",
+   "provider": "navy",
+   "model": "gemini-2.5-flash-thinking",
+   "effort": "",
+   "TTFT_sec": "2.175",
+   "TPS": "231.4",
+   "avg_tokens": "1986",
+   "10K_total_sec": "45.4"
+  },
+  {
+   "rank": "11",
+   "provider": "navy",
+   "model": "gpt-5-search-api",
+   "effort": "",
+   "TTFT_sec": "1.091",
+   "TPS": "212.1",
+   "avg_tokens": "732",
+   "10K_total_sec": "48.2"
+  },
+  {
+   "rank": "12",
+   "provider": "ovhcloud",
+   "model": "Qwen3.5-397B-A17B",
+   "effort": "",
+   "TTFT_sec": "0.448",
+   "TPS": "208.3",
+   "avg_tokens": "351",
+   "10K_total_sec": "48.4"
+  },
+  {
+   "rank": "13",
+   "provider": "navy",
+   "model": "gpt-5.4",
+   "effort": "",
+   "TTFT_sec": "0.809",
+   "TPS": "176.2",
+   "avg_tokens": "236",
+   "10K_total_sec": "57.6"
+  },
+  {
+   "rank": "14",
+   "provider": "navy",
+   "model": "gpt-5.3-codex",
+   "effort": "",
+   "TTFT_sec": "0.999",
+   "TPS": "169.3",
+   "avg_tokens": "203",
+   "10K_total_sec": "60.1"
+  },
+  {
+   "rank": "15",
+   "provider": "agnes-ai",
+   "model": "agnes-2.0-flash",
+   "effort": "",
+   "TTFT_sec": "1.007",
+   "TPS": "165.7",
+   "avg_tokens": "206",
+   "10K_total_sec": "61.4"
+  },
+  {
+   "rank": "16",
+   "provider": "navy",
+   "model": "gpt-5.4-nano",
+   "effort": "",
+   "TTFT_sec": "0.549",
+   "TPS": "158.5",
+   "avg_tokens": "170",
+   "10K_total_sec": "63.6"
+  },
+  {
+   "rank": "17",
+   "provider": "choosec",
+   "model": "MiniMax-M3",
+   "effort": "",
+   "TTFT_sec": "1.862",
+   "TPS": "150.8",
+   "avg_tokens": "723",
+   "10K_total_sec": "68.2"
+  },
+  {
+   "rank": "18",
+   "provider": "evolvex",
+   "model": "minimaxai/minimax-m3",
+   "effort": "",
+   "TTFT_sec": "0.748",
+   "TPS": "144.1",
+   "avg_tokens": "316",
+   "10K_total_sec": "70.1"
+  },
+  {
+   "rank": "19",
+   "provider": "pooled",
+   "model": "MiniMax-M3-Official",
+   "effort": "",
+   "TTFT_sec": "1.790",
+   "TPS": "118.1",
+   "avg_tokens": "595",
+   "10K_total_sec": "86.5"
+  },
+  {
+   "rank": "20",
+   "provider": "navy",
+   "model": "gpt-5.2",
+   "effort": "",
+   "TTFT_sec": "0.793",
+   "TPS": "115.6",
+   "avg_tokens": "198",
+   "10K_total_sec": "87.3"
+  },
+  {
+   "rank": "21",
+   "provider": "gratisfy",
+   "model": "atessa/composer-2.5",
+   "effort": "",
+   "TTFT_sec": "2.237",
+   "TPS": "103.9",
+   "avg_tokens": "467",
+   "10K_total_sec": "98.5"
+  },
+  {
+   "rank": "22",
+   "provider": "ovhcloud",
+   "model": "gpt-oss-20b",
+   "effort": "",
+   "TTFT_sec": "0.894",
+   "TPS": "100.3",
+   "avg_tokens": "505",
+   "10K_total_sec": "100.6"
+  },
+  {
+   "rank": "23",
+   "provider": "opencode_zen",
+   "model": "mimo-v2.5-free",
+   "effort": "",
+   "TTFT_sec": "1.366",
+   "TPS": "97.9",
+   "avg_tokens": "453",
+   "10K_total_sec": "103.5"
+  },
+  {
+   "rank": "24",
+   "provider": "mistral",
+   "model": "mistral-large-latest",
+   "effort": "",
+   "TTFT_sec": "0.505",
+   "TPS": "89.4",
+   "avg_tokens": "237",
+   "10K_total_sec": "112.4"
+  },
+  {
+   "rank": "25",
+   "provider": "opencode_zen-nokey",
+   "model": "hy3-free",
+   "effort": "",
+   "TTFT_sec": "12.323",
+   "TPS": "89.3",
+   "avg_tokens": "180",
+   "10K_total_sec": "124.4"
+  },
+  {
+   "rank": "26",
+   "provider": "ovhcloud",
+   "model": "Qwen3.6-27B",
+   "effort": "",
+   "TTFT_sec": "0.730",
+   "TPS": "74.4",
+   "avg_tokens": "1626",
+   "10K_total_sec": "135.1"
+  },
+  {
+   "rank": "27",
+   "provider": "opencode_zen",
+   "model": "nemotron-3-ultra-free",
+   "effort": "",
+   "TTFT_sec": "0.648",
+   "TPS": "72.9",
+   "avg_tokens": "421",
+   "10K_total_sec": "137.8"
+  },
+  {
+   "rank": "28",
+   "provider": "dext",
+   "model": "Qwen3-30B-A3B-Instruct-2507",
+   "effort": "",
+   "TTFT_sec": "3.210",
+   "TPS": "68.8",
+   "avg_tokens": "213",
+   "10K_total_sec": "148.5"
+  },
+  {
+   "rank": "29",
+   "provider": "opencode_zen",
+   "model": "big-pickle",
+   "effort": "",
+   "TTFT_sec": "2.422",
+   "TPS": "66.3",
+   "avg_tokens": "312",
+   "10K_total_sec": "153.2"
+  },
+  {
+   "rank": "30",
+   "provider": "banana2556",
+   "model": "minimax/minimax-m2.7",
+   "effort": "",
+   "TTFT_sec": "5.056",
+   "TPS": "62.9",
+   "avg_tokens": "315",
+   "10K_total_sec": "164.1"
+  },
+  {
+   "rank": "31",
+   "provider": "custom",
+   "model": "nvidia-nemotron-3-super-120b",
+   "effort": "",
+   "TTFT_sec": "",
+   "TPS": "60.8",
+   "avg_tokens": "30",
+   "10K_total_sec": "164.4"
+  },
+  {
+   "rank": "32",
+   "provider": "custom",
+   "model": "nvidia-nemotron-nano-12b",
+   "effort": "",
+   "TTFT_sec": "",
+   "TPS": "56.5",
+   "avg_tokens": "29",
+   "10K_total_sec": "177.0"
+  },
+  {
+   "rank": "33",
+   "provider": "navy",
+   "model": "deepseek-v4-flash",
+   "effort": "",
+   "TTFT_sec": "1.412",
+   "TPS": "56.1",
+   "avg_tokens": "354",
+   "10K_total_sec": "179.7"
+  },
+  {
+   "rank": "34",
+   "provider": "banana2556",
+   "model": "z-ai/glm-4.5-air",
+   "effort": "",
+   "TTFT_sec": "14.893",
+   "TPS": "56.0",
+   "avg_tokens": "179",
+   "10K_total_sec": "193.5"
+  },
+  {
+   "rank": "35",
+   "provider": "ovhcloud",
+   "model": "Mistral-Nemo-Instruct-2407",
+   "effort": "",
+   "TTFT_sec": "0.684",
+   "TPS": "49.7",
+   "avg_tokens": "177",
+   "10K_total_sec": "202.0"
+  },
+  {
+   "rank": "36",
+   "provider": "ovhcloud",
+   "model": "Mistral-Small-3.2-24B-Instruct-2506",
+   "effort": "",
+   "TTFT_sec": "1.003",
+   "TPS": "49.1",
+   "avg_tokens": "229",
+   "10K_total_sec": "204.6"
+  },
+  {
+   "rank": "37",
+   "provider": "pooled",
+   "model": "MiniMax-M2.5-Official",
+   "effort": "",
+   "TTFT_sec": "2.445",
+   "TPS": "48.0",
+   "avg_tokens": "1480",
+   "10K_total_sec": "210.7"
+  },
+  {
+   "rank": "38",
+   "provider": "ovhcloud",
+   "model": "Qwen3-Coder-30B-A3B-Instruct",
+   "effort": "",
+   "TTFT_sec": "0.743",
+   "TPS": "47.4",
+   "avg_tokens": "753",
+   "10K_total_sec": "211.7"
+  },
+  {
+   "rank": "39",
+   "provider": "opencode_zen-nokey",
+   "model": "nemotron-3-ultra-free",
+   "effort": "",
+   "TTFT_sec": "0.538",
+   "TPS": "46.6",
+   "avg_tokens": "432",
+   "10K_total_sec": "215.1"
+  },
+  {
+   "rank": "40",
+   "provider": "banana2556",
+   "model": "z-ai/glm-4.7-flash",
+   "effort": "",
+   "TTFT_sec": "17.667",
+   "TPS": "47.6",
+   "avg_tokens": "198",
+   "10K_total_sec": "227.6"
+  },
+  {
+   "rank": "41",
+   "provider": "dext",
+   "model": "nemotron-3-ultra",
+   "effort": "",
+   "TTFT_sec": "2.218",
+   "TPS": "42.7",
+   "avg_tokens": "329",
+   "10K_total_sec": "236.5"
+  },
+  {
+   "rank": "42",
+   "provider": "ovhcloud",
+   "model": "Mistral-7B-Instruct-v0.3",
+   "effort": "",
+   "TTFT_sec": "0.700",
+   "TPS": "41.1",
+   "avg_tokens": "317",
+   "10K_total_sec": "243.9"
+  },
+  {
+   "rank": "43",
+   "provider": "banana2556",
+   "model": "qwen/qwen3-vl-235b-a22b-instruct",
+   "effort": "",
+   "TTFT_sec": "2.706",
+   "TPS": "37.5",
+   "avg_tokens": "707",
+   "10K_total_sec": "269.4"
+  },
+  {
+   "rank": "44",
+   "provider": "ovhcloud",
+   "model": "Qwen3.5-9B",
+   "effort": "",
+   "TTFT_sec": "0.741",
+   "TPS": "37.2",
+   "avg_tokens": "379",
+   "10K_total_sec": "269.6"
+  },
+  {
+   "rank": "45",
+   "provider": "ovhcloud",
+   "model": "Meta-Llama-3_3-70B-Instruct",
+   "effort": "",
+   "TTFT_sec": "0.762",
+   "TPS": "35.1",
+   "avg_tokens": "437",
+   "10K_total_sec": "285.7"
+  },
+  {
+   "rank": "46",
+   "provider": "pooled",
+   "model": "MiniMax-M2.7-Official",
+   "effort": "",
+   "TTFT_sec": "3.575",
+   "TPS": "33.0",
+   "avg_tokens": "291",
+   "10K_total_sec": "307.0"
+  },
+  {
+   "rank": "47",
+   "provider": "ovhcloud",
+   "model": "Qwen3-32B",
+   "effort": "",
+   "TTFT_sec": "0.934",
+   "TPS": "32.4",
+   "avg_tokens": "2137",
+   "10K_total_sec": "309.4"
+  },
+  {
+   "rank": "48",
+   "provider": "dext",
+   "model": "MiniMax-M2.5",
+   "effort": "",
+   "TTFT_sec": "6.007",
+   "TPS": "31.5",
+   "avg_tokens": "418",
+   "10K_total_sec": "323.0"
+  },
+  {
+   "rank": "49",
+   "provider": "tokenreply",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "effort": "",
+   "TTFT_sec": "40.979",
+   "TPS": "34.1",
+   "avg_tokens": "278",
+   "10K_total_sec": "334.4"
+  },
+  {
+   "rank": "50",
+   "provider": "custom",
+   "model": "coding-smart",
+   "effort": "",
+   "TTFT_sec": "",
+   "TPS": "25.5",
+   "avg_tokens": "42",
+   "10K_total_sec": "392.0"
+  },
+  {
+   "rank": "51",
+   "provider": "dext",
+   "model": "deepseek-v4-pro",
+   "effort": "",
+   "TTFT_sec": "9.048",
+   "TPS": "26.1",
+   "avg_tokens": "255",
+   "10K_total_sec": "392.8"
+  },
+  {
+   "rank": "52",
+   "provider": "dext",
+   "model": "Qwen3-235B-A22B",
+   "effort": "",
+   "TTFT_sec": "5.100",
+   "TPS": "23.1",
+   "avg_tokens": "313",
+   "10K_total_sec": "438.5"
+  },
+  {
+   "rank": "53",
+   "provider": "banana2556",
+   "model": "openai/gpt-oss-120b",
+   "effort": "",
+   "TTFT_sec": "4.071",
+   "TPS": "15.4",
+   "avg_tokens": "752",
+   "10K_total_sec": "652.0"
+  },
+  {
+   "rank": "54",
+   "provider": "bluesminds",
+   "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
+   "effort": "",
+   "TTFT_sec": "",
+   "TPS": "13.2",
+   "avg_tokens": "588",
+   "10K_total_sec": "758.5"
+  },
+  {
+   "rank": "55",
+   "provider": "custom",
+   "model": "coding-fast",
+   "effort": "",
+   "TTFT_sec": "",
+   "TPS": "12.9",
+   "avg_tokens": "42",
+   "10K_total_sec": "776.0"
+  },
+  {
+   "rank": "56",
+   "provider": "tokenreply",
+   "model": "google/gemma-4-26b-a4b-it",
+   "effort": "",
+   "TTFT_sec": "1.364",
+   "TPS": "10.1",
+   "avg_tokens": "373",
+   "10K_total_sec": "990.8"
+  }
+ ],
+ "per_model_speed": [
+  {
+   "provider": "aitools",
+   "model": "qwen-qwen2.5-7b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "qwen-qwen3-30b-a3b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "qwen-qwen3-coder",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "qwen-qwen3-14b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "qwen-qwen3-8b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "google-gemini-2.0-flash-exp",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "google-gemma-3-27b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "deepseek-deepseek-r1-32b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "deepseek-deepseek-v3-0324",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "deepseek-deepseek-r1-70b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "deepseek-deepseek-r1-0528",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "zhipu-glm-4-9b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "zhipu-glm-4-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "zhipu-glm-4v-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "zhipu-glm-4.1v-thinking-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "zhipu-glm-4.6v-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "zhipu-glm-4.7-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "openai-gpt-oss-20b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "xiaomi-mimo-v2-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "qwen-qwen2.5-vl-32b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "aitools",
+   "model": "qwen-qwen2.5-72b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "glm-4.7-rp",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "grok/grok-4.1-expert",
+   "ttft_s_median": 1.16,
+   "tps_median": 39.2,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "deepseek-ai/deepseek-v3.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "grok/grok-4.20-beta",
+   "ttft_s_median": 1.09,
+   "tps_median": 11.6,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "grok/grok-4.1-mini",
+   "ttft_s_median": 1.43,
+   "tps_median": 12.7,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "kimi-k2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "minimax-m2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "random-model",
+   "ttft_s_median": 1.11,
+   "tps_median": 6.5,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen/qwen3.5-plus-video",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen/qwen3.6-plus-video",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen/qwen3-coder-flash",
+   "ttft_s_median": 1.51,
+   "tps_median": 75.2,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen/qwen3.6-plus",
+   "ttft_s_median": 2.75,
+   "tps_median": 13.7,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/z-ai/glm4.7",
+   "ttft_s_median": 0.83,
+   "tps_median": 15.8,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/gpt-6",
+   "ttft_s_median": 5.66,
+   "tps_median": 148.6,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "minimaxai/minimax-m2.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/minimax-m2.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "deepseek-ai/deepseek-v3.2[2]",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen/qwen3.6-plus-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen/qwen3.5-plus-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "deepseek-ai/deepseek-v3.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen/coder-model",
+   "ttft_s_median": 1.47,
+   "tps_median": 44.1,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "deepseek-ai/deepseek-r1-distill-qwen-32b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "z-ai/glm4.7-rp",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "deepseek-ai/deepseek-v3.1-terminus",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "z-ai/GLM-5.1-FP8",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "google/gemma4-26b-q4.gguf",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen/qwen3-coder-plus",
+   "ttft_s_median": 1.8,
+   "tps_median": 18.6,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "minimaxai/minimax-m2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen/qwen3.5-plus",
+   "ttft_s_median": 3.18,
+   "tps_median": 14.3,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "deepseek-v3.1-terminus",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "glm-5.1-think",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "deepseek-v3.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "gpt-6",
+   "ttft_s_median": 2.77,
+   "tps_median": 252.5,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "grok-4.1-expert",
+   "ttft_s_median": 1.2,
+   "tps_median": 30.6,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "grok-4.1-mini",
+   "ttft_s_median": 0.58,
+   "tps_median": 21.5,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "minimax-m2.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "grok-4.20-beta",
+   "ttft_s_median": 2.18,
+   "tps_median": 23.7,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen-coder-model",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen-qwen3-coder-flash",
+   "ttft_s_median": 1.61,
+   "tps_median": 24.0,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen-qwen3-coder-plus",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen-qwen3.5-plus",
+   "ttft_s_median": 2.75,
+   "tps_median": 13.8,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen-qwen3.5-plus-thinking",
+   "ttft_s_median": 2.7,
+   "tps_median": 14.1,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "anthropic/claude-sonnet-4-6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen-qwen3.6-plus",
+   "ttft_s_median": 2.74,
+   "tps_median": 13.9,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "z-ai-glm-5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen-qwen3.6-plus-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/gpt-5.3-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "z-ai-glm-5.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "google/gemini-3.1-pro-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "z-ai-glm-5.1-nothink",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/deepseek-ai/deepseek-v3.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/gpt-5.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "alibaba/qwen3.6-plus",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/gpt-oss-20b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/gpt-5.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "glm-4.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "deepseek-v3.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/gpt-5.4-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/gpt-5.4-nano",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "google-gemini-3.1-pro",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/grok-4.1-expert",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "alibaba/qwen3-vl-plus",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "glm-5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "z-ai/glm-5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/gpt-oss-120b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "z-ai/glm-5.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/z-ai/glm5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "z-ai/glm5-think",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "qwen3.6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/gpt-5.4",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/grok-4.20-beta",
+   "ttft_s_median": 1.63,
+   "tps_median": 11.5,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "moonshot/kimi-k2.5[2]",
+   "ttft_s_median": 1.13,
+   "tps_median": 4.4,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/grok-4.1-mini",
+   "ttft_s_median": 1.28,
+   "tps_median": 7.5,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "openai/minimaxai/minimax-m2.5",
+   "ttft_s_median": 0.92,
+   "tps_median": 4.1,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "z-ai/glm5",
+   "ttft_s_median": 3.41,
+   "tps_median": 2.1,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "moonshotai/kimi-k2.5",
+   "ttft_s_median": 13.09,
+   "tps_median": 2.4,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "z-ai/glm5-rp",
+   "ttft_s_median": 21.53,
+   "tps_median": 1.0,
+   "samples": 1
+  },
+  {
+   "provider": "blazeai",
+   "model": "glm5-rp",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "gpt-4o-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "azure-gpt4o",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "gemini/gemini-2.5-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "gemini/gemini-2.5-flash-lite",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "groq/qwen/qwen3-32b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "gpt-4o",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "gpt4",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "openai/gpt-oss-20b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "openai/gpt-4.1-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "o3-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "o4-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "qwen-coder",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "qwen3.5-plus",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "google/codegemma-1.1-7b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "google/gemma-4-31b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "nvidia/vila",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "opengpt-x/teuken-7b-instruct-commercial-v0.4",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "openrouter/mistralai/ministral-8b-2512",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "bluesminds",
+   "model": "qwen-qwen3-coder-480b-a35b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "claude-carter",
+   "model": "carter-claude-3-5-sonnet-20241022",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "claude-carter",
+   "model": "carter-claude-sonnet-4-6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "claude-carter",
+   "model": "carter-claude-sonnet-4-5-20250929",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "claude-carter",
+   "model": "carter-claude-sonnet-4-20250514",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cliproxyapi",
+   "model": "gemini-3.1-pro-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cliproxyapi",
+   "model": "gemini-3-pro-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cliproxyapi",
+   "model": "gemini-3.1-pro-low",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cliproxyapi",
+   "model": "gemini-3.1-pro-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cliproxyapi",
+   "model": "gemini-3-pro-low",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cliproxyapi",
+   "model": "gemini-3-pro-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cliproxyapi",
+   "model": "gemini-3-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cliproxyapi",
+   "model": "gemini-3-flash-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cliproxyapi",
+   "model": "gemini-3.1-flash-lite-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cliproxyapi",
+   "model": "gemini-2.5-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cliproxyapi",
+   "model": "gemini-2.5-flash-lite",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cliproxyapi",
+   "model": "gpt-oss-120b-medium",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cliproxyapi",
+   "model": "coder-model",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "openai/gpt-5.4-nano",
+   "ttft_s_median": 0.08,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "openai/gpt-5-mini",
+   "ttft_s_median": 0.28,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "openai/gpt-5.1-codex-mini",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "google/gemini-2.5-flash",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "google/gemini-3-flash",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "cursor/composer-2",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "cursor/composer-2-fast",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "moonshot/kimi-k2.5",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "openai/gpt-5.4-mini",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "anthropic/claude-haiku-4.5",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "openai/gpt-5",
+   "ttft_s_median": 0.1,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "openai/gpt-5-codex",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "openai/gpt-5.1-codex",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "openai/gpt-5.1-codex-max",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "cursor/composer-1",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "openai/gpt-5.2",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "openai/gpt-5.2-codex",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "openai/gpt-5.3-codex",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "google/gemini-3.1-pro",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "google/gemini-3-pro",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "xai/grok-4.20",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "openai/gpt-5-fast",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "openai/gpt-5.4",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "anthropic/claude-sonnet-4",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "anthropic/claude-sonnet-4.6",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "anthropic/claude-sonnet-4.5",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "cursor/composer-1.5",
+   "ttft_s_median": null,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "anthropic/claude-opus-4.6",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "anthropic/claude-opus-4.5",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "anthropic/claude-sonnet-4-1m",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "anthropic/claude-opus-4.6-fast",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "anthropic/claude-opus-4-6",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "anthropic/claude-opus-4-6-fast",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.3,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "auto",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "cursor-proxy",
+   "model": "claude-sonnet-4.6",
+   "ttft_s_median": 0.01,
+   "tps_median": 0.2,
+   "samples": 1
+  },
+  {
+   "provider": "custom",
+   "model": "coding-smart",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "custom",
+   "model": "coding-fast",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "deepseek-r1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "deepseek-v3",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "deepseek-v3.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "deepseek-v3.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gemini-2.0-flash",
+   "ttft_s_median": 2.03,
+   "tps_median": 8.0,
+   "samples": 1
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gemini-2.5-flash",
+   "ttft_s_median": 6.92,
+   "tps_median": 9.1,
+   "samples": 1
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gemini-2.5-pro",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gemini-3-flash-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gemini-3-pro-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gemini-3.1-pro-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "glm-4.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "glm-4.6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "glm-4.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "glm-5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-4.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-4.1-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-4o",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-4o-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5.1-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5.2-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5.3-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5.4",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5.4-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "kimi-k2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "llama-4-maverick-17b-128e-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "llama-4-scout-17b-16e-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "o1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "o3",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "o3-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "qwen3-235b-a22b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "qwen3-coder-480b-a35b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "qwq-32b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "deepseek-r1t-chimera",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "deepseek-r1t2-chimera",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "deepseek-v3.1-nex-n1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "deepseek-v3.1-terminus",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gemini-2.5-flash-lite-preview-06-17",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gemini-3.1-flash-lite-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gemma-3n-e4b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "glm-4.5-air",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-4.1-nano",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5-chat-latest",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "chatgpt-4o-latest",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "claude-3-5-haiku-20241022",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "claude-haiku-4-5-20251001",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5-nano",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5.1-codex-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5.2-chat-latest",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5.3-chat-latest",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-5.4-nano",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "kimi-k2-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "magistral-medium-latest",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "magistral-small-latest",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "mimo-v2-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "ministral-3b-latest",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "ministral-8b-latest",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "mistral-large-latest",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "mistral-medium-latest",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "mistral-small-latest",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "o4-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "r1-1776",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "hapuppy",
+   "model": "gpt-oss-120b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilo",
+   "model": "qwen/qwen3.6-plus:free",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilo",
+   "model": "kilo-auto/free",
+   "ttft_s_median": 3.21,
+   "tps_median": 0.4,
+   "samples": 1
+  },
+  {
+   "provider": "kilo",
+   "model": "google/lyria-3-pro-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilo",
+   "model": "google/lyria-3-clip-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilo",
+   "model": "nvidia/nemotron-3-super-120b-a12b:free",
+   "ttft_s_median": 6.51,
+   "tps_median": 57770.9,
+   "samples": 1
+  },
+  {
+   "provider": "kilo",
+   "model": "openrouter/free",
+   "ttft_s_median": 0.67,
+   "tps_median": 42.8,
+   "samples": 1
+  },
+  {
+   "provider": "kilo",
+   "model": "x-ai/grok-code-fast-1:optimized:free",
+   "ttft_s_median": 0.93,
+   "tps_median": 99.0,
+   "samples": 1
+  },
+  {
+   "provider": "kilo",
+   "model": "corethink:free",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilo",
+   "model": "stepfun/step-3.5-flash:free",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilo",
+   "model": "arcee-ai/trinity-large-preview:free",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilo",
+   "model": "arcee-ai/trinity-large-thinking:free",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilo",
+   "model": "bytedance-seed/dola-seed-2.0-pro:free",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilo",
+   "model": "kilo-auto/frontier",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilo",
+   "model": "anthropic/claude-opus-4.6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilo",
+   "model": "anthropic/claude-sonnet-4.6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilo",
+   "model": "moonshotai/kimi-k2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilo",
+   "model": "google/gemini-3.1-pro-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "anthropic/claude-sonnet-4-20250514",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "auto-frontier",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "auto-balanced",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "auto-free",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "auto-small",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "claude-opus-4.6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "claude-sonnet-4.6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "claude-opus-4.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.4",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.4-nano",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.4-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.4-pro",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.3-chat",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.3-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.2-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.2-chat",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.2-pro",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.1-codex-max",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.1-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.1-codex-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gpt-5.1-chat",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gemini-3.1-pro-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gemini-3.1-pro-preview-customtools",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gemini-3.1-flash-lite-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "gemini-3-flash-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "lyria-3-pro-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "lyria-3-clip-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "deepseek-v3.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "deepseek-v3.2-speciale",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "kimi-k2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "kimi-k2-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "glm-5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "glm-5-turbo",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "glm-4.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "glm-4.7-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "glm-4.6v",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "grok-4.20",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "grok-4.20-multi-agent",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "grok-4.1-fast",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "minimax-m2.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "minimax-m2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "minimax-m2-her",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "minimax-m2.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "qwen3-max-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "qwen3-coder-next",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "qwen3.5-9b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "qwen3.5-27b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "qwen3.5-35b-a3b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "qwen3.5-122b-a10b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "qwen3.5-397b-a17b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "qwen3.5-plus-02-15",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "qwen3.5-flash-02-23",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "mistral-large-2512",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "mistral-small-2603",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "mistral-small-creative",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "devstral-2512",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "ministral-14b-2512",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "ministral-8b-2512",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "ministral-3b-2512",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "seed-2.0-lite",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "seed-2.0-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "seed-1.6-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "seed-1.6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "mimo-v2-pro",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "mimo-v2-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "kat-coder-pro-v2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "step-3.5-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "nemotron-3-super-120b-a12b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "nemotron-3-nano-30b-a3b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "trinity-large-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "trinity-large-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "trinity-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "mercury-2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "aion-2.0",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "intellect-3",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "cogito-v2.1-671b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "olmo-3.1-32b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "olmo-3.1-32b-think",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "olmo-3-32b-think",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "lfm-2-24b-a2b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "rnj-1-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "solar-pro-3",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "reka-edge",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "nova-2-lite-v1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "deepseek-v3.1-nex-n1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "openrouter-free",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "openrouter-bodybuilder",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "kilocloud",
+   "model": "palmyra-x5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai",
+   "model": "anthropic/claude-opus-4-6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai",
+   "model": "anthropic/claude-sonnet-4-6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "zai-glm-4.6v-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "zai-glm-4.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "zai-glm-5.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "deepseek-r1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "deepseek-r1-0528",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "deepseek-r1-distill-qwen-32b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "deepseek-v3.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "deepseek-v3.1-terminus",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "deepseek-v3.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "gemini-3-flash-preview",
+   "ttft_s_median": 2.91,
+   "tps_median": 8.7,
+   "samples": 1
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "glm-4.5-flash",
+   "ttft_s_median": 1.07,
+   "tps_median": 24.0,
+   "samples": 1
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "glm-4.6v-flash",
+   "ttft_s_median": 3.58,
+   "tps_median": 86.0,
+   "samples": 1
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "glm-4.7",
+   "ttft_s_median": 1.51,
+   "tps_median": 17.3,
+   "samples": 1
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "google-gemini-3-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "google-gemma-2-27b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "google-gemma-4-31b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "kat-coder-exp-72b-1010",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "kat-coder-pro",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "llama-3.1-405b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "llama-3.1-70b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "llama-3.3-70b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "llama-4-maverick-17b-128e-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "llama-4-scout-17b-16e-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "minimax-m2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "minimax-m2.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "minimax-m2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "minimax-m2.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "codestral-22b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "devstral-2-123b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "mistral-large",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "mistral-large-2-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "mistral-large-3-675b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "mistral-small-24b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "mistral-small-3.1-24b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "kimi-k2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "kimi-k2-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "kimi-k2-instruct-0905",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "kimi-k2-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "gpt-oss-120b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "gpt-oss-20b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "qwen2.5-coder-32b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "qwen3-235b-a22b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "qwen3.5-397b-a17b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "qwen3-coder-480b-a35b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "qwen3-next-80b-a3b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "qwen3-next-80b-a3b-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "qwq-32b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "z-ai-glm4.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "z-ai-glm5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ktai-paid",
+   "model": "zai-glm-4.5-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "logfare",
+   "model": "gpt-5.4",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "logfare",
+   "model": "claude-opus-4.6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "logfare",
+   "model": "claude-sonnet-4.6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "logfare",
+   "model": "claude-opus-4.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "logfare",
+   "model": "minimax-m2.7",
+   "ttft_s_median": 3.43,
+   "tps_median": 322.2,
+   "samples": 1
+  },
+  {
+   "provider": "logfare",
+   "model": "gemini-3-flash",
+   "ttft_s_median": 2.64,
+   "tps_median": 13.7,
+   "samples": 1
+  },
+  {
+   "provider": "logfare",
+   "model": "kimi-k2.5",
+   "ttft_s_median": 1.33,
+   "tps_median": 113.8,
+   "samples": 1
+  },
+  {
+   "provider": "nvidia",
+   "model": "z-ai/glm5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "nvidia",
+   "model": "z-ai/glm4.7",
+   "ttft_s_median": 0.61,
+   "tps_median": 20.6,
+   "samples": 1
+  },
+  {
+   "provider": "nvidia",
+   "model": "meta/llama-3.1-70b-instruct",
+   "ttft_s_median": 0.24,
+   "tps_median": 15.9,
+   "samples": 1
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "cogito-2.1-671b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "glm-4.6",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "glm-4.7",
+   "ttft_s_median": 1.45,
+   "tps_median": 19.8,
+   "samples": 1
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "glm-5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "glm-5.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "deepseek-v3.1-671b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "qwen3-coder-480b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "deepseek-v3.2",
+   "ttft_s_median": 1.21,
+   "tps_median": 13.7,
+   "samples": 1
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "qwen3-coder-next",
+   "ttft_s_median": 0.29,
+   "tps_median": 51.1,
+   "samples": 1
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "qwen3-vl-235b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "qwen3-vl-235b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "qwen3-next-80b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "qwen3.5-397b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "kimi-k2-1t",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "kimi-k2-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "kimi-k2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "minimax-m2",
+   "ttft_s_median": 2.28,
+   "tps_median": 3.4,
+   "samples": 1
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "minimax-m2.1",
+   "ttft_s_median": 0.54,
+   "tps_median": 87.9,
+   "samples": 1
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "minimax-m2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "mistral-large-3-675b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "ministral-3-3b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "minimax-m2.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "ministral-3-8b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "ministral-3-14b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "devstral-2-123b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "devstral-small-2-24b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "gemini-3-flash-preview",
+   "ttft_s_median": 1.76,
+   "tps_median": 6.9,
+   "samples": 1
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "gemma3-4b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "gemma3-12b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "gemma3-27b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "gemma4-31b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "gpt-oss-20b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "gpt-oss-120b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "nemotron-3-nano-30b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "rnj-1-8b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "ollama-cloud",
+   "model": "nemotron-3-super",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5-codex-mini-medium",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gemini-3-flash-preview-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.2-codex-xhigh",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.3-codex-spark-low",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5-codex-mini-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.2-codex-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "minimax-m2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gemini-2.5-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5-codex-low",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "claude-opus-4-1-20250805",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "claude-haiku-4-5-20251001",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.2-codex-low",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "claude-sonnet-4-5-20250929-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5-codex-medium",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5-codex-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-low",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.4-xhigh",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.2-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5-minimal",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.4-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "glm-5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "qwen3.5-plus",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.2-codex-medium",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "claude-sonnet-4-6-20260217",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-codex-max-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "claude-opus-4-5-20251101-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "claude-opus-4-1-20250805-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.2-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-codex-max-medium",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-codex-mini-medium",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gemini-3-pro-preview-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.3-codex-medium",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gemini-3-flash-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "claude-opus-4-5-20251101",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.3-codex-spark-medium",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5-medium",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "claude-haiku-4-5-20251001-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.4-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.3-codex-spark-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-codex-medium",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.2-xhigh",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-minimal",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.4",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gemini-2.5-flash-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.3-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5-codex-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.3-codex-xhigh",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.3-codex-low",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "claude-sonnet-4-6-20260217-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.2-low",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-codex-max-xhigh",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gemini-3.1-pro-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "claude-opus-4-6-20260205",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "kimi-k2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-medium",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.3-codex-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-codex-mini-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.2-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "qwen3-max",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gemini-3-pro-preview",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-codex-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.4-codex-xhigh",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-codex-max",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.3-codex-spark-xhigh",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "claude-opus-4-6-20260205-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.2-medium",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gemini-2.5-pro",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-codex-max-low",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-codex-high",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.1-codex-low",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5-low",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gemini-2.5-pro-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "gpt-5.3-codex-spark",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "supacoder",
+   "model": "claude-sonnet-4-5-20250929",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "swiftrouter",
+   "model": "glm-5.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "swiftrouter",
+   "model": "glm-5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "swiftrouter",
+   "model": "glm-4.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "swiftrouter",
+   "model": "glm-4.7-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "swiftrouter",
+   "model": "qwen3.6-plus",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "swiftrouter",
+   "model": "deepseek-v3.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "swiftrouter",
+   "model": "kimi-k2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "swiftrouter",
+   "model": "gpt-5.4-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "grok-code-fast-1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "mimo-v2-pro",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "minimax-m2.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "minimax-m2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "minimax-m2.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "qwen3.5-397b-a17b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "gpt-5.1-codex-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "gpt-5.1-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "gpt-5.1-codex-max",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "gpt-5-codex-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "deepseek-v3.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "gpt-5.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "glm-5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "gpt-5.2-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "glm-4.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "gpt-5.3-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "glm-4.6v-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "gpt-5.4",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "gpt-5.4-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "gpt-5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "wiwi",
+   "model": "gpt-5-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "nvidia/llama-3.1-nemotron-70b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "nvidia/nemotron-4-340b-reward",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "openai/gpt-oss-120b",
+   "ttft_s_median": 0.61,
+   "tps_median": 161.7,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/baichuan-inc/baichuan2-13b-chat",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/deepseek-ai/deepseek-v3.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/bytedance/seed-oss-36b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/deepseek-ai/deepseek-v3.1-terminus",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/google/gemma-3-12b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/deepseek-ai/deepseek-v3.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/google/gemma-3-27b-it",
+   "ttft_s_median": 0.93,
+   "tps_median": 56.7,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/google/gemma-3n-e2b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/google/gemma-3n-e4b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/igenius/colosseum_355b_instruct_16k",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/google/gemma-4-31b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/institute-of-science-tokyo/llama-3.1-swallow-70b-instruct-v0.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/LongCat-Flash-Lite",
+   "ttft_s_median": 7.5,
+   "tps_median": 100.5,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/LongCat-Flash-Chat",
+   "ttft_s_median": 11.67,
+   "tps_median": 32.2,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/LongCat-Flash-Thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/LongCat-Flash-Thinking-2601",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/meta/llama-3.1-405b-instruct",
+   "ttft_s_median": 1.92,
+   "tps_median": 20.4,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/meta/llama-3.3-70b-instruct",
+   "ttft_s_median": 0.59,
+   "tps_median": 71.9,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/meta/llama3-70b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/meta/llama-3.1-70b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/microsoft/phi-4-mini-flash-reasoning",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/microsoft/phi-4-multimodal-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/mistralai/devstral-2-123b-instruct-2512",
+   "ttft_s_median": 0.72,
+   "tps_median": 56.9,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/minimaxai/minimax-m2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/mistralai/mistral-small-4-119b-2603",
+   "ttft_s_median": 0.96,
+   "tps_median": 86.2,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/mistralai/mistral-large-3-675b-instruct-2512",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/mistralai/mixtral-8x22b-instruct-v0.1",
+   "ttft_s_median": 0.87,
+   "tps_median": 98.5,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/moonshotai/kimi-k2-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/moonshotai/kimi-k2-instruct-0905",
+   "ttft_s_median": 1.3,
+   "tps_median": 7.9,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/moonshotai/kimi-k2.5",
+   "ttft_s_median": 1.25,
+   "tps_median": 9.3,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/nvidia/llama-3.1-nemotron-70b-reward",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/moonshotai/kimi-k2-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+   "ttft_s_median": 0.67,
+   "tps_median": 42.4,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/nvidia/llama-3.1-nemotron-ultra-253b-v1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/nvidia/llama-3.3-nemotron-super-49b-v1.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/nvidia/usdcode-llama-3.1-70b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/nvidia/nemotron-3-super-120b-a12b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/qwen/qwen2.5-coder-32b-instruct",
+   "ttft_s_median": 0.74,
+   "tps_median": 65.7,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/qwen/qwen3-coder-480b-a35b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/qwen/qwen3-next-80b-a3b-instruct",
+   "ttft_s_median": 0.77,
+   "tps_median": 5.2,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/qwen/qwen3.5-122b-a10b",
+   "ttft_s_median": 2.3,
+   "tps_median": 6.5,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/qwen/qwen3-next-80b-a3b-thinking",
+   "ttft_s_median": 0.63,
+   "tps_median": 13.1,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/speakleash/bielik-11b-v2.6-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/qwen/qwen3.5-397b-a17b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/riva-translate-4b-instruct-v1.1",
+   "ttft_s_median": 0.65,
+   "tps_median": 21.5,
+   "samples": 1
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/streampetr",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "deepseek-chat",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "deepseek-expert-chat",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "deepseek-expert-reasoner",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "deepseek-reasoner",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "gpt-5.4",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/stepfun-ai/step-3.5-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/stockmark/stockmark-2-100b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/yentinglin/llama-3-taiwan-70b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/z-ai/glm4.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "李/z-ai/glm5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/01-ai/yi-large",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/abacusai/dracarys-llama-3.1-70b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/adept/fuyu-8b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/ai21labs/jamba-1.5-large-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/ai21labs/jamba-1.5-mini-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/aisingapore/sea-lion-7b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/baai/bge-m3",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/baichuan-inc/baichuan2-13b-chat",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/bigcode/starcoder2-15b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/bigcode/starcoder2-7b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/bytedance/seed-oss-36b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/databricks/dbrx-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/deepseek-ai/deepseek-coder-6.7b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/deepseek-ai/deepseek-r1-distill-llama-8b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/deepseek-ai/deepseek-r1-distill-qwen-14b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/deepseek-ai/deepseek-r1-distill-qwen-32b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/deepseek-ai/deepseek-r1-distill-qwen-7b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/deepseek-ai/deepseek-v3.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/deepseek-ai/deepseek-v3.1-terminus",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/deepseek-ai/deepseek-v3.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/codegemma-1.1-7b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/codegemma-7b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/deplot",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/gemma-2-27b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/gemma-2-2b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/gemma-2-9b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/gemma-2b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/gemma-3-12b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/gemma-3-1b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/gemma-3-27b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/gemma-3-4b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/gemma-3n-e2b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/gemma-3n-e4b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/gemma-4-31b-it",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/gemma-7b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/paligemma",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/recurrentgemma-2b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/google/shieldgemma-9b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/gotocompany/gemma-2-9b-cpt-sahabatai-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/ibm/granite-3.0-3b-a800m-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/ibm/granite-3.0-8b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/ibm/granite-3.3-8b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/ibm/granite-34b-code-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/ibm/granite-8b-code-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/ibm/granite-guardian-3.0-8b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/igenius/colosseum_355b_instruct_16k",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/igenius/italia_10b_instruct_16k",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/institute-of-science-tokyo/llama-3.1-swallow-70b-instruct-v0.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/institute-of-science-tokyo/llama-3.1-swallow-8b-instruct-v0.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/marin/marin-8b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mediatek/breeze-7b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/meta/codellama-70b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/meta/llama-3.1-405b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/meta/llama-3.1-70b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/meta/llama-3.1-8b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/meta/llama-3.2-1b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/meta/llama-3.2-3b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/meta/llama-3.3-70b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/meta/llama-4-maverick-17b-128e-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/meta/llama-4-scout-17b-16e-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/meta/llama-guard-4-12b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/meta/llama2-70b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/meta/llama3-70b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/meta/llama3-8b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/microsoft/kosmos-2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/microsoft/phi-3-medium-128k-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/microsoft/phi-3-medium-4k-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/microsoft/phi-3-mini-128k-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/microsoft/phi-3-mini-4k-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/microsoft/phi-3-small-128k-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/microsoft/phi-3-small-8k-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/microsoft/phi-3.5-mini-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/microsoft/phi-3.5-moe-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/microsoft/phi-4-mini-flash-reasoning",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/microsoft/phi-4-mini-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/microsoft/phi-4-multimodal-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/minimaxai/minimax-m2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/minimaxai/minimax-m2.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/codestral-22b-instruct-v0.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/devstral-2-123b-instruct-2512",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/magistral-small-2506",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mamba-codestral-7b-v0.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mathstral-7b-v0.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/ministral-14b-instruct-2512",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mistral-7b-instruct-v0.2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mistral-7b-instruct-v0.3",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mistral-large",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mistral-large-2-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mistral-large-3-675b-instruct-2512",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mistral-medium-3-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mistral-nemotron",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mistral-small-24b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mistral-small-3.1-24b-instruct-2503",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mistral-small-4-119b-2603",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mixtral-8x22b-instruct-v0.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mixtral-8x22b-v0.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/mistralai/mixtral-8x7b-instruct-v0.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/moonshotai/kimi-k2-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/moonshotai/kimi-k2-instruct-0905",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/moonshotai/kimi-k2-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/moonshotai/kimi-k2.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nv-mistralai/mistral-nemo-12b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/cosmos-reason2-8b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/gliner-pii",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/llama-3.1-nemoguard-8b-topic-control",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/llama-3.1-nemotron-51b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/llama-3.1-nemotron-70b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/llama-3.1-nemotron-70b-reward",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/llama-3.1-nemotron-nano-4b-v1.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/llama-3.1-nemotron-nano-8b-v1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/llama-3.1-nemotron-ultra-253b-v1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/llama-3.3-nemotron-super-49b-v1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/llama-3.3-nemotron-super-49b-v1.5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/llama3-chatqa-1.5-70b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/llama3-chatqa-1.5-8b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/mistral-nemo-minitron-8b-8k-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/mistral-nemo-minitron-8b-base",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/nemotron-3-nano-30b-a3b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/nemotron-3-super-120b-a12b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/nemotron-4-340b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/nemotron-4-340b-reward",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/nemotron-4-mini-hindi-4b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/nemotron-mini-4b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/nemotron-nano-12b-v2-vl",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/nemotron-nano-3-30b-a3b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/neva-22b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/nvclip",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/nvidia-nemotron-nano-9b-v2",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/riva-translate-4b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/nvidia/vila",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/openai/gpt-oss-120b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/openai/gpt-oss-20b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/opengpt-x/teuken-7b-instruct-commercial-v0.4",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/qwen/qwen2-7b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/qwen/qwen2.5-7b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/qwen/qwen2.5-coder-32b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/qwen/qwen2.5-coder-7b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/qwen/qwen3-coder-480b-a35b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/qwen/qwen3-next-80b-a3b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/qwen/qwen3-next-80b-a3b-thinking",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/qwen/qwen3.5-122b-a10b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/qwen/qwen3.5-397b-a17b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/qwen/qwq-32b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/rakuten/rakutenai-7b-chat",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/rakuten/rakutenai-7b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/sarvamai/sarvam-m",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/speakleash/bielik-11b-v2.3-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/speakleash/bielik-11b-v2.6-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/stepfun-ai/step-3.5-flash",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/stockmark/stockmark-2-100b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/thudm/chatglm3-6b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/tiiuae/falcon3-7b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/tokyotech-llm/llama-3-swallow-70b-instruct-v0.1",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/upstage/solar-10.7b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/utter-project/eurollm-9b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/writer/palmyra-creative-122b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/writer/palmyra-fin-70b-32k",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/writer/palmyra-med-70b",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/writer/palmyra-med-70b-32k",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/yentinglin/llama-3-taiwan-70b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/z-ai/glm4.7",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/z-ai/glm5",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "xinjianya",
+   "model": "英伟达/zyphra/zamba2-7b-instruct",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "zenllm",
+   "model": "gpt-5.2-codex",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  },
+  {
+   "provider": "zenllm",
+   "model": "gpt-5.4-mini",
+   "ttft_s_median": null,
+   "tps_median": null,
+   "samples": 0
+  }
+ ]
+}

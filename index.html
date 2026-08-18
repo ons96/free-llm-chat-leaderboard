@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free LLM Chat Leaderboard</title>
+<meta name="description" content="Sortable ranking of free LLMs/chatbots for general question-asking: intelligence, grounding, speed, context.">
+<style>
+  :root {
+    --bg: #0d1117; --bg2: #161b22; --bg3: #1f2630;
+    --fg: #e6edf3; --muted: #8b949e; --border: #30363d;
+    --accent: #58a6ff; --good: #3fb950; --warn: #d29922; --bad: #f85149;
+    --chip: #21262d;
+  }
+  * { box-sizing: border-box; }
+  html { scrollbar-color: var(--border) var(--bg); }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 14px/1.5 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 16px;
+  }
+  header { max-width: 1200px; margin: 0 auto 16px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h1 .accent { color: var(--accent); }
+  .sub { color: var(--muted); margin: 0 0 10px; }
+  .meta { color: var(--muted); font-size: 12px; margin: 0 0 12px; }
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+  input[type=search] {
+    background: var(--bg2); border: 1px solid var(--border); color: var(--fg);
+    border-radius: 6px; padding: 6px 10px; font-size: 13px; width: 220px;
+  }
+  input[type=search]:focus { outline: 1px solid var(--accent); }
+  .legend { color: var(--muted); font-size: 12px; }
+  .legend .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin: 0 4px 0 10px; }
+  .wrap {
+    max-width: 1200px; margin: 0 auto; overflow-x: auto;
+    border: 1px solid var(--border); border-radius: 8px; background: var(--bg2);
+  }
+  table { border-collapse: collapse; width: 100%; min-width: 900px; }
+  th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th {
+    position: sticky; top: 0; background: var(--bg3); z-index: 2;
+    font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted);
+    cursor: pointer; user-select: none; white-space: nowrap;
+  }
+  th:hover { color: var(--fg); }
+  th .arrow { color: var(--accent); }
+  tbody tr:hover { background: var(--bg3); }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  th.num { text-align: right; }
+  .rank { font-weight: 600; }
+  .model { font-weight: 600; }
+  .model small { display: block; color: var(--muted); font-weight: 400; font-size: 11px; }
+  .score { font-size: 16px; font-weight: 700; }
+  .chip {
+    display: inline-block; background: var(--chip); border: 1px solid var(--border);
+    border-radius: 10px; padding: 1px 7px; font-size: 11px; color: var(--muted);
+    margin: 1px 2px 1px 0; white-space: nowrap;
+  }
+  .chip.free { color: var(--good); border-color: #2ea04355; }
+  .chip.router { color: var(--accent); }
+  .chip.ui { color: var(--warn); }
+  .chip.aa { color: var(--muted); }
+  .notes { font-size: 12px; color: var(--muted); max-width: 260px; }
+  .notes .warn { color: var(--warn); }
+  .t {
+    border-bottom: 1px dotted var(--muted); cursor: help; position: relative;
+  }
+  .t:hover::after {
+    content: attr(data-tip); position: absolute; bottom: 130%; left: 0; z-index: 10;
+    background: var(--bg3); border: 1px solid var(--border); border-radius: 6px;
+    padding: 6px 8px; font-size: 12px; color: var(--fg); white-space: normal;
+    width: 240px; box-shadow: 0 4px 12px #0009;
+  }
+  .below-wrap { margin-top: 20px; max-width: 1200px; margin-left: auto; margin-right: auto; }
+  .below-toggle {
+    background: var(--bg2); border: 1px solid var(--border); color: var(--muted);
+    border-radius: 8px; padding: 8px 12px; cursor: pointer; font-size: 13px; width: 100%;
+  }
+  .below-toggle:hover { color: var(--fg); }
+  #belowSection { margin-top: 10px; }
+  .hidden { display: none; }
+  footer { max-width: 1200px; margin: 24px auto; color: var(--muted); font-size: 12px; }
+  footer a { color: var(--accent); }
+  @media (max-width: 700px) {
+    body { padding: 8px; }
+    h1 { font-size: 18px; }
+    input[type=search] { width: 100%; }
+    th, td { padding: 6px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Free LLM <span class="accent">Chat Leaderboard</span></h1>
+  <p class="sub">Free models/chatbots ranked for general question-asking: reasoning quality, factual reliability, and fast responses. Personal reference — not for gateway routing.</p>
+  <p class="meta" id="meta"></p>
+  <div class="toolbar">
+    <input type="search" id="search" placeholder="Filter models…" aria-label="Filter models">
+    <span class="legend">
+      <span class="dot" style="background:var(--good)"></span>gateway
+      <span class="dot" style="background:var(--accent)"></span>OpenRouter API
+      <span class="dot" style="background:var(--warn)"></span>chat UI
+    </span>
+  </div>
+</header>
+
+<div class="wrap">
+  <table id="table">
+    <thead>
+      <tr id="headRow"></tr>
+    </thead>
+    <tbody id="body"></tbody>
+  </table>
+</div>
+
+<div class="below-wrap">
+  <button class="below-toggle" id="belowToggle">Show below-threshold / unverified models (collapsed)</button>
+  <div id="belowSection" class="hidden">
+    <div class="wrap">
+      <table>
+        <thead><tr id="belowHeadRow"></tr></thead>
+        <tbody id="belowBody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>Data sources: VPS-40 gateway config snapshot (committed), Artificial Analysis (public page scrape; API used when AA_API_KEY is set), OpenRouter <code>:free</code> models API, arena.ai text leaderboard, free-llm-benchmarking speed probes, hand-maintained <code>arena_scores.json</code> + <code>free_chat_uis.json</code>. Methodology in the <a href="README.md">README</a>. Quality is a gate: bottom-quartile intelligence or unverified models are excluded from the main ranking.</p>
+</footer>
+
+<script>
+"use strict";
+const TOOLTIPS = {
+  rank: "Position by composite chat score (best first).",
+  model: "Model family. Hover a metric column for details.",
+  providers: "Where you can actually use it for free.",
+  chat_score: "Composite 0-100: intelligence 0.30 + grounding 0.25 + speed 0.25 + arena preference 0.10 + context 0.05 + recency 0.05. Percentile-normalized.",
+  intelligence: "Percentile of intelligence signal: Artificial Analysis intelligence index, or arena ELO mapped to 0-100 when AA is unavailable.",
+  grounding: "Percentile of grounding/reliability: AA omniscience accuracy when available, else intelligence percentile as proxy.",
+  speed: "Percentile of output speed (tokens/sec) from gateway config or real-probe benchmarks. 0 = no speed data.",
+  latency: "Estimated time-to-first-token (ms) from real probes when available.",
+  context: "Context window (tokens). Largest value across sources.",
+  free_via: "Access path: gateway = your VPS-40 proxy, OpenRouter API = :free models, chat UI = consumer app free tier.",
+  reliability: "Caveats: gateway chain membership, dead-provider flags, uncertain name matches, chat-UI limits.",
+  last_updated: "Date this row was last refreshed by the build pipeline.",
+  arena_score: "LMArena (arena.ai) text leaderboard ELO. Tiebreaker only.",
+  match_confidence: "How confidently this model was matched across sources.",
+};
+
+let state = { sortKey: "chat_score", desc: true, search: "", data: null };
+
+function colDefs() {
+  return [
+    { key: "rank", label: "#", num: true },
+    { key: "model", label: "Model", num: false },
+    { key: "providers", label: "Free via", num: false },
+    { key: "chat_score", label: "Chat", num: true },
+    { key: "intelligence", label: "Intelligence", num: true },
+    { key: "grounding", label: "Grounding", num: true },
+    { key: "speed", label: "Speed", num: true },
+    { key: "latency", label: "Latency", num: true },
+    { key: "context_window", label: "Context", num: true },
+    { key: "free_via", label: "Access", num: false },
+    { key: "reliability", label: "Reliability notes", num: false },
+    { key: "last_updated", label: "Updated", num: false },
+  ];
+}
+
+function fmtInt(v) { return v == null ? "—" : Math.round(v); }
+function fmtNum(v, d=1) { return v == null ? "—" : v.toFixed(d); }
+function fmtCtx(v) {
+  if (v == null) return "—";
+  if (v >= 1e6) return (v / 1e6).toFixed(1) + "M";
+  if (v >= 1e3) return Math.round(v / 1e3) + "K";
+  return String(v);
+}
+function fmtLatency(ms) {
+  if (ms == null) return "—";
+  return ms >= 1000 ? (ms / 1000).toFixed(1) + "s" : ms + "ms";
+}
+
+function accessChips(m) {
+  const chips = [];
+  if (m.free_via.includes("gateway")) chips.push('<span class="chip free">gateway</span>');
+  if (m.free_via.includes("openrouter-api")) chips.push('<span class="chip router">OpenRouter</span>');
+  if (m.free_via.includes("chat-ui")) chips.push('<span class="chip ui">chat UI</span>');
+  if (chips.length === 0) chips.push('<span class="chip">—</span>');
+  return chips.join("");
+}
+
+function sortVal(m, key) {
+  switch (key) {
+    case "rank": return m.chat_score;
+    case "model": return m.name.toLowerCase();
+    case "providers": return (m.providers || []).join(" ").toLowerCase();
+    case "free_via": return (m.free_via || []).join(" ");
+    case "reliability": return (m.reliability_notes || []).join(" ");
+    case "last_updated": return m.last_updated || "";
+    default: return m[key];
+  }
+}
+
+function matches(m, q) {
+  if (!q) return true;
+  const hay = (m.name + " " + m.family + " " + (m.providers || []).join(" ") + " " + (m.free_via || []).join(" ")).toLowerCase();
+  return q.split(/\s+/).every(t => hay.includes(t));
+}
+
+function renderHeader(thead) {
+  thead.innerHTML = "";
+  const tr = document.createElement("tr");
+  for (const c of colDefs()) {
+    const th = document.createElement("th");
+    th.className = c.num ? "num" : "";
+    th.textContent = c.label;
+    th.dataset.key = c.key;
+    th.title = TOOLTIPS[c.key] || "";
+    if (c.key === state.sortKey) {
+      th.innerHTML = c.label + ' <span class="arrow">' + (state.desc ? "▼" : "▲") + "</span>";
+    }
+    th.addEventListener("click", () => {
+      if (state.sortKey === c.key) state.desc = !state.desc;
+      else { state.sortKey = c.key; state.desc = true; }
+      render();
+    });
+    tr.appendChild(th);
+  }
+  thead.appendChild(tr);
+}
+
+function renderRow(m, isMain) {
+  const tr = document.createElement("tr");
+  const t = (key, tip, html) => {
+    const td = document.createElement("td");
+    td.className = colDefs().find(c => c.key === key).num ? "num" : "";
+    td.innerHTML = html;
+    if (tip) td.title = tip;
+    return td;
+  };
+  const notes = (m.reliability_notes || []).map(n => {
+    const warn = /flaky|dead|unreliable|uncertain|limit/i.test(n);
+    return '<div class="' + (warn ? "warn" : "") + '">• ' + esc(n) + "</div>";
+  }).join("");
+  const conf = m.match_confidence === "high" ? "" : ' <span class="chip" title="' + TOOLTIPS.match_confidence + '">conf:' + esc(m.match_confidence) + "</span>";
+  const nameCell = '<span class="model">' + esc(m.name) + conf + "</span>" +
+    '<small>' + esc(m.family) + "</small>";
+
+  tr.appendChild(t("rank", TOOLTIPS.rank, '<span class="rank">' + (m.rank ?? "–") + "</span>"));
+  tr.appendChild(t("model", TOOLTIPS.model, nameCell));
+  tr.appendChild(t("providers", TOOLTIPS.providers, (m.providers || []).map(p => '<span class="chip">' + esc(p) + "</span>").join("")));
+  tr.appendChild(t("chat_score", TOOLTIPS.chat_score, '<span class="score">' + fmtNum(m.chat_score) + "</span>"));
+  tr.appendChild(t("intelligence", TOOLTIPS.intelligence, fmtNum(m.intelligence)));
+  tr.appendChild(t("grounding", TOOLTIPS.grounding, fmtNum(m.grounding)));
+  tr.appendChild(t("speed", TOOLTIPS.speed, fmtNum(m.speed)));
+  tr.appendChild(t("latency", TOOLTIPS.latency, fmtLatency(m.latency_ms)));
+  tr.appendChild(t("context_window", TOOLTIPS.context, fmtCtx(m.context_window)));
+  tr.appendChild(t("free_via", TOOLTIPS.free_via, accessChips(m)));
+  tr.appendChild(t("reliability", TOOLTIPS.reliability, notes || '<span class="notes">—</span>'));
+  tr.appendChild(t("last_updated", TOOLTIPS.last_updated, esc(m.last_updated || "—")));
+  return tr;
+}
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[c]));
+}
+
+function render() {
+  const data = state.data;
+  if (!data) return;
+  const q = state.search.trim().toLowerCase();
+  const filtered = data.models.filter(m => matches(m, q));
+
+  const main = filtered.filter(m => !m.below_threshold);
+  const below = filtered.filter(m => m.below_threshold);
+
+  const cmp = (a, b) => {
+    const av = sortVal(a, state.sortKey), bv = sortVal(b, state.sortKey);
+    let r;
+    if (av == null && bv == null) r = 0;
+    else if (av == null) r = -1;
+    else if (bv == null) r = 1;
+    else if (typeof av === "string") r = av.localeCompare(bv);
+    else r = av - bv;
+    return state.desc ? -r : r;
+  };
+  main.sort(cmp);
+  below.sort(cmp);
+
+  const thead = document.getElementById("headRow");
+  renderHeader(thead);
+  const body = document.getElementById("body");
+  body.innerHTML = "";
+  for (const m of main) body.appendChild(renderRow(m, true));
+
+  const bhead = document.getElementById("belowHeadRow");
+  renderHeader(bhead);
+  const bbody = document.getElementById("belowBody");
+  bbody.innerHTML = "";
+  for (const m of below) bbody.appendChild(renderRow(m, false));
+
+  const toggle = document.getElementById("belowToggle");
+  const nBelow = below.length;
+  toggle.textContent = nBelow
+    ? "Show below-threshold / unverified models (" + nBelow + " collapsed)"
+    : "No below-threshold models";
+
+  document.getElementById("meta").textContent =
+    data.count + " free models tracked · " + main.length + " ranked above threshold · " +
+    "generated " + (data.generated_at || "").slice(0, 10) + " · " +
+    "weights: intel 0.30 / grounding 0.25 / speed 0.25 / arena 0.10 / context 0.05 / recency 0.05";
+}
+
+document.getElementById("search").addEventListener("input", e => {
+  state.search = e.target.value;
+  render();
+});
+
+document.getElementById("belowToggle").addEventListener("click", () => {
+  document.getElementById("belowSection").classList.toggle("hidden");
+  const hidden = document.getElementById("belowSection").classList.contains("hidden");
+  document.getElementById("belowToggle").textContent = hidden
+    ? "Show below-threshold / unverified models (collapsed)"
+    : "Hide below-threshold / unverified models";
+});
+
+fetch("data/models.json")
+  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(data => { state.data = data; render(); })
+  .catch(err => {
+    document.getElementById("body").innerHTML =
+      '<tr><td colspan="12" style="color:var(--bad)">Failed to load data/models.json: ' + esc(err.message) + "</td></tr>";
+  });
+</script>
+</body>
+</html>

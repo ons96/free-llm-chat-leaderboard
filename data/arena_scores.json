@@ -1,0 +1,367 @@
+{
+  "note": "Hand-maintained LMArena (arena.ai) text leaderboard scores. Seed date: 2026-08-18 (pulled from arena.ai/leaderboard/text). Update by visiting https://arena.ai/leaderboard/text and editing the entries below. Arena score is a tiebreaker signal (weight 0.10), not the primary ranking.",
+  "last_updated": "2026-08-18",
+  "source_url": "https://arena.ai/leaderboard/text",
+  "models": [
+    {
+      "id": "claude-fable-5-text",
+      "display_name": "claude-fable-5",
+      "arena_score": 1506,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-opus-4-6-thinking",
+      "display_name": "claude-opus-4-6-high",
+      "arena_score": 1505,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-opus-4-7-thinking",
+      "display_name": "claude-opus-4-7-high",
+      "arena_score": 1502,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "muse-spark-1.2-xhigh-text",
+      "display_name": "muse-spark-1.2 (xHigh)",
+      "arena_score": 1498,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-opus-4-6",
+      "display_name": "claude-opus-4-6",
+      "arena_score": 1497,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-opus-4-7",
+      "display_name": "claude-opus-4-7",
+      "arena_score": 1494,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-opus-5-high-text",
+      "display_name": "claude-opus-5-high",
+      "arena_score": 1493,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "kinsley-mrp8",
+      "display_name": "qwen3.8-max",
+      "arena_score": 1491,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "andwise-evfd",
+      "display_name": "gemini-3.7-flash-high",
+      "arena_score": 1490,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-opus-5-max-text",
+      "display_name": "claude-opus-5-max",
+      "arena_score": 1489,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "super-nova-ext-3tam-text",
+      "display_name": "muse-spark-1.1",
+      "arena_score": 1489,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "kimi-k3-v3-text",
+      "display_name": "kimi-k3-max",
+      "arena_score": 1489,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "eureka",
+      "display_name": "muse-spark",
+      "arena_score": 1488,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gemini-3.1-pro-preview",
+      "display_name": "gemini-3.1-pro-preview",
+      "arena_score": 1486,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gemini-3-pro",
+      "display_name": "gemini-3-pro",
+      "arena_score": 1485,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gemini-3.6-flash",
+      "display_name": "gemini-3.6-flash-high",
+      "arena_score": 1484,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gpt-5.5-high-text",
+      "display_name": "gpt-5.5-high",
+      "arena_score": 1482,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-opus-4-8-thinking-text",
+      "display_name": "claude-opus-4-8-high",
+      "arena_score": 1481,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gpt-5.6-sol-xhigh-text",
+      "display_name": "gpt-5.6-sol-xhigh",
+      "arena_score": 1481,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gemini-3.5-flash-high-public",
+      "display_name": "gemini-3.5-flash-high",
+      "arena_score": 1477,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gpt-5.5-text",
+      "display_name": "gpt-5.5",
+      "arena_score": 1477,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gpt-5.4-high-no-system-prompt",
+      "display_name": "gpt-5.4-high",
+      "arena_score": 1476,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gpt-5.2-chat-latest",
+      "display_name": "gpt-5.2-chat-latest-20260210",
+      "arena_score": 1476,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "clanker-text",
+      "display_name": "grok-4.20-beta1",
+      "arena_score": 1475,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gemini-3.5-flash-medium",
+      "display_name": "gemini-3.5-flash-medium",
+      "arena_score": 1474,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "melyora-9qr6",
+      "display_name": "qwen3.7-max-preview",
+      "arena_score": 1474,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-opus-4-8-text",
+      "display_name": "claude-opus-4-8",
+      "arena_score": 1474,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gpt-5.5-instant",
+      "display_name": "gpt-5.5-instant",
+      "arena_score": 1473,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gemini-3-flash",
+      "display_name": "gemini-3-flash",
+      "arena_score": 1473,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-opus-4-5-20251101-thinking-32k",
+      "display_name": "claude-opus-4-5-20251101-high-32k",
+      "arena_score": 1473,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "display_name": "claude-sonnet-4-6",
+      "arena_score": 1472,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "grok-4.20-beta-0309-reasoning",
+      "display_name": "grok-4.20-beta-0309-reasoning",
+      "arena_score": 1472,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "glm-5.2-text",
+      "display_name": "glm-5.2-max",
+      "arena_score": 1471,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "grok-4.20-multi-agent-beta-0309",
+      "display_name": "grok-4.20-multi-agent-beta-0309",
+      "arena_score": 1470,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-opus-4-5-20251101",
+      "display_name": "claude-opus-4-5-20251101",
+      "arena_score": 1469,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "grok-4.5-text",
+      "display_name": "grok-4.5",
+      "arena_score": 1469,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "zero-prism",
+      "display_name": "ernie-5.1",
+      "arena_score": 1468,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "mimo-v2.5-pro-text",
+      "display_name": "mimo-v2.5-pro",
+      "arena_score": 1468,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "glm-5.1-text",
+      "display_name": "glm-5.1",
+      "arena_score": 1467,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "kiteki",
+      "display_name": "qwen3.5-max-preview",
+      "arena_score": 1466,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gpt-5.4-no-system-prompt",
+      "display_name": "gpt-5.4",
+      "arena_score": 1466,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "grok-4.1-thinking",
+      "display_name": "grok-4.1-thinking",
+      "arena_score": 1466,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gpt-5.6-terra-xhigh-text",
+      "display_name": "gpt-5.6-terra-xhigh",
+      "arena_score": 1464,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "grok-4.6-high-text",
+      "display_name": "grok-4.6-high",
+      "arena_score": 1464,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-sonnet-5-text",
+      "display_name": "claude-sonnet-5-high",
+      "arena_score": 1462,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "kimi-k2.6-text",
+      "display_name": "kimi-k2.6",
+      "arena_score": 1461,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "kizen-beta",
+      "display_name": "qwen3.6-max-preview",
+      "arena_score": 1460,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "grok-4.1",
+      "display_name": "grok-4.1",
+      "arena_score": 1459,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "qwen3.7-plus",
+      "display_name": "qwen3.7-plus",
+      "arena_score": 1458,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gemini-3-flash-thinking-minimal",
+      "display_name": "gemini-3-flash (thinking-minimal)",
+      "arena_score": 1458,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "deepseek-v4-pro-ch1-text",
+      "display_name": "deepseek-v4-pro",
+      "arena_score": 1458,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gemini-3.5-flash-lite",
+      "display_name": "gemini-3.5-flash-lite",
+      "arena_score": 1458,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "glm-5",
+      "display_name": "glm-5",
+      "arena_score": 1457,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "hy3-tencent-cloud-text",
+      "display_name": "hy3",
+      "arena_score": 1457,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-sonnet-4-5-20250929-thinking-32k",
+      "display_name": "claude-sonnet-4-5-20250929-high-32k",
+      "arena_score": 1456,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "dola-seed-2.0-pro-text",
+      "display_name": "dola-seed-2.0-pro",
+      "arena_score": 1456,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "deepseek-v4-pro-ch1-thinking-text",
+      "display_name": "deepseek-v4-pro-high-preview",
+      "arena_score": 1456,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "claude-sonnet-4-5-20250929",
+      "display_name": "claude-sonnet-4-5-20250929",
+      "arena_score": 1455,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "gpt-5.1-high",
+      "display_name": "gpt-5.1-high",
+      "arena_score": 1455,
+      "url": "https://arena.ai/leaderboard/text"
+    },
+    {
+      "id": "pteronura-text",
+      "display_name": "gemma-4-31b",
+      "arena_score": 1451,
+      "url": "https://arena.ai/leaderboard/text"
+    }
+  ]
+}
