@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-08-18T06:28:21Z",
- "total_models": 413,
- "free_models_count": 16,
+ "fetched_at": "2026-08-24T06:57:32Z",
+ "total_models": 422,
+ "free_models_count": 18,
  "models": [
   {
    "id": "cohere/north-mini-code:free",
@@ -66,6 +66,22 @@
    },
    "created": 1775148486,
    "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function..."
+  },
+  {
+   "id": "liquid/lfm-2.5-2.6b:free",
+   "name": "LiquidAI: LFM2.5-2.6B (free)",
+   "context_length": 65536,
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 65536,
+    "max_completion_tokens": 8192,
+    "is_moderated": false
+   },
+   "created": 1786470519,
+   "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or..."
   },
   {
    "id": "nvidia/nemotron-3-nano-30b-a3b:free",
@@ -196,22 +212,6 @@
    "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and..."
   },
   {
-   "id": "openai/gpt-oss-20b:free",
-   "name": "OpenAI: gpt-oss-20b (free)",
-   "context_length": 131072,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 131072,
-    "max_completion_tokens": 32768,
-    "is_moderated": false
-   },
-   "created": 1754414229,
-   "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for..."
-  },
-  {
    "id": "poolside/laguna-s-2.1:free",
    "name": "Poolside: Laguna S 2.1 (free)",
    "context_length": 262144,
@@ -244,16 +244,48 @@
    "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines..."
   },
   {
-   "id": "z-ai/glm-5.2:free",
-   "name": "Z.ai: GLM 5.2 (free)",
-   "context_length": 128000,
+   "id": "thinkingmachines/inkling-small:free",
+   "name": "Thinking Machines: Inkling Small (free)",
+   "context_length": 262144,
    "pricing": {
     "prompt": "0",
     "completion": "0"
    },
    "top_provider": {
-    "context_length": 128000,
-    "max_completion_tokens": 128000,
+    "context_length": 262144,
+    "max_completion_tokens": 262144,
+    "is_moderated": false
+   },
+   "created": 1785443117,
+   "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of..."
+  },
+  {
+   "id": "thinkingmachines/inkling:free",
+   "name": "Thinking Machines: Inkling (free)",
+   "context_length": 262144,
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 262144,
+    "max_completion_tokens": 262144,
+    "is_moderated": false
+   },
+   "created": 1784325956,
+   "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,..."
+  },
+  {
+   "id": "z-ai/glm-5.2:free",
+   "name": "Z.ai: GLM 5.2 (free)",
+   "context_length": 256000,
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 256000,
+    "max_completion_tokens": 256000,
     "is_moderated": false
    },
    "created": 1781631930,

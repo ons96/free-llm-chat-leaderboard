@@ -1,6 +1,6 @@
 {
   "generated_at": null,
-  "count": 503,
+  "count": 494,
   "models": [
     {
       "family": "a-x-k2",
@@ -95,8 +95,8 @@
       "virtual_models": [],
       "notes": "Arabic language model",
       "pinned": false,
-      "bench_ttft_s": 0.283,
-      "bench_tps": 1404.2,
+      "bench_ttft_s": 0.335,
+      "bench_tps": 960.4,
       "bench_samples": null
     },
     {
@@ -142,7 +142,7 @@
       ],
       "match_confidence": "high",
       "model_id": "amazon-nova-experimental-chat-12-10",
-      "arena_score": 1394
+      "arena_score": 1393
     },
     {
       "family": "amazon-nova-experimental-chat-26-01-10",
@@ -353,7 +353,7 @@
       "match_confidence": "high",
       "model_id": "claude-3-5-sonnet-20240620",
       "context": 200000,
-      "arena_score": 1373
+      "arena_score": 1374
     },
     {
       "family": "claude-3-7-sonnet",
@@ -746,22 +746,6 @@
       "pinned": false
     },
     {
-      "family": "claude-opus-4.8",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "free/claude-opus-4.8",
-      "provider_id": "zenllm-free",
-      "provider_name": "Zenllm Free",
-      "virtual_models": [
-        "coding-elite",
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false
-    },
-    {
       "family": "claude-opus-5",
       "sources": [
         "artificial_analysis"
@@ -809,7 +793,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1389
+      "arena_score": 1390
     },
     {
       "family": "claude-sonnet-4-20250514-thinking-32k",
@@ -928,7 +912,7 @@
       "match_confidence": "high",
       "model_id": "codellama-34b-instruct",
       "context": 16384,
-      "arena_score": 1136
+      "arena_score": 1137
     },
     {
       "family": "codellama-70b",
@@ -939,25 +923,6 @@
       "model_id": "codellama-70b-instruct",
       "context": 16384,
       "arena_score": 1119
-    },
-    {
-      "family": "coder-model",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "coder-model",
-      "provider_id": "cliproxyapi",
-      "provider_name": "CLIProxyAPI",
-      "virtual_models": [
-        "coding-elite",
-        "coding-smart"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false,
-      "bench_ttft_s": null,
-      "bench_tps": null,
-      "bench_samples": 0
     },
     {
       "family": "codestral-latest",
@@ -972,25 +937,6 @@
       "context": 200000,
       "virtual_models": [],
       "notes": "Best free code model from Mistral",
-      "pinned": false
-    },
-    {
-      "family": "coding-glm-5-free",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "coding-glm-5-free",
-      "provider_id": "aihubmix",
-      "provider_name": "AIHubMix",
-      "tps": 100,
-      "context": 128000,
-      "virtual_models": [
-        "coding-elite",
-        "coding-smart",
-        "glm5-elite"
-      ],
-      "notes": "",
       "pinned": false
     },
     {
@@ -1033,7 +979,7 @@
       "match_confidence": "high",
       "model_id": "command-r",
       "context": 128000,
-      "arena_score": 1226
+      "arena_score": 1227
     },
     {
       "family": "command-r-08",
@@ -1086,8 +1032,8 @@
       "virtual_models": [],
       "notes": "Compound AI model with search",
       "pinned": false,
-      "bench_ttft_s": 0.464,
-      "bench_tps": 248.2,
+      "bench_ttft_s": 0.385,
+      "bench_tps": 293.3,
       "bench_samples": null
     },
     {
@@ -1104,8 +1050,8 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "bench_ttft_s": 0.291,
-      "bench_tps": 456.2,
+      "bench_ttft_s": 0.115,
+      "bench_tps": 457.2,
       "bench_samples": null
     },
     {
@@ -1379,7 +1325,7 @@
       ],
       "match_confidence": "high",
       "model_id": "dolly-v2-12b",
-      "arena_score": 981
+      "arena_score": 982
     },
     {
       "family": "dolphin-2.2.1-mistral-7b",
@@ -1465,7 +1411,7 @@
       ],
       "match_confidence": "high",
       "model_id": "falcon-180b-chat",
-      "arena_score": 1147
+      "arena_score": 1148
     },
     {
       "family": "fastchat-t5-3b",
@@ -1475,22 +1421,6 @@
       "match_confidence": "high",
       "model_id": "fastchat-t5-3b",
       "arena_score": 992
-    },
-    {
-      "family": "free",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "kilo-auto/free",
-      "provider_id": "kilocode",
-      "provider_name": "Kilocode",
-      "virtual_models": [
-        "coding-fast",
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false
     },
     {
       "family": "gemini-1.5-flash",
@@ -1619,8 +1549,7 @@
       "provider_id": "swiftrouter",
       "provider_name": "Swiftrouter",
       "virtual_models": [
-        "coding-fast",
-        "coding-free"
+        "auto"
       ],
       "notes": "Served via gateway virtual model chain",
       "pinned": false,
@@ -1697,19 +1626,14 @@
       "model_id": "gemini-3-flash-preview",
       "provider_id": "swiftrouter",
       "provider_name": "Swiftrouter",
-      "virtual_models": [
-        "chat-smart",
-        "coding-elite",
-        "coding-fast",
-        "coding-smart"
-      ],
-      "notes": "Served via gateway virtual model chain",
+      "virtual_models": [],
+      "notes": "",
       "pinned": false,
+      "tps": 80,
+      "context": 1048576,
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
-      "tps": 80,
-      "context": 1048576,
       "arena_score": 1473,
       "ui_name": "Google Gemini app",
       "ui_url": "https://gemini.google.com",
@@ -1749,38 +1673,6 @@
       "ui_limits": "Free tier: limited Pro queries per day"
     },
     {
-      "family": "gemini-3.0-flash",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "bbl/gemini-3.0-flash",
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "virtual_models": [
-        "coding-fast",
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false
-    },
-    {
-      "family": "gemini-3.1-flash-lite",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "bbl/gemini-3.1-flash-lite",
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "virtual_models": [
-        "coding-fast",
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false
-    },
-    {
       "family": "gemini-3.1-flash-lite-preview",
       "sources": [
         "arena"
@@ -1789,22 +1681,6 @@
       "model_id": "gemini-3.1-flash-lite-preview",
       "context": 1048576,
       "arena_score": 1432
-    },
-    {
-      "family": "gemini-3.1-pro",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "free/gemini-3.1-pro",
-      "provider_id": "zenllm-free",
-      "provider_name": "Zenllm Free",
-      "virtual_models": [
-        "coding-elite",
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false
     },
     {
       "family": "gemini-3.1-pro-preview",
@@ -1825,23 +1701,6 @@
       "bench_tps": null,
       "bench_samples": 0,
       "arena_score": 1486
-    },
-    {
-      "family": "gemini-3.5-flash",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "gemini-3.5-flash",
-      "provider_id": "futureppo",
-      "provider_name": "Futureppo",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false
     },
     {
       "family": "gemini-3.5-flash-high",
@@ -2211,24 +2070,6 @@
       "pinned": false
     },
     {
-      "family": "glm-4-flash",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "glm-4-flash",
-      "provider_id": "aihubmix",
-      "provider_name": "AIHubMix",
-      "tps": 150,
-      "context": 128000,
-      "virtual_models": [
-        "chat-fast",
-        "coding-fast"
-      ],
-      "notes": "",
-      "pinned": false
-    },
-    {
       "family": "glm-4-plus",
       "sources": [
         "arena"
@@ -2341,14 +2182,11 @@
       "model_id": "glm-4.7-flash",
       "provider_id": "zhipuai-coding-plan",
       "provider_name": "Zhipu AI coding plan",
-      "tps": 100,
       "context": 204800,
-      "virtual_models": [
-        "chat-smart",
-        "coding-elite"
-      ],
+      "virtual_models": [],
       "notes": "",
       "pinned": false,
+      "tps": 100,
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
@@ -2367,7 +2205,7 @@
       "model_id": "glm-5.1",
       "provider_id": "zhipuai-coding-plan",
       "provider_name": "Zhipu AI coding plan",
-      "context": 1000000,
+      "context": 1048576,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
@@ -2375,10 +2213,10 @@
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
-      "intelligence": 52.6409563457385,
-      "grounding_accuracy": 0.24333333333333335,
-      "hallucination_rate": 0.2629955947136564,
-      "release_date": "2026-06-16",
+      "intelligence": 59.5134408119521,
+      "grounding_accuracy": 0.3385,
+      "hallucination_rate": 0.29554043839758126,
+      "release_date": "2026-08-18",
       "price_input_1m": 1.4,
       "price_output_1m": 4.4,
       "arena_score": 1471,
@@ -2421,9 +2259,9 @@
         "gateway"
       ],
       "match_confidence": "high",
-      "model_id": "GLM5",
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
+      "model_id": "glm5",
+      "provider_id": "noobrouter",
+      "provider_name": "NoobRouter",
       "tps": 100,
       "context": 200000,
       "virtual_models": [],
@@ -2482,7 +2320,7 @@
       "match_confidence": "high",
       "model_id": "gpt-4-1106-preview",
       "context": 128000,
-      "arena_score": 1312
+      "arena_score": 1313
     },
     {
       "family": "gpt-4-turbo-2024-04-09",
@@ -2540,18 +2378,14 @@
         "chat_ui"
       ],
       "match_confidence": "high",
-      "model_id": "free/gpt-5.5",
-      "provider_id": "zenllm-free",
-      "provider_name": "Zenllm Free",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false,
+      "model_id": "gpt-5.5:free",
+      "provider_id": "unorouter",
+      "provider_name": "UnoRouter",
       "tps": 100,
       "context": 1050000,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false,
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
@@ -2582,8 +2416,8 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "bench_ttft_s": 1.016,
-      "bench_tps": 480.8,
+      "bench_ttft_s": 0.244,
+      "bench_tps": 483.4,
       "bench_samples": null,
       "intelligence": 24.126439151808,
       "grounding_accuracy": 0.21783333333333332,
@@ -2597,7 +2431,6 @@
       "family": "gpt-oss-20b",
       "sources": [
         "gateway",
-        "openrouter",
         "arena"
       ],
       "match_confidence": "high",
@@ -2609,8 +2442,8 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "bench_ttft_s": 0.139,
-      "bench_tps": 839.0,
+      "bench_ttft_s": 0.184,
+      "bench_tps": 744.0,
       "bench_samples": null,
       "arena_score": 1318
     },
@@ -2639,7 +2472,7 @@
       ],
       "match_confidence": "high",
       "model_id": "granite-3.0-8b-instruct",
-      "arena_score": 1182
+      "arena_score": 1183
     },
     {
       "family": "granite-3.1-2b",
@@ -2648,7 +2481,7 @@
       ],
       "match_confidence": "high",
       "model_id": "granite-3.1-2b-instruct",
-      "arena_score": 1178
+      "arena_score": 1179
     },
     {
       "family": "granite-3.1-8b",
@@ -2687,7 +2520,7 @@
       "match_confidence": "high",
       "model_id": "grok-2-mini-2024-08-13",
       "context": 131072,
-      "arena_score": 1309
+      "arena_score": 1308
     },
     {
       "family": "grok-3",
@@ -2838,7 +2671,7 @@
       "match_confidence": "high",
       "model_id": "hunyuan-hy3-preview",
       "context": 262144,
-      "arena_score": 1413
+      "arena_score": 1412
     },
     {
       "family": "hunyuan-large-2025-02-10",
@@ -2975,20 +2808,47 @@
     {
       "family": "inkling",
       "sources": [
+        "openrouter",
         "artificial_analysis",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "inkling",
-      "provider_name": "Artificial Analysis",
+      "model_id": "thinkingmachines/inkling:free",
+      "provider_name": "OpenRouter",
       "context": 1000000,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false,
       "intelligence": 42.2947721285326,
       "grounding_accuracy": 0.4155,
       "hallucination_rate": 0.6766467065868264,
       "release_date": "2026-07-15",
       "price_input_1m": 1,
       "price_output_1m": 4.05,
-      "arena_score": 1442
+      "arena_score": 1440
+    },
+    {
+      "family": "inkling small",
+      "sources": [
+        "arena"
+      ],
+      "match_confidence": "high",
+      "model_id": "Inkling Small",
+      "context": 1048576,
+      "arena_score": 1405
+    },
+    {
+      "family": "inkling-small",
+      "sources": [
+        "openrouter"
+      ],
+      "match_confidence": "high",
+      "model_id": "thinkingmachines/inkling-small:free",
+      "provider_name": "OpenRouter",
+      "context": 262144,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "intellect-3",
@@ -3163,7 +3023,7 @@
       ],
       "match_confidence": "high",
       "model_id": "koala-13b",
-      "arena_score": 1070
+      "arena_score": 1071
     },
     {
       "family": "laguna-m.1",
@@ -3174,13 +3034,10 @@
       "model_id": "poolside/laguna-m.1",
       "provider_id": "poolside",
       "provider_name": "Poolside",
-      "virtual_models": [
-        "coding-fast",
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false,
-      "context": 131040
+      "context": 131040,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "laguna-s-2.1",
@@ -3217,13 +3074,10 @@
       "model_id": "poolside/laguna-xs.2",
       "provider_id": "poolside",
       "provider_name": "Poolside",
-      "virtual_models": [
-        "coding-fast",
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false,
-      "context": 131040
+      "context": 131040,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "large-preview",
@@ -3236,6 +3090,19 @@
       "provider_name": "OpenCode Zen",
       "tps": 80,
       "context": 32768,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "lfm-2.5-2.6b",
+      "sources": [
+        "openrouter"
+      ],
+      "match_confidence": "high",
+      "model_id": "liquid/lfm-2.5-2.6b:free",
+      "provider_name": "OpenRouter",
+      "context": 65536,
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -3300,7 +3167,7 @@
       "match_confidence": "high",
       "model_id": "llama-2-7b-chat",
       "context": 4096,
-      "arena_score": 1107
+      "arena_score": 1108
     },
     {
       "family": "llama-3-2-nemoretriever-300m-embed-v1",
@@ -3444,7 +3311,7 @@
       "match_confidence": "high",
       "model_id": "llama-3.1-nemotron-ultra-253b-v1",
       "context": 131072,
-      "arena_score": 1348
+      "arena_score": 1347
     },
     {
       "family": "llama-3.1-tulu-3-70b",
@@ -3482,7 +3349,7 @@
       "match_confidence": "high",
       "model_id": "llama-3.2-3b-instruct",
       "context": 131072,
-      "arena_score": 1166
+      "arena_score": 1167
     },
     {
       "family": "llama-3.3-70b",
@@ -3496,15 +3363,8 @@
       "provider_name": "Together AI",
       "tps": 150,
       "context": 131072,
-      "virtual_models": [
-        "auto",
-        "chat-fast",
-        "coding-elite",
-        "coding-fast",
-        "coding-smart",
-        "glm5-elite"
-      ],
-      "notes": "Ultra-fast 70B inference",
+      "virtual_models": [],
+      "notes": "",
       "pinned": false,
       "arena_score": 1318
     },
@@ -3633,22 +3493,11 @@
     {
       "family": "llama-4-scout-17b-16e",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "meta-llama/llama-4-scout-17b-16e-instruct",
-      "provider_id": "groq",
-      "provider_name": "Groq",
-      "tps": 400,
-      "context": 131072,
-      "virtual_models": [
-        "chat-fast",
-        "chat-rp",
-        "coding-fast"
-      ],
-      "notes": "",
-      "pinned": false,
+      "model_id": "llama-4-scout-17b-16e-instruct",
+      "context": 8192,
       "arena_score": 1322
     },
     {
@@ -3695,24 +3544,6 @@
       "arena_score": 1154
     },
     {
-      "family": "llama3.1-8b",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "llama3.1-8b",
-      "provider_id": "cerebras",
-      "provider_name": "Cerebras",
-      "tps": 2600,
-      "context": 8192,
-      "virtual_models": [
-        "chat-fast",
-        "coding-fast"
-      ],
-      "notes": "Fastest free inference available",
-      "pinned": false
-    },
-    {
       "family": "longcat-flash",
       "sources": [
         "arena"
@@ -3729,7 +3560,7 @@
       ],
       "match_confidence": "high",
       "model_id": "longcat-flash-chat-2602-exp",
-      "arena_score": 1436
+      "arena_score": 1435
     },
     {
       "family": "lyria-3-clip-preview",
@@ -3792,7 +3623,7 @@
       "match_confidence": "high",
       "model_id": "mercury",
       "context": 128000,
-      "arena_score": 1307
+      "arena_score": 1306
     },
     {
       "family": "mercury-2",
@@ -3802,7 +3633,7 @@
       "match_confidence": "high",
       "model_id": "mercury-2",
       "context": 128000,
-      "arena_score": 1346
+      "arena_score": 1347
     },
     {
       "family": "meta-llama-3.1-8b",
@@ -3856,7 +3687,7 @@
       "match_confidence": "high",
       "model_id": "mimo-v2-flash (non-thinking)",
       "context": 262144,
-      "arena_score": 1393
+      "arena_score": 1392
     },
     {
       "family": "mimo-v2-flash (thinking)",
@@ -3898,7 +3729,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1448
+      "arena_score": 1449
     },
     {
       "family": "mimo-v2.5",
@@ -4095,23 +3926,19 @@
       ],
       "match_confidence": "high",
       "model_id": "MiniMax-M3",
-      "provider_id": "tokenrouter",
-      "provider_name": "TokenRouter",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false,
+      "provider_id": "scnet-token-plan",
+      "provider_name": "SCNet token plan",
       "context": 1000000,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false,
       "intelligence": 45.3968506399702,
       "grounding_accuracy": 0.167,
       "hallucination_rate": 0.1842737094837935,
       "release_date": "2026-06-01",
       "price_input_1m": 0.3,
       "price_output_1m": 1.2,
-      "arena_score": 1444
+      "arena_score": 1443
     },
     {
       "family": "minimax-m3-official",
@@ -4119,19 +3946,16 @@
         "gateway"
       ],
       "match_confidence": "high",
-      "model_id": "MiniMax-M3-Official",
-      "provider_id": "pooled",
-      "provider_name": "Pooled",
+      "model_id": "MiniMax-M3-official",
+      "provider_id": "blaze-free",
+      "provider_name": "Blaze Free",
       "virtual_models": [
         "coding-elite",
         "coding-fast",
         "coding-free"
       ],
       "notes": "Served via gateway virtual model chain",
-      "pinned": false,
-      "bench_ttft_s": 1.79,
-      "bench_tps": 118.1,
-      "bench_samples": null
+      "pinned": false
     },
     {
       "family": "ministral-8b",
@@ -4141,7 +3965,7 @@
       "match_confidence": "high",
       "model_id": "ministral-8b-2410",
       "context": 131072,
-      "arena_score": 1237
+      "arena_score": 1238
     },
     {
       "family": "mistral-7b",
@@ -4206,7 +4030,7 @@
       ],
       "match_confidence": "high",
       "model_id": "mistral-large-3",
-      "arena_score": 1415
+      "arena_score": 1414
     },
     {
       "family": "mistral-large-3-675b-instruct",
@@ -4239,8 +4063,8 @@
       ],
       "notes": "",
       "pinned": false,
-      "bench_ttft_s": 0.505,
-      "bench_tps": 89.4,
+      "bench_ttft_s": 0.398,
+      "bench_tps": 87.9,
       "bench_samples": null
     },
     {
@@ -4384,7 +4208,7 @@
       "match_confidence": "high",
       "model_id": "molmo-2-8b",
       "context": 36864,
-      "arena_score": 1329
+      "arena_score": 1330
     },
     {
       "family": "motif-3",
@@ -4562,8 +4386,12 @@
       "provider_id": "nvidia",
       "provider_name": "NVIDIA NIM",
       "virtual_models": [
-        "coding-fast",
-        "coding-free"
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
       "pinned": false,
@@ -4924,7 +4752,7 @@
       ],
       "match_confidence": "high",
       "model_id": "nvidia-nemotron-3-ultra-550b-a55b-nvfp4",
-      "arena_score": 1427
+      "arena_score": 1426
     },
     {
       "family": "nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4",
@@ -5078,7 +4906,7 @@
       ],
       "match_confidence": "high",
       "model_id": "openchat-3.5-0106",
-      "arena_score": 1182
+      "arena_score": 1183
     },
     {
       "family": "openchat-7b",
@@ -5102,7 +4930,7 @@
       ],
       "match_confidence": "high",
       "model_id": "openhermes-2.5-mistral-7b",
-      "arena_score": 1175
+      "arena_score": 1176
     },
     {
       "family": "orpheus-arabic-saudi",
@@ -5170,7 +4998,7 @@
       "match_confidence": "high",
       "model_id": "palm-2",
       "context": 25804,
-      "arena_score": 1138
+      "arena_score": 1139
     },
     {
       "family": "perplexity",
@@ -5190,7 +5018,7 @@
       ],
       "match_confidence": "high",
       "model_id": "phi-3-medium-4k-instruct",
-      "arena_score": 1197
+      "arena_score": 1198
     },
     {
       "family": "phi-3-mini-128k",
@@ -5358,7 +5186,7 @@
       ],
       "match_confidence": "high",
       "model_id": "qwen1.5-32b-chat",
-      "arena_score": 1203
+      "arena_score": 1204
     },
     {
       "family": "qwen1.5-4b",
@@ -5367,7 +5195,7 @@
       ],
       "match_confidence": "high",
       "model_id": "qwen1.5-4b-chat",
-      "arena_score": 1090
+      "arena_score": 1091
     },
     {
       "family": "qwen1.5-72b",
@@ -5385,7 +5213,7 @@
       ],
       "match_confidence": "high",
       "model_id": "qwen1.5-7b-chat",
-      "arena_score": 1143
+      "arena_score": 1144
     },
     {
       "family": "qwen2-72b",
@@ -5395,7 +5223,7 @@
       "match_confidence": "high",
       "model_id": "qwen2-72b-instruct",
       "context": 32768,
-      "arena_score": 1261
+      "arena_score": 1262
     },
     {
       "family": "qwen2.5-72b",
@@ -5422,7 +5250,7 @@
       "match_confidence": "high",
       "model_id": "qwen2.5-coder-32b-instruct",
       "context": 32000,
-      "arena_score": 1270
+      "arena_score": 1271
     },
     {
       "family": "qwen2.5-max",
@@ -5531,6 +5359,22 @@
       "pinned": false
     },
     {
+      "family": "qwen3-8-2-4t-a95b",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "qwen3-8-2-4t-a95b",
+      "provider_name": "Artificial Analysis",
+      "context": 983616,
+      "intelligence": 57.7043243271128,
+      "grounding_accuracy": 0.3125,
+      "hallucination_rate": 0.39175757575757575,
+      "release_date": "2026-08-12",
+      "price_input_1m": 2,
+      "price_output_1m": 6
+    },
+    {
       "family": "qwen3-8-27b",
       "sources": [
         "artificial_analysis"
@@ -5542,23 +5386,9 @@
       "intelligence": 52.0246606497206,
       "grounding_accuracy": 0.15583333333333332,
       "hallucination_rate": 0.30286278381046394,
-      "release_date": "2026-08-14"
-    },
-    {
-      "family": "qwen3-8-max",
-      "sources": [
-        "artificial_analysis"
-      ],
-      "match_confidence": "high",
-      "model_id": "qwen3-8-max",
-      "provider_name": "Artificial Analysis",
-      "context": 1000000,
-      "intelligence": 58.0774404479668,
-      "grounding_accuracy": 0.3185,
-      "hallucination_rate": 0.417461482024945,
-      "release_date": "2026-08-03",
-      "price_input_1m": 2,
-      "price_output_1m": 6
+      "release_date": "2026-08-14",
+      "price_input_1m": 0.5,
+      "price_output_1m": 3
     },
     {
       "family": "qwen3-coder",
@@ -5901,7 +5731,7 @@
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
-      "arena_score": 1444
+      "arena_score": 1443
     },
     {
       "family": "qwen3.7-max",
@@ -5918,21 +5748,6 @@
       "pinned": false
     },
     {
-      "family": "qwen3.7-max-official",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "qwen3.7-max-official",
-      "provider_id": "pooled",
-      "provider_name": "Pooled",
-      "virtual_models": [
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false
-    },
-    {
       "family": "qwen3.7-max-preview",
       "sources": [
         "arena"
@@ -5940,23 +5755,6 @@
       "match_confidence": "high",
       "model_id": "qwen3.7-max-preview",
       "arena_score": 1474
-    },
-    {
-      "family": "qwen3.7-max-t",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "qwen3.7-max-t",
-      "provider_id": "futureppo",
-      "provider_name": "Futureppo",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false
     },
     {
       "family": "qwen3.7-plus",
@@ -5975,21 +5773,13 @@
       "arena_score": 1458
     },
     {
-      "family": "qwen3.7-plus-official",
+      "family": "qwen3.8-27b",
       "sources": [
-        "gateway"
+        "arena"
       ],
       "match_confidence": "high",
-      "model_id": "qwen3.7-plus-official",
-      "provider_id": "blaze-free",
-      "provider_name": "Blaze Free",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false
+      "model_id": "qwen3.8-27b",
+      "arena_score": 1440
     },
     {
       "family": "qwen3.8-max",
@@ -6052,7 +5842,7 @@
       ],
       "match_confidence": "high",
       "model_id": "reka-flash-21b-20240226",
-      "arena_score": 1226
+      "arena_score": 1227
     },
     {
       "family": "reka-flash-21b-20240226-online",
@@ -6159,7 +5949,7 @@
       ],
       "match_confidence": "high",
       "model_id": "snowflake-arctic-instruct",
-      "arena_score": 1179
+      "arena_score": 1180
     },
     {
       "family": "solar-10.7b",
@@ -6207,7 +5997,7 @@
       "match_confidence": "high",
       "model_id": "solar-pro4",
       "context": 524288,
-      "arena_score": 1377
+      "arena_score": 1376
     },
     {
       "family": "stablelm-tuned-alpha-7b",
@@ -6272,7 +6062,7 @@
       "match_confidence": "high",
       "model_id": "step-3.5-flash",
       "context": 262144,
-      "arena_score": 1395
+      "arena_score": 1394
     },
     {
       "family": "step-3.5-flash-free",
@@ -6297,14 +6087,10 @@
       "model_id": "step-3.7-flash:free",
       "provider_id": "unorouter",
       "provider_name": "UnoRouter",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false,
-      "context": 256000
+      "context": 256000,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "stripedhyena-nous-7b",
@@ -6556,7 +6342,7 @@
       "match_confidence": "high",
       "model_id": "vicuna-33b",
       "context": 2048,
-      "arena_score": 1172
+      "arena_score": 1173
     },
     {
       "family": "vicuna-7b",
@@ -6651,7 +6437,7 @@
       ],
       "match_confidence": "high",
       "model_id": "zephyr-7b-alpha",
-      "arena_score": 1126
+      "arena_score": 1127
     },
     {
       "family": "zephyr-7b-beta",
@@ -6661,7 +6447,7 @@
       "match_confidence": "high",
       "model_id": "zephyr-7b-beta",
       "context": 16384,
-      "arena_score": 1130
+      "arena_score": 1131
     },
     {
       "family": "zephyr-orpo-141b-a35b-v0.1",
@@ -6670,7 +6456,7 @@
       ],
       "match_confidence": "high",
       "model_id": "zephyr-orpo-141b-A35b-v0.1",
-      "arena_score": 1212
+      "arena_score": 1213
     }
   ]
 }

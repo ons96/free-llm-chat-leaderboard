@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-08-18T06:28:21Z",
+ "fetched_at": "2026-08-24T06:57:33Z",
  "source_repo": "ons96/free-llm-benchmarking",
  "leaderboard_rows": [
   {
@@ -7,560 +7,700 @@
    "provider": "groq",
    "model": "allam-2-7b",
    "effort": "",
-   "TTFT_sec": "0.283",
-   "TPS": "1404.2",
+   "TTFT_sec": "0.335",
+   "TPS": "960.4",
    "avg_tokens": "445",
-   "10K_total_sec": "7.4"
+   "10K_total_sec": "10.7"
   },
   {
    "rank": "2",
-   "provider": "groq",
-   "model": "openai/gpt-oss-20b",
+   "provider": "custom",
+   "model": "deepseek-chat",
    "effort": "",
-   "TTFT_sec": "0.139",
-   "TPS": "839.0",
-   "avg_tokens": "526",
-   "10K_total_sec": "12.1"
+   "TTFT_sec": "",
+   "TPS": "761.6",
+   "avg_tokens": "63",
+   "10K_total_sec": "13.1"
   },
   {
    "rank": "3",
    "provider": "groq",
-   "model": "openai/gpt-oss-safeguard-20b",
+   "model": "openai/gpt-oss-20b",
    "effort": "",
-   "TTFT_sec": "0.322",
-   "TPS": "763.7",
-   "avg_tokens": "973",
-   "10K_total_sec": "13.4"
+   "TTFT_sec": "0.184",
+   "TPS": "744.0",
+   "avg_tokens": "516",
+   "10K_total_sec": "13.6"
   },
   {
    "rank": "4",
    "provider": "groq",
-   "model": "openai/gpt-oss-120b",
+   "model": "openai/gpt-oss-safeguard-20b",
    "effort": "",
-   "TTFT_sec": "1.016",
-   "TPS": "480.8",
-   "avg_tokens": "478",
-   "10K_total_sec": "21.8"
+   "TTFT_sec": "0.494",
+   "TPS": "645.4",
+   "avg_tokens": "736",
+   "10K_total_sec": "16.0"
   },
   {
    "rank": "5",
    "provider": "groq",
-   "model": "groq/compound-mini",
+   "model": "openai/gpt-oss-120b",
    "effort": "",
-   "TTFT_sec": "0.291",
-   "TPS": "456.2",
-   "avg_tokens": "1034",
-   "10K_total_sec": "22.2"
+   "TTFT_sec": "0.244",
+   "TPS": "483.4",
+   "avg_tokens": "525",
+   "10K_total_sec": "20.9"
   },
   {
    "rank": "6",
-   "provider": "navy",
-   "model": "gemini-2.5-flash",
+   "provider": "groq",
+   "model": "groq/compound-mini",
    "effort": "",
-   "TTFT_sec": "0.961",
-   "TPS": "296.3",
-   "avg_tokens": "221",
-   "10K_total_sec": "34.7"
+   "TTFT_sec": "0.115",
+   "TPS": "457.2",
+   "avg_tokens": "1027",
+   "10K_total_sec": "22.0"
   },
   {
    "rank": "7",
-   "provider": "navy",
-   "model": "gpt-5.4-mini",
+   "provider": "custom",
+   "model": "coding-smart",
    "effort": "",
-   "TTFT_sec": "0.697",
-   "TPS": "287.3",
-   "avg_tokens": "239",
-   "10K_total_sec": "35.5"
+   "TTFT_sec": "0.910",
+   "TPS": "338.3",
+   "avg_tokens": "235",
+   "10K_total_sec": "30.5"
   },
   {
    "rank": "8",
-   "provider": "groq",
-   "model": "groq/compound",
+   "provider": "custom",
+   "model": "coding-fast",
    "effort": "",
-   "TTFT_sec": "0.464",
-   "TPS": "248.2",
-   "avg_tokens": "1642",
-   "10K_total_sec": "40.8"
+   "TTFT_sec": "1.870",
+   "TPS": "315.5",
+   "avg_tokens": "235",
+   "10K_total_sec": "33.6"
   },
   {
    "rank": "9",
-   "provider": "navy",
-   "model": "gpt-5.1",
+   "provider": "groq",
+   "model": "groq/compound",
    "effort": "",
-   "TTFT_sec": "0.769",
-   "TPS": "230.4",
-   "avg_tokens": "387",
-   "10K_total_sec": "44.2"
+   "TTFT_sec": "0.385",
+   "TPS": "293.3",
+   "avg_tokens": "1079",
+   "10K_total_sec": "34.5"
   },
   {
    "rank": "10",
    "provider": "navy",
-   "model": "gemini-2.5-flash-thinking",
+   "model": "gemini-2.5-flash",
    "effort": "",
-   "TTFT_sec": "2.175",
-   "TPS": "231.4",
-   "avg_tokens": "1986",
-   "10K_total_sec": "45.4"
+   "TTFT_sec": "0.848",
+   "TPS": "287.1",
+   "avg_tokens": "221",
+   "10K_total_sec": "35.7"
   },
   {
    "rank": "11",
    "provider": "navy",
-   "model": "gpt-5-search-api",
+   "model": "gpt-5.4-mini",
    "effort": "",
-   "TTFT_sec": "1.091",
-   "TPS": "212.1",
-   "avg_tokens": "732",
-   "10K_total_sec": "48.2"
+   "TTFT_sec": "0.647",
+   "TPS": "256.4",
+   "avg_tokens": "233",
+   "10K_total_sec": "39.6"
   },
   {
    "rank": "12",
-   "provider": "ovhcloud",
-   "model": "Qwen3.5-397B-A17B",
+   "provider": "ollama-cloud",
+   "model": "gpt-oss:120b",
    "effort": "",
-   "TTFT_sec": "0.448",
-   "TPS": "208.3",
-   "avg_tokens": "351",
-   "10K_total_sec": "48.4"
+   "TTFT_sec": "0.340",
+   "TPS": "215.0",
+   "avg_tokens": "671",
+   "10K_total_sec": "46.9"
   },
   {
    "rank": "13",
    "provider": "navy",
-   "model": "gpt-5.4",
+   "model": "gpt-5-search-api",
    "effort": "",
-   "TTFT_sec": "0.809",
-   "TPS": "176.2",
-   "avg_tokens": "236",
-   "10K_total_sec": "57.6"
+   "TTFT_sec": "2.086",
+   "TPS": "217.3",
+   "avg_tokens": "759",
+   "10K_total_sec": "48.1"
   },
   {
    "rank": "14",
-   "provider": "navy",
-   "model": "gpt-5.3-codex",
+   "provider": "opencode_zen",
+   "model": "nemotron-3-ultra-free",
    "effort": "",
-   "TTFT_sec": "0.999",
-   "TPS": "169.3",
-   "avg_tokens": "203",
-   "10K_total_sec": "60.1"
+   "TTFT_sec": "0.671",
+   "TPS": "198.7",
+   "avg_tokens": "335",
+   "10K_total_sec": "51.0"
   },
   {
    "rank": "15",
-   "provider": "agnes-ai",
-   "model": "agnes-2.0-flash",
+   "provider": "navy",
+   "model": "gpt-5.4-nano",
    "effort": "",
-   "TTFT_sec": "1.007",
-   "TPS": "165.7",
-   "avg_tokens": "206",
-   "10K_total_sec": "61.4"
+   "TTFT_sec": "0.717",
+   "TPS": "182.7",
+   "avg_tokens": "170",
+   "10K_total_sec": "55.5"
   },
   {
    "rank": "16",
    "provider": "navy",
-   "model": "gpt-5.4-nano",
+   "model": "deepseek-v4-flash",
    "effort": "",
-   "TTFT_sec": "0.549",
-   "TPS": "158.5",
-   "avg_tokens": "170",
-   "10K_total_sec": "63.6"
+   "TTFT_sec": "2.492",
+   "TPS": "188.2",
+   "avg_tokens": "303",
+   "10K_total_sec": "55.6"
   },
   {
    "rank": "17",
-   "provider": "choosec",
-   "model": "MiniMax-M3",
+   "provider": "custom",
+   "model": "nvidia-nemotron-3-nano-30b",
    "effort": "",
-   "TTFT_sec": "1.862",
-   "TPS": "150.8",
-   "avg_tokens": "723",
-   "10K_total_sec": "68.2"
+   "TTFT_sec": "",
+   "TPS": "169.6",
+   "avg_tokens": "51",
+   "10K_total_sec": "59.0"
   },
   {
    "rank": "18",
-   "provider": "evolvex",
-   "model": "minimaxai/minimax-m3",
+   "provider": "navy",
+   "model": "gpt-5.3-codex",
    "effort": "",
-   "TTFT_sec": "0.748",
-   "TPS": "144.1",
-   "avg_tokens": "316",
-   "10K_total_sec": "70.1"
+   "TTFT_sec": "1.107",
+   "TPS": "171.8",
+   "avg_tokens": "212",
+   "10K_total_sec": "59.3"
   },
   {
    "rank": "19",
-   "provider": "pooled",
-   "model": "MiniMax-M3-Official",
+   "provider": "choosec",
+   "model": "MiniMax-M3",
    "effort": "",
-   "TTFT_sec": "1.790",
-   "TPS": "118.1",
-   "avg_tokens": "595",
-   "10K_total_sec": "86.5"
+   "TTFT_sec": "7.902",
+   "TPS": "194.3",
+   "avg_tokens": "577",
+   "10K_total_sec": "59.4"
   },
   {
    "rank": "20",
    "provider": "navy",
-   "model": "gpt-5.2",
+   "model": "gpt-5.4",
    "effort": "",
-   "TTFT_sec": "0.793",
-   "TPS": "115.6",
-   "avg_tokens": "198",
-   "10K_total_sec": "87.3"
+   "TTFT_sec": "1.482",
+   "TPS": "165.8",
+   "avg_tokens": "236",
+   "10K_total_sec": "61.8"
   },
   {
    "rank": "21",
-   "provider": "gratisfy",
-   "model": "atessa/composer-2.5",
-   "effort": "",
-   "TTFT_sec": "2.237",
-   "TPS": "103.9",
-   "avg_tokens": "467",
-   "10K_total_sec": "98.5"
-  },
-  {
-   "rank": "22",
-   "provider": "ovhcloud",
-   "model": "gpt-oss-20b",
-   "effort": "",
-   "TTFT_sec": "0.894",
-   "TPS": "100.3",
-   "avg_tokens": "505",
-   "10K_total_sec": "100.6"
-  },
-  {
-   "rank": "23",
-   "provider": "opencode_zen",
-   "model": "mimo-v2.5-free",
-   "effort": "",
-   "TTFT_sec": "1.366",
-   "TPS": "97.9",
-   "avg_tokens": "453",
-   "10K_total_sec": "103.5"
-  },
-  {
-   "rank": "24",
-   "provider": "mistral",
-   "model": "mistral-large-latest",
-   "effort": "",
-   "TTFT_sec": "0.505",
-   "TPS": "89.4",
-   "avg_tokens": "237",
-   "10K_total_sec": "112.4"
-  },
-  {
-   "rank": "25",
-   "provider": "opencode_zen-nokey",
-   "model": "hy3-free",
-   "effort": "",
-   "TTFT_sec": "12.323",
-   "TPS": "89.3",
-   "avg_tokens": "180",
-   "10K_total_sec": "124.4"
-  },
-  {
-   "rank": "26",
-   "provider": "ovhcloud",
-   "model": "Qwen3.6-27B",
-   "effort": "",
-   "TTFT_sec": "0.730",
-   "TPS": "74.4",
-   "avg_tokens": "1626",
-   "10K_total_sec": "135.1"
-  },
-  {
-   "rank": "27",
-   "provider": "opencode_zen",
-   "model": "nemotron-3-ultra-free",
-   "effort": "",
-   "TTFT_sec": "0.648",
-   "TPS": "72.9",
-   "avg_tokens": "421",
-   "10K_total_sec": "137.8"
-  },
-  {
-   "rank": "28",
-   "provider": "dext",
-   "model": "Qwen3-30B-A3B-Instruct-2507",
-   "effort": "",
-   "TTFT_sec": "3.210",
-   "TPS": "68.8",
-   "avg_tokens": "213",
-   "10K_total_sec": "148.5"
-  },
-  {
-   "rank": "29",
-   "provider": "opencode_zen",
-   "model": "big-pickle",
-   "effort": "",
-   "TTFT_sec": "2.422",
-   "TPS": "66.3",
-   "avg_tokens": "312",
-   "10K_total_sec": "153.2"
-  },
-  {
-   "rank": "30",
-   "provider": "banana2556",
-   "model": "minimax/minimax-m2.7",
-   "effort": "",
-   "TTFT_sec": "5.056",
-   "TPS": "62.9",
-   "avg_tokens": "315",
-   "10K_total_sec": "164.1"
-  },
-  {
-   "rank": "31",
    "provider": "custom",
    "model": "nvidia-nemotron-3-super-120b",
    "effort": "",
    "TTFT_sec": "",
-   "TPS": "60.8",
-   "avg_tokens": "30",
-   "10K_total_sec": "164.4"
+   "TPS": "158.6",
+   "avg_tokens": "51",
+   "10K_total_sec": "63.1"
   },
   {
-   "rank": "32",
-   "provider": "custom",
-   "model": "nvidia-nemotron-nano-12b",
+   "rank": "22",
+   "provider": "agnes-ai",
+   "model": "agnes-2.0-flash",
    "effort": "",
-   "TTFT_sec": "",
-   "TPS": "56.5",
-   "avg_tokens": "29",
-   "10K_total_sec": "177.0"
+   "TTFT_sec": "0.793",
+   "TPS": "152.6",
+   "avg_tokens": "206",
+   "10K_total_sec": "66.3"
   },
   {
-   "rank": "33",
-   "provider": "navy",
-   "model": "deepseek-v4-flash",
+   "rank": "23",
+   "provider": "ollama-cloud",
+   "model": "gemma4:31b",
    "effort": "",
-   "TTFT_sec": "1.412",
-   "TPS": "56.1",
-   "avg_tokens": "354",
-   "10K_total_sec": "179.7"
+   "TTFT_sec": "5.727",
+   "TPS": "163.2",
+   "avg_tokens": "553",
+   "10K_total_sec": "67.0"
   },
   {
-   "rank": "34",
-   "provider": "banana2556",
-   "model": "z-ai/glm-4.5-air",
-   "effort": "",
-   "TTFT_sec": "14.893",
-   "TPS": "56.0",
-   "avg_tokens": "179",
-   "10K_total_sec": "193.5"
-  },
-  {
-   "rank": "35",
+   "rank": "24",
    "provider": "ovhcloud",
-   "model": "Mistral-Nemo-Instruct-2407",
+   "model": "gpt-oss-120b",
    "effort": "",
-   "TTFT_sec": "0.684",
-   "TPS": "49.7",
-   "avg_tokens": "177",
-   "10K_total_sec": "202.0"
+   "TTFT_sec": "0.858",
+   "TPS": "144.4",
+   "avg_tokens": "643",
+   "10K_total_sec": "70.1"
   },
   {
-   "rank": "36",
-   "provider": "ovhcloud",
-   "model": "Mistral-Small-3.2-24B-Instruct-2506",
-   "effort": "",
-   "TTFT_sec": "1.003",
-   "TPS": "49.1",
-   "avg_tokens": "229",
-   "10K_total_sec": "204.6"
-  },
-  {
-   "rank": "37",
-   "provider": "pooled",
-   "model": "MiniMax-M2.5-Official",
-   "effort": "",
-   "TTFT_sec": "2.445",
-   "TPS": "48.0",
-   "avg_tokens": "1480",
-   "10K_total_sec": "210.7"
-  },
-  {
-   "rank": "38",
-   "provider": "ovhcloud",
-   "model": "Qwen3-Coder-30B-A3B-Instruct",
-   "effort": "",
-   "TTFT_sec": "0.743",
-   "TPS": "47.4",
-   "avg_tokens": "753",
-   "10K_total_sec": "211.7"
-  },
-  {
-   "rank": "39",
+   "rank": "25",
    "provider": "opencode_zen-nokey",
    "model": "nemotron-3-ultra-free",
    "effort": "",
-   "TTFT_sec": "0.538",
-   "TPS": "46.6",
-   "avg_tokens": "432",
-   "10K_total_sec": "215.1"
+   "TTFT_sec": "0.444",
+   "TPS": "140.4",
+   "avg_tokens": "335",
+   "10K_total_sec": "71.6"
+  },
+  {
+   "rank": "26",
+   "provider": "ovhcloud",
+   "model": "Qwen3.5-397B-A17B",
+   "effort": "",
+   "TTFT_sec": "0.613",
+   "TPS": "125.0",
+   "avg_tokens": "293",
+   "10K_total_sec": "80.6"
+  },
+  {
+   "rank": "27",
+   "provider": "pooled",
+   "model": "MiniMax-M3-Official",
+   "effort": "",
+   "TTFT_sec": "3.590",
+   "TPS": "128.8",
+   "avg_tokens": "1014",
+   "10K_total_sec": "81.3"
+  },
+  {
+   "rank": "28",
+   "provider": "navy",
+   "model": "gpt-5.1",
+   "effort": "",
+   "TTFT_sec": "0.949",
+   "TPS": "122.8",
+   "avg_tokens": "375",
+   "10K_total_sec": "82.4"
+  },
+  {
+   "rank": "29",
+   "provider": "navy",
+   "model": "gpt-5.2",
+   "effort": "",
+   "TTFT_sec": "0.861",
+   "TPS": "114.2",
+   "avg_tokens": "197",
+   "10K_total_sec": "88.4"
+  },
+  {
+   "rank": "30",
+   "provider": "ovhcloud",
+   "model": "Qwen3-Coder-30B-A3B-Instruct",
+   "effort": "",
+   "TTFT_sec": "0.721",
+   "TPS": "112.7",
+   "avg_tokens": "751",
+   "10K_total_sec": "89.5"
+  },
+  {
+   "rank": "31",
+   "provider": "pooled",
+   "model": "MiniMax-M2.5-Official",
+   "effort": "",
+   "TTFT_sec": "1.555",
+   "TPS": "101.1",
+   "avg_tokens": "2032",
+   "10K_total_sec": "100.5"
+  },
+  {
+   "rank": "32",
+   "provider": "dext",
+   "model": "mimo-v2.5",
+   "effort": "",
+   "TTFT_sec": "4.386",
+   "TPS": "101.1",
+   "avg_tokens": "315",
+   "10K_total_sec": "103.3"
+  },
+  {
+   "rank": "33",
+   "provider": "ovhcloud",
+   "model": "gpt-oss-20b",
+   "effort": "",
+   "TTFT_sec": "0.612",
+   "TPS": "97.1",
+   "avg_tokens": "761",
+   "10K_total_sec": "103.6"
+  },
+  {
+   "rank": "34",
+   "provider": "opencode_zen-nokey",
+   "model": "mimo-v2.5-free",
+   "effort": "",
+   "TTFT_sec": "0.812",
+   "TPS": "96.8",
+   "avg_tokens": "280",
+   "10K_total_sec": "104.1"
+  },
+  {
+   "rank": "35",
+   "provider": "mistral",
+   "model": "mistral-large-latest",
+   "effort": "",
+   "TTFT_sec": "0.398",
+   "TPS": "87.9",
+   "avg_tokens": "237",
+   "10K_total_sec": "114.1"
+  },
+  {
+   "rank": "36",
+   "provider": "dext",
+   "model": "Qwen3-30B-A3B-Instruct-2507",
+   "effort": "",
+   "TTFT_sec": "3.454",
+   "TPS": "75.1",
+   "avg_tokens": "182",
+   "10K_total_sec": "136.6"
+  },
+  {
+   "rank": "37",
+   "provider": "ovhcloud",
+   "model": "Qwen3.6-27B",
+   "effort": "",
+   "TTFT_sec": "0.447",
+   "TPS": "73.0",
+   "avg_tokens": "1612",
+   "10K_total_sec": "137.5"
+  },
+  {
+   "rank": "38",
+   "provider": "opencode_zen",
+   "model": "mimo-v2.5-free",
+   "effort": "",
+   "TTFT_sec": "3.862",
+   "TPS": "69.0",
+   "avg_tokens": "415",
+   "10K_total_sec": "148.8"
+  },
+  {
+   "rank": "39",
+   "provider": "banana2556",
+   "model": "minimax/minimax-m2.7",
+   "effort": "",
+   "TTFT_sec": "6.598",
+   "TPS": "69.6",
+   "avg_tokens": "268",
+   "10K_total_sec": "150.3"
   },
   {
    "rank": "40",
-   "provider": "banana2556",
-   "model": "z-ai/glm-4.7-flash",
+   "provider": "ollama-cloud",
+   "model": "gpt-oss:20b",
    "effort": "",
-   "TTFT_sec": "17.667",
-   "TPS": "47.6",
-   "avg_tokens": "198",
-   "10K_total_sec": "227.6"
+   "TTFT_sec": "0.425",
+   "TPS": "64.6",
+   "avg_tokens": "1116",
+   "10K_total_sec": "155.2"
   },
   {
    "rank": "41",
-   "provider": "dext",
-   "model": "nemotron-3-ultra",
+   "provider": "opencode_zen-nokey",
+   "model": "big-pickle",
    "effort": "",
-   "TTFT_sec": "2.218",
-   "TPS": "42.7",
-   "avg_tokens": "329",
-   "10K_total_sec": "236.5"
+   "TTFT_sec": "3.835",
+   "TPS": "64.9",
+   "avg_tokens": "370",
+   "10K_total_sec": "158.0"
   },
   {
    "rank": "42",
-   "provider": "ovhcloud",
-   "model": "Mistral-7B-Instruct-v0.3",
+   "provider": "dext",
+   "model": "nemotron-3-ultra",
    "effort": "",
-   "TTFT_sec": "0.700",
-   "TPS": "41.1",
-   "avg_tokens": "317",
-   "10K_total_sec": "243.9"
+   "TTFT_sec": "3.544",
+   "TPS": "62.9",
+   "avg_tokens": "329",
+   "10K_total_sec": "162.6"
   },
   {
    "rank": "43",
-   "provider": "banana2556",
-   "model": "qwen/qwen3-vl-235b-a22b-instruct",
+   "provider": "koyeb",
+   "model": "minimax-m3",
    "effort": "",
-   "TTFT_sec": "2.706",
-   "TPS": "37.5",
-   "avg_tokens": "707",
-   "10K_total_sec": "269.4"
+   "TTFT_sec": "6.704",
+   "TPS": "63.2",
+   "avg_tokens": "325",
+   "10K_total_sec": "165.0"
   },
   {
    "rank": "44",
-   "provider": "ovhcloud",
-   "model": "Qwen3.5-9B",
-   "effort": "",
-   "TTFT_sec": "0.741",
-   "TPS": "37.2",
-   "avg_tokens": "379",
-   "10K_total_sec": "269.6"
-  },
-  {
-   "rank": "45",
-   "provider": "ovhcloud",
-   "model": "Meta-Llama-3_3-70B-Instruct",
-   "effort": "",
-   "TTFT_sec": "0.762",
-   "TPS": "35.1",
-   "avg_tokens": "437",
-   "10K_total_sec": "285.7"
-  },
-  {
-   "rank": "46",
    "provider": "pooled",
    "model": "MiniMax-M2.7-Official",
    "effort": "",
-   "TTFT_sec": "3.575",
-   "TPS": "33.0",
-   "avg_tokens": "291",
-   "10K_total_sec": "307.0"
+   "TTFT_sec": "3.032",
+   "TPS": "58.5",
+   "avg_tokens": "298",
+   "10K_total_sec": "174.0"
+  },
+  {
+   "rank": "45",
+   "provider": "navy",
+   "model": "deepseek-v4-pro",
+   "effort": "",
+   "TTFT_sec": "1.733",
+   "TPS": "54.1",
+   "avg_tokens": "854",
+   "10K_total_sec": "186.7"
+  },
+  {
+   "rank": "46",
+   "provider": "ovhcloud",
+   "model": "Mistral-Small-3.2-24B-Instruct-2506",
+   "effort": "",
+   "TTFT_sec": "0.624",
+   "TPS": "52.6",
+   "avg_tokens": "239",
+   "10K_total_sec": "190.8"
   },
   {
    "rank": "47",
-   "provider": "ovhcloud",
-   "model": "Qwen3-32B",
+   "provider": "opencode_zen",
+   "model": "big-pickle",
    "effort": "",
-   "TTFT_sec": "0.934",
-   "TPS": "32.4",
-   "avg_tokens": "2137",
-   "10K_total_sec": "309.4"
+   "TTFT_sec": "4.164",
+   "TPS": "53.2",
+   "avg_tokens": "416",
+   "10K_total_sec": "192.3"
   },
   {
    "rank": "48",
-   "provider": "dext",
-   "model": "MiniMax-M2.5",
+   "provider": "banana2556",
+   "model": "glm-5.2",
    "effort": "",
-   "TTFT_sec": "6.007",
-   "TPS": "31.5",
-   "avg_tokens": "418",
-   "10K_total_sec": "323.0"
+   "TTFT_sec": "2.093",
+   "TPS": "52.3",
+   "avg_tokens": "256",
+   "10K_total_sec": "193.2"
   },
   {
    "rank": "49",
-   "provider": "tokenreply",
-   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "provider": "opencode_zen",
+   "model": "hy3-free",
    "effort": "",
-   "TTFT_sec": "40.979",
-   "TPS": "34.1",
-   "avg_tokens": "278",
-   "10K_total_sec": "334.4"
+   "TTFT_sec": "25.111",
+   "TPS": "57.2",
+   "avg_tokens": "173",
+   "10K_total_sec": "200.0"
   },
   {
    "rank": "50",
-   "provider": "custom",
-   "model": "coding-smart",
+   "provider": "ovhcloud",
+   "model": "Mistral-Nemo-Instruct-2407",
    "effort": "",
-   "TTFT_sec": "",
-   "TPS": "25.5",
-   "avg_tokens": "42",
-   "10K_total_sec": "392.0"
+   "TTFT_sec": "0.637",
+   "TPS": "49.9",
+   "avg_tokens": "177",
+   "10K_total_sec": "201.0"
   },
   {
    "rank": "51",
-   "provider": "dext",
-   "model": "deepseek-v4-pro",
+   "provider": "opencode_zen-nokey",
+   "model": "hy3-free",
    "effort": "",
-   "TTFT_sec": "9.048",
-   "TPS": "26.1",
-   "avg_tokens": "255",
-   "10K_total_sec": "392.8"
+   "TTFT_sec": "21.578",
+   "TPS": "54.1",
+   "avg_tokens": "223",
+   "10K_total_sec": "206.3"
   },
   {
    "rank": "52",
-   "provider": "dext",
-   "model": "Qwen3-235B-A22B",
+   "provider": "ovhcloud",
+   "model": "Qwen3-32B",
    "effort": "",
-   "TTFT_sec": "5.100",
-   "TPS": "23.1",
-   "avg_tokens": "313",
-   "10K_total_sec": "438.5"
+   "TTFT_sec": "0.707",
+   "TPS": "45.1",
+   "avg_tokens": "2146",
+   "10K_total_sec": "222.2"
   },
   {
    "rank": "53",
    "provider": "banana2556",
-   "model": "openai/gpt-oss-120b",
+   "model": "z-ai/glm-4.5-air",
    "effort": "",
-   "TTFT_sec": "4.071",
-   "TPS": "15.4",
-   "avg_tokens": "752",
-   "10K_total_sec": "652.0"
+   "TTFT_sec": "15.645",
+   "TPS": "47.6",
+   "avg_tokens": "242",
+   "10K_total_sec": "225.6"
   },
   {
    "rank": "54",
+   "provider": "banana2556",
+   "model": "qwen/qwen3-vl-235b-a22b-instruct",
+   "effort": "",
+   "TTFT_sec": "3.678",
+   "TPS": "42.1",
+   "avg_tokens": "409",
+   "10K_total_sec": "241.0"
+  },
+  {
+   "rank": "55",
+   "provider": "banana2556",
+   "model": "z-ai/glm-4.7-flash",
+   "effort": "",
+   "TTFT_sec": "23.675",
+   "TPS": "44.8",
+   "avg_tokens": "283",
+   "10K_total_sec": "247.0"
+  },
+  {
+   "rank": "56",
+   "provider": "gratisfy",
+   "model": "atessa/composer-2.5",
+   "effort": "",
+   "TTFT_sec": "3.199",
+   "TPS": "40.3",
+   "avg_tokens": "625",
+   "10K_total_sec": "251.5"
+  },
+  {
+   "rank": "57",
+   "provider": "ovhcloud",
+   "model": "Qwen3.5-9B",
+   "effort": "",
+   "TTFT_sec": "0.395",
+   "TPS": "37.9",
+   "avg_tokens": "379",
+   "10K_total_sec": "264.0"
+  },
+  {
+   "rank": "58",
+   "provider": "banana2556",
+   "model": "glm-5.2-thinking",
+   "effort": "",
+   "TTFT_sec": "",
+   "TPS": "37.6",
+   "avg_tokens": "1260",
+   "10K_total_sec": "265.9"
+  },
+  {
+   "rank": "59",
+   "provider": "dext",
+   "model": "MiniMax-M2.5",
+   "effort": "",
+   "TTFT_sec": "5.830",
+   "TPS": "36.5",
+   "avg_tokens": "264",
+   "10K_total_sec": "280.1"
+  },
+  {
+   "rank": "60",
+   "provider": "banana2556",
+   "model": "openai/gpt-oss-120b",
+   "effort": "",
+   "TTFT_sec": "5.566",
+   "TPS": "36.1",
+   "avg_tokens": "632",
+   "10K_total_sec": "282.9"
+  },
+  {
+   "rank": "61",
+   "provider": "dext",
+   "model": "deepseek-v4-pro",
+   "effort": "",
+   "TTFT_sec": "6.952",
+   "TPS": "27.1",
+   "avg_tokens": "293",
+   "10K_total_sec": "375.9"
+  },
+  {
+   "rank": "62",
    "provider": "bluesminds",
    "model": "nvidia/llama-3.3-nemotron-super-49b-v1",
    "effort": "",
    "TTFT_sec": "",
-   "TPS": "13.2",
-   "avg_tokens": "588",
-   "10K_total_sec": "758.5"
+   "TPS": "26.5",
+   "avg_tokens": "615",
+   "10K_total_sec": "377.4"
   },
   {
-   "rank": "55",
-   "provider": "custom",
-   "model": "coding-fast",
+   "rank": "63",
+   "provider": "dext",
+   "model": "Qwen3-235B-A22B",
+   "effort": "",
+   "TTFT_sec": "5.511",
+   "TPS": "25.5",
+   "avg_tokens": "230",
+   "10K_total_sec": "398.4"
+  },
+  {
+   "rank": "64",
+   "provider": "evolvex",
+   "model": "minimaxai/minimax-m3",
+   "effort": "",
+   "TTFT_sec": "1.186",
+   "TPS": "23.2",
+   "avg_tokens": "330",
+   "10K_total_sec": "431.4"
+  },
+  {
+   "rank": "65",
+   "provider": "aitools",
+   "model": "zhipu/glm-4-flash",
+   "effort": "",
+   "TTFT_sec": "1.245",
+   "TPS": "22.6",
+   "avg_tokens": "301",
+   "10K_total_sec": "444.4"
+  },
+  {
+   "rank": "66",
+   "provider": "ktai-paid",
+   "model": "minimaxai/minimax-m3",
+   "effort": "",
+   "TTFT_sec": "0.748",
+   "TPS": "20.0",
+   "avg_tokens": "348",
+   "10K_total_sec": "500.3"
+  },
+  {
+   "rank": "67",
+   "provider": "bluesminds",
+   "model": "meta/llama-3.3-70b-instruct",
    "effort": "",
    "TTFT_sec": "",
-   "TPS": "12.9",
-   "avg_tokens": "42",
-   "10K_total_sec": "776.0"
+   "TPS": "16.6",
+   "avg_tokens": "428",
+   "10K_total_sec": "604.0"
   },
   {
-   "rank": "56",
-   "provider": "tokenreply",
-   "model": "google/gemma-4-26b-a4b-it",
+   "rank": "68",
+   "provider": "ovhcloud",
+   "model": "Mistral-7B-Instruct-v0.3",
    "effort": "",
-   "TTFT_sec": "1.364",
-   "TPS": "10.1",
-   "avg_tokens": "373",
-   "10K_total_sec": "990.8"
+   "TTFT_sec": "1.166",
+   "TPS": "8.1",
+   "avg_tokens": "317",
+   "10K_total_sec": "1238.7"
+  },
+  {
+   "rank": "69",
+   "provider": "tokenreply",
+   "model": "nemotron-3-ultra-thinking-free",
+   "effort": "",
+   "TTFT_sec": "",
+   "TPS": "3.5",
+   "avg_tokens": "198",
+   "10K_total_sec": "2873.3"
+  },
+  {
+   "rank": "70",
+   "provider": "tokenreply",
+   "model": "big-pickle-free",
+   "effort": "",
+   "TTFT_sec": "",
+   "TPS": "2.4",
+   "avg_tokens": "134",
+   "10K_total_sec": "4247.5"
   }
  ],
  "per_model_speed": [
