@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T06:26:59Z",
+  "generated_at": "2026-08-24T05:30:06Z",
   "source_note": "Snapshot of VPS-40 LLM-API-Key-Proxy config, auto-refreshed weekly by the CI workflow via the restricted VPS_SSH_KEY deploy key. Regenerate manually with scripts/parse_gateway.py <config-dir>.",
   "providers_total": 86,
   "providers_free_tier": 84,
@@ -99,13 +99,8 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-smart",
-        "glm5-elite"
-      ],
       "pinned": false
     },
     {
@@ -122,12 +117,8 @@
         "fast"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-fast",
-        "coding-fast"
-      ],
       "pinned": false
     },
     {
@@ -143,12 +134,8 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-smart",
-        "coding-elite"
-      ],
       "pinned": false
     },
     {
@@ -428,53 +415,6 @@
       "pinned": false
     },
     {
-      "provider_id": "antigravity",
-      "provider_name": "Antigravity",
-      "model_id": "gemini-3-flash",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-smart",
-        "glm5-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "antigravity",
-      "provider_name": "Antigravity",
-      "model_id": "gemini-3-pro",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "antigravity",
-      "provider_name": "Antigravity",
-      "model_id": "gemini-3.1-pro",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-elite",
-        "glm5-elite"
-      ],
-      "pinned": false
-    },
-    {
       "provider_id": "blaze-free",
       "provider_name": "Blaze Free",
       "model_id": "MiniMax-M2.5-official",
@@ -522,149 +462,6 @@
       "pinned": false
     },
     {
-      "provider_id": "blaze-free",
-      "provider_name": "Blaze Free",
-      "model_id": "gemini-2.5-flash-lite",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "blaze-free",
-      "provider_name": "Blaze Free",
-      "model_id": "gemini-2.5-flash-lite-rp",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "blaze-free",
-      "provider_name": "Blaze Free",
-      "model_id": "glm-4.7-china",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "blaze-free",
-      "provider_name": "Blaze Free",
-      "model_id": "glm-5.1-china",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "blaze-free",
-      "provider_name": "Blaze Free",
-      "model_id": "glm-5.1-slow",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "blaze-free",
-      "provider_name": "Blaze Free",
-      "model_id": "glm-5.2-china",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "blaze-free",
-      "provider_name": "Blaze Free",
-      "model_id": "qwen3.6-plus",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "blaze-free",
-      "provider_name": "Blaze Free",
-      "model_id": "qwen3.7-plus-official",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "cerebras",
-      "provider_name": "Cerebras",
-      "model_id": "glm-5",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-smart"
-      ],
-      "pinned": false
-    },
-    {
       "provider_id": "cerebras",
       "provider_name": "Cerebras",
       "model_id": "gpt-oss-120b",
@@ -692,16 +489,8 @@
         "tools"
       ],
       "notes": "Ultra-fast 70B inference",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "auto",
-        "chat-fast",
-        "coding-elite",
-        "coding-fast",
-        "coding-smart",
-        "glm5-elite"
-      ],
       "pinned": false
     },
     {
@@ -717,12 +506,8 @@
         "fast"
       ],
       "notes": "Fastest free inference available",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-fast",
-        "coding-fast"
-      ],
       "pinned": false
     },
     {
@@ -740,11 +525,6 @@
       "notes": "",
       "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-elite",
-        "chat-smart",
-        "coding-elite"
-      ],
       "pinned": false
     },
     {
@@ -786,22 +566,6 @@
     {
       "provider_id": "cliproxyapi",
       "provider_name": "CLIProxyAPI",
-      "model_id": "coder-model",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-smart"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "cliproxyapi",
-      "provider_name": "CLIProxyAPI",
       "model_id": "gemini-2.5-flash",
       "context": null,
       "tps": null,
@@ -810,124 +574,7 @@
       "blocked": false,
       "source": "gateway",
       "virtual_models": [
-        "auto",
-        "chat-fast",
-        "chat-smart",
-        "coding-elite",
-        "coding-fast",
-        "coding-smart",
-        "glm5-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "cliproxyapi",
-      "provider_name": "CLIProxyAPI",
-      "model_id": "gemini-3-flash",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-smart",
-        "coding-elite",
-        "coding-fast",
-        "coding-smart"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "cliproxyapi",
-      "provider_name": "CLIProxyAPI",
-      "model_id": "gemini-3-pro-high",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "cliproxyapi",
-      "provider_name": "CLIProxyAPI",
-      "model_id": "gemini-3-pro-low",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "cliproxyapi",
-      "provider_name": "CLIProxyAPI",
-      "model_id": "gemini-3-pro-preview",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-elite",
-        "coding-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "cliproxyapi",
-      "provider_name": "CLIProxyAPI",
-      "model_id": "gemini-3.1-pro-low",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "cliproxyapi",
-      "provider_name": "CLIProxyAPI",
-      "model_id": "gemini-3.1-pro-preview",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-elite",
-        "coding-elite",
-        "coding-smart"
-      ],
-      "pinned": true
-    },
-    {
-      "provider_id": "cliproxyapi",
-      "provider_name": "CLIProxyAPI",
-      "model_id": "gpt-oss-120b-medium",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite"
+        "auto"
       ],
       "pinned": false
     },
@@ -1119,255 +766,6 @@
       "pinned": false
     },
     {
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "model_id": "bbl/gemini-3.0-flash",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "model_id": "bbl/gemini-3.1-flash-lite",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "model_id": "bbl/gemini-3.5-flash",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "model_id": "bbl/gpt-5.5-mini",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "model_id": "glm/glm-5",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-free",
-        "glm5-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "model_id": "glm/glm-5-turbo",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-free",
-        "glm5-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "model_id": "glm/glm-5.1",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-free",
-        "glm5-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "model_id": "glm/glm-5.2",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-free",
-        "glm5-elite"
-      ],
-      "pinned": true
-    },
-    {
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "model_id": "min/minimax-m3",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "model_id": "olm/deepseek-v4-pro",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "model_id": "olm/kimi-k2.7-code",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "freetheai",
-      "provider_name": "FreeTheAI",
-      "model_id": "opc/deepseek-v4-flash-free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "futureppo",
-      "provider_name": "Futureppo",
-      "model_id": "gemini-3.5-flash",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "futureppo",
-      "provider_name": "Futureppo",
-      "model_id": "kimi-k2.6",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "futureppo",
-      "provider_name": "Futureppo",
-      "model_id": "qwen3.7-max-t",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
       "provider_id": "g4f",
       "provider_name": "G4F",
       "model_id": "claude-3-opus",
@@ -1458,9 +856,6 @@
       "notes": "",
       "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-smart"
-      ],
       "pinned": false
     },
     {
@@ -1479,9 +874,6 @@
       "notes": "",
       "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-elite"
-      ],
       "pinned": false
     },
     {
@@ -1550,21 +942,6 @@
     {
       "provider_id": "g4f_groq",
       "provider_name": "G4F Groq",
-      "model_id": "llama-3.1-8b-instruct",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-fast"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "g4f_groq",
-      "provider_name": "G4F Groq",
       "model_id": "llama-3.3-70b-versatile",
       "context": 131072,
       "tps": 275,
@@ -1576,9 +953,6 @@
       "notes": "",
       "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-smart"
-      ],
       "pinned": false
     },
     {
@@ -1641,10 +1015,6 @@
       "notes": "",
       "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-elite",
-        "chat-smart"
-      ],
       "pinned": false
     },
     {
@@ -2396,23 +1766,6 @@
     {
       "provider_id": "gemini",
       "provider_name": "Google Gemini API",
-      "model_id": "gemini-3-flash",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-smart"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "gemini",
-      "provider_name": "Google Gemini API",
       "model_id": "gemini-3-flash-preview",
       "context": null,
       "tps": null,
@@ -2421,25 +1774,12 @@
       "blocked": false,
       "source": "gateway",
       "virtual_models": [
-        "chat-rp"
+        "chat-rp",
+        "coding-elite",
+        "coding-fast",
+        "coding-smart"
       ],
-      "pinned": false
-    },
-    {
-      "provider_id": "gemini",
-      "provider_name": "Google Gemini API",
-      "model_id": "gemini-3-pro",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-elite",
-        "coding-elite"
-      ],
-      "pinned": false
+      "pinned": true
     },
     {
       "provider_id": "gemini",
@@ -2458,6 +1798,22 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "gemini",
+      "provider_name": "Google Gemini API",
+      "model_id": "gemini-3.1-pro-preview",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "chat-elite",
+        "coding-elite"
+      ],
       "pinned": false
     },
     {
@@ -2704,14 +2060,8 @@
         "fast"
       ],
       "notes": "Fastest free model on Groq",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "auto",
-        "chat-fast",
-        "chat-rp",
-        "coding-fast"
-      ],
       "pinned": false
     },
     {
@@ -2727,14 +2077,8 @@
         "reasoning"
       ],
       "notes": "Best quality free model on Groq",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-rp",
-        "coding-elite",
-        "coding-fast",
-        "coding-smart"
-      ],
       "pinned": false
     },
     {
@@ -2766,13 +2110,8 @@
         "tools"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-fast",
-        "chat-rp",
-        "coding-fast"
-      ],
       "pinned": false
     },
     {
@@ -3431,21 +2770,6 @@
     {
       "provider_id": "kilo",
       "provider_name": "Kilo",
-      "model_id": "google/gemma-4-31b-it:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-smart"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "kilo",
-      "provider_name": "Kilo",
       "model_id": "kilo-auto/free",
       "context": 131072,
       "tps": 150,
@@ -3477,21 +2801,6 @@
     {
       "provider_id": "kilo",
       "provider_name": "Kilo",
-      "model_id": "meta-llama/llama-3.3-70b-instruct:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "kilo",
-      "provider_name": "Kilo",
       "model_id": "minimax/minimax-m2.5:free",
       "context": 32768,
       "tps": 80,
@@ -3503,11 +2812,6 @@
       "notes": "",
       "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-elite",
-        "coding-smart",
-        "glm5-elite"
-      ],
       "pinned": false
     },
     {
@@ -3540,24 +2844,6 @@
       "notes": "",
       "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "coding-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "kilo",
-      "provider_name": "Kilo",
-      "model_id": "openai/gpt-oss-20b:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-fast"
-      ],
       "pinned": false
     },
     {
@@ -3638,38 +2924,6 @@
     {
       "provider_id": "kilo",
       "provider_name": "Kilo",
-      "model_id": "qwen/qwen3-coder:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-smart"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "kilo",
-      "provider_name": "Kilo",
-      "model_id": "qwen/qwen3-next-80b-a3b-instruct:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": true,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-elite",
-        "chat-smart"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "kilo",
-      "provider_name": "Kilo",
       "model_id": "stepfun/step-3.5-flash:free",
       "context": 32768,
       "tps": 200,
@@ -3698,90 +2952,6 @@
       "notes": "",
       "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "coding-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "kilocode",
-      "provider_name": "Kilocode",
-      "model_id": "kilo-auto/free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "kilocode",
-      "provider_name": "Kilocode",
-      "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "kilocode",
-      "provider_name": "Kilocode",
-      "model_id": "poolside/laguna-m.1:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "kilocode",
-      "provider_name": "Kilocode",
-      "model_id": "poolside/laguna-xs.2:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "kilocode",
-      "provider_name": "Kilocode",
-      "model_id": "stepfun/step-3.7-flash:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
       "pinned": false
     },
     {
@@ -3902,23 +3072,6 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "koyeb-new",
-      "provider_name": "Koyeb New",
-      "model_id": "kimi-k2.6",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
       "pinned": false
     },
     {
@@ -4746,23 +3899,6 @@
     {
       "provider_id": "nvidia",
       "provider_name": "NVIDIA NIM",
-      "model_id": "GLM5",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-smart",
-        "glm5-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
       "model_id": "google/gemma-3n-e2b-it",
       "context": null,
       "tps": null,
@@ -5374,6 +4510,23 @@
       "pinned": false
     },
     {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "z-ai/glm-5.2",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "coding-elite",
+        "coding-smart",
+        "glm5-elite"
+      ],
+      "pinned": false
+    },
+    {
       "provider_id": "opencode_zen",
       "provider_name": "OpenCode Zen",
       "model_id": "bigcode/pickle",
@@ -5549,55 +4702,6 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "pooled",
-      "provider_name": "Pooled",
-      "model_id": "MiniMax-M3-Official",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "pooled",
-      "provider_name": "Pooled",
-      "model_id": "qwen3.7-max-official",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "pooled",
-      "provider_name": "Pooled",
-      "model_id": "z-ai/glm-5.1-slow",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
       "pinned": false
     },
     {
@@ -6660,12 +5764,8 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-smart"
-      ],
       "pinned": false
     },
     {
@@ -6932,11 +6032,8 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "coding-elite"
-      ],
       "pinned": false
     },
     {
@@ -7043,12 +6140,8 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-smart"
-      ],
       "pinned": false
     },
     {
@@ -7168,12 +6261,8 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-smart"
-      ],
       "pinned": false
     },
     {
@@ -7190,11 +6279,8 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "coding-elite"
-      ],
       "pinned": false
     },
     {
@@ -7369,12 +6455,8 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "glm5-elite"
-      ],
       "pinned": false
     },
     {
@@ -7554,11 +6636,6 @@
       "notes": "",
       "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-elite",
-        "coding-elite",
-        "glm5-elite"
-      ],
       "pinned": false
     },
     {
@@ -8254,23 +7331,6 @@
       "pinned": false
     },
     {
-      "provider_id": "tokenrouter",
-      "provider_name": "TokenRouter",
-      "model_id": "MiniMax-M3",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
       "provider_id": "umans-ai-coding-plan",
       "provider_name": "Umans Ai Coding Plan",
       "model_id": "umans-coder",
@@ -8676,54 +7736,6 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "zenllm-free",
-      "provider_name": "Zenllm Free",
-      "model_id": "free/claude-opus-4.8",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "zenllm-free",
-      "provider_name": "Zenllm Free",
-      "model_id": "free/gemini-3.1-pro",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "zenllm-free",
-      "provider_name": "Zenllm Free",
-      "model_id": "free/gpt-5.5",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-free"
-      ],
       "pinned": false
     },
     {
