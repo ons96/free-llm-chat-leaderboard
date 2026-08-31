@@ -1,6 +1,6 @@
 {
   "generated_at": null,
-  "count": 494,
+  "count": 495,
   "models": [
     {
       "family": "a-x-k2",
@@ -124,7 +124,7 @@
       ],
       "match_confidence": "high",
       "model_id": "amazon-nova-experimental-chat-10-20",
-      "arena_score": 1349
+      "arena_score": 1350
     },
     {
       "family": "amazon-nova-experimental-chat-11-10",
@@ -133,7 +133,7 @@
       ],
       "match_confidence": "high",
       "model_id": "amazon-nova-experimental-chat-11-10",
-      "arena_score": 1366
+      "arena_score": 1365
     },
     {
       "family": "amazon-nova-experimental-chat-12-10",
@@ -142,7 +142,7 @@
       ],
       "match_confidence": "high",
       "model_id": "amazon-nova-experimental-chat-12-10",
-      "arena_score": 1393
+      "arena_score": 1395
     },
     {
       "family": "amazon-nova-experimental-chat-26-01-10",
@@ -180,7 +180,7 @@
       "match_confidence": "high",
       "model_id": "amazon-nova-micro-v1.0",
       "context": 128000,
-      "arena_score": 1241
+      "arena_score": 1240
     },
     {
       "family": "amazon-nova-pro-v1.0",
@@ -199,7 +199,7 @@
       ],
       "match_confidence": "high",
       "model_id": "athene-70b-0725",
-      "arena_score": 1307
+      "arena_score": 1306
     },
     {
       "family": "athene-v2",
@@ -499,7 +499,7 @@
       "match_confidence": "high",
       "model_id": "claude-opus-4-20250514",
       "context": 200000,
-      "arena_score": 1413
+      "arena_score": 1414
     },
     {
       "family": "claude-opus-4-1",
@@ -519,7 +519,7 @@
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
-      "arena_score": 1447
+      "arena_score": 1448
     },
     {
       "family": "claude-opus-4-1-20250805-thinking",
@@ -547,7 +547,7 @@
       "match_confidence": "high",
       "model_id": "claude-opus-4-1-20250805-thinking-16k",
       "context": 200000,
-      "arena_score": 1449
+      "arena_score": 1450
     },
     {
       "family": "claude-opus-4-20250514-thinking-16k",
@@ -557,7 +557,7 @@
       "match_confidence": "high",
       "model_id": "claude-opus-4-20250514-thinking-16k",
       "context": 200000,
-      "arena_score": 1425
+      "arena_score": 1426
     },
     {
       "family": "claude-opus-4-5",
@@ -803,7 +803,7 @@
       "match_confidence": "high",
       "model_id": "claude-sonnet-4-20250514-thinking-32k",
       "context": 1000000,
-      "arena_score": 1400
+      "arena_score": 1401
     },
     {
       "family": "claude-sonnet-4-5",
@@ -912,7 +912,7 @@
       "match_confidence": "high",
       "model_id": "codellama-34b-instruct",
       "context": 16384,
-      "arena_score": 1137
+      "arena_score": 1136
     },
     {
       "family": "codellama-70b",
@@ -979,7 +979,7 @@
       "match_confidence": "high",
       "model_id": "command-r",
       "context": 128000,
-      "arena_score": 1227
+      "arena_score": 1226
     },
     {
       "family": "command-r-08",
@@ -1156,7 +1156,7 @@
       "notes": "",
       "pinned": false,
       "tps": 200,
-      "arena_score": 1422,
+      "arena_score": 1421,
       "ui_name": "DeepSeek Chat",
       "ui_url": "https://chat.deepseek.com",
       "ui_limits": "Free web chat"
@@ -1232,7 +1232,7 @@
       "match_confidence": "high",
       "model_id": "deepseek-v3.2-exp",
       "context": 163840,
-      "arena_score": 1423
+      "arena_score": 1422
     },
     {
       "family": "deepseek-v3.2-exp-thinking",
@@ -1411,7 +1411,7 @@
       ],
       "match_confidence": "high",
       "model_id": "falcon-180b-chat",
-      "arena_score": 1148
+      "arena_score": 1147
     },
     {
       "family": "fastchat-t5-3b",
@@ -1535,7 +1535,7 @@
       "match_confidence": "high",
       "model_id": "gemini-2.0-flash-lite-preview-02-05",
       "context": 1048576,
-      "arena_score": 1354
+      "arena_score": 1353
     },
     {
       "family": "gemini-2.5-flash",
@@ -1581,7 +1581,7 @@
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
-      "arena_score": 1445
+      "arena_score": 1446
     },
     {
       "family": "gemini-3-5-flash-lite",
@@ -1876,11 +1876,11 @@
       "provider_id": "swiftrouter",
       "provider_name": "Swiftrouter",
       "tps": 100,
-      "context": 262144,
+      "context": 131072,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1366
+      "arena_score": 1365
     },
     {
       "family": "gemma-3-4b",
@@ -1923,7 +1923,7 @@
       "notes": "Served via gateway virtual model chain",
       "pinned": false,
       "context": 32768,
-      "arena_score": 1318
+      "arena_score": 1317
     },
     {
       "family": "gemma-4-26b-a4b",
@@ -2109,7 +2109,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1353
+      "arena_score": 1352
     },
     {
       "family": "glm-4.6",
@@ -2126,7 +2126,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1424
+      "arena_score": 1425
     },
     {
       "family": "glm-4.6v",
@@ -2142,7 +2142,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1377
+      "arena_score": 1378
     },
     {
       "family": "glm-4.6v-flash",
@@ -2213,12 +2213,12 @@
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
-      "intelligence": 59.5134408119521,
-      "grounding_accuracy": 0.3385,
-      "hallucination_rate": 0.29554043839758126,
-      "release_date": "2026-08-18",
-      "price_input_1m": 1.4,
-      "price_output_1m": 4.4,
+      "intelligence": 57.4592004791323,
+      "grounding_accuracy": 0.275,
+      "hallucination_rate": 0.27632183908045976,
+      "release_date": "2026-08-26",
+      "price_input_1m": 0.15,
+      "price_output_1m": 0.5,
       "arena_score": 1471,
       "ui_name": "Zhipu ChatGLM",
       "ui_url": "https://chatglm.cn",
@@ -2320,7 +2320,7 @@
       "match_confidence": "high",
       "model_id": "gpt-4-1106-preview",
       "context": 128000,
-      "arena_score": 1313
+      "arena_score": 1312
     },
     {
       "family": "gpt-4-turbo-2024-04-09",
@@ -2445,7 +2445,7 @@
       "bench_ttft_s": 0.184,
       "bench_tps": 744.0,
       "bench_samples": null,
-      "arena_score": 1318
+      "arena_score": 1317
     },
     {
       "family": "gpt4all-13b-snoozy",
@@ -2472,7 +2472,7 @@
       ],
       "match_confidence": "high",
       "model_id": "granite-3.0-8b-instruct",
-      "arena_score": 1183
+      "arena_score": 1182
     },
     {
       "family": "granite-3.1-2b",
@@ -2481,7 +2481,7 @@
       ],
       "match_confidence": "high",
       "model_id": "granite-3.1-2b-instruct",
-      "arena_score": 1179
+      "arena_score": 1178
     },
     {
       "family": "granite-3.1-8b",
@@ -2510,7 +2510,7 @@
       "match_confidence": "high",
       "model_id": "grok-2-2024-08-13",
       "context": 131072,
-      "arena_score": 1336
+      "arena_score": 1335
     },
     {
       "family": "grok-2-mini-2024-08-13",
@@ -2671,7 +2671,7 @@
       "match_confidence": "high",
       "model_id": "hunyuan-hy3-preview",
       "context": 262144,
-      "arena_score": 1412
+      "arena_score": 1413
     },
     {
       "family": "hunyuan-large-2025-02-10",
@@ -2762,7 +2762,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1383
+      "arena_score": 1382
     },
     {
       "family": "hunyuan-vision-1.5-thinking",
@@ -2803,7 +2803,7 @@
       ],
       "match_confidence": "high",
       "model_id": "ibm-granite-h-small",
-      "arena_score": 1287
+      "arena_score": 1285
     },
     {
       "family": "inkling",
@@ -2815,7 +2815,7 @@
       "match_confidence": "high",
       "model_id": "thinkingmachines/inkling:free",
       "provider_name": "OpenRouter",
-      "context": 1000000,
+      "context": 1048576,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
@@ -2825,7 +2825,7 @@
       "release_date": "2026-07-15",
       "price_input_1m": 1,
       "price_output_1m": 4.05,
-      "arena_score": 1440
+      "arena_score": 1439
     },
     {
       "family": "inkling small",
@@ -2834,8 +2834,8 @@
       ],
       "match_confidence": "high",
       "model_id": "Inkling Small",
-      "context": 1048576,
-      "arena_score": 1405
+      "context": 524288,
+      "arena_score": 1407
     },
     {
       "family": "inkling-small",
@@ -2845,7 +2845,7 @@
       "match_confidence": "high",
       "model_id": "thinkingmachines/inkling-small:free",
       "provider_name": "OpenRouter",
-      "context": 262144,
+      "context": 1048576,
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -2868,7 +2868,7 @@
       "match_confidence": "high",
       "model_id": "internlm2_5-20b-chat",
       "context": 32768,
-      "arena_score": 1191
+      "arena_score": 1190
     },
     {
       "family": "jamba-1.5-large",
@@ -2888,7 +2888,7 @@
       "match_confidence": "high",
       "model_id": "jamba-1.5-mini",
       "context": 256000,
-      "arena_score": 1240
+      "arena_score": 1239
     },
     {
       "family": "k-exaone-2-0",
@@ -3023,7 +3023,7 @@
       ],
       "match_confidence": "high",
       "model_id": "koala-13b",
-      "arena_score": 1071
+      "arena_score": 1070
     },
     {
       "family": "laguna-m.1",
@@ -3122,13 +3122,26 @@
       "pinned": false
     },
     {
+      "family": "ling-3.0-flash-fin",
+      "sources": [
+        "openrouter"
+      ],
+      "match_confidence": "high",
+      "model_id": "inclusionai/ling-3.0-flash-fin:free",
+      "provider_name": "OpenRouter",
+      "context": 262144,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "ling-flash-2.0",
       "sources": [
         "arena"
       ],
       "match_confidence": "high",
       "model_id": "ling-flash-2.0",
-      "arena_score": 1346
+      "arena_score": 1344
     },
     {
       "family": "llama-13b",
@@ -3167,7 +3180,7 @@
       "match_confidence": "high",
       "model_id": "llama-2-7b-chat",
       "context": 4096,
-      "arena_score": 1108
+      "arena_score": 1107
     },
     {
       "family": "llama-3-2-nemoretriever-300m-embed-v1",
@@ -3349,7 +3362,7 @@
       "match_confidence": "high",
       "model_id": "llama-3.2-3b-instruct",
       "context": 131072,
-      "arena_score": 1167
+      "arena_score": 1166
     },
     {
       "family": "llama-3.3-70b",
@@ -3366,7 +3379,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1318
+      "arena_score": 1317
     },
     {
       "family": "llama-3.3-8b",
@@ -3498,7 +3511,7 @@
       "match_confidence": "high",
       "model_id": "llama-4-scout-17b-16e-instruct",
       "context": 8192,
-      "arena_score": 1322
+      "arena_score": 1321
     },
     {
       "family": "llama-4-scout-17b-16e-instruct",
@@ -3560,7 +3573,7 @@
       ],
       "match_confidence": "high",
       "model_id": "longcat-flash-chat-2602-exp",
-      "arena_score": 1435
+      "arena_score": 1436
     },
     {
       "family": "lyria-3-clip-preview",
@@ -3623,7 +3636,7 @@
       "match_confidence": "high",
       "model_id": "mercury",
       "context": 128000,
-      "arena_score": 1306
+      "arena_score": 1308
     },
     {
       "family": "mercury-2",
@@ -3633,7 +3646,7 @@
       "match_confidence": "high",
       "model_id": "mercury-2",
       "context": 128000,
-      "arena_score": 1347
+      "arena_score": 1346
     },
     {
       "family": "meta-llama-3.1-8b",
@@ -3729,7 +3742,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1449
+      "arena_score": 1448
     },
     {
       "family": "mimo-v2.5",
@@ -3779,7 +3792,7 @@
       "match_confidence": "high",
       "model_id": "minimax-m1",
       "context": 1000000,
-      "arena_score": 1363
+      "arena_score": 1364
     },
     {
       "family": "minimax-m2",
@@ -3796,7 +3809,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1346
+      "arena_score": 1345
     },
     {
       "family": "minimax-m2.1-preview",
@@ -3875,6 +3888,7 @@
       "family": "minimax-m2.7",
       "sources": [
         "gateway",
+        "openrouter",
         "arena"
       ],
       "match_confidence": "high",
@@ -3886,7 +3900,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1416
+      "arena_score": 1417
     },
     {
       "family": "minimax-m2.7-highspeed",
@@ -3921,6 +3935,7 @@
       "family": "minimax-m3",
       "sources": [
         "gateway",
+        "openrouter",
         "artificial_analysis",
         "arena"
       ],
@@ -3928,7 +3943,7 @@
       "model_id": "MiniMax-M3",
       "provider_id": "scnet-token-plan",
       "provider_name": "SCNet token plan",
-      "context": 1000000,
+      "context": 1048576,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
@@ -3938,7 +3953,7 @@
       "release_date": "2026-06-01",
       "price_input_1m": 0.3,
       "price_output_1m": 1.2,
-      "arena_score": 1443
+      "arena_score": 1442
     },
     {
       "family": "minimax-m3-official",
@@ -3965,7 +3980,7 @@
       "match_confidence": "high",
       "model_id": "ministral-8b-2410",
       "context": 131072,
-      "arena_score": 1238
+      "arena_score": 1237
     },
     {
       "family": "mistral-7b",
@@ -4208,7 +4223,7 @@
       "match_confidence": "high",
       "model_id": "molmo-2-8b",
       "context": 36864,
-      "arena_score": 1330
+      "arena_score": 1328
     },
     {
       "family": "motif-3",
@@ -4312,7 +4327,7 @@
       "model_id": "nemotron-3-5-lightning",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 23.632637599256,
+      "intelligence": 23.606237599256,
       "grounding_accuracy": 0.14433333333333334,
       "hallucination_rate": 0.3757304246201792,
       "release_date": "2026-08-11",
@@ -4342,8 +4357,7 @@
     {
       "family": "nemotron-3-nano-30b-a3b",
       "sources": [
-        "gateway",
-        "openrouter"
+        "gateway"
       ],
       "match_confidence": "high",
       "model_id": "nvidia/nemotron-3-nano-30b-a3b",
@@ -4358,8 +4372,7 @@
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
-      "pinned": false,
-      "context": 256000
+      "pinned": false
     },
     {
       "family": "nemotron-3-nano-30b-a3b-free",
@@ -4536,8 +4549,7 @@
     {
       "family": "nemotron-nano-12b-v2-vl",
       "sources": [
-        "gateway",
-        "openrouter"
+        "gateway"
       ],
       "match_confidence": "high",
       "model_id": "nvidia/nemotron-nano-12b-v2-vl",
@@ -4552,14 +4564,12 @@
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
-      "pinned": false,
-      "context": 128000
+      "pinned": false
     },
     {
       "family": "nemotron-nano-9b-v2",
       "sources": [
-        "gateway",
-        "openrouter"
+        "gateway"
       ],
       "match_confidence": "high",
       "model_id": "nemotron-nano-9b-v2",
@@ -4709,25 +4719,16 @@
       "match_confidence": "high",
       "model_id": "nvidia-nemotron-3-nano-30b-a3b-bf16",
       "context": 262144,
-      "arena_score": 1315
+      "arena_score": 1314
     },
     {
       "family": "nvidia-nemotron-3-super-120b-a12b",
       "sources": [
-        "artificial_analysis",
         "arena"
       ],
       "match_confidence": "high",
       "model_id": "nvidia-nemotron-3-super-120b-a12b",
-      "provider_name": "Artificial Analysis",
-      "context": 1000000,
-      "intelligence": 25.6684845978586,
-      "grounding_accuracy": 0.24316666666666667,
-      "hallucination_rate": 0.869632239594803,
-      "release_date": "2026-03-11",
-      "price_input_1m": 0.2,
-      "price_output_1m": 0.8,
-      "arena_score": 1360
+      "arena_score": 1361
     },
     {
       "family": "nvidia-nemotron-3-ultra-550b-a55b",
@@ -4809,7 +4810,7 @@
       ],
       "match_confidence": "high",
       "model_id": "o1-preview",
-      "arena_score": 1389
+      "arena_score": 1388
     },
     {
       "family": "o3-2025-04-16",
@@ -4829,7 +4830,7 @@
       "match_confidence": "high",
       "model_id": "o3-mini",
       "context": 200000,
-      "arena_score": 1364
+      "arena_score": 1363
     },
     {
       "family": "o4-mini",
@@ -4839,7 +4840,7 @@
       "match_confidence": "high",
       "model_id": "o4-mini-2025-04-16",
       "context": 200000,
-      "arena_score": 1390
+      "arena_score": 1391
     },
     {
       "family": "oasst-pythia-12b",
@@ -4868,7 +4869,7 @@
       "match_confidence": "high",
       "model_id": "olmo-3-32b-think",
       "context": 65536,
-      "arena_score": 1305
+      "arena_score": 1307
     },
     {
       "family": "olmo-3.1-32b",
@@ -4878,7 +4879,7 @@
       "match_confidence": "high",
       "model_id": "olmo-3.1-32b-instruct",
       "context": 65536,
-      "arena_score": 1329
+      "arena_score": 1330
     },
     {
       "family": "olmo-3.1-32b-think",
@@ -4888,7 +4889,7 @@
       "match_confidence": "high",
       "model_id": "olmo-3.1-32b-think",
       "context": 65536,
-      "arena_score": 1285
+      "arena_score": 1286
     },
     {
       "family": "olmo-7b",
@@ -4906,7 +4907,7 @@
       ],
       "match_confidence": "high",
       "model_id": "openchat-3.5-0106",
-      "arena_score": 1183
+      "arena_score": 1182
     },
     {
       "family": "openchat-7b",
@@ -4930,7 +4931,7 @@
       ],
       "match_confidence": "high",
       "model_id": "openhermes-2.5-mistral-7b",
-      "arena_score": 1176
+      "arena_score": 1175
     },
     {
       "family": "orpheus-arabic-saudi",
@@ -4998,7 +4999,7 @@
       "match_confidence": "high",
       "model_id": "palm-2",
       "context": 25804,
-      "arena_score": 1139
+      "arena_score": 1138
     },
     {
       "family": "perplexity",
@@ -5018,7 +5019,7 @@
       ],
       "match_confidence": "high",
       "model_id": "phi-3-medium-4k-instruct",
-      "arena_score": 1198
+      "arena_score": 1197
     },
     {
       "family": "phi-3-mini-128k",
@@ -5186,7 +5187,7 @@
       ],
       "match_confidence": "high",
       "model_id": "qwen1.5-32b-chat",
-      "arena_score": 1204
+      "arena_score": 1203
     },
     {
       "family": "qwen1.5-4b",
@@ -5195,7 +5196,7 @@
       ],
       "match_confidence": "high",
       "model_id": "qwen1.5-4b-chat",
-      "arena_score": 1091
+      "arena_score": 1090
     },
     {
       "family": "qwen1.5-72b",
@@ -5213,7 +5214,7 @@
       ],
       "match_confidence": "high",
       "model_id": "qwen1.5-7b-chat",
-      "arena_score": 1144
+      "arena_score": 1143
     },
     {
       "family": "qwen2-72b",
@@ -5223,7 +5224,7 @@
       "match_confidence": "high",
       "model_id": "qwen2-72b-instruct",
       "context": 32768,
-      "arena_score": 1262
+      "arena_score": 1261
     },
     {
       "family": "qwen2.5-72b",
@@ -5250,7 +5251,7 @@
       "match_confidence": "high",
       "model_id": "qwen2.5-coder-32b-instruct",
       "context": 32000,
-      "arena_score": 1271
+      "arena_score": 1270
     },
     {
       "family": "qwen2.5-max",
@@ -5311,7 +5312,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1383
+      "arena_score": 1382
     },
     {
       "family": "qwen3-30b-a3b-thinking",
@@ -5405,7 +5406,7 @@
       "notes": "",
       "pinned": false,
       "tps": 60,
-      "arena_score": 1388
+      "arena_score": 1387
     },
     {
       "family": "qwen3-max",
@@ -5467,7 +5468,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1434
+      "arena_score": 1435
     },
     {
       "family": "qwen3-next-80b-a3b",
@@ -5477,7 +5478,7 @@
       "match_confidence": "high",
       "model_id": "qwen3-next-80b-a3b-instruct",
       "context": 262144,
-      "arena_score": 1401
+      "arena_score": 1399
     },
     {
       "family": "qwen3-next-80b-a3b-instruct-free",
@@ -5610,7 +5611,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1442
+      "arena_score": 1441
     },
     {
       "family": "qwen3.5-4b",
@@ -5731,7 +5732,7 @@
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
-      "arena_score": 1443
+      "arena_score": 1444
     },
     {
       "family": "qwen3.7-max",
@@ -5779,7 +5780,8 @@
       ],
       "match_confidence": "high",
       "model_id": "qwen3.8-27b",
-      "arena_score": 1440
+      "context": 262144,
+      "arena_score": 1436
     },
     {
       "family": "qwen3.8-max",
@@ -5842,7 +5844,7 @@
       ],
       "match_confidence": "high",
       "model_id": "reka-flash-21b-20240226",
-      "arena_score": 1227
+      "arena_score": 1226
     },
     {
       "family": "reka-flash-21b-20240226-online",
@@ -5880,7 +5882,7 @@
       ],
       "match_confidence": "high",
       "model_id": "ring-flash-2.0",
-      "arena_score": 1320
+      "arena_score": 1321
     },
     {
       "family": "rwkv-4-raven-14b",
@@ -5949,7 +5951,7 @@
       ],
       "match_confidence": "high",
       "model_id": "snowflake-arctic-instruct",
-      "arena_score": 1180
+      "arena_score": 1179
     },
     {
       "family": "solar-10.7b",
@@ -6024,7 +6026,7 @@
       ],
       "match_confidence": "high",
       "model_id": "starling-lm-7b-beta",
-      "arena_score": 1171
+      "arena_score": 1170
     },
     {
       "family": "step-1o-turbo",
@@ -6052,7 +6054,7 @@
       "match_confidence": "high",
       "model_id": "step-3",
       "context": 65536,
-      "arena_score": 1348
+      "arena_score": 1350
     },
     {
       "family": "step-3.5-flash",
@@ -6186,7 +6188,7 @@
       "match_confidence": "high",
       "model_id": "trinity-large-preview",
       "context": 131000,
-      "arena_score": 1379
+      "arena_score": 1378
     },
     {
       "family": "trinity-large-thinking",
@@ -6342,7 +6344,7 @@
       "match_confidence": "high",
       "model_id": "vicuna-33b",
       "context": 2048,
-      "arena_score": 1173
+      "arena_score": 1172
     },
     {
       "family": "vicuna-7b",
@@ -6378,7 +6380,7 @@
       ],
       "match_confidence": "high",
       "model_id": "yi-1.5-34b-chat",
-      "arena_score": 1213
+      "arena_score": 1212
     },
     {
       "family": "yi-34b",
@@ -6437,7 +6439,7 @@
       ],
       "match_confidence": "high",
       "model_id": "zephyr-7b-alpha",
-      "arena_score": 1127
+      "arena_score": 1126
     },
     {
       "family": "zephyr-7b-beta",
@@ -6447,7 +6449,7 @@
       "match_confidence": "high",
       "model_id": "zephyr-7b-beta",
       "context": 16384,
-      "arena_score": 1131
+      "arena_score": 1130
     },
     {
       "family": "zephyr-orpo-141b-a35b-v0.1",
@@ -6456,7 +6458,7 @@
       ],
       "match_confidence": "high",
       "model_id": "zephyr-orpo-141b-A35b-v0.1",
-      "arena_score": 1213
+      "arena_score": 1212
     }
   ]
 }
