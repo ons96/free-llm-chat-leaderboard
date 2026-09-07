@@ -1,6 +1,6 @@
 {
- "fetched_at": "2026-08-31T12:52:04Z",
- "total_models": 396,
+ "fetched_at": "2026-09-07T11:43:30Z",
+ "total_models": 430,
  "free_models_count": 18,
  "models": [
   {
@@ -69,7 +69,7 @@
   },
   {
    "id": "inclusionai/ling-3.0-flash-fin:free",
-   "name": "Ling 3.0 Flash Fin (free)",
+   "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
    "context_length": 262144,
    "pricing": {
     "prompt": "0",
@@ -82,6 +82,22 @@
    },
    "created": 1787846290,
    "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment..."
+  },
+  {
+   "id": "inclusionai/ling-3.0-flash-sante:free",
+   "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+   "context_length": 262144,
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 262144,
+    "max_completion_tokens": 32768,
+    "is_moderated": false
+   },
+   "created": 1788545946,
+   "description": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for..."
   },
   {
    "id": "liquid/lfm-2.5-2.6b:free",
@@ -274,22 +290,6 @@
    },
    "created": 1784325956,
    "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,..."
-  },
-  {
-   "id": "z-ai/glm-5.2:free",
-   "name": "Z.ai: GLM 5.2 (free)",
-   "context_length": 256000,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 256000,
-    "max_completion_tokens": 230400,
-    "is_moderated": false
-   },
-   "created": 1781631930,
-   "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,..."
   }
  ]
 }
