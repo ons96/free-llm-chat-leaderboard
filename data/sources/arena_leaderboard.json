@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-09-14T11:58:06Z",
+ "fetched_at": "2026-09-21T12:09:05Z",
  "source_url": "https://arena.ai/leaderboard/text",
  "count": 402,
  "entries": [
   {
    "model_key": "claude-fable-5-text",
-   "display_name": "claude-fable-5",
+   "display_name": "claude-fable-5-high",
    "rank": 1,
    "arena_score": 1506,
    "votes": 30057,
@@ -387,7 +387,7 @@
    "rank": 43,
    "arena_score": 1468,
    "votes": 37058,
-   "context_length": null,
+   "context_length": 119000,
    "organization": "Baidu"
   },
   {
@@ -522,7 +522,7 @@
    "rank": 58,
    "arena_score": 1456,
    "votes": 80980,
-   "context_length": 200000,
+   "context_length": 1000000,
    "organization": "Anthropic"
   },
   {
@@ -585,7 +585,7 @@
    "rank": 65,
    "arena_score": 1455,
    "votes": 79628,
-   "context_length": 200000,
+   "context_length": 1000000,
    "organization": "Anthropic"
   },
   {
@@ -657,7 +657,7 @@
    "rank": 73,
    "arena_score": 1448,
    "votes": 24365,
-   "context_length": 1048576,
+   "context_length": 1000000,
    "organization": "Xiaomi"
   },
   {
@@ -927,7 +927,7 @@
    "rank": 103,
    "arena_score": 1430,
    "votes": 19414,
-   "context_length": 262144,
+   "context_length": 256000,
    "organization": "Xiaomi"
   },
   {
@@ -1269,7 +1269,7 @@
    "rank": 141,
    "arena_score": 1405,
    "votes": 18844,
-   "context_length": 524288,
+   "context_length": 1048576,
    "organization": "Thinky"
   },
   {

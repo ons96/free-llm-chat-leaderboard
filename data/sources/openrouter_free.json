@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-09-14T11:58:07Z",
- "total_models": 445,
- "free_models_count": 19,
+ "fetched_at": "2026-09-21T12:09:06Z",
+ "total_models": 446,
+ "free_models_count": 21,
  "models": [
   {
    "id": "cohere/north-mini-code:free",
@@ -276,6 +276,22 @@
    "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines..."
   },
   {
+   "id": "qwen/qwen3.8-27b:free",
+   "name": "Qwen: Qwen3.8 27B (free)",
+   "context_length": 262144,
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 262144,
+    "max_completion_tokens": 235929,
+    "is_moderated": false
+   },
+   "created": 1786722910,
+   "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be..."
+  },
+  {
    "id": "thinkingmachines/inkling-small:free",
    "name": "Thinking Machines: Inkling Small (free)",
    "context_length": 1048576,
@@ -306,6 +322,22 @@
    },
    "created": 1784325956,
    "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,..."
+  },
+  {
+   "id": "z-ai/glm-5.2:free",
+   "name": "Z.ai: GLM 5.2 (free)",
+   "context_length": 32768,
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 32768,
+    "max_completion_tokens": 29491,
+    "is_moderated": false
+   },
+   "created": 1781631930,
+   "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,..."
   }
  ]
 }
