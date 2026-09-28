@@ -1,6 +1,6 @@
 {
   "generated_at": null,
-  "count": 505,
+  "count": 510,
   "models": [
     {
       "family": "agnes-1.5-flash",
@@ -110,7 +110,7 @@
       ],
       "match_confidence": "high",
       "model_id": "amazon-nova-experimental-chat-10-20",
-      "arena_score": 1350
+      "arena_score": 1348
     },
     {
       "family": "amazon-nova-experimental-chat-11-10",
@@ -119,7 +119,7 @@
       ],
       "match_confidence": "high",
       "model_id": "amazon-nova-experimental-chat-11-10",
-      "arena_score": 1365
+      "arena_score": 1364
     },
     {
       "family": "amazon-nova-experimental-chat-12-10",
@@ -128,7 +128,7 @@
       ],
       "match_confidence": "high",
       "model_id": "amazon-nova-experimental-chat-12-10",
-      "arena_score": 1395
+      "arena_score": 1394
     },
     {
       "family": "amazon-nova-experimental-chat-26-01-10",
@@ -137,7 +137,7 @@
       ],
       "match_confidence": "high",
       "model_id": "amazon-nova-experimental-chat-26-01-10",
-      "arena_score": 1415
+      "arena_score": 1413
     },
     {
       "family": "amazon-nova-experimental-chat-26-02-10",
@@ -146,7 +146,7 @@
       ],
       "match_confidence": "high",
       "model_id": "amazon-nova-experimental-chat-26-02-10",
-      "arena_score": 1426
+      "arena_score": 1427
     },
     {
       "family": "amazon-nova-lite-v1.0",
@@ -185,7 +185,7 @@
       ],
       "match_confidence": "high",
       "model_id": "athene-70b-0725",
-      "arena_score": 1306
+      "arena_score": 1307
     },
     {
       "family": "athene-v2",
@@ -245,6 +245,7 @@
       ],
       "match_confidence": "high",
       "model_id": "c4ai-aya-expanse-32b",
+      "context": 128000,
       "arena_score": 1267
     },
     {
@@ -291,7 +292,7 @@
       ],
       "match_confidence": "high",
       "model_id": "chatglm-6b",
-      "arena_score": 995
+      "arena_score": 996
     },
     {
       "family": "chatglm2-6b",
@@ -300,7 +301,7 @@
       ],
       "match_confidence": "high",
       "model_id": "chatglm2-6b",
-      "arena_score": 1024
+      "arena_score": 1025
     },
     {
       "family": "chatglm3-6b",
@@ -309,7 +310,7 @@
       ],
       "match_confidence": "high",
       "model_id": "chatglm3-6b",
-      "arena_score": 1056
+      "arena_score": 1057
     },
     {
       "family": "chatgpt-4o-latest",
@@ -329,7 +330,7 @@
       "match_confidence": "high",
       "model_id": "claude-3-5-haiku-20241022",
       "context": 200000,
-      "arena_score": 1324
+      "arena_score": 1325
     },
     {
       "family": "claude-3-5-sonnet",
@@ -349,7 +350,7 @@
       "match_confidence": "high",
       "model_id": "claude-3-7-sonnet-20250219",
       "context": 200000,
-      "arena_score": 1372
+      "arena_score": 1373
     },
     {
       "family": "claude-3-7-sonnet-20250219-thinking-32k",
@@ -369,7 +370,7 @@
       "match_confidence": "high",
       "model_id": "claude-3-haiku-20240307",
       "context": 200000,
-      "arena_score": 1261
+      "arena_score": 1262
     },
     {
       "family": "claude-3-opus",
@@ -425,8 +426,6 @@
       "provider_name": "Artificial Analysis",
       "context": 1000000,
       "intelligence": 53.3549259623252,
-      "grounding_accuracy": 0.6723333333333333,
-      "hallucination_rate": 0.7258392675483215,
       "release_date": "2026-09-01",
       "price_input_1m": 10,
       "price_output_1m": 50
@@ -439,7 +438,7 @@
       "match_confidence": "high",
       "model_id": "claude-fable-5-high",
       "context": 1000000,
-      "arena_score": 1506
+      "arena_score": 1504
     },
     {
       "family": "claude-fable-5.1-max",
@@ -449,7 +448,7 @@
       "match_confidence": "high",
       "model_id": "claude-fable-5.1-max",
       "context": 1000000,
-      "arena_score": 1498
+      "arena_score": 1501
     },
     {
       "family": "claude-haiku-4-5",
@@ -470,7 +469,7 @@
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
-      "arena_score": 1415,
+      "arena_score": 1414,
       "ui_name": "Claude Free",
       "ui_url": "https://claude.ai",
       "ui_limits": "Free tier: faster, higher quota than Sonnet"
@@ -744,20 +743,18 @@
       "pinned": false
     },
     {
-      "family": "claude-opus-5",
+      "family": "claude-opus-5-5",
       "sources": [
         "artificial_analysis"
       ],
       "match_confidence": "high",
-      "model_id": "claude-opus-5",
+      "model_id": "claude-opus-5-5",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 50.7771115797629,
-      "grounding_accuracy": 0.6086666666666667,
-      "hallucination_rate": 0.6081771720613288,
-      "release_date": "2026-07-24",
-      "price_input_1m": 5,
-      "price_output_1m": 25
+      "intelligence": 57.6223698102963,
+      "release_date": "2026-09-22",
+      "price_input_1m": 4,
+      "price_output_1m": 20
     },
     {
       "family": "claude-opus-5-high",
@@ -778,6 +775,16 @@
       "arena_score": 1489
     },
     {
+      "family": "claude-opus-5.5-high",
+      "sources": [
+        "arena"
+      ],
+      "match_confidence": "high",
+      "model_id": "claude-opus-5.5-high",
+      "context": 1000000,
+      "arena_score": 1509
+    },
+    {
       "family": "claude-sonnet-4",
       "sources": [
         "gateway",
@@ -787,7 +794,7 @@
       "model_id": "claude-sonnet-4",
       "provider_id": "kiro",
       "provider_name": "Kiro",
-      "context": 1000000,
+      "context": 200000,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
@@ -800,8 +807,8 @@
       ],
       "match_confidence": "high",
       "model_id": "claude-sonnet-4-20250514-thinking-32k",
-      "context": 1000000,
-      "arena_score": 1401
+      "context": 200000,
+      "arena_score": 1402
     },
     {
       "family": "claude-sonnet-4-5",
@@ -1052,7 +1059,7 @@
       "match_confidence": "high",
       "model_id": "dbrx-instruct-preview",
       "context": 32768,
-      "arena_score": 1195
+      "arena_score": 1196
     },
     {
       "family": "deepseek",
@@ -1146,7 +1153,7 @@
       "notes": "",
       "pinned": false,
       "tps": 200,
-      "arena_score": 1421,
+      "arena_score": 1422,
       "ui_name": "DeepSeek Chat",
       "ui_url": "https://chat.deepseek.com",
       "ui_limits": "Free web chat"
@@ -1242,7 +1249,7 @@
       "match_confidence": "high",
       "model_id": "deepseek-v3.2-thinking",
       "context": 163840,
-      "arena_score": 1422
+      "arena_score": 1423
     },
     {
       "family": "deepseek-v4",
@@ -1260,12 +1267,10 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "intelligence": 35.9967791278402,
-      "grounding_accuracy": 0.491,
-      "hallucination_rate": 0.9482645710543549,
-      "release_date": "2026-08-13",
-      "price_input_1m": 1.32,
-      "price_output_1m": 3.96,
+      "intelligence": 39.456167472527,
+      "release_date": "2026-09-10",
+      "price_input_1m": 0.3,
+      "price_output_1m": 1.2,
       "arena_score": 1458,
       "ui_name": "DeepSeek Chat",
       "ui_url": "https://chat.deepseek.com",
@@ -1361,7 +1366,7 @@
       ],
       "match_confidence": "high",
       "model_id": "ernie-5.0-0110",
-      "arena_score": 1446
+      "arena_score": 1447
     },
     {
       "family": "ernie-5.0-preview",
@@ -1410,7 +1415,7 @@
       ],
       "match_confidence": "high",
       "model_id": "fastchat-t5-3b",
-      "arena_score": 992
+      "arena_score": 993
     },
     {
       "family": "gemini-1.5-flash",
@@ -1435,7 +1440,7 @@
       "match_confidence": "high",
       "model_id": "gemini-1.5-flash-001",
       "context": 1048576,
-      "arena_score": 1286
+      "arena_score": 1287
     },
     {
       "family": "gemini-1.5-flash-002",
@@ -1525,7 +1530,7 @@
       "match_confidence": "high",
       "model_id": "gemini-2.0-flash-lite-preview-02-05",
       "context": 1048576,
-      "arena_score": 1353
+      "arena_score": 1354
     },
     {
       "family": "gemini-2.5-flash",
@@ -1548,7 +1553,7 @@
       "bench_samples": 0,
       "tps": 80,
       "context": 1048576,
-      "arena_score": 1410,
+      "arena_score": 1409,
       "ui_name": "Google Gemini app / AI Studio",
       "ui_url": "https://aistudio.google.com",
       "ui_limits": "AI Studio free tier, generous rate limits"
@@ -1571,7 +1576,7 @@
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
-      "arena_score": 1445
+      "arena_score": 1446
     },
     {
       "family": "gemini-3-5-flash-lite",
@@ -1583,8 +1588,6 @@
       "provider_name": "Artificial Analysis",
       "context": 1000000,
       "intelligence": 22.1685424839812,
-      "grounding_accuracy": 0.2946666666666667,
-      "hallucination_rate": 0.3435727788279773,
       "release_date": "2026-07-21",
       "price_input_1m": 0.3,
       "price_output_1m": 2.5
@@ -1599,8 +1602,6 @@
       "provider_name": "Artificial Analysis",
       "context": 1000000,
       "intelligence": 40.9262321765904,
-      "grounding_accuracy": 0.546,
-      "hallucination_rate": 0.551762114537445,
       "release_date": "2026-09-02",
       "price_input_1m": 0.75,
       "price_output_1m": 3.75
@@ -1670,7 +1671,7 @@
       "match_confidence": "high",
       "model_id": "gemini-3.1-flash-lite-preview",
       "context": 1048576,
-      "arena_score": 1432
+      "arena_score": 1433
     },
     {
       "family": "gemini-3.1-pro-preview",
@@ -1745,7 +1746,7 @@
       "match_confidence": "high",
       "model_id": "gemini-3.8-flash-high",
       "context": 1048576,
-      "arena_score": 1493
+      "arena_score": 1492
     },
     {
       "family": "gemini-advanced",
@@ -1779,7 +1780,7 @@
       "match_confidence": "high",
       "model_id": "gemini-pro",
       "context": 32760,
-      "arena_score": 1223
+      "arena_score": 1224
     },
     {
       "family": "gemini-pro-dev-api",
@@ -1789,7 +1790,7 @@
       "match_confidence": "high",
       "model_id": "gemini-pro-dev-api",
       "context": 32760,
-      "arena_score": 1236
+      "arena_score": 1237
     },
     {
       "family": "gemma-1.1-2b",
@@ -1798,7 +1799,7 @@
       ],
       "match_confidence": "high",
       "model_id": "gemma-1.1-2b-it",
-      "arena_score": 1116
+      "arena_score": 1117
     },
     {
       "family": "gemma-1.1-7b",
@@ -1808,7 +1809,7 @@
       "match_confidence": "high",
       "model_id": "gemma-1.1-7b-it",
       "context": 8192,
-      "arena_score": 1182
+      "arena_score": 1183
     },
     {
       "family": "gemma-2-27b",
@@ -1853,7 +1854,7 @@
       ],
       "match_confidence": "high",
       "model_id": "gemma-2b-it",
-      "arena_score": 1093
+      "arena_score": 1094
     },
     {
       "family": "gemma-3-12b",
@@ -1995,7 +1996,7 @@
       "match_confidence": "high",
       "model_id": "gemma-7b-it",
       "context": 8192,
-      "arena_score": 1137
+      "arena_score": 1138
     },
     {
       "family": "gemma2-9b",
@@ -2109,7 +2110,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1353
+      "arena_score": 1352
     },
     {
       "family": "glm-4.6",
@@ -2126,7 +2127,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1425
+      "arena_score": 1424
     },
     {
       "family": "glm-4.6v",
@@ -2142,7 +2143,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1378
+      "arena_score": 1379
     },
     {
       "family": "glm-4.6v-flash",
@@ -2190,13 +2191,12 @@
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
-      "arena_score": 1442
+      "arena_score": 1441
     },
     {
       "family": "glm-5",
       "sources": [
         "gateway",
-        "openrouter",
         "artificial_analysis",
         "arena",
         "chat_ui"
@@ -2214,8 +2214,6 @@
       "bench_tps": null,
       "bench_samples": 0,
       "intelligence": 41.807466113455,
-      "grounding_accuracy": 0.275,
-      "hallucination_rate": 0.27632183908045976,
       "release_date": "2026-08-26",
       "price_input_1m": 0.15,
       "price_output_1m": 0.5,
@@ -2283,7 +2281,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1225
+      "arena_score": 1226
     },
     {
       "family": "gpt-4",
@@ -2300,7 +2298,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1287
+      "arena_score": 1288
     },
     {
       "family": "gpt-4-0125-preview",
@@ -2340,7 +2338,7 @@
       "match_confidence": "high",
       "model_id": "gpt-4.1-nano-2025-04-14",
       "context": 1047576,
-      "arena_score": 1414
+      "arena_score": 1415
     },
     {
       "family": "gpt-4.5-preview-2025-02-27",
@@ -2389,12 +2387,7 @@
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
-      "intelligence": 37.3244239690841,
-      "grounding_accuracy": 0.42733333333333334,
-      "hallucination_rate": 0.9257857974388825,
-      "release_date": "2026-07-09",
-      "price_input_1m": 0.2,
-      "price_output_1m": 1.2,
+      "release_date": "2026-04-23",
       "arena_score": 1482,
       "ui_name": "ChatGPT Free",
       "ui_url": "https://chatgpt.com",
@@ -2410,8 +2403,6 @@
       "provider_name": "Artificial Analysis",
       "context": 1000000,
       "intelligence": 52.673669395513,
-      "grounding_accuracy": 0.626,
-      "hallucination_rate": 0.5133689839572193,
       "release_date": "2026-09-03",
       "price_input_1m": 10,
       "price_output_1m": 50
@@ -2423,13 +2414,60 @@
       ],
       "match_confidence": "high",
       "model_id": "gpt-6-astra-max",
-      "arena_score": 1480
+      "arena_score": 1478
+    },
+    {
+      "family": "gpt-6-luna",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "gpt-6-luna",
+      "provider_name": "Artificial Analysis",
+      "context": 1000000,
+      "intelligence": 37.2559686869738,
+      "release_date": "2026-09-22",
+      "price_input_1m": 0.1,
+      "price_output_1m": 0.5
+    },
+    {
+      "family": "gpt-6-luna-max",
+      "sources": [
+        "arena"
+      ],
+      "match_confidence": "high",
+      "model_id": "gpt-6-luna-max",
+      "context": 1050000,
+      "arena_score": 1442
+    },
+    {
+      "family": "gpt-6-sol",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "gpt-6-sol",
+      "provider_name": "Artificial Analysis",
+      "context": 872000,
+      "intelligence": 47.5276426437724,
+      "release_date": "2026-09-22",
+      "price_input_1m": 2,
+      "price_output_1m": 10
+    },
+    {
+      "family": "gpt-6-sol-max",
+      "sources": [
+        "arena"
+      ],
+      "match_confidence": "high",
+      "model_id": "gpt-6-sol-max",
+      "context": 1050000,
+      "arena_score": 1457
     },
     {
       "family": "gpt-oss-120b",
       "sources": [
         "gateway",
-        "artificial_analysis",
         "arena"
       ],
       "match_confidence": "high",
@@ -2444,12 +2482,6 @@
       "bench_ttft_s": 0.244,
       "bench_tps": 483.4,
       "bench_samples": null,
-      "intelligence": 11.6028431512592,
-      "grounding_accuracy": 0.21783333333333332,
-      "hallucination_rate": 0.9081610909865757,
-      "release_date": "2025-08-05",
-      "price_input_1m": 0.15,
-      "price_output_1m": 0.595,
       "arena_score": 1352
     },
     {
@@ -2470,7 +2502,7 @@
       "bench_ttft_s": 0.184,
       "bench_tps": 744.0,
       "bench_samples": null,
-      "arena_score": 1317
+      "arena_score": 1318
     },
     {
       "family": "gpt4all-13b-snoozy",
@@ -2479,7 +2511,7 @@
       ],
       "match_confidence": "high",
       "model_id": "gpt4all-13b-snoozy",
-      "arena_score": 1067
+      "arena_score": 1068
     },
     {
       "family": "granite-3.0-2b",
@@ -2488,7 +2520,7 @@
       ],
       "match_confidence": "high",
       "model_id": "granite-3.0-2b-instruct",
-      "arena_score": 1156
+      "arena_score": 1157
     },
     {
       "family": "granite-3.0-8b",
@@ -2525,7 +2557,7 @@
       "match_confidence": "high",
       "model_id": "granite-4.1-8b",
       "context": 131072,
-      "arena_score": 1306
+      "arena_score": 1304
     },
     {
       "family": "granite-4.2-30b",
@@ -2534,7 +2566,7 @@
       ],
       "match_confidence": "high",
       "model_id": "granite-4.2-30b",
-      "arena_score": 1342
+      "arena_score": 1341
     },
     {
       "family": "granite-4.2-3b",
@@ -2543,7 +2575,7 @@
       ],
       "match_confidence": "high",
       "model_id": "granite-4.2-3b",
-      "arena_score": 1294
+      "arena_score": 1292
     },
     {
       "family": "granite-4.2-8b",
@@ -2553,7 +2585,7 @@
       "match_confidence": "high",
       "model_id": "granite-4.2-8b",
       "context": 131072,
-      "arena_score": 1287
+      "arena_score": 1289
     },
     {
       "family": "grok-2-2024-08-13",
@@ -2591,7 +2623,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1412,
+      "arena_score": 1411,
       "ui_name": "xAI Grok free",
       "ui_url": "https://grok.com",
       "ui_limits": "Free tier with limits"
@@ -2608,14 +2640,12 @@
       "model_id": "grok-4-3",
       "provider_id": "kenari",
       "provider_name": "Kenari",
-      "context": 2000000,
+      "context": 1000000,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "intelligence": 44.3113073012592,
-      "grounding_accuracy": 0.48233333333333334,
-      "hallucination_rate": 0.3428847392144237,
-      "release_date": "2026-08-12",
+      "intelligence": 46.4465506302286,
+      "release_date": "2026-09-21",
       "price_input_1m": 2,
       "price_output_1m": 6,
       "arena_score": 1475,
@@ -2724,7 +2754,7 @@
       "match_confidence": "high",
       "model_id": "hunyuan-hy3-preview",
       "context": 262144,
-      "arena_score": 1413
+      "arena_score": 1409
     },
     {
       "family": "hunyuan-large-2025-02-10",
@@ -2856,7 +2886,7 @@
       ],
       "match_confidence": "high",
       "model_id": "ibm-granite-h-small",
-      "arena_score": 1286
+      "arena_score": 1287
     },
     {
       "family": "inkling",
@@ -2873,12 +2903,10 @@
       "notes": "",
       "pinned": false,
       "intelligence": 24.9847810999384,
-      "grounding_accuracy": 0.4155,
-      "hallucination_rate": 0.6766467065868264,
       "release_date": "2026-07-15",
       "price_input_1m": 1,
       "price_output_1m": 4.05,
-      "arena_score": 1440
+      "arena_score": 1442
     },
     {
       "family": "inkling small",
@@ -2887,7 +2915,7 @@
       ],
       "match_confidence": "high",
       "model_id": "Inkling Small",
-      "context": 1048576,
+      "context": 524288,
       "arena_score": 1405
     },
     {
@@ -2953,8 +2981,6 @@
       "provider_name": "Artificial Analysis",
       "context": 524288,
       "intelligence": 30.5015302696723,
-      "grounding_accuracy": 0.18183333333333335,
-      "hallucination_rate": 0.25850478712568753,
       "release_date": "2026-09-03"
     },
     {
@@ -3054,8 +3080,6 @@
       "pinned": false,
       "context": 1048576,
       "intelligence": 43.5938229518782,
-      "grounding_accuracy": 0.47583333333333333,
-      "hallucination_rate": 0.5319554848966613,
       "release_date": "2026-07-16",
       "price_input_1m": 3,
       "price_output_1m": 15
@@ -3201,19 +3225,6 @@
       "pinned": false
     },
     {
-      "family": "ling-3.0-flash-vl",
-      "sources": [
-        "openrouter"
-      ],
-      "match_confidence": "high",
-      "model_id": "inclusionai/ling-3.0-flash-vl:free",
-      "provider_name": "OpenRouter",
-      "context": 262144,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
       "family": "ling-flash-2.0",
       "sources": [
         "arena"
@@ -3249,7 +3260,7 @@
       "match_confidence": "high",
       "model_id": "llama-2-70b-chat",
       "context": 4096,
-      "arena_score": 1170
+      "arena_score": 1171
     },
     {
       "family": "llama-2-7b",
@@ -3296,7 +3307,7 @@
       "virtual_models": [],
       "notes": "Starter plan (free)",
       "pinned": false,
-      "arena_score": 1276
+      "arena_score": 1277
     },
     {
       "family": "llama-3-8b",
@@ -3313,7 +3324,7 @@
       "virtual_models": [],
       "notes": "Starter plan (free)",
       "pinned": false,
-      "arena_score": 1223
+      "arena_score": 1224
     },
     {
       "family": "llama-3.1-405b",
@@ -3373,7 +3384,7 @@
       ],
       "match_confidence": "high",
       "model_id": "llama-3.1-nemotron-51b-instruct",
-      "arena_score": 1286
+      "arena_score": 1287
     },
     {
       "family": "llama-3.1-nemotron-nano-8b-v1",
@@ -3589,8 +3600,8 @@
       ],
       "match_confidence": "high",
       "model_id": "llama-4-scout-17b-16e-instruct",
-      "context": 8192,
-      "arena_score": 1321
+      "context": 16384,
+      "arena_score": 1322
     },
     {
       "family": "llama-4-scout-17b-16e-instruct",
@@ -3633,7 +3644,7 @@
       ],
       "match_confidence": "high",
       "model_id": "llama2-70b-steerlm-chat",
-      "arena_score": 1154
+      "arena_score": 1155
     },
     {
       "family": "longcat-flash",
@@ -3652,7 +3663,7 @@
       ],
       "match_confidence": "high",
       "model_id": "longcat-flash-chat-2602-exp",
-      "arena_score": 1435
+      "arena_score": 1437
     },
     {
       "family": "lyria-3-clip-preview",
@@ -3715,7 +3726,7 @@
       "match_confidence": "high",
       "model_id": "mercury",
       "context": 128000,
-      "arena_score": 1308
+      "arena_score": 1305
     },
     {
       "family": "mercury-2",
@@ -3725,7 +3736,7 @@
       "match_confidence": "high",
       "model_id": "mercury-2",
       "context": 128000,
-      "arena_score": 1346
+      "arena_score": 1343
     },
     {
       "family": "meta-llama-3.1-8b",
@@ -3756,6 +3767,20 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false
+    },
+    {
+      "family": "mimo-v2-6-pro",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "mimo-v2-6-pro",
+      "provider_name": "Artificial Analysis",
+      "context": 1000000,
+      "intelligence": 46.3242065310383,
+      "release_date": "2026-09-21",
+      "price_input_1m": 0.435,
+      "price_output_1m": 0.87
     },
     {
       "family": "mimo-v2-flash",
@@ -3789,7 +3814,7 @@
       "match_confidence": "high",
       "model_id": "mimo-v2-flash (thinking)",
       "context": 262144,
-      "arena_score": 1386
+      "arena_score": 1387
     },
     {
       "family": "mimo-v2-omni",
@@ -3805,7 +3830,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1430
+      "arena_score": 1431
     },
     {
       "family": "mimo-v2-pro",
@@ -3850,6 +3875,26 @@
       "arena_score": 1468
     },
     {
+      "family": "mimo-v2.6-flash",
+      "sources": [
+        "arena"
+      ],
+      "match_confidence": "high",
+      "model_id": "mimo-v2.6-flash",
+      "context": 1000000,
+      "arena_score": 1454
+    },
+    {
+      "family": "mimo-v2.6-pro",
+      "sources": [
+        "arena"
+      ],
+      "match_confidence": "high",
+      "model_id": "mimo-v2.6-pro",
+      "context": 1050000,
+      "arena_score": 1480
+    },
+    {
       "family": "mini-lm-l12-v2",
       "sources": [
         "gateway"
@@ -3888,7 +3933,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1346
+      "arena_score": 1343
     },
     {
       "family": "minimax-m2.1-preview",
@@ -3898,7 +3943,7 @@
       "match_confidence": "high",
       "model_id": "minimax-m2.1-preview",
       "context": 204800,
-      "arena_score": 1384
+      "arena_score": 1385
     },
     {
       "family": "minimax-m2.5",
@@ -3918,7 +3963,7 @@
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
-      "arena_score": 1390
+      "arena_score": 1391
     },
     {
       "family": "minimax-m2.5-free",
@@ -4025,12 +4070,10 @@
       "notes": "",
       "pinned": false,
       "intelligence": 29.2202932236316,
-      "grounding_accuracy": 0.167,
-      "hallucination_rate": 0.1842737094837935,
       "release_date": "2026-06-01",
       "price_input_1m": 0.3,
       "price_output_1m": 1.2,
-      "arena_score": 1441
+      "arena_score": 1440
     },
     {
       "family": "minimax-m3-official",
@@ -4057,7 +4100,7 @@
       "match_confidence": "high",
       "model_id": "ministral-8b-2410",
       "context": 131072,
-      "arena_score": 1237
+      "arena_score": 1238
     },
     {
       "family": "mistral-7b",
@@ -4171,8 +4214,6 @@
       "provider_name": "Artificial Analysis",
       "context": 262144,
       "intelligence": 14.1889227802691,
-      "grounding_accuracy": 0.24666666666666667,
-      "hallucination_rate": 0.815929203539823,
       "release_date": "2026-04-29",
       "price_input_1m": 1.5,
       "price_output_1m": 7.5,
@@ -4235,7 +4276,7 @@
       "match_confidence": "high",
       "model_id": "mixtral-8x22b-instruct-v0.1",
       "context": 65536,
-      "arena_score": 1229
+      "arena_score": 1230
     },
     {
       "family": "mixtral-8x7b",
@@ -4300,7 +4341,7 @@
       "match_confidence": "high",
       "model_id": "molmo-2-8b",
       "context": 36864,
-      "arena_score": 1328
+      "arena_score": 1322
     },
     {
       "family": "mpt-30b",
@@ -4309,7 +4350,7 @@
       ],
       "match_confidence": "high",
       "model_id": "mpt-30b-chat",
-      "arena_score": 1150
+      "arena_score": 1151
     },
     {
       "family": "mpt-7b",
@@ -4331,12 +4372,10 @@
       "provider_name": "Artificial Analysis",
       "context": 131072,
       "intelligence": 17.4754176089465,
-      "grounding_accuracy": 0.2698333333333333,
-      "hallucination_rate": 0.8194476146998402,
       "release_date": "2026-08-10",
-      "price_input_1m": 0.35,
-      "price_output_1m": 1.5,
-      "arena_score": 1427
+      "price_input_1m": 0.32499999999999996,
+      "price_output_1m": 1.35,
+      "arena_score": 1424
     },
     {
       "family": "muse-spark",
@@ -4357,8 +4396,6 @@
       "provider_name": "Artificial Analysis",
       "context": 1000000,
       "intelligence": 48.0923107719685,
-      "grounding_accuracy": 0.43583333333333335,
-      "hallucination_rate": 0.3293943870014771,
       "release_date": "2026-09-02",
       "price_input_1m": 1.25,
       "price_output_1m": 4.25
@@ -4388,7 +4425,8 @@
       ],
       "match_confidence": "high",
       "model_id": "muse-spark-1.3-max",
-      "arena_score": 1493
+      "context": 1000000,
+      "arena_score": 1494
     },
     {
       "family": "nemotron-3-content-safety",
@@ -4658,32 +4696,6 @@
       "pinned": false
     },
     {
-      "family": "nex-n2.5-mini",
-      "sources": [
-        "openrouter"
-      ],
-      "match_confidence": "high",
-      "model_id": "nex-agi/nex-n2.5-mini:free",
-      "provider_name": "OpenRouter",
-      "context": 262144,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "nex-n2.5-pro",
-      "sources": [
-        "openrouter"
-      ],
-      "match_confidence": "high",
-      "model_id": "nex-agi/nex-n2.5-pro:free",
-      "provider_name": "OpenRouter",
-      "context": 262144,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
       "family": "north-mini-code",
       "sources": [
         "openrouter"
@@ -4713,7 +4725,7 @@
       "match_confidence": "high",
       "model_id": "nova-2-lite",
       "context": 1000000,
-      "arena_score": 1336
+      "arena_score": 1335
     },
     {
       "family": "nova-2-lite-v1",
@@ -4801,7 +4813,7 @@
       "match_confidence": "high",
       "model_id": "nvidia-nemotron-3-nano-30b-a3b-bf16",
       "context": 262144,
-      "arena_score": 1314
+      "arena_score": 1313
     },
     {
       "family": "nvidia-nemotron-3-super-120b-a12b",
@@ -4810,7 +4822,7 @@
       ],
       "match_confidence": "high",
       "model_id": "nvidia-nemotron-3-super-120b-a12b",
-      "arena_score": 1361
+      "arena_score": 1360
     },
     {
       "family": "nvidia-nemotron-3-ultra-550b-a55b",
@@ -4822,11 +4834,9 @@
       "provider_name": "Artificial Analysis",
       "context": 262144,
       "intelligence": 22.9279123422858,
-      "grounding_accuracy": 0.22583333333333333,
-      "hallucination_rate": 0.2968783638320775,
       "release_date": "2026-06-04",
       "price_input_1m": 0.6,
-      "price_output_1m": 2.4
+      "price_output_1m": 2.5
     },
     {
       "family": "nvidia-nemotron-3-ultra-550b-a55b-nvfp4",
@@ -4835,7 +4845,7 @@
       ],
       "match_confidence": "high",
       "model_id": "nvidia-nemotron-3-ultra-550b-a55b-nvfp4",
-      "arena_score": 1426
+      "arena_score": 1425
     },
     {
       "family": "nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4",
@@ -4844,7 +4854,7 @@
       ],
       "match_confidence": "high",
       "model_id": "nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4",
-      "arena_score": 1351
+      "arena_score": 1347
     },
     {
       "family": "nvidia-nemotron-nano-9b-v2",
@@ -4892,7 +4902,7 @@
       ],
       "match_confidence": "high",
       "model_id": "o1-preview",
-      "arena_score": 1388
+      "arena_score": 1389
     },
     {
       "family": "o3-2025-04-16",
@@ -4912,7 +4922,7 @@
       "match_confidence": "high",
       "model_id": "o3-mini",
       "context": 200000,
-      "arena_score": 1363
+      "arena_score": 1364
     },
     {
       "family": "o4-mini",
@@ -4931,7 +4941,7 @@
       ],
       "match_confidence": "high",
       "model_id": "oasst-pythia-12b",
-      "arena_score": 1023
+      "arena_score": 1024
     },
     {
       "family": "olmo-2-0325-32b",
@@ -4941,7 +4951,7 @@
       "match_confidence": "high",
       "model_id": "olmo-2-0325-32b-instruct",
       "context": 128000,
-      "arena_score": 1251
+      "arena_score": 1252
     },
     {
       "family": "olmo-3-32b-think",
@@ -4951,7 +4961,7 @@
       "match_confidence": "high",
       "model_id": "olmo-3-32b-think",
       "context": 65536,
-      "arena_score": 1307
+      "arena_score": 1306
     },
     {
       "family": "olmo-3.1-32b",
@@ -4961,7 +4971,7 @@
       "match_confidence": "high",
       "model_id": "olmo-3.1-32b-instruct",
       "context": 65536,
-      "arena_score": 1330
+      "arena_score": 1329
     },
     {
       "family": "olmo-3.1-32b-think",
@@ -4971,7 +4981,7 @@
       "match_confidence": "high",
       "model_id": "olmo-3.1-32b-think",
       "context": 65536,
-      "arena_score": 1286
+      "arena_score": 1287
     },
     {
       "family": "olmo-7b",
@@ -4980,7 +4990,7 @@
       ],
       "match_confidence": "high",
       "model_id": "olmo-7b-instruct",
-      "arena_score": 1073
+      "arena_score": 1074
     },
     {
       "family": "openchat-3.5",
@@ -5110,7 +5120,7 @@
       ],
       "match_confidence": "high",
       "model_id": "phi-3-mini-128k-instruct",
-      "arena_score": 1129
+      "arena_score": 1130
     },
     {
       "family": "phi-3-mini-4k",
@@ -5287,7 +5297,7 @@
       ],
       "match_confidence": "high",
       "model_id": "qwen1.5-72b-chat",
-      "arena_score": 1233
+      "arena_score": 1234
     },
     {
       "family": "qwen1.5-7b",
@@ -5333,7 +5343,7 @@
       "match_confidence": "high",
       "model_id": "qwen2.5-coder-32b-instruct",
       "context": 32000,
-      "arena_score": 1270
+      "arena_score": 1271
     },
     {
       "family": "qwen2.5-max",
@@ -5368,7 +5378,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1423
+      "arena_score": 1422
     },
     {
       "family": "qwen3-30b-a3b",
@@ -5394,7 +5404,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1382
+      "arena_score": 1383
     },
     {
       "family": "qwen3-30b-a3b-thinking",
@@ -5451,8 +5461,6 @@
       "provider_name": "Artificial Analysis",
       "context": 256000,
       "intelligence": 33.6962858057476,
-      "grounding_accuracy": 0.15583333333333332,
-      "hallucination_rate": 0.30286278381046394,
       "release_date": "2026-08-14",
       "price_input_1m": 0.5,
       "price_output_1m": 3
@@ -5467,8 +5475,6 @@
       "provider_name": "Artificial Analysis",
       "context": 983616,
       "intelligence": 45.4152084980521,
-      "grounding_accuracy": 0.31683333333333336,
-      "hallucination_rate": 0.28836301536960235,
       "release_date": "2026-09-02",
       "price_input_1m": 2,
       "price_output_1m": 6
@@ -5488,7 +5494,7 @@
       "notes": "",
       "pinned": false,
       "tps": 60,
-      "arena_score": 1388
+      "arena_score": 1387
     },
     {
       "family": "qwen3-max",
@@ -5520,7 +5526,7 @@
       "match_confidence": "high",
       "model_id": "qwen3-max-2025-09-23",
       "context": 262144,
-      "arena_score": 1424
+      "arena_score": 1423
     },
     {
       "family": "qwen3-max-2026-01-23",
@@ -5594,7 +5600,7 @@
       "match_confidence": "high",
       "model_id": "qwen3-vl-235b-a22b-instruct",
       "context": 262144,
-      "arena_score": 1414
+      "arena_score": 1413
     },
     {
       "family": "qwen3-vl-235b-a22b-thinking",
@@ -5628,7 +5634,7 @@
       "match_confidence": "high",
       "model_id": "qwen3.5-122b-a10b",
       "context": 262144,
-      "arena_score": 1417
+      "arena_score": 1416
     },
     {
       "family": "qwen3.5-122b-a10b-nvfp4",
@@ -5652,7 +5658,7 @@
       "match_confidence": "high",
       "model_id": "qwen3.5-27b",
       "context": 262144,
-      "arena_score": 1408
+      "arena_score": 1409
     },
     {
       "family": "qwen3.5-35b-a3b",
@@ -5662,7 +5668,7 @@
       "match_confidence": "high",
       "model_id": "qwen3.5-35b-a3b",
       "context": 262144,
-      "arena_score": 1395
+      "arena_score": 1394
     },
     {
       "family": "qwen3.5-397b",
@@ -5716,7 +5722,7 @@
       ],
       "match_confidence": "high",
       "model_id": "qwen3.5-flash",
-      "arena_score": 1397
+      "arena_score": 1396
     },
     {
       "family": "qwen3.5-max-preview",
@@ -5868,7 +5874,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1437
+      "arena_score": 1438
     },
     {
       "family": "qwen3.8-max",
@@ -5940,7 +5946,7 @@
       ],
       "match_confidence": "high",
       "model_id": "reka-flash-21b-20240226-online",
-      "arena_score": 1233
+      "arena_score": 1234
     },
     {
       "family": "rerank-qa-mistral-4b",
@@ -5969,7 +5975,7 @@
       ],
       "match_confidence": "high",
       "model_id": "ring-flash-2.0",
-      "arena_score": 1321
+      "arena_score": 1322
     },
     {
       "family": "rwkv-4-raven-14b",
@@ -6029,7 +6035,7 @@
       ],
       "match_confidence": "high",
       "model_id": "smollm2-1.7b-instruct",
-      "arena_score": 1114
+      "arena_score": 1115
     },
     {
       "family": "snowflake-arctic",
@@ -6072,7 +6078,7 @@
       "match_confidence": "high",
       "model_id": "solar-pro4",
       "context": 524288,
-      "arena_score": 1376
+      "arena_score": 1385
     },
     {
       "family": "stablelm-tuned-alpha-7b",
@@ -6137,7 +6143,7 @@
       "match_confidence": "high",
       "model_id": "step-3.5-flash",
       "context": 262144,
-      "arena_score": 1394
+      "arena_score": 1393
     },
     {
       "family": "step-3.5-flash-free",
@@ -6177,8 +6183,6 @@
       "provider_name": "Artificial Analysis",
       "context": 1000000,
       "intelligence": 43.7343049141614,
-      "grounding_accuracy": 0.41533333333333333,
-      "hallucination_rate": 0.4301596351197263,
       "release_date": "2026-09-18",
       "price_input_1m": 1,
       "price_output_1m": 2.7
@@ -6190,7 +6194,7 @@
       ],
       "match_confidence": "high",
       "model_id": "stripedhyena-nous-7b",
-      "arena_score": 1121
+      "arena_score": 1122
     },
     {
       "family": "studiovoice",
@@ -6277,7 +6281,7 @@
       "match_confidence": "high",
       "model_id": "trinity-large-preview",
       "context": 131000,
-      "arena_score": 1378
+      "arena_score": 1379
     },
     {
       "family": "trinity-large-thinking",
@@ -6287,7 +6291,7 @@
       "match_confidence": "high",
       "model_id": "trinity-large-thinking",
       "context": 262144,
-      "arena_score": 1369
+      "arena_score": 1368
     },
     {
       "family": "tulu-2-dpo-70b",
@@ -6296,7 +6300,7 @@
       ],
       "match_confidence": "high",
       "model_id": "tulu-2-dpo-70b",
-      "arena_score": 1177
+      "arena_score": 1178
     },
     {
       "family": "umans-coder",
@@ -6423,7 +6427,7 @@
       ],
       "match_confidence": "high",
       "model_id": "vicuna-13b",
-      "arena_score": 1141
+      "arena_score": 1142
     },
     {
       "family": "vicuna-33b",
@@ -6451,7 +6455,7 @@
       ],
       "match_confidence": "high",
       "model_id": "wizardlm-13b",
-      "arena_score": 1149
+      "arena_score": 1150
     },
     {
       "family": "wizardlm-70b",
@@ -6460,7 +6464,7 @@
       ],
       "match_confidence": "high",
       "model_id": "wizardlm-70b",
-      "arena_score": 1184
+      "arena_score": 1185
     },
     {
       "family": "yi-1.5-34b",
@@ -6479,7 +6483,7 @@
       "match_confidence": "high",
       "model_id": "yi-34b-chat",
       "context": 4096,
-      "arena_score": 1183
+      "arena_score": 1184
     },
     {
       "family": "yi-lightning",
