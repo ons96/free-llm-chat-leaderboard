@@ -1,6 +1,6 @@
 {
   "generated_at": null,
-  "count": 510,
+  "count": 515,
   "models": [
     {
       "family": "agnes-1.5-flash",
@@ -177,6 +177,19 @@
       "model_id": "amazon-nova-pro-v1.0",
       "context": 300000,
       "arena_score": 1290
+    },
+    {
+      "family": "apodex-1.1-mini",
+      "sources": [
+        "openrouter"
+      ],
+      "match_confidence": "high",
+      "model_id": "apodex/apodex-1.1-mini:free",
+      "provider_name": "OpenRouter",
+      "context": 262144,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "athene-70b",
@@ -782,7 +795,7 @@
       "match_confidence": "high",
       "model_id": "claude-opus-5.5-high",
       "context": 1000000,
-      "arena_score": 1509
+      "arena_score": 1504
     },
     {
       "family": "claude-sonnet-4",
@@ -901,6 +914,20 @@
       "pinned": false
     },
     {
+      "family": "claude-sonnet-5-5",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "claude-sonnet-5-5",
+      "provider_name": "Artificial Analysis",
+      "context": 1000000,
+      "intelligence": 56.0001286580794,
+      "release_date": "2026-09-28",
+      "price_input_1m": 2,
+      "price_output_1m": 10
+    },
+    {
       "family": "claude-sonnet-5-high",
       "sources": [
         "arena"
@@ -908,6 +935,16 @@
       "match_confidence": "high",
       "model_id": "claude-sonnet-5-high",
       "arena_score": 1462
+    },
+    {
+      "family": "claude-sonnet-5.5-xhigh",
+      "sources": [
+        "arena"
+      ],
+      "match_confidence": "high",
+      "model_id": "claude-sonnet-5.5-xhigh",
+      "context": 1000000,
+      "arena_score": 1471
     },
     {
       "family": "codellama-34b",
@@ -1059,7 +1096,7 @@
       "match_confidence": "high",
       "model_id": "dbrx-instruct-preview",
       "context": 32768,
-      "arena_score": 1196
+      "arena_score": 1195
     },
     {
       "family": "deepseek",
@@ -1366,7 +1403,7 @@
       ],
       "match_confidence": "high",
       "model_id": "ernie-5.0-0110",
-      "arena_score": 1447
+      "arena_score": 1446
     },
     {
       "family": "ernie-5.0-preview",
@@ -1415,7 +1452,7 @@
       ],
       "match_confidence": "high",
       "model_id": "fastchat-t5-3b",
-      "arena_score": 993
+      "arena_score": 992
     },
     {
       "family": "gemini-1.5-flash",
@@ -1440,7 +1477,7 @@
       "match_confidence": "high",
       "model_id": "gemini-1.5-flash-001",
       "context": 1048576,
-      "arena_score": 1287
+      "arena_score": 1286
     },
     {
       "family": "gemini-1.5-flash-002",
@@ -1577,20 +1614,6 @@
       "bench_tps": null,
       "bench_samples": 0,
       "arena_score": 1446
-    },
-    {
-      "family": "gemini-3-5-flash-lite",
-      "sources": [
-        "artificial_analysis"
-      ],
-      "match_confidence": "high",
-      "model_id": "gemini-3-5-flash-lite",
-      "provider_name": "Artificial Analysis",
-      "context": 1000000,
-      "intelligence": 22.1685424839812,
-      "release_date": "2026-07-21",
-      "price_input_1m": 0.3,
-      "price_output_1m": 2.5
     },
     {
       "family": "gemini-3-8-flash",
@@ -1746,7 +1769,31 @@
       "match_confidence": "high",
       "model_id": "gemini-3.8-flash-high",
       "context": 1048576,
-      "arena_score": 1492
+      "arena_score": 1495
+    },
+    {
+      "family": "gemini-4-argon",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "gemini-4-argon",
+      "provider_name": "Artificial Analysis",
+      "context": 1000000,
+      "intelligence": 52.5605655745982,
+      "release_date": "2026-09-30",
+      "price_input_1m": 2,
+      "price_output_1m": 10
+    },
+    {
+      "family": "gemini-4-argon-high",
+      "sources": [
+        "arena"
+      ],
+      "match_confidence": "high",
+      "model_id": "gemini-4-argon-high",
+      "context": 1000000,
+      "arena_score": 1525
     },
     {
       "family": "gemini-advanced",
@@ -1941,7 +1988,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1438
+      "arena_score": 1437
     },
     {
       "family": "gemma-4-31b",
@@ -2371,7 +2418,6 @@
       "family": "gpt-5",
       "sources": [
         "gateway",
-        "artificial_analysis",
         "arena",
         "chat_ui"
       ],
@@ -2387,11 +2433,24 @@
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
-      "release_date": "2026-04-23",
       "arena_score": 1482,
       "ui_name": "ChatGPT Free",
       "ui_url": "https://chatgpt.com",
       "ui_limits": "Free tier: limited GPT-5 messages; unlimited GPT-5 mini"
+    },
+    {
+      "family": "gpt-6-1-sol",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "gpt-6-1-sol",
+      "provider_name": "Artificial Analysis",
+      "context": 1000000,
+      "intelligence": 51.8332597011541,
+      "release_date": "2026-09-29",
+      "price_input_1m": 2,
+      "price_output_1m": 10
     },
     {
       "family": "gpt-6-astra",
@@ -2414,7 +2473,7 @@
       ],
       "match_confidence": "high",
       "model_id": "gpt-6-astra-max",
-      "arena_score": 1478
+      "arena_score": 1477
     },
     {
       "family": "gpt-6-luna",
@@ -2425,7 +2484,7 @@
       "model_id": "gpt-6-luna",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 37.2559686869738,
+      "intelligence": 38.1245186869738,
       "release_date": "2026-09-22",
       "price_input_1m": 0.1,
       "price_output_1m": 0.5
@@ -2438,21 +2497,7 @@
       "match_confidence": "high",
       "model_id": "gpt-6-luna-max",
       "context": 1050000,
-      "arena_score": 1442
-    },
-    {
-      "family": "gpt-6-sol",
-      "sources": [
-        "artificial_analysis"
-      ],
-      "match_confidence": "high",
-      "model_id": "gpt-6-sol",
-      "provider_name": "Artificial Analysis",
-      "context": 872000,
-      "intelligence": 47.5276426437724,
-      "release_date": "2026-09-22",
-      "price_input_1m": 2,
-      "price_output_1m": 10
+      "arena_score": 1443
     },
     {
       "family": "gpt-6-sol-max",
@@ -2463,6 +2508,15 @@
       "model_id": "gpt-6-sol-max",
       "context": 1050000,
       "arena_score": 1457
+    },
+    {
+      "family": "gpt-6.1-sol-max",
+      "sources": [
+        "arena"
+      ],
+      "match_confidence": "high",
+      "model_id": "gpt-6.1-sol-max",
+      "arena_score": 1483
     },
     {
       "family": "gpt-oss-120b",
@@ -2566,7 +2620,7 @@
       ],
       "match_confidence": "high",
       "model_id": "granite-4.2-30b",
-      "arena_score": 1341
+      "arena_score": 1340
     },
     {
       "family": "granite-4.2-3b",
@@ -2575,7 +2629,7 @@
       ],
       "match_confidence": "high",
       "model_id": "granite-4.2-3b",
-      "arena_score": 1292
+      "arena_score": 1290
     },
     {
       "family": "granite-4.2-8b",
@@ -2585,7 +2639,7 @@
       "match_confidence": "high",
       "model_id": "granite-4.2-8b",
       "context": 131072,
-      "arena_score": 1289
+      "arena_score": 1288
     },
     {
       "family": "grok-2-2024-08-13",
@@ -2906,7 +2960,7 @@
       "release_date": "2026-07-15",
       "price_input_1m": 1,
       "price_output_1m": 4.05,
-      "arena_score": 1442
+      "arena_score": 1441
     },
     {
       "family": "inkling small",
@@ -2981,7 +3035,9 @@
       "provider_name": "Artificial Analysis",
       "context": 524288,
       "intelligence": 30.5015302696723,
-      "release_date": "2026-09-03"
+      "release_date": "2026-09-03",
+      "price_input_1m": 0,
+      "price_output_1m": 0
     },
     {
       "family": "k2p5",
@@ -3194,19 +3250,6 @@
       "provider_id": "septorlabs",
       "provider_name": "SeptorLabs",
       "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "ling-3.0-flash-fin",
-      "sources": [
-        "openrouter"
-      ],
-      "match_confidence": "high",
-      "model_id": "inclusionai/ling-3.0-flash-fin:free",
-      "provider_name": "OpenRouter",
-      "context": 262144,
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -3882,7 +3925,7 @@
       "match_confidence": "high",
       "model_id": "mimo-v2.6-flash",
       "context": 1000000,
-      "arena_score": 1454
+      "arena_score": 1452
     },
     {
       "family": "mimo-v2.6-pro",
@@ -4165,7 +4208,7 @@
       ],
       "match_confidence": "high",
       "model_id": "mistral-large-3",
-      "arena_score": 1413
+      "arena_score": 1414
     },
     {
       "family": "mistral-large-3-675b-instruct",
@@ -4217,7 +4260,7 @@
       "release_date": "2026-04-29",
       "price_input_1m": 1.5,
       "price_output_1m": 7.5,
-      "arena_score": 1426,
+      "arena_score": 1427,
       "ui_name": "Mistral Le Chat",
       "ui_url": "https://chat.mistral.ai",
       "ui_limits": "Free tier with rate limits"
@@ -4266,7 +4309,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1357
+      "arena_score": 1356
     },
     {
       "family": "mixtral-8x22b-instruct-v0.1",
@@ -4375,7 +4418,7 @@
       "release_date": "2026-08-10",
       "price_input_1m": 0.32499999999999996,
       "price_output_1m": 1.35,
-      "arena_score": 1424
+      "arena_score": 1425
     },
     {
       "family": "muse-spark",
@@ -4813,7 +4856,7 @@
       "match_confidence": "high",
       "model_id": "nvidia-nemotron-3-nano-30b-a3b-bf16",
       "context": 262144,
-      "arena_score": 1313
+      "arena_score": 1314
     },
     {
       "family": "nvidia-nemotron-3-super-120b-a12b",
@@ -4845,7 +4888,7 @@
       ],
       "match_confidence": "high",
       "model_id": "nvidia-nemotron-3-ultra-550b-a55b-nvfp4",
-      "arena_score": 1425
+      "arena_score": 1426
     },
     {
       "family": "nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4",
@@ -4854,7 +4897,7 @@
       ],
       "match_confidence": "high",
       "model_id": "nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4",
-      "arena_score": 1347
+      "arena_score": 1350
     },
     {
       "family": "nvidia-nemotron-nano-9b-v2",
@@ -4941,7 +4984,7 @@
       ],
       "match_confidence": "high",
       "model_id": "oasst-pythia-12b",
-      "arena_score": 1024
+      "arena_score": 1023
     },
     {
       "family": "olmo-2-0325-32b",
@@ -4981,7 +5024,7 @@
       "match_confidence": "high",
       "model_id": "olmo-3.1-32b-think",
       "context": 65536,
-      "arena_score": 1287
+      "arena_score": 1286
     },
     {
       "family": "olmo-7b",
@@ -5297,7 +5340,7 @@
       ],
       "match_confidence": "high",
       "model_id": "qwen1.5-72b-chat",
-      "arena_score": 1234
+      "arena_score": 1233
     },
     {
       "family": "qwen1.5-7b",
@@ -5388,7 +5431,7 @@
       "match_confidence": "high",
       "model_id": "qwen3-30b-a3b",
       "context": 131072,
-      "arena_score": 1327
+      "arena_score": 1326
     },
     {
       "family": "qwen3-30b-a3b-instruct",
@@ -5556,7 +5599,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "arena_score": 1435
+      "arena_score": 1434
     },
     {
       "family": "qwen3-next-80b-a3b",
@@ -5946,7 +5989,7 @@
       ],
       "match_confidence": "high",
       "model_id": "reka-flash-21b-20240226-online",
-      "arena_score": 1234
+      "arena_score": 1233
     },
     {
       "family": "rerank-qa-mistral-4b",
@@ -5975,7 +6018,7 @@
       ],
       "match_confidence": "high",
       "model_id": "ring-flash-2.0",
-      "arena_score": 1322
+      "arena_score": 1323
     },
     {
       "family": "rwkv-4-raven-14b",
@@ -6078,7 +6121,7 @@
       "match_confidence": "high",
       "model_id": "solar-pro4",
       "context": 524288,
-      "arena_score": 1385
+      "arena_score": 1386
     },
     {
       "family": "stablelm-tuned-alpha-7b",
@@ -6106,6 +6149,15 @@
       "match_confidence": "high",
       "model_id": "starling-lm-7b-beta",
       "arena_score": 1171
+    },
+    {
+      "family": "step 5 preview",
+      "sources": [
+        "arena"
+      ],
+      "match_confidence": "high",
+      "model_id": "Step 5 Preview",
+      "arena_score": 1454
     },
     {
       "family": "step-1o-turbo",
@@ -6291,7 +6343,7 @@
       "match_confidence": "high",
       "model_id": "trinity-large-thinking",
       "context": 262144,
-      "arena_score": 1368
+      "arena_score": 1367
     },
     {
       "family": "tulu-2-dpo-70b",
@@ -6455,7 +6507,7 @@
       ],
       "match_confidence": "high",
       "model_id": "wizardlm-13b",
-      "arena_score": 1150
+      "arena_score": 1149
     },
     {
       "family": "wizardlm-70b",

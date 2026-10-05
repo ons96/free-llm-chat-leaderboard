@@ -1,8 +1,24 @@
 {
- "fetched_at": "2026-09-28T13:04:01Z",
- "total_models": 458,
+ "fetched_at": "2026-10-05T13:46:31Z",
+ "total_models": 466,
  "free_models_count": 17,
  "models": [
+  {
+   "id": "apodex/apodex-1.1-mini:free",
+   "name": "Apodex: Apodex 1.1 Mini (free)",
+   "context_length": 262144,
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 262144,
+    "max_completion_tokens": 235929,
+    "is_moderated": false
+   },
+   "created": 1790875335,
+   "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,..."
+  },
   {
    "id": "cohere/north-mini-code:free",
    "name": "Cohere: North Mini Code (free)",
@@ -66,22 +82,6 @@
    },
    "created": 1775148486,
    "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function..."
-  },
-  {
-   "id": "inclusionai/ling-3.0-flash-fin:free",
-   "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
-   "context_length": 262144,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 262144,
-    "max_completion_tokens": 32768,
-    "is_moderated": false
-   },
-   "created": 1787846290,
-   "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment..."
   },
   {
    "id": "inclusionai/ling-3.0-flash-sante:free",
