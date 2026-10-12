@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T05:30:06Z",
+  "generated_at": "2026-10-12T05:30:08Z",
   "source_note": "Snapshot of VPS-40 LLM-API-Key-Proxy config, auto-refreshed weekly by the CI workflow via the restricted VPS_SSH_KEY deploy key. Regenerate manually with scripts/parse_gateway.py <config-dir>.",
-  "providers_total": 86,
-  "providers_free_tier": 84,
+  "providers_total": 91,
+  "providers_free_tier": 89,
   "models": [
     {
       "provider_id": "agnes_ai",
@@ -415,53 +415,6 @@
       "pinned": false
     },
     {
-      "provider_id": "blaze-free",
-      "provider_name": "Blaze Free",
-      "model_id": "MiniMax-M2.5-official",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "blaze-free",
-      "provider_name": "Blaze Free",
-      "model_id": "MiniMax-M2.7-official",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "blaze-free",
-      "provider_name": "Blaze Free",
-      "model_id": "MiniMax-M3-official",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
-      "pinned": false
-    },
-    {
       "provider_id": "cerebras",
       "provider_name": "Cerebras",
       "model_id": "gpt-oss-120b",
@@ -540,7 +493,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -556,26 +509,8 @@
         "tools"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-rp"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "cliproxyapi",
-      "provider_name": "CLIProxyAPI",
-      "model_id": "gemini-2.5-flash",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "auto"
-      ],
       "pinned": false
     },
     {
@@ -700,6 +635,830 @@
       "context": 128000,
       "tps": null,
       "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "agnes-2-0-flash:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "agnes-2-5-flash:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "agnes-3-0-flash:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "deepseek-v4-flash-0731-thinking:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "deepseek-v4-flash-0731:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "deepseek-v4-flash:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemini-2.0-flash:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemini-2.5-pro:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemini-3-flash:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemini-3-pro:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemini-3.1-pro:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemini-3.5-flash:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemini-3.7-flash:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemini-3.8-flash:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemma-4-26b-a4b-it-chimerax:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemma-4-26b-a4b-it-darksoul:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemma-4-26b-a4b-it-luminous:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemma-4-26b-a4b-it-meromero:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemma-4-26b-a4b-it-moonlight:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemma-4-26b-a4b-it-musica:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gemma4:31b:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "glm-5.3-flash-thinking:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "glm-5.3-flash:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gpt-4.1-mini:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gpt-4.1:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gpt-4.5:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gpt-4o-mini:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gpt-4o:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gpt-5.3-instant:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gpt-5.3:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gpt-5.4-thinking:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gpt-5.5-instant:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gpt-5.6-sol:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gpt-5:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gpt-oss:120b:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "gpt-oss:20b:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "grok-4.7-fast:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "grok-4.7:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "hy3:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "kimi-k2.6:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "laguna-s-2-1:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "laguna-xs-2-1:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "mimo-v2-6-flash:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "minimax-m2.5:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "minimax-m2.7:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "minimax-m2.7:free-thinking",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "mistral-medium-3.5:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "muse-glimmer-30b:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "muse-glimmer-30b:free-thinking",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "muse-spark-1-3-contributor:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "muse-spark-1.1:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "nemotron-3-nano:30b:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "nemotron-3-super-120b-a12b:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "nemotron-3-ultra-550b-a55b:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "nemotron-3-ultra:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "north-mini-code:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "o3:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "o4-mini:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "openai/gpt-oss-20b:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "openai/gpt-oss-safeguard-20b:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "qwen-3.6-plus:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "qwen-3.8-27b:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "qwen-3.8-max:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "runpod/kimi-k3",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "space-bunny-alpha:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "model_id": "step-5-preview:free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "dlab-community",
+      "provider_name": "Dlab Community",
+      "model_id": "glm-5-3-free",
+      "context": null,
+      "tps": null,
+      "capabilities": [
+        "chat",
+        "reasoning",
+        "vision"
+      ],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "dlab-community",
+      "provider_name": "Dlab Community",
+      "model_id": "kimi-k3-free",
+      "context": null,
+      "tps": null,
+      "capabilities": [
+        "chat",
+        "reasoning",
+        "vision"
+      ],
       "notes": "",
       "blocked": false,
       "source": "gateway",
@@ -1680,7 +2439,7 @@
         "fast"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -1698,7 +2457,7 @@
         "long_context"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -1716,7 +2475,7 @@
         "fast"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -1734,14 +2493,8 @@
         "fast"
       ],
       "notes": "Best free flash model, 1M context",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-fast",
-        "chat-smart",
-        "coding-smart",
-        "glm5-elite"
-      ],
       "pinned": false
     },
     {
@@ -1759,27 +2512,9 @@
         "reasoning"
       ],
       "notes": "Best free Gemini model, 2M context",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
-    },
-    {
-      "provider_id": "gemini",
-      "provider_name": "Google Gemini API",
-      "model_id": "gemini-3-flash-preview",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-rp",
-        "coding-elite",
-        "coding-fast",
-        "coding-smart"
-      ],
-      "pinned": true
     },
     {
       "provider_id": "gemini",
@@ -1796,24 +2531,8 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "gemini",
-      "provider_name": "Google Gemini API",
-      "model_id": "gemini-3.1-pro-preview",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-elite",
-        "coding-elite"
-      ],
       "pinned": false
     },
     {
@@ -1827,7 +2546,7 @@
         "code"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -2143,11 +2862,8 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-smart"
-      ],
       "pinned": false
     },
     {
@@ -2213,11 +2929,8 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-rp"
-      ],
       "pinned": false
     },
     {
@@ -2242,23 +2955,6 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "iamhc",
-      "provider_name": "Iamhc",
-      "model_id": "Kimi-K2.6",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast",
-        "coding-free"
-      ],
       "pinned": false
     },
     {
@@ -2967,6 +3663,318 @@
       "pinned": false
     },
     {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "agnes-2.5-flash",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "agnes-3.0-flash",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "apodex-1.1-mini",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "atria-dawn-preview",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "deepseek-v4-flash-free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "deepseek-v4-flash-vision-exp-free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "dots-3-note-preview",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "glm-4-9b-0414",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "glm-z1-9b-0414",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "glyph-cluster",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "hunyuan-mt-7b",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "laguna-s-2.1",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "laguna-xs-2.1",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "lfm-2.5-2.6b",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "ling-3.1-flash",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "nemotron-3-super-120b-a12b",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "nemotron-3-ultra-550b-a55b",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "nemotron-3.5-lightning",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "north-mini-code",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "openrouter/free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "qwen2.5-7b-instruct",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "qwen3-8b",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "qwen3.8-27b-free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "qwen3.8-flash-free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "sensenova-6.8-flash-lite",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "step-5-preview-free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
       "provider_id": "kiro",
       "provider_name": "Kiro",
       "model_id": "claude-haiku-4.5",
@@ -3498,11 +4506,8 @@
         "tools"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-rp"
-      ],
       "pinned": false
     },
     {
@@ -3899,126 +4904,6 @@
     {
       "provider_id": "nvidia",
       "provider_name": "NVIDIA NIM",
-      "model_id": "google/gemma-3n-e2b-it",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "title-fast"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "google/gemma-3n-e4b-it",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "title-fast"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "meta/llama-3.1-8b-instruct",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "title-fast"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "meta/llama-3.3-70b-instruct",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-rp"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "mistralai/mistral-7b-instruct-v0.3",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-rp"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "mistralai/mistral-large-3-675b-instruct-2512",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-rp"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "mistralai/mistral-nemotron",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-rp"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "mistralai/mistral-small-4-119b-2603",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-rp"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
       "model_id": "nvidia/gemma-2-27b-it",
       "context": 8192,
       "tps": 120,
@@ -4029,26 +4914,6 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/gliner-pii",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
       "pinned": false
     },
     {
@@ -4070,46 +4935,6 @@
     {
       "provider_id": "nvidia",
       "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/llama-3.1-nemotron-70b-instruct",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/llama-3.1-nemotron-nano-8b-v1",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
       "model_id": "nvidia/llama-3.3-70b-instruct",
       "context": 131072,
       "tps": 100,
@@ -4124,406 +4949,15 @@
       "pinned": false
     },
     {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1",
-      "context": null,
+      "provider_id": "opencode-go",
+      "provider_name": "Opencode Go",
+      "model_id": "ox-alpha-free",
+      "context": 1000000,
       "tps": null,
       "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
+      "notes": "",
       "blocked": false,
       "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/llama-3_2-nemoretriever-300m-embed-v1",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/llama-nemotron-rerank-vl-1b-v2",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/nemotron-3-content-safety",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/nemotron-3-nano-30b-a3b",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/nemotron-content-safety-reasoning-4b",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle",
-        "title-fast"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/nemotron-mini-4b-instruct",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "title-fast"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/nemotron-nano-12b-v2-vl",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/nemotron-voicechat",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/nv-embed-v1",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/nv-embedcode-7b-v1",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/nvidia-nemotron-nano-9b-v2",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/rerank-qa-mistral-4b",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/studiovoice",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/usdvalidate",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "upstage/solar-10.7b-instruct",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-rp"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "z-ai/glm-5.1",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "title-fast"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
-      "model_id": "z-ai/glm-5.2",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-smart",
-        "glm5-elite"
-      ],
       "pinned": false
     },
     {
@@ -4736,7 +5170,7 @@
       "tps": null,
       "capabilities": [],
       "notes": "Served via gateway virtual model chain",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "virtual_models": [
         "safe-coding"
@@ -4751,7 +5185,7 @@
       "tps": null,
       "capabilities": [],
       "notes": "Served via gateway virtual model chain",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "virtual_models": [
         "safe-coding"
@@ -4766,7 +5200,7 @@
       "tps": null,
       "capabilities": [],
       "notes": "Served via gateway virtual model chain",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "virtual_models": [
         "safe-coding"
@@ -4781,7 +5215,7 @@
       "tps": null,
       "capabilities": [],
       "notes": "Served via gateway virtual model chain",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "virtual_models": [
         "safe-coding"
@@ -4796,7 +5230,7 @@
       "tps": null,
       "capabilities": [],
       "notes": "Served via gateway virtual model chain",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "virtual_models": [
         "safe-coding"
@@ -4811,7 +5245,7 @@
       "tps": null,
       "capabilities": [],
       "notes": "Served via gateway virtual model chain",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "virtual_models": [
         "safe-coding"
@@ -4826,7 +5260,7 @@
       "tps": null,
       "capabilities": [],
       "notes": "Served via gateway virtual model chain",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "virtual_models": [
         "safe-coding"
@@ -4955,6 +5389,126 @@
       "provider_name": "Regolo AI",
       "model_id": "deepseek-ocr-2",
       "context": 4000,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "requesty",
+      "provider_name": "Requesty",
+      "model_id": "gemma-4-31b-it",
+      "context": 262144,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "requesty",
+      "provider_name": "Requesty",
+      "model_id": "laguna-m.1",
+      "context": 32768,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "requesty",
+      "provider_name": "Requesty",
+      "model_id": "leanstral-1-5@eu",
+      "context": 262144,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "requesty",
+      "provider_name": "Requesty",
+      "model_id": "ling-3.0-tiny",
+      "context": 262144,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "requesty",
+      "provider_name": "Requesty",
+      "model_id": "muse-glimmer-30b",
+      "context": 131072,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "requesty",
+      "provider_name": "Requesty",
+      "model_id": "nemotron-3-nano-omni-30b-a3b-reasoning",
+      "context": 131072,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "requesty",
+      "provider_name": "Requesty",
+      "model_id": "nemotron-3-super-120b-a12b",
+      "context": 1048576,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "requesty",
+      "provider_name": "Requesty",
+      "model_id": "nemotron-3-ultra-550b-a55b",
+      "context": 1048576,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "requesty",
+      "provider_name": "Requesty",
+      "model_id": "nemotron-3.5-content-safety",
+      "context": 131072,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "requesty",
+      "provider_name": "Requesty",
+      "model_id": "nemotron-3.5-lightning-30b-a3b",
+      "context": 1048576,
       "tps": null,
       "capabilities": [],
       "notes": "",
@@ -5355,7 +5909,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5373,7 +5927,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5390,7 +5944,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5408,7 +5962,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5425,7 +5979,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5443,7 +5997,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5460,7 +6014,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5478,7 +6032,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5495,7 +6049,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5513,7 +6067,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5530,7 +6084,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5548,7 +6102,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5566,7 +6120,7 @@
         "fast"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5585,7 +6139,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5602,7 +6156,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5620,7 +6174,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5638,7 +6192,7 @@
         "fast"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5657,7 +6211,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5674,7 +6228,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5692,7 +6246,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5709,7 +6263,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5726,7 +6280,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5743,11 +6297,8 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "coding-elite"
-      ],
       "pinned": false
     },
     {
@@ -5782,7 +6333,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5800,7 +6351,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5818,7 +6369,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5836,7 +6387,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5854,7 +6405,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5872,7 +6423,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5889,7 +6440,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5906,7 +6457,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5923,7 +6474,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5940,7 +6491,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5957,7 +6508,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5975,11 +6526,8 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "coding-elite"
-      ],
       "pinned": false
     },
     {
@@ -5996,7 +6544,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6014,7 +6562,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6050,7 +6598,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6068,7 +6616,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6086,7 +6634,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6104,7 +6652,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6122,7 +6670,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6158,7 +6706,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6176,7 +6724,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6193,7 +6741,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6210,7 +6758,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6227,7 +6775,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6244,7 +6792,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6297,7 +6845,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6315,7 +6863,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6333,7 +6881,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6351,7 +6899,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6368,7 +6916,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6385,7 +6933,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6402,7 +6950,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6420,7 +6968,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6437,7 +6985,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6473,7 +7021,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6491,7 +7039,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6509,7 +7057,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6527,7 +7075,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6545,7 +7093,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6563,7 +7111,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6581,7 +7129,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6599,7 +7147,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6617,7 +7165,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6652,7 +7200,7 @@
         "coding"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6669,24 +7217,8 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.4-mini",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-smart"
-      ],
       "pinned": false
     },
     {
@@ -6702,7 +7234,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6719,7 +7251,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6736,7 +7268,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6753,7 +7285,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -6770,7 +7302,7 @@
         "function_calling"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
