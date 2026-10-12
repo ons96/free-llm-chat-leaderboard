@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-05T13:46:31Z",
- "total_models": 466,
- "free_models_count": 17,
+ "fetched_at": "2026-10-12T14:35:09Z",
+ "total_models": 458,
+ "free_models_count": 15,
  "models": [
   {
    "id": "apodex/apodex-1.1-mini:free",
@@ -82,22 +82,6 @@
    },
    "created": 1775148486,
    "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function..."
-  },
-  {
-   "id": "inclusionai/ling-3.0-flash-sante:free",
-   "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
-   "context_length": 262144,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 262144,
-    "max_completion_tokens": 32768,
-    "is_moderated": false
-   },
-   "created": 1788545946,
-   "description": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for..."
   },
   {
    "id": "liquid/lfm-2.5-2.6b:free",
@@ -226,22 +210,6 @@
    },
    "created": 1783002429,
    "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines..."
-  },
-  {
-   "id": "qwen/qwen3.8-27b:free",
-   "name": "Qwen: Qwen3.8 27B (free)",
-   "context_length": 262144,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 262144,
-    "max_completion_tokens": 235929,
-    "is_moderated": false
-   },
-   "created": 1786722910,
-   "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be..."
   },
   {
    "id": "thinkingmachines/inkling-small:free",

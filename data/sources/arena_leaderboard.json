@@ -1,41 +1,41 @@
 {
- "fetched_at": "2026-10-05T13:46:30Z",
+ "fetched_at": "2026-10-12T14:35:08Z",
  "source_url": "https://arena.ai/leaderboard/text",
- "count": 413,
+ "count": 414,
  "entries": [
   {
    "model_key": "barium-bb-wlqc-text",
    "display_name": "gemini-4-argon-high",
    "rank": 1,
    "arena_score": 1525,
-   "votes": 4932,
+   "votes": 4892,
    "context_length": 1000000,
    "organization": "Google"
   },
   {
+   "model_key": "claude-opus-5.5-high-vertex",
+   "display_name": "claude-opus-5.5-high",
+   "rank": 2,
+   "arena_score": 1507,
+   "votes": 6272,
+   "context_length": 1000000,
+   "organization": "Anthropic"
+  },
+  {
    "model_key": "claude-opus-4-6-thinking",
    "display_name": "claude-opus-4-6-high",
-   "rank": 2,
-   "arena_score": 1505,
-   "votes": 77636,
+   "rank": 3,
+   "arena_score": 1504,
+   "votes": 79415,
    "context_length": 1000000,
    "organization": "Anthropic"
   },
   {
    "model_key": "claude-fable-5-text",
    "display_name": "claude-fable-5-high",
-   "rank": 3,
-   "arena_score": 1504,
-   "votes": 38387,
-   "context_length": 1000000,
-   "organization": "Anthropic"
-  },
-  {
-   "model_key": "claude-opus-5.5-high-vertex",
-   "display_name": "claude-opus-5.5-high",
    "rank": 4,
    "arena_score": 1504,
-   "votes": 4552,
+   "votes": 40026,
    "context_length": 1000000,
    "organization": "Anthropic"
   },
@@ -44,7 +44,7 @@
    "display_name": "claude-opus-4-7-high",
    "rank": 5,
    "arena_score": 1501,
-   "votes": 64946,
+   "votes": 65192,
    "context_length": 1000000,
    "organization": "Anthropic"
   },
@@ -53,7 +53,7 @@
    "display_name": "claude-fable-5.1-max",
    "rank": 6,
    "arena_score": 1501,
-   "votes": 11800,
+   "votes": 13063,
    "context_length": 1000000,
    "organization": "Anthropic"
   },
@@ -61,8 +61,8 @@
    "model_key": "claude-opus-4-6",
    "display_name": "claude-opus-4-6",
    "rank": 7,
-   "arena_score": 1497,
-   "votes": 82189,
+   "arena_score": 1498,
+   "votes": 84095,
    "context_length": 1000000,
    "organization": "Anthropic"
   },
@@ -70,8 +70,8 @@
    "model_key": "skimaki-kwc6",
    "display_name": "gemini-3.8-flash-high",
    "rank": 8,
-   "arena_score": 1495,
-   "votes": 26298,
+   "arena_score": 1497,
+   "votes": 31437,
    "context_length": 1048576,
    "organization": "Google"
   },
@@ -80,7 +80,7 @@
    "display_name": "muse-spark-1.3-max",
    "rank": 9,
    "arena_score": 1494,
-   "votes": 12343,
+   "votes": 14694,
    "context_length": 1000000,
    "organization": "Meta"
   },
@@ -89,7 +89,7 @@
    "display_name": "claude-opus-4-7",
    "rank": 10,
    "arena_score": 1494,
-   "votes": 66058,
+   "votes": 66315,
    "context_length": 1000000,
    "organization": "Anthropic"
   },
@@ -97,8 +97,8 @@
    "model_key": "muse-spark-1.2-xhigh-text",
    "display_name": "muse-spark-1.2 (xHigh)",
    "rank": 11,
-   "arena_score": 1494,
-   "votes": 4356,
+   "arena_score": 1492,
+   "votes": 6118,
    "context_length": null,
    "organization": "Meta"
   },
@@ -107,7 +107,7 @@
    "display_name": "muse-spark-1.1",
    "rank": 12,
    "arena_score": 1491,
-   "votes": 37238,
+   "votes": 39847,
    "context_length": null,
    "organization": "Meta"
   },
@@ -116,7 +116,7 @@
    "display_name": "claude-opus-5-high",
    "rank": 13,
    "arena_score": 1490,
-   "votes": 59482,
+   "votes": 62934,
    "context_length": 1000000,
    "organization": "Anthropic"
   },
@@ -125,7 +125,7 @@
    "display_name": "claude-opus-5-max",
    "rank": 14,
    "arena_score": 1489,
-   "votes": 28937,
+   "votes": 30569,
    "context_length": 1000000,
    "organization": "Anthropic"
   },
@@ -134,7 +134,7 @@
    "display_name": "muse-spark",
    "rank": 15,
    "arena_score": 1489,
-   "votes": 14120,
+   "votes": 14168,
    "context_length": null,
    "organization": "Meta"
   },
@@ -143,25 +143,25 @@
    "display_name": "kimi-k3-max",
    "rank": 16,
    "arena_score": 1488,
-   "votes": 28280,
+   "votes": 30351,
    "context_length": null,
    "organization": "Moonshot"
   },
   {
-   "model_key": "andwise-evfd",
-   "display_name": "gemini-3.7-flash-high",
+   "model_key": "gemini-3.1-pro-preview",
+   "display_name": "gemini-3.1-pro-preview",
    "rank": 17,
-   "arena_score": 1488,
-   "votes": 21539,
+   "arena_score": 1487,
+   "votes": 124675,
    "context_length": 1048576,
    "organization": "Google"
   },
   {
-   "model_key": "gemini-3.1-pro-preview",
-   "display_name": "gemini-3.1-pro-preview",
+   "model_key": "andwise-evfd",
+   "display_name": "gemini-3.7-flash-high",
    "rank": 18,
-   "arena_score": 1487,
-   "votes": 121806,
+   "arena_score": 1486,
+   "votes": 24173,
    "context_length": 1048576,
    "organization": "Google"
   },
@@ -170,7 +170,7 @@
    "display_name": "gemini-3-pro",
    "rank": 19,
    "arena_score": 1485,
-   "votes": 41910,
+   "votes": 42078,
    "context_length": 1048576,
    "organization": "Google"
   },
@@ -178,8 +178,8 @@
    "model_key": "gpt-5.6-sol-xhigh-text",
    "display_name": "gpt-5.6-sol-xhigh",
    "rank": 20,
-   "arena_score": 1484,
-   "votes": 36656,
+   "arena_score": 1485,
+   "votes": 38490,
    "context_length": null,
    "organization": "OpenAI"
   },
@@ -187,53 +187,53 @@
    "model_key": "gpt-6.1-sol-max",
    "display_name": "gpt-6.1-sol-max",
    "rank": 21,
-   "arena_score": 1483,
-   "votes": 3071,
-   "context_length": null,
+   "arena_score": 1484,
+   "votes": 4512,
+   "context_length": 1050000,
    "organization": "OpenAI"
-  },
-  {
-   "model_key": "gemini-3.6-flash",
-   "display_name": "gemini-3.6-flash-high",
-   "rank": 22,
-   "arena_score": 1483,
-   "votes": 36070,
-   "context_length": 1048576,
-   "organization": "Google"
   },
   {
    "model_key": "kinsley-mrp8",
    "display_name": "qwen3.8-max",
-   "rank": 23,
-   "arena_score": 1482,
-   "votes": 23353,
+   "rank": 22,
+   "arena_score": 1483,
+   "votes": 25378,
    "context_length": 1000000,
    "organization": "Alibaba"
   },
   {
-   "model_key": "claude-opus-4-8-thinking-text",
-   "display_name": "claude-opus-4-8-high",
-   "rank": 24,
+   "model_key": "gemini-3.6-flash",
+   "display_name": "gemini-3.6-flash-high",
+   "rank": 23,
    "arena_score": 1482,
-   "votes": 63974,
-   "context_length": 1000000,
-   "organization": "Anthropic"
+   "votes": 36172,
+   "context_length": 1048576,
+   "organization": "Google"
   },
   {
    "model_key": "gpt-5.5-high-text",
    "display_name": "gpt-5.5-high",
-   "rank": 25,
-   "arena_score": 1481,
-   "votes": 69202,
+   "rank": 24,
+   "arena_score": 1482,
+   "votes": 69437,
    "context_length": 1050000,
    "organization": "OpenAI"
+  },
+  {
+   "model_key": "claude-opus-4-8-thinking-text",
+   "display_name": "claude-opus-4-8-high",
+   "rank": 25,
+   "arena_score": 1481,
+   "votes": 64177,
+   "context_length": 1000000,
+   "organization": "Anthropic"
   },
   {
    "model_key": "mimo-v2-6-pro-mw0j-text",
    "display_name": "mimo-v2.6-pro",
    "rank": 26,
    "arena_score": 1480,
-   "votes": 4056,
+   "votes": 4069,
    "context_length": 1050000,
    "organization": "Xiaomi"
   },
@@ -242,7 +242,7 @@
    "display_name": "glm-5.3-max",
    "rank": 27,
    "arena_score": 1478,
-   "votes": 17857,
+   "votes": 20049,
    "context_length": 1048576,
    "organization": "Z.ai"
   },
@@ -250,170 +250,170 @@
    "model_key": "gemini-3.5-flash-high-public",
    "display_name": "gemini-3.5-flash-high",
    "rank": 28,
-   "arena_score": 1477,
-   "votes": 48420,
+   "arena_score": 1478,
+   "votes": 48533,
    "context_length": 1048576,
    "organization": "Google"
   },
   {
-   "model_key": "gpt-6-astra-max-text",
-   "display_name": "gpt-6-astra-max",
-   "rank": 29,
-   "arena_score": 1477,
-   "votes": 9156,
-   "context_length": null,
-   "organization": "OpenAI"
-  },
-  {
    "model_key": "gpt-5.5-text",
    "display_name": "gpt-5.5",
-   "rank": 30,
+   "rank": 29,
    "arena_score": 1477,
-   "votes": 70781,
+   "votes": 71047,
    "context_length": 1050000,
    "organization": "OpenAI"
   },
   {
    "model_key": "gemini-3.5-flash-medium",
    "display_name": "gemini-3.5-flash-medium",
-   "rank": 31,
+   "rank": 30,
    "arena_score": 1476,
-   "votes": 47187,
+   "votes": 47339,
    "context_length": 1048576,
    "organization": "Google"
   },
   {
-   "model_key": "glm-5.2-text",
-   "display_name": "glm-5.2-max",
-   "rank": 32,
-   "arena_score": 1476,
-   "votes": 45399,
-   "context_length": 1000000,
-   "organization": "Z.ai"
-  },
-  {
    "model_key": "gpt-5.2-chat-latest",
    "display_name": "gpt-5.2-chat-latest-20260210",
-   "rank": 33,
+   "rank": 31,
    "arena_score": 1476,
-   "votes": 35937,
+   "votes": 36007,
    "context_length": 128000,
    "organization": "OpenAI"
+  },
+  {
+   "model_key": "claude-sonnet-5-5-xhigh",
+   "display_name": "claude-sonnet-5.5-xhigh",
+   "rank": 32,
+   "arena_score": 1476,
+   "votes": 4838,
+   "context_length": 1000000,
+   "organization": "Anthropic"
+  },
+  {
+   "model_key": "glm-5.2-text",
+   "display_name": "glm-5.2-max",
+   "rank": 33,
+   "arena_score": 1475,
+   "votes": 47521,
+   "context_length": 1000000,
+   "organization": "Z.ai"
   },
   {
    "model_key": "gpt-5.4-high-no-system-prompt",
    "display_name": "gpt-5.4-high",
    "rank": 34,
    "arena_score": 1475,
-   "votes": 64642,
+   "votes": 64844,
    "context_length": 1050000,
+   "organization": "OpenAI"
+  },
+  {
+   "model_key": "gpt-6-astra-max-text",
+   "display_name": "gpt-6-astra-max",
+   "rank": 35,
+   "arena_score": 1475,
+   "votes": 10536,
+   "context_length": null,
    "organization": "OpenAI"
   },
   {
    "model_key": "melyora-9qr6",
    "display_name": "qwen3.7-max-preview",
-   "rank": 35,
+   "rank": 36,
    "arena_score": 1475,
-   "votes": 3920,
+   "votes": 3932,
    "context_length": 1000000,
    "organization": "Alibaba"
   },
   {
    "model_key": "clanker-text",
    "display_name": "grok-4.20-beta1",
-   "rank": 36,
+   "rank": 37,
    "arena_score": 1475,
-   "votes": 27827,
+   "votes": 27928,
    "context_length": null,
    "organization": "SpaceXAI"
   },
   {
-   "model_key": "claude-opus-4-8-text",
-   "display_name": "claude-opus-4-8",
-   "rank": 37,
+   "model_key": "glm-5.3-flash-text",
+   "display_name": "glm-5.3-flash",
+   "rank": 38,
    "arena_score": 1475,
-   "votes": 65072,
-   "context_length": 1000000,
-   "organization": "Anthropic"
+   "votes": 27678,
+   "context_length": 1048576,
+   "organization": "Z.ai"
   },
   {
    "model_key": "deepseek-v4.1-flash-max-20260910-text",
    "display_name": "deepseek-v4.1-flash-max",
-   "rank": 38,
-   "arena_score": 1474,
-   "votes": 8728,
+   "rank": 39,
+   "arena_score": 1475,
+   "votes": 10872,
    "context_length": 1000000,
    "organization": "DeepSeek"
   },
   {
+   "model_key": "claude-opus-4-8-text",
+   "display_name": "claude-opus-4-8",
+   "rank": 40,
+   "arena_score": 1474,
+   "votes": 65259,
+   "context_length": 1000000,
+   "organization": "Anthropic"
+  },
+  {
    "model_key": "claude-opus-4-5-20251101-thinking-32k",
    "display_name": "claude-opus-4-5-20251101-high-32k",
-   "rank": 39,
+   "rank": 41,
    "arena_score": 1474,
-   "votes": 37448,
+   "votes": 37527,
    "context_length": 200000,
    "organization": "Anthropic"
   },
   {
    "model_key": "gpt-5.5-instant",
    "display_name": "gpt-5.5-instant",
-   "rank": 40,
+   "rank": 42,
    "arena_score": 1473,
-   "votes": 27098,
+   "votes": 27187,
    "context_length": 1050000,
    "organization": "OpenAI"
   },
   {
-   "model_key": "glm-5.3-flash-text",
-   "display_name": "glm-5.3-flash",
-   "rank": 41,
-   "arena_score": 1473,
-   "votes": 22971,
-   "context_length": 1048576,
-   "organization": "Z.ai"
-  },
-  {
    "model_key": "gemini-3-flash",
    "display_name": "gemini-3-flash",
-   "rank": 42,
+   "rank": 43,
    "arena_score": 1473,
-   "votes": 31259,
+   "votes": 31337,
    "context_length": 1048576,
    "organization": "Google"
   },
   {
    "model_key": "claude-sonnet-4-6",
    "display_name": "claude-sonnet-4-6",
-   "rank": 43,
+   "rank": 44,
    "arena_score": 1472,
-   "votes": 70747,
+   "votes": 70971,
    "context_length": 1000000,
    "organization": "Anthropic"
   },
   {
    "model_key": "grok-4.20-beta-0309-reasoning",
    "display_name": "grok-4.20-beta-0309-reasoning",
-   "rank": 44,
+   "rank": 45,
    "arena_score": 1472,
-   "votes": 66334,
+   "votes": 66524,
    "context_length": 1000000,
    "organization": "SpaceXAI"
-  },
-  {
-   "model_key": "claude-sonnet-5-5-xhigh",
-   "display_name": "claude-sonnet-5.5-xhigh",
-   "rank": 45,
-   "arena_score": 1471,
-   "votes": 3145,
-   "context_length": 1000000,
-   "organization": "Anthropic"
   },
   {
    "model_key": "grok-4.20-multi-agent-beta-0309",
    "display_name": "grok-4.20-multi-agent-beta-0309",
    "rank": 46,
-   "arena_score": 1471,
-   "votes": 64788,
+   "arena_score": 1470,
+   "votes": 65008,
    "context_length": 1000000,
    "organization": "SpaceXAI"
   },
@@ -422,52 +422,52 @@
    "display_name": "claude-opus-4-5-20251101",
    "rank": 47,
    "arena_score": 1470,
-   "votes": 72772,
+   "votes": 72952,
    "context_length": 200000,
    "organization": "Anthropic"
   },
   {
-   "model_key": "zero-prism",
-   "display_name": "ernie-5.1",
-   "rank": 48,
-   "arena_score": 1468,
-   "votes": 39396,
-   "context_length": 119000,
-   "organization": "Baidu"
-  },
-  {
    "model_key": "mimo-v2.5-pro-text",
    "display_name": "mimo-v2.5-pro",
-   "rank": 49,
+   "rank": 48,
    "arena_score": 1468,
-   "votes": 70871,
+   "votes": 73197,
    "context_length": 1050000,
    "organization": "Xiaomi"
   },
   {
-   "model_key": "grok-4.5-text",
-   "display_name": "grok-4.5",
-   "rank": 50,
-   "arena_score": 1466,
-   "votes": 39789,
-   "context_length": 500000,
-   "organization": "SpaceXAI"
+   "model_key": "zero-prism",
+   "display_name": "ernie-5.1",
+   "rank": 49,
+   "arena_score": 1467,
+   "votes": 39536,
+   "context_length": 119000,
+   "organization": "Baidu"
   },
   {
    "model_key": "gpt-5.6-terra-xhigh-text",
    "display_name": "gpt-5.6-terra-xhigh",
-   "rank": 51,
-   "arena_score": 1465,
-   "votes": 37663,
+   "rank": 50,
+   "arena_score": 1466,
+   "votes": 40278,
    "context_length": null,
    "organization": "OpenAI"
+  },
+  {
+   "model_key": "grok-4.5-text",
+   "display_name": "grok-4.5",
+   "rank": 51,
+   "arena_score": 1466,
+   "votes": 39953,
+   "context_length": 500000,
+   "organization": "SpaceXAI"
   },
   {
    "model_key": "grok-4.1-thinking",
    "display_name": "grok-4.1-thinking",
    "rank": 52,
    "arena_score": 1465,
-   "votes": 66366,
+   "votes": 66511,
    "context_length": null,
    "organization": "SpaceXAI"
   },
@@ -476,7 +476,7 @@
    "display_name": "gpt-5.4",
    "rank": 53,
    "arena_score": 1465,
-   "votes": 67707,
+   "votes": 67932,
    "context_length": 1050000,
    "organization": "OpenAI"
   },
@@ -485,34 +485,34 @@
    "display_name": "qwen3.5-max-preview",
    "rank": 54,
    "arena_score": 1465,
-   "votes": 22555,
+   "votes": 22624,
    "context_length": null,
    "organization": "Alibaba"
   },
   {
-   "model_key": "glm-5.1-text",
-   "display_name": "glm-5.1",
-   "rank": 55,
-   "arena_score": 1465,
-   "votes": 58358,
-   "context_length": 202752,
-   "organization": "Z.ai"
-  },
-  {
    "model_key": "deepseek-v4-pro-high-20260813-text",
    "display_name": "deepseek-v4-pro-high-20260813",
-   "rank": 56,
-   "arena_score": 1464,
-   "votes": 9780,
+   "rank": 55,
+   "arena_score": 1465,
+   "votes": 9815,
    "context_length": null,
    "organization": "DeepSeek"
+  },
+  {
+   "model_key": "glm-5.1-text",
+   "display_name": "glm-5.1",
+   "rank": 56,
+   "arena_score": 1464,
+   "votes": 60592,
+   "context_length": 202752,
+   "organization": "Z.ai"
   },
   {
    "model_key": "claude-sonnet-5-text",
    "display_name": "claude-sonnet-5-high",
    "rank": 57,
-   "arena_score": 1462,
-   "votes": 45739,
+   "arena_score": 1461,
+   "votes": 47576,
    "context_length": 1000000,
    "organization": "Anthropic"
   },
@@ -521,7 +521,7 @@
    "display_name": "kimi-k2.6",
    "rank": 58,
    "arena_score": 1461,
-   "votes": 39936,
+   "votes": 40066,
    "context_length": 262144,
    "organization": "Moonshot"
   },
@@ -530,7 +530,7 @@
    "display_name": "qwen3.6-max-preview",
    "rank": 59,
    "arena_score": 1460,
-   "votes": 5406,
+   "votes": 5426,
    "context_length": 262144,
    "organization": "Alibaba"
   },
@@ -539,7 +539,7 @@
    "display_name": "grok-4.1",
    "rank": 60,
    "arena_score": 1459,
-   "votes": 68478,
+   "votes": 68682,
    "context_length": null,
    "organization": "SpaceXAI"
   },
@@ -548,7 +548,7 @@
    "display_name": "gemini-3-flash (thinking-minimal)",
    "rank": 61,
    "arena_score": 1458,
-   "votes": 90842,
+   "votes": 91105,
    "context_length": 1048576,
    "organization": "Google"
   },
@@ -557,7 +557,7 @@
    "display_name": "deepseek-v4-pro",
    "rank": 62,
    "arena_score": 1458,
-   "votes": 57478,
+   "votes": 57657,
    "context_length": 1048576,
    "organization": "DeepSeek"
   },
@@ -566,196 +566,196 @@
    "display_name": "glm-5",
    "rank": 63,
    "arena_score": 1458,
-   "votes": 29174,
+   "votes": 29292,
    "context_length": 204800,
    "organization": "Z.ai"
   },
   {
-   "model_key": "gpt-6-sol-max-text",
-   "display_name": "gpt-6-sol-max",
-   "rank": 64,
-   "arena_score": 1457,
-   "votes": 8787,
-   "context_length": 1050000,
-   "organization": "OpenAI"
-  },
-  {
    "model_key": "claude-sonnet-4-5-20250929-thinking-32k",
    "display_name": "claude-sonnet-4-5-20250929-high-32k",
-   "rank": 65,
-   "arena_score": 1457,
-   "votes": 83670,
-   "context_length": 1000000,
+   "rank": 64,
+   "arena_score": 1456,
+   "votes": 83973,
+   "context_length": 200000,
    "organization": "Anthropic"
   },
   {
    "model_key": "dola-seed-2.0-pro-text",
    "display_name": "dola-seed-2.0-pro",
-   "rank": 66,
+   "rank": 65,
    "arena_score": 1456,
-   "votes": 78890,
+   "votes": 79195,
    "context_length": null,
    "organization": "Bytedance"
   },
   {
-   "model_key": "hy3-tencent-cloud-text",
-   "display_name": "hy3",
-   "rank": 67,
-   "arena_score": 1456,
-   "votes": 10476,
-   "context_length": 262144,
-   "organization": "Tencent"
-  },
-  {
    "model_key": "qwen3.7-plus",
    "display_name": "qwen3.7-plus",
-   "rank": 68,
+   "rank": 66,
    "arena_score": 1456,
-   "votes": 41908,
+   "votes": 42073,
    "context_length": 1000000,
    "organization": "Alibaba"
   },
   {
+   "model_key": "gpt-6-sol-max-text",
+   "display_name": "gpt-6-sol-max",
+   "rank": 67,
+   "arena_score": 1456,
+   "votes": 10469,
+   "context_length": 1050000,
+   "organization": "OpenAI"
+  },
+  {
    "model_key": "gpt-5.1-high",
    "display_name": "gpt-5.1-high",
-   "rank": 69,
+   "rank": 68,
    "arena_score": 1456,
-   "votes": 41577,
+   "votes": 41674,
    "context_length": 400000,
    "organization": "OpenAI"
   },
   {
    "model_key": "claude-sonnet-4-5-20250929",
    "display_name": "claude-sonnet-4-5-20250929",
-   "rank": 70,
+   "rank": 69,
    "arena_score": 1455,
-   "votes": 82425,
+   "votes": 82735,
    "context_length": 1000000,
    "organization": "Anthropic"
   },
   {
    "model_key": "gemini-3.5-flash-lite",
    "display_name": "gemini-3.5-flash-lite",
-   "rank": 71,
+   "rank": 70,
    "arena_score": 1455,
-   "votes": 35763,
+   "votes": 35892,
    "context_length": 1048576,
    "organization": "Google"
   },
   {
    "model_key": "deepseek-v4-pro-ch1-thinking-text",
    "display_name": "deepseek-v4-pro-high-preview",
-   "rank": 72,
+   "rank": 71,
    "arena_score": 1455,
-   "votes": 54767,
+   "votes": 54976,
    "context_length": 1048576,
    "organization": "DeepSeek"
   },
   {
    "model_key": "grok-4.6-high-public-text",
    "display_name": "grok-4.6-high",
-   "rank": 73,
+   "rank": 72,
    "arena_score": 1454,
-   "votes": 23680,
+   "votes": 26115,
    "context_length": 500000,
    "organization": "SpaceXAI"
   },
   {
-   "model_key": "step-5-preview-agent",
-   "display_name": "Step 5 Preview",
-   "rank": 74,
+   "model_key": "hy3-tencent-cloud-text",
+   "display_name": "hy3",
+   "rank": 73,
    "arena_score": 1454,
-   "votes": 2701,
-   "context_length": null,
-   "organization": "StepFun"
+   "votes": 11284,
+   "context_length": 262144,
+   "organization": "Tencent"
   },
   {
    "model_key": "gpt-5.6-luna-xhigh-text",
    "display_name": "gpt-5.6-luna-xhigh",
-   "rank": 75,
-   "arena_score": 1453,
-   "votes": 38275,
+   "rank": 74,
+   "arena_score": 1452,
+   "votes": 40917,
    "context_length": null,
    "organization": "OpenAI"
   },
   {
    "model_key": "pteronura-text",
    "display_name": "gemma-4-31b",
-   "rank": 76,
-   "arena_score": 1453,
-   "votes": 6133,
+   "rank": 75,
+   "arena_score": 1452,
+   "votes": 6145,
    "context_length": 131072,
    "organization": "Google"
   },
   {
    "model_key": "mimo-v2-6-flash-text",
    "display_name": "mimo-v2.6-flash",
-   "rank": 77,
-   "arena_score": 1452,
-   "votes": 6053,
+   "rank": 76,
+   "arena_score": 1451,
+   "votes": 8226,
    "context_length": 1000000,
    "organization": "Xiaomi"
+  },
+  {
+   "model_key": "gpt-5.3-chat-latest",
+   "display_name": "gpt-5.3-chat-latest",
+   "rank": 77,
+   "arena_score": 1450,
+   "votes": 34367,
+   "context_length": 128000,
+   "organization": "OpenAI"
   },
   {
    "model_key": "kimi-k2.5-text",
    "display_name": "kimi-k2.5-thinking",
    "rank": 78,
    "arena_score": 1450,
-   "votes": 74565,
+   "votes": 74811,
    "context_length": null,
    "organization": "Moonshot"
   },
   {
-   "model_key": "gpt-5.3-chat-latest",
-   "display_name": "gpt-5.3-chat-latest",
-   "rank": 79,
-   "arena_score": 1450,
-   "votes": 34296,
-   "context_length": 128000,
-   "organization": "OpenAI"
-  },
-  {
    "model_key": "claude-opus-4-1-20250805-thinking-16k",
    "display_name": "claude-opus-4-1-20250805-thinking-16k",
-   "rank": 80,
+   "rank": 79,
    "arena_score": 1450,
-   "votes": 49306,
+   "votes": 49555,
    "context_length": 200000,
    "organization": "Anthropic"
   },
   {
    "model_key": "ernie-5.0-preview-1203",
    "display_name": "ernie-5.0-preview-1203",
-   "rank": 81,
+   "rank": 80,
    "arena_score": 1449,
-   "votes": 9788,
+   "votes": 9816,
    "context_length": null,
    "organization": "Baidu"
   },
   {
    "model_key": "claude-opus-4-1-20250805",
    "display_name": "claude-opus-4-1-20250805",
-   "rank": 82,
+   "rank": 81,
    "arena_score": 1448,
-   "votes": 76920,
+   "votes": 77252,
    "context_length": 200000,
    "organization": "Anthropic"
   },
   {
    "model_key": "mimo-v2-pro",
    "display_name": "mimo-v2-pro",
-   "rank": 83,
+   "rank": 82,
    "arena_score": 1448,
-   "votes": 25396,
+   "votes": 25447,
    "context_length": 1000000,
    "organization": "Xiaomi"
+  },
+  {
+   "model_key": "step-5-preview-agent",
+   "display_name": "Step 5 Preview",
+   "rank": 83,
+   "arena_score": 1447,
+   "votes": 4799,
+   "context_length": 1000000,
+   "organization": "StepFun"
   },
   {
    "model_key": "gpt-5.4-mini-high",
    "display_name": "gpt-5.4-mini-high",
    "rank": 84,
    "arena_score": 1447,
-   "votes": 63290,
+   "votes": 63493,
    "context_length": 400000,
    "organization": "OpenAI"
   },
@@ -764,7 +764,7 @@
    "display_name": "ernie-5.0-0110",
    "rank": 85,
    "arena_score": 1446,
-   "votes": 36413,
+   "votes": 36525,
    "context_length": null,
    "organization": "Baidu"
   },
@@ -772,8 +772,8 @@
    "model_key": "gemini-2.5-pro",
    "display_name": "gemini-2.5-pro",
    "rank": 86,
-   "arena_score": 1446,
-   "votes": 124834,
+   "arena_score": 1445,
+   "votes": 125379,
    "context_length": 1048576,
    "organization": "Google"
   },
@@ -791,7 +791,7 @@
    "display_name": "qwen3.6-plus",
    "rank": 88,
    "arena_score": 1443,
-   "votes": 48062,
+   "votes": 48208,
    "context_length": 1000000,
    "organization": "Alibaba"
   },
@@ -800,61 +800,61 @@
    "display_name": "chatgpt-4o-latest-20250326",
    "rank": 89,
    "arena_score": 1443,
-   "votes": 81595,
+   "votes": 81927,
    "context_length": 128000,
-   "organization": "OpenAI"
-  },
-  {
-   "model_key": "gpt-6-luna-max-text",
-   "display_name": "gpt-6-luna-max",
-   "rank": 90,
-   "arena_score": 1443,
-   "votes": 10014,
-   "context_length": 1050000,
    "organization": "OpenAI"
   },
   {
    "model_key": "grok-4.7-xhigh-public",
    "display_name": "grok-4.7-xhigh",
-   "rank": 91,
-   "arena_score": 1442,
-   "votes": 6405,
+   "rank": 90,
+   "arena_score": 1443,
+   "votes": 8780,
    "context_length": 500000,
    "organization": "SpaceXAI"
+  },
+  {
+   "model_key": "gpt-6-luna-max-text",
+   "display_name": "gpt-6-luna-max",
+   "rank": 91,
+   "arena_score": 1443,
+   "votes": 28632,
+   "context_length": 1050000,
+   "organization": "OpenAI"
   },
   {
    "model_key": "qwen3.5-397b-a17b-text",
    "display_name": "qwen3.5-397b-a17b",
    "rank": 92,
    "arena_score": 1442,
-   "votes": 88660,
+   "votes": 91190,
    "context_length": 262144,
    "organization": "Alibaba"
   },
   {
-   "model_key": "glm-4.7",
-   "display_name": "glm-4.7",
-   "rank": 93,
-   "arena_score": 1441,
-   "votes": 12228,
-   "context_length": 204800,
-   "organization": "Z.ai"
-  },
-  {
    "model_key": "grok-4.3-text",
    "display_name": "grok-4.3",
-   "rank": 94,
-   "arena_score": 1441,
-   "votes": 71150,
+   "rank": 93,
+   "arena_score": 1442,
+   "votes": 71448,
    "context_length": 1000000,
    "organization": "SpaceXAI"
+  },
+  {
+   "model_key": "glm-4.7",
+   "display_name": "glm-4.7",
+   "rank": 94,
+   "arena_score": 1441,
+   "votes": 12256,
+   "context_length": 204800,
+   "organization": "Z.ai"
   },
   {
    "model_key": "inkling-text",
    "display_name": "inkling",
    "rank": 95,
    "arena_score": 1441,
-   "votes": 35204,
+   "votes": 37744,
    "context_length": 524288,
    "organization": "Thinky"
   },
@@ -863,34 +863,34 @@
    "display_name": "minimax-m3",
    "rank": 96,
    "arena_score": 1440,
-   "votes": 58757,
+   "votes": 61220,
    "context_length": 524288,
    "organization": "MiniMax"
   },
   {
-   "model_key": "gpt-5.1",
-   "display_name": "gpt-5.1",
-   "rank": 97,
-   "arena_score": 1439,
-   "votes": 44298,
-   "context_length": 400000,
-   "organization": "OpenAI"
-  },
-  {
    "model_key": "deepseek-v4-ch3-thinking-text",
    "display_name": "deepseek-v4-flash-high-preview",
-   "rank": 98,
-   "arena_score": 1438,
-   "votes": 51648,
+   "rank": 97,
+   "arena_score": 1439,
+   "votes": 51859,
    "context_length": 1048576,
    "organization": "DeepSeek"
+  },
+  {
+   "model_key": "gpt-5.1",
+   "display_name": "gpt-5.1",
+   "rank": 98,
+   "arena_score": 1439,
+   "votes": 44441,
+   "context_length": 400000,
+   "organization": "OpenAI"
   },
   {
    "model_key": "qwen3.8-27b",
    "display_name": "qwen3.8-27b",
    "rank": 99,
    "arena_score": 1438,
-   "votes": 18462,
+   "votes": 20711,
    "context_length": 262144,
    "organization": "Alibaba"
   },
@@ -898,8 +898,8 @@
    "model_key": "significant-otter-text",
    "display_name": "gemma-4-26b-a4b",
    "rank": 100,
-   "arena_score": 1437,
-   "votes": 6081,
+   "arena_score": 1438,
+   "votes": 6092,
    "context_length": null,
    "organization": "Google"
   },
@@ -908,7 +908,7 @@
    "display_name": "gpt-5.2-high",
    "rank": 101,
    "arena_score": 1437,
-   "votes": 49542,
+   "votes": 49685,
    "context_length": 400000,
    "organization": "OpenAI"
   },
@@ -916,8 +916,8 @@
    "model_key": "frieza",
    "display_name": "longcat-flash-chat-2602-exp",
    "rank": 102,
-   "arena_score": 1437,
-   "votes": 29211,
+   "arena_score": 1436,
+   "votes": 29306,
    "context_length": null,
    "organization": "Meituan"
   },
@@ -926,7 +926,7 @@
    "display_name": "deepseek-v4-flash",
    "rank": 103,
    "arena_score": 1436,
-   "votes": 51850,
+   "votes": 52047,
    "context_length": 1048576,
    "organization": "DeepSeek"
   },
@@ -934,8 +934,8 @@
    "model_key": "gpt-5.2",
    "display_name": "gpt-5.2",
    "rank": 104,
-   "arena_score": 1436,
-   "votes": 83656,
+   "arena_score": 1435,
+   "votes": 83928,
    "context_length": 400000,
    "organization": "OpenAI"
   },
@@ -944,7 +944,7 @@
    "display_name": "gpt-5-high",
    "rank": 105,
    "arena_score": 1435,
-   "votes": 31489,
+   "votes": 31723,
    "context_length": 400000,
    "organization": "OpenAI"
   },
@@ -953,7 +953,7 @@
    "display_name": "qwen3-max-preview",
    "rank": 106,
    "arena_score": 1434,
-   "votes": 27232,
+   "votes": 27379,
    "context_length": 262144,
    "organization": "Alibaba"
   },
@@ -962,7 +962,7 @@
    "display_name": "mimo-v2.5",
    "rank": 107,
    "arena_score": 1434,
-   "votes": 47266,
+   "votes": 47402,
    "context_length": 1050000,
    "organization": "Xiaomi"
   },
@@ -971,7 +971,7 @@
    "display_name": "glm-5v-turbo",
    "rank": 108,
    "arena_score": 1433,
-   "votes": 10436,
+   "votes": 10492,
    "context_length": 202752,
    "organization": "Z.ai"
   },
@@ -980,7 +980,7 @@
    "display_name": "gemini-3.1-flash-lite-preview",
    "rank": 109,
    "arena_score": 1433,
-   "votes": 64047,
+   "votes": 64257,
    "context_length": 1048576,
    "organization": "Google"
   },
@@ -989,7 +989,7 @@
    "display_name": "o3-2025-04-16",
    "rank": 110,
    "arena_score": 1432,
-   "votes": 58583,
+   "votes": 58913,
    "context_length": 200000,
    "organization": "OpenAI"
   },
@@ -998,97 +998,97 @@
    "display_name": "mimo-v2-omni",
    "rank": 111,
    "arena_score": 1431,
-   "votes": 20596,
+   "votes": 20667,
    "context_length": 256000,
    "organization": "Xiaomi"
   },
   {
-   "model_key": "kimi-k2.5-instant",
-   "display_name": "kimi-k2.5-instant",
-   "rank": 112,
-   "arena_score": 1431,
-   "votes": 8356,
-   "context_length": 262144,
-   "organization": "Moonshot"
-  },
-  {
    "model_key": "grok-4-1-fast-reasoning",
    "display_name": "grok-4-1-fast-reasoning",
-   "rank": 113,
+   "rank": 112,
    "arena_score": 1430,
-   "votes": 57427,
+   "votes": 57574,
    "context_length": 128000,
    "organization": "SpaceXAI"
+  },
+  {
+   "model_key": "kimi-k2.5-instant",
+   "display_name": "kimi-k2.5-instant",
+   "rank": 113,
+   "arena_score": 1430,
+   "votes": 8378,
+   "context_length": 262144,
+   "organization": "Moonshot"
   },
   {
    "model_key": "kimi-k2-thinking-turbo",
    "display_name": "kimi-k2-thinking-turbo",
    "rank": 114,
    "arena_score": 1430,
-   "votes": 63210,
+   "votes": 63390,
    "context_length": 131072,
    "organization": "Moonshot"
   },
   {
+   "model_key": "mistral-large-4-text",
+   "display_name": "mistral-large-4",
+   "rank": 115,
+   "arena_score": 1429,
+   "votes": 4179,
+   "context_length": 1048576,
+   "organization": "Mistral"
+  },
+  {
+   "model_key": "beluga-0304-1",
+   "display_name": "amazon-nova-experimental-chat-26-02-10",
+   "rank": 116,
+   "arena_score": 1426,
+   "votes": 3523,
+   "context_length": null,
+   "organization": "Amazon"
+  },
+  {
    "model_key": "mistral-medium-3.5-text",
    "display_name": "mistral-medium-3.5",
-   "rank": 115,
-   "arena_score": 1427,
-   "votes": 11757,
+   "rank": 117,
+   "arena_score": 1426,
+   "votes": 11803,
    "context_length": 262144,
    "organization": "Mistral"
   },
   {
    "model_key": "gpt-5-chat",
    "display_name": "gpt-5-chat",
-   "rank": 116,
-   "arena_score": 1427,
-   "votes": 31009,
-   "context_length": null,
-   "organization": "OpenAI"
-  },
-  {
-   "model_key": "beluga-0304-1",
-   "display_name": "amazon-nova-experimental-chat-26-02-10",
-   "rank": 117,
-   "arena_score": 1427,
-   "votes": 3519,
-   "context_length": null,
-   "organization": "Amazon"
-  },
-  {
-   "model_key": "may26-chatbot4-3x57",
-   "display_name": "nvidia-nemotron-3-ultra-550b-a55b-nvfp4",
    "rank": 118,
    "arena_score": 1426,
-   "votes": 11515,
+   "votes": 31203,
    "context_length": null,
-   "organization": "Nvidia"
+   "organization": "OpenAI"
   },
   {
    "model_key": "claude-opus-4-20250514-thinking-16k",
    "display_name": "claude-opus-4-20250514-thinking-16k",
    "rank": 119,
    "arena_score": 1426,
-   "votes": 35691,
+   "votes": 35913,
    "context_length": 200000,
    "organization": "Anthropic"
   },
   {
-   "model_key": "onyx-v1-4-33s7",
-   "display_name": "muse-glimmer",
+   "model_key": "may26-chatbot4-3x57",
+   "display_name": "nvidia-nemotron-3-ultra-550b-a55b-nvfp4",
    "rank": 120,
-   "arena_score": 1425,
-   "votes": 3893,
+   "arena_score": 1426,
+   "votes": 11571,
    "context_length": null,
-   "organization": "Meta"
+   "organization": "Nvidia"
   },
   {
    "model_key": "deepseek-v3.2-exp-thinking",
    "display_name": "deepseek-v3.2-exp-thinking",
    "rank": 121,
    "arena_score": 1425,
-   "votes": 8947,
+   "votes": 9008,
    "context_length": 163840,
    "organization": "DeepSeek"
   },
@@ -1097,115 +1097,115 @@
    "display_name": "deepseek-v3.2",
    "rank": 122,
    "arena_score": 1425,
-   "votes": 47999,
+   "votes": 48114,
    "context_length": 163840,
    "organization": "DeepSeek"
   },
   {
+   "model_key": "onyx-v1-4-33s7",
+   "display_name": "muse-glimmer",
+   "rank": 123,
+   "arena_score": 1425,
+   "votes": 3892,
+   "context_length": null,
+   "organization": "Meta"
+  },
+  {
    "model_key": "glm-4.6",
    "display_name": "glm-4.6",
-   "rank": 123,
+   "rank": 124,
    "arena_score": 1424,
-   "votes": 35662,
+   "votes": 35828,
    "context_length": 204800,
    "organization": "Z.ai"
   },
   {
    "model_key": "qwen3-max-2025-09-23",
    "display_name": "qwen3-max-2025-09-23",
-   "rank": 124,
+   "rank": 125,
    "arena_score": 1423,
-   "votes": 8969,
+   "votes": 9029,
    "context_length": 262144,
    "organization": "Alibaba"
   },
   {
    "model_key": "deepseek-v3.2-thinking",
    "display_name": "deepseek-v3.2-thinking",
-   "rank": 125,
+   "rank": 126,
    "arena_score": 1423,
-   "votes": 41975,
+   "votes": 42076,
    "context_length": 163840,
    "organization": "DeepSeek"
   },
   {
    "model_key": "qwen3-235b-a22b-instruct-2507",
    "display_name": "qwen3-235b-a22b-instruct-2507",
-   "rank": 126,
+   "rank": 127,
    "arena_score": 1422,
-   "votes": 97788,
+   "votes": 98167,
    "context_length": null,
    "organization": "Alibaba"
   },
   {
    "model_key": "deepseek-v3.2-exp",
    "display_name": "deepseek-v3.2-exp",
-   "rank": 127,
-   "arena_score": 1422,
-   "votes": 11944,
+   "rank": 128,
+   "arena_score": 1421,
+   "votes": 11999,
    "context_length": 163840,
    "organization": "DeepSeek"
   },
   {
    "model_key": "deepseek-r1-0528",
    "display_name": "deepseek-r1-0528",
-   "rank": 128,
-   "arena_score": 1422,
-   "votes": 18059,
+   "rank": 129,
+   "arena_score": 1421,
+   "votes": 18171,
    "context_length": 163840,
    "organization": "DeepSeek"
   },
   {
    "model_key": "grok-4-fast-chat",
    "display_name": "grok-4-fast-chat",
-   "rank": 129,
+   "rank": 130,
    "arena_score": 1419,
-   "votes": 6320,
+   "votes": 6343,
    "context_length": 256000,
    "organization": "SpaceXAI"
   },
   {
    "model_key": "ernie-5.0-preview-1022",
    "display_name": "ernie-5.0-preview-1022",
-   "rank": 130,
+   "rank": 131,
    "arena_score": 1419,
-   "votes": 4724,
+   "votes": 4752,
    "context_length": null,
    "organization": "Baidu"
   },
   {
    "model_key": "kimi-k2-0905-preview",
    "display_name": "kimi-k2-0905-preview",
-   "rank": 131,
-   "arena_score": 1419,
-   "votes": 11531,
+   "rank": 132,
+   "arena_score": 1418,
+   "votes": 11592,
    "context_length": 262144,
    "organization": "Moonshot"
   },
   {
    "model_key": "kimi-k2-0711-preview",
    "display_name": "kimi-k2-0711-preview",
-   "rank": 132,
+   "rank": 133,
    "arena_score": 1418,
-   "votes": 26959,
+   "votes": 27148,
    "context_length": 131072,
    "organization": "Moonshot"
-  },
-  {
-   "model_key": "deepseek-v3.1-terminus-thinking",
-   "display_name": "deepseek-v3.1-terminus-thinking",
-   "rank": 133,
-   "arena_score": 1417,
-   "votes": 3354,
-   "context_length": 163840,
-   "organization": "DeepSeek"
   },
   {
    "model_key": "deepseek-v3.1",
    "display_name": "deepseek-v3.1",
    "rank": 134,
    "arena_score": 1417,
-   "votes": 14540,
+   "votes": 14610,
    "context_length": null,
    "organization": "DeepSeek"
   },
@@ -1214,189 +1214,189 @@
    "display_name": "qwen3.5-122b-a10b",
    "rank": 135,
    "arena_score": 1416,
-   "votes": 29651,
+   "votes": 29734,
    "context_length": 262144,
    "organization": "Alibaba"
   },
   {
-   "model_key": "deepseek-v3.1-thinking",
-   "display_name": "deepseek-v3.1-thinking",
+   "model_key": "deepseek-v3.1-terminus-thinking",
+   "display_name": "deepseek-v3.1-terminus-thinking",
    "rank": 136,
    "arena_score": 1416,
-   "votes": 11409,
+   "votes": 3377,
+   "context_length": 163840,
+   "organization": "DeepSeek"
+  },
+  {
+   "model_key": "deepseek-v3.1-thinking",
+   "display_name": "deepseek-v3.1-thinking",
+   "rank": 137,
+   "arena_score": 1416,
+   "votes": 11458,
    "context_length": null,
    "organization": "DeepSeek"
   },
   {
    "model_key": "deep-octo",
    "display_name": "minimax-m2.7",
-   "rank": 137,
+   "rank": 138,
    "arena_score": 1415,
-   "votes": 79944,
+   "votes": 82436,
    "context_length": 204800,
    "organization": "MiniMax"
   },
   {
    "model_key": "deepseek-v3.1-terminus",
    "display_name": "deepseek-v3.1-terminus",
-   "rank": 138,
+   "rank": 139,
    "arena_score": 1415,
-   "votes": 3599,
+   "votes": 3609,
    "context_length": 163840,
    "organization": "DeepSeek"
   },
   {
    "model_key": "gpt-4.1-2025-04-14",
    "display_name": "gpt-4.1-2025-04-14",
-   "rank": 139,
+   "rank": 140,
    "arena_score": 1415,
-   "votes": 49991,
+   "votes": 50314,
    "context_length": 1047576,
    "organization": "OpenAI"
   },
   {
    "model_key": "claude-opus-4-20250514",
    "display_name": "claude-opus-4-20250514",
-   "rank": 140,
-   "arena_score": 1414,
-   "votes": 42792,
-   "context_length": 200000,
-   "organization": "Anthropic"
-  },
-  {
-   "model_key": "mistral-large-3",
-   "display_name": "mistral-large-3",
    "rank": 141,
    "arena_score": 1414,
-   "votes": 79452,
-   "context_length": null,
-   "organization": "Mistral"
+   "votes": 43055,
+   "context_length": 200000,
+   "organization": "Anthropic"
   },
   {
    "model_key": "claude-haiku-4-5-20251001",
    "display_name": "claude-haiku-4-5-20251001",
    "rank": 142,
    "arena_score": 1414,
-   "votes": 143402,
+   "votes": 146351,
    "context_length": 200000,
    "organization": "Anthropic"
   },
   {
+   "model_key": "mistral-large-3",
+   "display_name": "mistral-large-3",
+   "rank": 143,
+   "arena_score": 1414,
+   "votes": 81759,
+   "context_length": null,
+   "organization": "Mistral"
+  },
+  {
    "model_key": "qwen3-vl-235b-a22b-instruct",
    "display_name": "qwen3-vl-235b-a22b-instruct",
-   "rank": 143,
+   "rank": 144,
    "arena_score": 1413,
-   "votes": 11241,
+   "votes": 11325,
    "context_length": 262144,
    "organization": "Alibaba"
   },
   {
    "model_key": "beluga-0213-1",
    "display_name": "amazon-nova-experimental-chat-26-01-10",
-   "rank": 144,
+   "rank": 145,
    "arena_score": 1413,
-   "votes": 3534,
+   "votes": 3545,
    "context_length": null,
    "organization": "Amazon"
   },
   {
    "model_key": "grok-3-preview-02-24",
    "display_name": "grok-3-preview-02-24",
-   "rank": 145,
-   "arena_score": 1411,
-   "votes": 32386,
-   "context_length": 131072,
-   "organization": "SpaceXAI"
-  },
-  {
-   "model_key": "glm-4.5",
-   "display_name": "glm-4.5",
    "rank": 146,
    "arena_score": 1411,
-   "votes": 23661,
+   "votes": 32502,
    "context_length": 131072,
-   "organization": "Z.ai"
+   "organization": "SpaceXAI"
   },
   {
    "model_key": "grok-4-0709",
    "display_name": "grok-4-0709",
    "rank": 147,
    "arena_score": 1411,
-   "votes": 39398,
+   "votes": 39691,
    "context_length": 256000,
    "organization": "SpaceXAI"
   },
   {
+   "model_key": "glm-4.5",
+   "display_name": "glm-4.5",
+   "rank": 148,
+   "arena_score": 1411,
+   "votes": 23803,
+   "context_length": 131072,
+   "organization": "Z.ai"
+  },
+  {
    "model_key": "gemini-2.5-flash",
    "display_name": "gemini-2.5-flash",
-   "rank": 148,
+   "rank": 149,
    "arena_score": 1409,
-   "votes": 125012,
+   "votes": 125562,
    "context_length": 1048576,
    "organization": "Google"
   },
   {
    "model_key": "hunyuan-hy3-preview-text",
    "display_name": "hunyuan-hy3-preview",
-   "rank": 149,
+   "rank": 150,
    "arena_score": 1409,
-   "votes": 6874,
+   "votes": 6893,
    "context_length": 262144,
    "organization": "Tencent"
   },
   {
    "model_key": "qwen3.5-27b",
    "display_name": "qwen3.5-27b",
-   "rank": 150,
+   "rank": 151,
    "arena_score": 1409,
-   "votes": 28612,
+   "votes": 28677,
    "context_length": 262144,
    "organization": "Alibaba"
   },
   {
    "model_key": "mistral-medium-2508",
    "display_name": "mistral-medium-2508",
-   "rank": 151,
+   "rank": 152,
    "arena_score": 1408,
-   "votes": 94966,
+   "votes": 95354,
    "context_length": 131072,
    "organization": "Mistral"
   },
   {
    "model_key": "inkling-small",
    "display_name": "Inkling Small",
-   "rank": 152,
+   "rank": 153,
    "arena_score": 1405,
-   "votes": 27070,
+   "votes": 29528,
    "context_length": 524288,
    "organization": "Thinky"
   },
   {
    "model_key": "grok-4-fast-reasoning",
    "display_name": "grok-4-fast-reasoning",
-   "rank": 153,
+   "rank": 154,
    "arena_score": 1405,
-   "votes": 18142,
+   "votes": 18276,
    "context_length": null,
    "organization": "SpaceXAI"
   },
   {
    "model_key": "gemini-2.5-flash-preview-09-2025",
    "display_name": "gemini-2.5-flash-preview-09-2025",
-   "rank": 154,
-   "arena_score": 1403,
-   "votes": 32839,
-   "context_length": 1048576,
-   "organization": "Google"
-  },
-  {
-   "model_key": "qwen3-235b-a22b-no-thinking",
-   "display_name": "qwen3-235b-a22b-no-thinking",
    "rank": 155,
    "arena_score": 1403,
-   "votes": 37279,
-   "context_length": 131072,
-   "organization": "Alibaba"
+   "votes": 32993,
+   "context_length": 1048576,
+   "organization": "Google"
   },
   {
    "model_key": "o1-2024-12-17",
@@ -1408,54 +1408,63 @@
    "organization": "OpenAI"
   },
   {
-   "model_key": "claude-sonnet-4-20250514-thinking-32k",
-   "display_name": "claude-sonnet-4-20250514-thinking-32k",
+   "model_key": "qwen3-235b-a22b-no-thinking",
+   "display_name": "qwen3-235b-a22b-no-thinking",
    "rank": 157,
    "arena_score": 1402,
-   "votes": 33913,
+   "votes": 37497,
+   "context_length": 131072,
+   "organization": "Alibaba"
+  },
+  {
+   "model_key": "claude-sonnet-4-20250514-thinking-32k",
+   "display_name": "claude-sonnet-4-20250514-thinking-32k",
+   "rank": 158,
+   "arena_score": 1402,
+   "votes": 34149,
    "context_length": 200000,
    "organization": "Anthropic"
   },
   {
    "model_key": "gpt-5.4-nano-high",
    "display_name": "gpt-5.4-nano-high",
-   "rank": 158,
+   "rank": 159,
    "arena_score": 1401,
-   "votes": 62249,
+   "votes": 62468,
    "context_length": 400000,
    "organization": "OpenAI"
   },
   {
    "model_key": "longcat-flash-chat",
    "display_name": "longcat-flash-chat",
-   "rank": 159,
+   "rank": 160,
    "arena_score": 1401,
-   "votes": 11123,
+   "votes": 11174,
    "context_length": 131072,
    "organization": "Meituan"
   },
   {
    "model_key": "qwen3-235b-a22b-thinking-2507",
    "display_name": "qwen3-235b-a22b-thinking-2507",
-   "rank": 160,
+   "rank": 161,
    "arena_score": 1400,
-   "votes": 8774,
-   "context_length": 131072,
+   "votes": 8822,
+   "context_length": 128000,
    "organization": "Alibaba"
   },
   {
    "model_key": "qwen3-next-80b-a3b-instruct",
    "display_name": "qwen3-next-80b-a3b-instruct",
-   "rank": 161,
+   "rank": 162,
    "arena_score": 1399,
-   "votes": 22603,
+   "votes": 22763,
    "context_length": 262144,
    "organization": "Alibaba"
   },
   {
    "model_key": "deepseek-r1",
    "display_name": "deepseek-r1",
-   "rank": 162,
+   "rank": 163,
    "arena_score": 1398,
    "votes": 18524,
    "context_length": 64000,
@@ -1464,90 +1473,81 @@
   {
    "model_key": "qwen3.5-flash",
    "display_name": "qwen3.5-flash",
-   "rank": 163,
+   "rank": 164,
    "arena_score": 1396,
-   "votes": 61669,
+   "votes": 61845,
    "context_length": null,
    "organization": "Alibaba"
   },
   {
    "model_key": "deepseek-v3-0324",
    "display_name": "deepseek-v3-0324",
-   "rank": 164,
-   "arena_score": 1396,
-   "votes": 44758,
+   "rank": 165,
+   "arena_score": 1395,
+   "votes": 44989,
    "context_length": null,
    "organization": "DeepSeek"
   },
   {
    "model_key": "qwen3-vl-235b-a22b-thinking",
    "display_name": "qwen3-vl-235b-a22b-thinking",
-   "rank": 165,
+   "rank": 166,
    "arena_score": 1395,
-   "votes": 7805,
+   "votes": 7868,
    "context_length": 131072,
+   "organization": "Alibaba"
+  },
+  {
+   "model_key": "qwen3.5-35b-a3b",
+   "display_name": "qwen3.5-35b-a3b",
+   "rank": 167,
+   "arena_score": 1394,
+   "votes": 30493,
+   "context_length": 262144,
    "organization": "Alibaba"
   },
   {
    "model_key": "hunyuan-vision-1.5-thinking",
    "display_name": "hunyuan-vision-1.5-thinking",
-   "rank": 166,
-   "arena_score": 1395,
-   "votes": 2158,
-   "context_length": null,
-   "organization": "Tencent"
-  },
-  {
-   "model_key": "beluga-1223-1",
-   "display_name": "amazon-nova-experimental-chat-12-10",
-   "rank": 167,
-   "arena_score": 1394,
-   "votes": 3728,
-   "context_length": null,
-   "organization": "Amazon"
-  },
-  {
-   "model_key": "qwen3.5-35b-a3b",
-   "display_name": "qwen3.5-35b-a3b",
    "rank": 168,
    "arena_score": 1394,
-   "votes": 30408,
-   "context_length": 262144,
-   "organization": "Alibaba"
+   "votes": 2171,
+   "context_length": null,
+   "organization": "Tencent"
   },
   {
    "model_key": "step-3.5-flash",
    "display_name": "step-3.5-flash",
    "rank": 169,
    "arena_score": 1393,
-   "votes": 60207,
+   "votes": 60381,
    "context_length": 262144,
    "organization": "StepFun"
   },
   {
-   "model_key": "mimo-v2-flash",
-   "display_name": "mimo-v2-flash (non-thinking)",
+   "model_key": "beluga-1223-1",
+   "display_name": "amazon-nova-experimental-chat-12-10",
    "rank": 170,
-   "arena_score": 1392,
-   "votes": 47998,
-   "context_length": 262144,
-   "organization": "Xiaomi"
+   "arena_score": 1393,
+   "votes": 3740,
+   "context_length": null,
+   "organization": "Amazon"
   },
   {
-   "model_key": "minimax-m2.5",
-   "display_name": "minimax-m2.5",
+   "model_key": "mimo-v2-flash",
+   "display_name": "mimo-v2-flash (non-thinking)",
    "rank": 171,
-   "arena_score": 1391,
-   "votes": 42730,
-   "context_length": 204800,
-   "organization": "MiniMax"
+   "arena_score": 1392,
+   "votes": 48117,
+   "context_length": 262144,
+   "organization": "Xiaomi"
   },
   {
    "model_key": "o4-mini-2025-04-16",
    "display_name": "o4-mini-2025-04-16",
    "rank": 172,
    "arena_score": 1391,
-   "votes": 44626,
+   "votes": 44858,
    "context_length": 200000,
    "organization": "OpenAI"
   },
@@ -1556,23 +1556,32 @@
    "display_name": "claude-sonnet-4-20250514",
    "rank": 173,
    "arena_score": 1391,
-   "votes": 38912,
+   "votes": 39172,
    "context_length": 200000,
    "organization": "Anthropic"
   },
   {
+   "model_key": "minimax-m2.5",
+   "display_name": "minimax-m2.5",
+   "rank": 174,
+   "arena_score": 1391,
+   "votes": 42858,
+   "context_length": 204800,
+   "organization": "MiniMax"
+  },
+  {
    "model_key": "gpt-5-mini-high",
    "display_name": "gpt-5-mini-high",
-   "rank": 174,
+   "rank": 175,
    "arena_score": 1390,
-   "votes": 26638,
+   "votes": 26810,
    "context_length": 400000,
    "organization": "OpenAI"
   },
   {
    "model_key": "o1-preview",
    "display_name": "o1-preview",
-   "rank": 175,
+   "rank": 176,
    "arena_score": 1389,
    "votes": 31122,
    "context_length": null,
@@ -1581,268 +1590,268 @@
   {
    "model_key": "claude-3-7-sonnet-20250219-thinking-32k",
    "display_name": "claude-3-7-sonnet-20250219-thinking-32k",
-   "rank": 176,
-   "arena_score": 1388,
-   "votes": 38033,
-   "context_length": 200000,
-   "organization": "Anthropic"
-  },
-  {
-   "model_key": "mistral-medium-2505",
-   "display_name": "mistral-medium-2505",
    "rank": 177,
    "arena_score": 1388,
-   "votes": 32615,
-   "context_length": 131072,
-   "organization": "Mistral"
+   "votes": 38162,
+   "context_length": 200000,
+   "organization": "Anthropic"
   },
   {
    "model_key": "qwen3-coder-480b-a35b-instruct",
    "display_name": "qwen3-coder-480b-a35b-instruct",
    "rank": 178,
-   "arena_score": 1387,
-   "votes": 25006,
+   "arena_score": 1388,
+   "votes": 25197,
    "context_length": 1000000,
    "organization": "Alibaba"
   },
   {
-   "model_key": "hunyuan-t1-20250711",
-   "display_name": "hunyuan-t1-20250711",
+   "model_key": "mistral-medium-2505",
+   "display_name": "mistral-medium-2505",
    "rank": 179,
    "arena_score": 1387,
-   "votes": 4572,
+   "votes": 32786,
+   "context_length": 131072,
+   "organization": "Mistral"
+  },
+  {
+   "model_key": "hunyuan-t1-20250711",
+   "display_name": "hunyuan-t1-20250711",
+   "rank": 180,
+   "arena_score": 1387,
+   "votes": 4594,
    "context_length": null,
    "organization": "Tencent"
   },
   {
    "model_key": "mimo-v2-flash-thinking-v2",
    "display_name": "mimo-v2-flash (thinking)",
-   "rank": 180,
-   "arena_score": 1387,
-   "votes": 11115,
+   "rank": 181,
+   "arena_score": 1386,
+   "votes": 11143,
    "context_length": 262144,
    "organization": "Xiaomi"
   },
   {
    "model_key": "solar-pro4-20260805",
    "display_name": "solar-pro4",
-   "rank": 181,
+   "rank": 182,
    "arena_score": 1386,
-   "votes": 15819,
+   "votes": 18407,
    "context_length": 524288,
    "organization": "Upstage"
   },
   {
    "model_key": "minimax-m2.1-preview",
    "display_name": "minimax-m2.1-preview",
-   "rank": 182,
+   "rank": 183,
    "arena_score": 1385,
-   "votes": 17187,
+   "votes": 17248,
    "context_length": 204800,
    "organization": "MiniMax"
-  },
-  {
-   "model_key": "gpt-4.1-mini-2025-04-14",
-   "display_name": "gpt-4.1-mini-2025-04-14",
-   "rank": 183,
-   "arena_score": 1383,
-   "votes": 38547,
-   "context_length": 1047576,
-   "organization": "OpenAI"
   },
   {
    "model_key": "hunyuan-turbos-20250416",
    "display_name": "hunyuan-turbos-20250416",
    "rank": 184,
    "arena_score": 1383,
-   "votes": 10577,
+   "votes": 10624,
    "context_length": null,
    "organization": "Tencent"
   },
   {
-   "model_key": "qwen3-30b-a3b-instruct-2507",
-   "display_name": "qwen3-30b-a3b-instruct-2507",
+   "model_key": "gpt-4.1-mini-2025-04-14",
+   "display_name": "gpt-4.1-mini-2025-04-14",
    "rank": 185,
    "arena_score": 1383,
-   "votes": 23174,
+   "votes": 38709,
+   "context_length": 1047576,
+   "organization": "OpenAI"
+  },
+  {
+   "model_key": "qwen3-30b-a3b-instruct-2507",
+   "display_name": "qwen3-30b-a3b-instruct-2507",
+   "rank": 186,
+   "arena_score": 1382,
+   "votes": 23325,
    "context_length": 262144,
    "organization": "Alibaba"
   },
   {
    "model_key": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
    "display_name": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
-   "rank": 186,
+   "rank": 187,
    "arena_score": 1379,
-   "votes": 47254,
+   "votes": 47445,
    "context_length": 1048576,
    "organization": "Google"
   },
   {
    "model_key": "glm-4.6v",
    "display_name": "glm-4.6v",
-   "rank": 187,
+   "rank": 188,
    "arena_score": 1379,
-   "votes": 2830,
+   "votes": 2839,
    "context_length": 131072,
    "organization": "Z.ai"
   },
   {
    "model_key": "trinity-large",
    "display_name": "trinity-large-preview",
-   "rank": 188,
+   "rank": 189,
    "arena_score": 1379,
-   "votes": 31201,
+   "votes": 31298,
    "context_length": 131000,
    "organization": ""
   },
   {
    "model_key": "qwen3-235b-a22b",
    "display_name": "qwen3-235b-a22b",
-   "rank": 189,
+   "rank": 190,
    "arena_score": 1375,
-   "votes": 25825,
+   "votes": 25953,
    "context_length": 131072,
    "organization": "Alibaba"
   },
   {
    "model_key": "gemini-2.5-flash-lite-preview-06-17-thinking",
    "display_name": "gemini-2.5-flash-lite-preview-06-17-thinking",
-   "rank": 190,
+   "rank": 191,
    "arena_score": 1375,
-   "votes": 32175,
+   "votes": 32384,
    "context_length": 1048576,
    "organization": "Google"
   },
   {
    "model_key": "claude-3-5-sonnet-20241022",
    "display_name": "claude-3-5-sonnet-20241022",
-   "rank": 191,
+   "rank": 192,
    "arena_score": 1374,
-   "votes": 87638,
+   "votes": 87779,
    "context_length": 200000,
    "organization": "Anthropic"
   },
   {
    "model_key": "qwen2.5-max",
    "display_name": "qwen2.5-max",
-   "rank": 192,
+   "rank": 193,
    "arena_score": 1374,
-   "votes": 32411,
+   "votes": 32489,
    "context_length": null,
    "organization": "Alibaba"
   },
   {
    "model_key": "glm-4.5-air",
    "display_name": "glm-4.5-air",
-   "rank": 193,
+   "rank": 194,
    "arena_score": 1373,
-   "votes": 30454,
+   "votes": 30658,
    "context_length": 131072,
    "organization": "Z.ai"
   },
   {
    "model_key": "claude-3-7-sonnet-20250219",
    "display_name": "claude-3-7-sonnet-20250219",
-   "rank": 194,
-   "arena_score": 1373,
-   "votes": 42401,
+   "rank": 195,
+   "arena_score": 1372,
+   "votes": 42573,
    "context_length": 200000,
    "organization": "Anthropic"
   },
   {
    "model_key": "qwen3-next-80b-a3b-thinking",
    "display_name": "qwen3-next-80b-a3b-thinking",
-   "rank": 195,
+   "rank": 196,
    "arena_score": 1369,
-   "votes": 13371,
+   "votes": 13488,
    "context_length": 262144,
    "organization": "Alibaba"
   },
   {
    "model_key": "trinity-large-thinking",
    "display_name": "trinity-large-thinking",
-   "rank": 196,
+   "rank": 197,
    "arena_score": 1367,
-   "votes": 30265,
+   "votes": 30365,
    "context_length": 262144,
    "organization": ""
   },
   {
    "model_key": "gemma-3-27b-it",
    "display_name": "gemma-3-27b-it",
-   "rank": 197,
+   "rank": 198,
    "arena_score": 1365,
-   "votes": 46425,
+   "votes": 46672,
    "context_length": 131072,
    "organization": "Google"
   },
   {
    "model_key": "glm-4.7-flash-fireworks",
    "display_name": "glm-4.7-flash",
-   "rank": 198,
+   "rank": 199,
    "arena_score": 1365,
-   "votes": 11977,
+   "votes": 12020,
    "context_length": 200000,
    "organization": "Z.ai"
   },
   {
    "model_key": "amazon-nova-experimental-chat-11-10",
    "display_name": "amazon-nova-experimental-chat-11-10",
-   "rank": 199,
+   "rank": 200,
    "arena_score": 1364,
-   "votes": 25995,
+   "votes": 26059,
    "context_length": null,
    "organization": "Amazon"
   },
   {
+   "model_key": "grok-3-mini-high",
+   "display_name": "grok-3-mini-high",
+   "rank": 201,
+   "arena_score": 1364,
+   "votes": 15600,
+   "context_length": null,
+   "organization": "SpaceXAI"
+  },
+  {
    "model_key": "minimax-m1",
    "display_name": "minimax-m1",
-   "rank": 200,
+   "rank": 202,
    "arena_score": 1364,
-   "votes": 34042,
+   "votes": 34313,
    "context_length": 1000000,
    "organization": "MiniMax"
   },
   {
    "model_key": "o3-mini-high",
    "display_name": "o3-mini-high",
-   "rank": 201,
+   "rank": 203,
    "arena_score": 1364,
    "votes": 18589,
    "context_length": 200000,
    "organization": "OpenAI"
   },
   {
-   "model_key": "grok-3-mini-high",
-   "display_name": "grok-3-mini-high",
-   "rank": 202,
-   "arena_score": 1363,
-   "votes": 15505,
-   "context_length": null,
-   "organization": "SpaceXAI"
-  },
-  {
    "model_key": "march26-chatbot1",
    "display_name": "nvidia-nemotron-3-super-120b-a12b",
-   "rank": 203,
+   "rank": 204,
    "arena_score": 1360,
-   "votes": 7859,
+   "votes": 7875,
    "context_length": null,
    "organization": "Nvidia"
   },
   {
    "model_key": "gemini-2.0-flash-001",
    "display_name": "gemini-2.0-flash-001",
-   "rank": 204,
+   "rank": 205,
    "arena_score": 1360,
-   "votes": 43310,
+   "votes": 43454,
    "context_length": 1048576,
    "organization": "Google"
   },
   {
    "model_key": "deepseek-v3",
    "display_name": "deepseek-v3",
-   "rank": 205,
+   "rank": 206,
    "arena_score": 1358,
    "votes": 21770,
    "context_length": null,
@@ -1851,43 +1860,43 @@
   {
    "model_key": "grok-3-mini-beta",
    "display_name": "grok-3-mini-beta",
-   "rank": 206,
+   "rank": 207,
    "arena_score": 1358,
-   "votes": 20813,
+   "votes": 20937,
    "context_length": 131072,
    "organization": "SpaceXAI"
   },
   {
    "model_key": "mistral-small-2506",
    "display_name": "mistral-small-2506",
-   "rank": 207,
+   "rank": 208,
    "arena_score": 1356,
-   "votes": 17348,
-   "context_length": 32000,
+   "votes": 17466,
+   "context_length": 262144,
    "organization": "Mistral"
   },
   {
    "model_key": "intellect-3",
    "display_name": "intellect-3",
-   "rank": 208,
+   "rank": 209,
    "arena_score": 1356,
-   "votes": 5417,
+   "votes": 5435,
    "context_length": 131072,
    "organization": ""
   },
   {
    "model_key": "command-a-03-2025",
    "display_name": "command-a-03-2025",
-   "rank": 209,
+   "rank": 210,
    "arena_score": 1354,
-   "votes": 55467,
+   "votes": 55769,
    "context_length": 256000,
    "organization": "Cohere"
   },
   {
    "model_key": "gemini-2.0-flash-lite-preview-02-05",
    "display_name": "gemini-2.0-flash-lite-preview-02-05",
-   "rank": 210,
+   "rank": 211,
    "arena_score": 1354,
    "votes": 24955,
    "context_length": 1048576,
@@ -1896,25 +1905,25 @@
   {
    "model_key": "glm-4.5v",
    "display_name": "glm-4.5v",
-   "rank": 211,
+   "rank": 212,
    "arena_score": 1352,
-   "votes": 4807,
+   "votes": 4824,
    "context_length": 65536,
    "organization": "Z.ai"
   },
   {
    "model_key": "gpt-oss-120b",
    "display_name": "gpt-oss-120b",
-   "rank": 212,
+   "rank": 213,
    "arena_score": 1352,
-   "votes": 30018,
+   "votes": 30218,
    "context_length": 131072,
    "organization": "OpenAI"
   },
   {
    "model_key": "gemini-1.5-pro-002",
    "display_name": "gemini-1.5-pro-002",
-   "rank": 213,
+   "rank": 214,
    "arena_score": 1351,
    "votes": 55606,
    "context_length": 2097152,
@@ -1923,65 +1932,56 @@
   {
    "model_key": "august26-chatbot1-fmme",
    "display_name": "nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4",
-   "rank": 214,
-   "arena_score": 1350,
-   "votes": 14877,
+   "rank": 215,
+   "arena_score": 1349,
+   "votes": 17120,
    "context_length": null,
    "organization": "Nvidia"
   },
   {
    "model_key": "step-3",
    "display_name": "step-3",
-   "rank": 215,
+   "rank": 216,
    "arena_score": 1349,
-   "votes": 6266,
+   "votes": 6292,
    "context_length": 65536,
    "organization": "StepFun"
   },
   {
    "model_key": "hunyuan-turbos-20250226",
    "display_name": "hunyuan-turbos-20250226",
-   "rank": 216,
+   "rank": 217,
    "arena_score": 1349,
    "votes": 2220,
    "context_length": null,
    "organization": "Tencent"
   },
   {
-   "model_key": "amazon-nova-experimental-chat-10-20",
-   "display_name": "amazon-nova-experimental-chat-10-20",
-   "rank": 217,
-   "arena_score": 1348,
-   "votes": 11590,
-   "context_length": null,
-   "organization": "Amazon"
-  },
-  {
    "model_key": "o3-mini",
    "display_name": "o3-mini",
    "rank": 218,
    "arena_score": 1348,
-   "votes": 56564,
+   "votes": 56750,
    "context_length": 200000,
    "organization": "OpenAI"
   },
   {
+   "model_key": "amazon-nova-experimental-chat-10-20",
+   "display_name": "amazon-nova-experimental-chat-10-20",
+   "rank": 219,
+   "arena_score": 1348,
+   "votes": 11633,
+   "context_length": null,
+   "organization": "Amazon"
+  },
+  {
    "model_key": "llama-3.1-nemotron-ultra-253b-v1",
    "display_name": "llama-3.1-nemotron-ultra-253b-v1",
-   "rank": 219,
+   "rank": 220,
    "arena_score": 1348,
    "votes": 2549,
    "context_length": 131072,
    "organization": "Nvidia"
-  },
-  {
-   "model_key": "amazon-nova-experimental-chat-10-09",
-   "display_name": "amazon-nova-experimental-chat-10-09",
-   "rank": 220,
-   "arena_score": 1347,
-   "votes": 2765,
-   "context_length": null,
-   "organization": "Amazon"
   },
   {
    "model_key": "qwen3-32b",
@@ -1993,9 +1993,18 @@
    "organization": "Alibaba"
   },
   {
+   "model_key": "amazon-nova-experimental-chat-10-09",
+   "display_name": "amazon-nova-experimental-chat-10-09",
+   "rank": 222,
+   "arena_score": 1346,
+   "votes": 2781,
+   "context_length": null,
+   "organization": "Amazon"
+  },
+  {
    "model_key": "gpt-4o-2024-05-13",
    "display_name": "gpt-4o-2024-05-13",
-   "rank": 222,
+   "rank": 223,
    "arena_score": 1346,
    "votes": 112881,
    "context_length": 128000,
@@ -2004,43 +2013,43 @@
   {
    "model_key": "qwen-plus-0125",
    "display_name": "qwen-plus-0125",
-   "rank": 223,
+   "rank": 224,
    "arena_score": 1346,
    "votes": 5819,
    "context_length": 131072,
    "organization": "Alibaba"
   },
   {
+   "model_key": "mercury-2",
+   "display_name": "mercury-2",
+   "rank": 225,
+   "arena_score": 1344,
+   "votes": 3201,
+   "context_length": 128000,
+   "organization": "Inception AI"
+  },
+  {
    "model_key": "ling-flash-2.0",
    "display_name": "ling-flash-2.0",
-   "rank": 224,
+   "rank": 226,
    "arena_score": 1344,
-   "votes": 6887,
+   "votes": 6951,
    "context_length": null,
    "organization": "Ant Group"
   },
   {
    "model_key": "minimax-m2",
    "display_name": "minimax-m2",
-   "rank": 225,
+   "rank": 227,
    "arena_score": 1343,
-   "votes": 6817,
+   "votes": 6860,
    "context_length": 204800,
    "organization": "MiniMax"
   },
   {
-   "model_key": "mercury-2",
-   "display_name": "mercury-2",
-   "rank": 226,
-   "arena_score": 1343,
-   "votes": 3197,
-   "context_length": 128000,
-   "organization": "Inception AI"
-  },
-  {
    "model_key": "claude-3-5-sonnet-20240620",
    "display_name": "claude-3-5-sonnet-20240620",
-   "rank": 227,
+   "rank": 228,
    "arena_score": 1343,
    "votes": 82419,
    "context_length": 200000,
@@ -2049,16 +2058,16 @@
   {
    "model_key": "nvidia-llama-3.3-nemotron-super-49b-v1.5",
    "display_name": "nvidia-llama-3.3-nemotron-super-49b-v1.5",
-   "rank": 228,
+   "rank": 229,
    "arena_score": 1343,
-   "votes": 3308,
+   "votes": 3327,
    "context_length": 131072,
    "organization": "Nvidia"
   },
   {
    "model_key": "glm-4-plus-0111",
    "display_name": "glm-4-plus-0111",
-   "rank": 229,
+   "rank": 230,
    "arena_score": 1343,
    "votes": 5760,
    "context_length": null,
@@ -2067,7 +2076,7 @@
   {
    "model_key": "gemma-3-12b-it",
    "display_name": "gemma-3-12b-it",
-   "rank": 230,
+   "rank": 231,
    "arena_score": 1342,
    "votes": 3829,
    "context_length": 131072,
@@ -2076,7 +2085,7 @@
   {
    "model_key": "hunyuan-turbo-0110",
    "display_name": "hunyuan-turbo-0110",
-   "rank": 231,
+   "rank": 232,
    "arena_score": 1341,
    "votes": 2290,
    "context_length": null,
@@ -2085,25 +2094,25 @@
   {
    "model_key": "vantage",
    "display_name": "granite-4.2-30b",
-   "rank": 232,
+   "rank": 233,
    "arena_score": 1340,
-   "votes": 3401,
+   "votes": 3410,
    "context_length": null,
    "organization": "IBM"
   },
   {
    "model_key": "gpt-5-nano-high",
    "display_name": "gpt-5-nano-high",
-   "rank": 233,
-   "arena_score": 1338,
-   "votes": 8112,
+   "rank": 234,
+   "arena_score": 1337,
+   "votes": 8140,
    "context_length": 400000,
    "organization": "OpenAI"
   },
   {
    "model_key": "o1-mini",
    "display_name": "o1-mini",
-   "rank": 234,
+   "rank": 235,
    "arena_score": 1337,
    "votes": 51981,
    "context_length": null,
@@ -2112,20 +2121,11 @@
   {
    "model_key": "gemini-advanced-0514",
    "display_name": "gemini-advanced-0514",
-   "rank": 235,
+   "rank": 236,
    "arena_score": 1336,
    "votes": 50148,
    "context_length": null,
    "organization": "Google"
-  },
-  {
-   "model_key": "qwq-32b",
-   "display_name": "qwq-32b",
-   "rank": 236,
-   "arena_score": 1336,
-   "votes": 25078,
-   "context_length": 16384,
-   "organization": "Alibaba"
   },
   {
    "model_key": "grok-2-2024-08-13",
@@ -2137,9 +2137,18 @@
    "organization": "SpaceXAI"
   },
   {
+   "model_key": "qwq-32b",
+   "display_name": "qwq-32b",
+   "rank": 238,
+   "arena_score": 1336,
+   "votes": 25181,
+   "context_length": 16384,
+   "organization": "Alibaba"
+  },
+  {
    "model_key": "gpt-4o-2024-08-06",
    "display_name": "gpt-4o-2024-08-06",
-   "rank": 238,
+   "rank": 239,
    "arena_score": 1336,
    "votes": 45499,
    "context_length": 128000,
@@ -2148,7 +2157,7 @@
   {
    "model_key": "llama-3.1-405b-instruct-bf16",
    "display_name": "llama-3.1-405b-instruct-bf16",
-   "rank": 239,
+   "rank": 240,
    "arena_score": 1335,
    "votes": 41375,
    "context_length": 32768,
@@ -2157,20 +2166,11 @@
   {
    "model_key": "nova-2-lite",
    "display_name": "nova-2-lite",
-   "rank": 240,
+   "rank": 241,
    "arena_score": 1335,
-   "votes": 12392,
+   "votes": 12417,
    "context_length": 1000000,
    "organization": "Amazon"
-  },
-  {
-   "model_key": "step-2-16k-exp-202412",
-   "display_name": "step-2-16k-exp-202412",
-   "rank": 241,
-   "arena_score": 1334,
-   "votes": 4833,
-   "context_length": null,
-   "organization": "StepFun"
   },
   {
    "model_key": "llama-3.1-405b-instruct-fp8",
@@ -2182,18 +2182,27 @@
    "organization": "Meta"
   },
   {
+   "model_key": "step-2-16k-exp-202412",
+   "display_name": "step-2-16k-exp-202412",
+   "rank": 243,
+   "arena_score": 1334,
+   "votes": 4833,
+   "context_length": null,
+   "organization": "StepFun"
+  },
+  {
    "model_key": "olmo-3.1-32b-instruct",
    "display_name": "olmo-3.1-32b-instruct",
-   "rank": 243,
+   "rank": 244,
    "arena_score": 1329,
-   "votes": 11801,
+   "votes": 11820,
    "context_length": 65536,
    "organization": "Ai2"
   },
   {
    "model_key": "yi-lightning",
    "display_name": "yi-lightning",
-   "rank": 244,
+   "rank": 245,
    "arena_score": 1328,
    "votes": 27332,
    "context_length": null,
@@ -2202,7 +2211,7 @@
   {
    "model_key": "llama-3.3-nemotron-49b-super-v1",
    "display_name": "llama-3.3-nemotron-49b-super-v1",
-   "rank": 245,
+   "rank": 246,
    "arena_score": 1328,
    "votes": 2218,
    "context_length": null,
@@ -2211,25 +2220,25 @@
   {
    "model_key": "llama-4-maverick-17b-128e-instruct",
    "display_name": "llama-4-maverick-17b-128e-instruct",
-   "rank": 246,
+   "rank": 247,
    "arena_score": 1327,
-   "votes": 39262,
+   "votes": 39453,
    "context_length": 131072,
    "organization": "Meta"
   },
   {
    "model_key": "qwen3-30b-a3b",
    "display_name": "qwen3-30b-a3b",
-   "rank": 247,
-   "arena_score": 1326,
-   "votes": 26037,
-   "context_length": 131072,
+   "rank": 248,
+   "arena_score": 1327,
+   "votes": 26160,
+   "context_length": 40960,
    "organization": "Alibaba"
   },
   {
    "model_key": "hunyuan-large-2025-02-10",
    "display_name": "hunyuan-large-2025-02-10",
-   "rank": 248,
+   "rank": 249,
    "arena_score": 1326,
    "votes": 3738,
    "context_length": null,
@@ -2238,16 +2247,16 @@
   {
    "model_key": "claude-3-5-haiku-20241022",
    "display_name": "claude-3-5-haiku-20241022",
-   "rank": 249,
+   "rank": 250,
    "arena_score": 1325,
-   "votes": 68873,
+   "votes": 69064,
    "context_length": 200000,
    "organization": "Anthropic"
   },
   {
    "model_key": "gpt-4-turbo-2024-04-09",
    "display_name": "gpt-4-turbo-2024-04-09",
-   "rank": 250,
+   "rank": 251,
    "arena_score": 1324,
    "votes": 98114,
    "context_length": 128000,
@@ -2256,7 +2265,7 @@
   {
    "model_key": "gemini-1.5-pro-001",
    "display_name": "gemini-1.5-pro-001",
-   "rank": 251,
+   "rank": 252,
    "arena_score": 1324,
    "votes": 79138,
    "context_length": 2097152,
@@ -2265,7 +2274,7 @@
   {
    "model_key": "deepseek-v2.5-1210",
    "display_name": "deepseek-v2.5-1210",
-   "rank": 252,
+   "rank": 253,
    "arena_score": 1323,
    "votes": 6795,
    "context_length": null,
@@ -2274,16 +2283,16 @@
   {
    "model_key": "ring-flash-2.0",
    "display_name": "ring-flash-2.0",
-   "rank": 253,
+   "rank": 254,
    "arena_score": 1323,
-   "votes": 6932,
+   "votes": 6993,
    "context_length": null,
    "organization": "Ant Group"
   },
   {
    "model_key": "gpt-4.1-nano-2025-04-14",
    "display_name": "gpt-4.1-nano-2025-04-14",
-   "rank": 254,
+   "rank": 255,
    "arena_score": 1322,
    "votes": 6103,
    "context_length": 1047576,
@@ -2292,7 +2301,7 @@
   {
    "model_key": "claude-3-opus-20240229",
    "display_name": "claude-3-opus-20240229",
-   "rank": 255,
+   "rank": 256,
    "arena_score": 1322,
    "votes": 194909,
    "context_length": 200000,
@@ -2301,34 +2310,34 @@
   {
    "model_key": "molmo-2-8b",
    "display_name": "molmo-2-8b",
-   "rank": 256,
+   "rank": 257,
    "arena_score": 1322,
-   "votes": 818,
+   "votes": 823,
    "context_length": 36864,
    "organization": "Ai2"
   },
   {
    "model_key": "llama-4-scout-17b-16e-instruct",
    "display_name": "llama-4-scout-17b-16e-instruct",
-   "rank": 257,
+   "rank": 258,
    "arena_score": 1322,
-   "votes": 29667,
+   "votes": 29836,
    "context_length": 16384,
    "organization": "Meta"
   },
   {
    "model_key": "step-1o-turbo-202506",
    "display_name": "step-1o-turbo-202506",
-   "rank": 258,
+   "rank": 259,
    "arena_score": 1320,
-   "votes": 8845,
+   "votes": 8906,
    "context_length": null,
    "organization": "StepFun"
   },
   {
    "model_key": "glm-4-plus",
    "display_name": "glm-4-plus",
-   "rank": 259,
+   "rank": 260,
    "arena_score": 1319,
    "votes": 26126,
    "context_length": 204800,
@@ -2337,7 +2346,7 @@
   {
    "model_key": "qwen-max-0919",
    "display_name": "qwen-max-0919",
-   "rank": 260,
+   "rank": 261,
    "arena_score": 1318,
    "votes": 16478,
    "context_length": 32768,
@@ -2346,43 +2355,43 @@
   {
    "model_key": "llama-3.3-70b-instruct",
    "display_name": "llama-3.3-70b-instruct",
-   "rank": 261,
+   "rank": 262,
    "arena_score": 1318,
-   "votes": 54366,
+   "votes": 54504,
    "context_length": 131072,
    "organization": "Meta"
   },
   {
    "model_key": "gpt-4o-mini-2024-07-18",
    "display_name": "gpt-4o-mini-2024-07-18",
-   "rank": 262,
-   "arena_score": 1318,
-   "votes": 68697,
-   "context_length": 128000,
-   "organization": "OpenAI"
-  },
-  {
-   "model_key": "gpt-oss-20b",
-   "display_name": "gpt-oss-20b",
    "rank": 263,
    "arena_score": 1318,
-   "votes": 10368,
-   "context_length": 131072,
+   "votes": 68705,
+   "context_length": 128000,
    "organization": "OpenAI"
   },
   {
    "model_key": "gemma-3n-e4b-it",
    "display_name": "gemma-3n-e4b-it",
    "rank": 264,
-   "arena_score": 1317,
-   "votes": 22042,
+   "arena_score": 1318,
+   "votes": 22145,
    "context_length": 32768,
    "organization": "Google"
   },
   {
+   "model_key": "gpt-oss-20b",
+   "display_name": "gpt-oss-20b",
+   "rank": 265,
+   "arena_score": 1317,
+   "votes": 10418,
+   "context_length": 131072,
+   "organization": "OpenAI"
+  },
+  {
    "model_key": "qwen2.5-plus-1127",
    "display_name": "qwen2.5-plus-1127",
-   "rank": 265,
+   "rank": 266,
    "arena_score": 1315,
    "votes": 10187,
    "context_length": null,
@@ -2391,7 +2400,7 @@
   {
    "model_key": "mistral-large-2407",
    "display_name": "mistral-large-2407",
-   "rank": 266,
+   "rank": 267,
    "arena_score": 1314,
    "votes": 45459,
    "context_length": 131072,
@@ -2400,7 +2409,7 @@
   {
    "model_key": "athene-v2-chat",
    "display_name": "athene-v2-chat",
-   "rank": 267,
+   "rank": 268,
    "arena_score": 1314,
    "votes": 24739,
    "context_length": null,
@@ -2409,16 +2418,16 @@
   {
    "model_key": "nvidia-nemotron-3-nano-30b-a3b-bf16",
    "display_name": "nvidia-nemotron-3-nano-30b-a3b-bf16",
-   "rank": 268,
+   "rank": 269,
    "arena_score": 1314,
-   "votes": 15722,
+   "votes": 15779,
    "context_length": 262144,
    "organization": "Nvidia"
   },
   {
    "model_key": "gpt-4-0125-preview",
    "display_name": "gpt-4-0125-preview",
-   "rank": 269,
+   "rank": 270,
    "arena_score": 1313,
    "votes": 93439,
    "context_length": 128000,
@@ -2427,7 +2436,7 @@
   {
    "model_key": "gpt-4-1106-preview",
    "display_name": "gpt-4-1106-preview",
-   "rank": 270,
+   "rank": 271,
    "arena_score": 1313,
    "votes": 100105,
    "context_length": 128000,
@@ -2436,7 +2445,7 @@
   {
    "model_key": "hunyuan-standard-2025-02-10",
    "display_name": "hunyuan-standard-2025-02-10",
-   "rank": 271,
+   "rank": 272,
    "arena_score": 1311,
    "votes": 3904,
    "context_length": null,
@@ -2445,7 +2454,7 @@
   {
    "model_key": "gemini-1.5-flash-002",
    "display_name": "gemini-1.5-flash-002",
-   "rank": 272,
+   "rank": 273,
    "arena_score": 1309,
    "votes": 34902,
    "context_length": 1048576,
@@ -2454,7 +2463,7 @@
   {
    "model_key": "grok-2-mini-2024-08-13",
    "display_name": "grok-2-mini-2024-08-13",
-   "rank": 273,
+   "rank": 274,
    "arena_score": 1308,
    "votes": 52567,
    "context_length": 131072,
@@ -2463,7 +2472,7 @@
   {
    "model_key": "deepseek-v2.5",
    "display_name": "deepseek-v2.5",
-   "rank": 274,
+   "rank": 275,
    "arena_score": 1307,
    "votes": 24572,
    "context_length": null,
@@ -2472,7 +2481,7 @@
   {
    "model_key": "athene-70b-0725",
    "display_name": "athene-70b-0725",
-   "rank": 275,
+   "rank": 276,
    "arena_score": 1307,
    "votes": 19621,
    "context_length": null,
@@ -2481,65 +2490,56 @@
   {
    "model_key": "olmo-3-32b-think",
    "display_name": "olmo-3-32b-think",
-   "rank": 276,
+   "rank": 277,
    "arena_score": 1306,
-   "votes": 5811,
+   "votes": 5830,
    "context_length": 65536,
    "organization": "Ai2"
   },
   {
+   "model_key": "mercury",
+   "display_name": "mercury",
+   "rank": 278,
+   "arena_score": 1306,
+   "votes": 1963,
+   "context_length": 128000,
+   "organization": "Inception AI"
+  },
+  {
    "model_key": "mistral-large-2411",
    "display_name": "mistral-large-2411",
-   "rank": 277,
+   "rank": 279,
    "arena_score": 1306,
    "votes": 28073,
    "context_length": 128000,
    "organization": "Mistral"
   },
   {
-   "model_key": "mercury",
-   "display_name": "mercury",
-   "rank": 278,
-   "arena_score": 1305,
-   "votes": 1949,
-   "context_length": 128000,
-   "organization": "Inception AI"
-  },
-  {
    "model_key": "magistral-medium-2506",
    "display_name": "magistral-medium-2506",
-   "rank": 279,
+   "rank": 280,
    "arena_score": 1305,
-   "votes": 11432,
+   "votes": 11513,
    "context_length": 40000,
    "organization": "Mistral"
   },
   {
    "model_key": "granite-4.1-8b",
    "display_name": "granite-4.1-8b",
-   "rank": 280,
+   "rank": 281,
    "arena_score": 1304,
-   "votes": 4161,
+   "votes": 4184,
    "context_length": 131072,
    "organization": "IBM"
   },
   {
    "model_key": "gemma-3-4b-it",
    "display_name": "gemma-3-4b-it",
-   "rank": 281,
+   "rank": 282,
    "arena_score": 1303,
    "votes": 4171,
    "context_length": 131072,
    "organization": "Google"
-  },
-  {
-   "model_key": "mistral-small-3.1-24b-instruct-2503",
-   "display_name": "mistral-small-3.1-24b-instruct-2503",
-   "rank": 282,
-   "arena_score": 1303,
-   "votes": 32551,
-   "context_length": 32000,
-   "organization": "Mistral"
   },
   {
    "model_key": "qwen2.5-72b-instruct",
@@ -2551,9 +2551,18 @@
    "organization": "Alibaba"
   },
   {
+   "model_key": "mistral-small-3.1-24b-instruct-2503",
+   "display_name": "mistral-small-3.1-24b-instruct-2503",
+   "rank": 284,
+   "arena_score": 1303,
+   "votes": 32744,
+   "context_length": 32000,
+   "organization": "Mistral"
+  },
+  {
    "model_key": "llama-3.1-nemotron-70b-instruct",
    "display_name": "llama-3.1-nemotron-70b-instruct",
-   "rank": 284,
+   "rank": 285,
    "arena_score": 1299,
    "votes": 7140,
    "context_length": 131072,
@@ -2562,25 +2571,34 @@
   {
    "model_key": "hunyuan-large-vision",
    "display_name": "hunyuan-large-vision",
-   "rank": 285,
+   "rank": 286,
    "arena_score": 1294,
-   "votes": 5248,
+   "votes": 5280,
    "context_length": null,
    "organization": "Tencent"
   },
   {
    "model_key": "llama-3.1-70b-instruct",
    "display_name": "llama-3.1-70b-instruct",
-   "rank": 286,
+   "rank": 287,
    "arena_score": 1293,
    "votes": 55240,
    "context_length": 131072,
    "organization": "Meta"
   },
   {
+   "model_key": "solace",
+   "display_name": "granite-4.2-8b",
+   "rank": 288,
+   "arena_score": 1290,
+   "votes": 3253,
+   "context_length": 131072,
+   "organization": "IBM"
+  },
+  {
    "model_key": "amazon-nova-pro-v1.0",
    "display_name": "amazon-nova-pro-v1.0",
-   "rank": 287,
+   "rank": 289,
    "arena_score": 1290,
    "votes": 24745,
    "context_length": 300000,
@@ -2589,16 +2607,16 @@
   {
    "model_key": "nimbus",
    "display_name": "granite-4.2-3b",
-   "rank": 288,
+   "rank": 290,
    "arena_score": 1290,
-   "votes": 3247,
+   "votes": 3251,
    "context_length": null,
    "organization": "IBM"
   },
   {
    "model_key": "gemma-2-27b-it",
    "display_name": "gemma-2-27b-it",
-   "rank": 289,
+   "rank": 291,
    "arena_score": 1289,
    "votes": 75754,
    "context_length": 8192,
@@ -2607,25 +2625,16 @@
   {
    "model_key": "jamba-1.5-large",
    "display_name": "jamba-1.5-large",
-   "rank": 290,
+   "rank": 292,
    "arena_score": 1289,
    "votes": 8662,
    "context_length": 256000,
    "organization": ""
   },
   {
-   "model_key": "solace",
-   "display_name": "granite-4.2-8b",
-   "rank": 291,
-   "arena_score": 1288,
-   "votes": 3237,
-   "context_length": 131072,
-   "organization": "IBM"
-  },
-  {
    "model_key": "reka-core-20240904",
    "display_name": "reka-core-20240904",
-   "rank": 292,
+   "rank": 293,
    "arena_score": 1288,
    "votes": 7312,
    "context_length": null,
@@ -2634,7 +2643,7 @@
   {
    "model_key": "gpt-4-0314",
    "display_name": "gpt-4-0314",
-   "rank": 293,
+   "rank": 294,
    "arena_score": 1288,
    "votes": 54173,
    "context_length": 8192,
@@ -2643,16 +2652,25 @@
   {
    "model_key": "ibm-granite-h-small",
    "display_name": "ibm-granite-h-small",
-   "rank": 294,
+   "rank": 295,
    "arena_score": 1287,
-   "votes": 5576,
+   "votes": 5635,
    "context_length": null,
    "organization": "IBM"
   },
   {
+   "model_key": "olmo-3.1-32b-think",
+   "display_name": "olmo-3.1-32b-think",
+   "rank": 296,
+   "arena_score": 1287,
+   "votes": 8301,
+   "context_length": 65536,
+   "organization": "Ai2"
+  },
+  {
    "model_key": "llama-3.1-nemotron-51b-instruct",
    "display_name": "llama-3.1-nemotron-51b-instruct",
-   "rank": 295,
+   "rank": 297,
    "arena_score": 1287,
    "votes": 3749,
    "context_length": null,
@@ -2661,25 +2679,16 @@
   {
    "model_key": "gemini-1.5-flash-001",
    "display_name": "gemini-1.5-flash-001",
-   "rank": 296,
-   "arena_score": 1286,
+   "rank": 298,
+   "arena_score": 1287,
    "votes": 62833,
    "context_length": 1048576,
    "organization": "Google"
   },
   {
-   "model_key": "olmo-3.1-32b-think",
-   "display_name": "olmo-3.1-32b-think",
-   "rank": 297,
-   "arena_score": 1286,
-   "votes": 8278,
-   "context_length": 65536,
-   "organization": "Ai2"
-  },
-  {
    "model_key": "llama-3.1-tulu-3-70b",
    "display_name": "llama-3.1-tulu-3-70b",
-   "rank": 298,
+   "rank": 299,
    "arena_score": 1286,
    "votes": 2846,
    "context_length": null,
@@ -2688,7 +2697,7 @@
   {
    "model_key": "claude-3-sonnet-20240229",
    "display_name": "claude-3-sonnet-20240229",
-   "rank": 299,
+   "rank": 300,
    "arena_score": 1281,
    "votes": 109284,
    "context_length": 200000,
@@ -2697,7 +2706,7 @@
   {
    "model_key": "gemma-2-9b-it-simpo",
    "display_name": "gemma-2-9b-it-simpo",
-   "rank": 300,
+   "rank": 301,
    "arena_score": 1280,
    "votes": 10072,
    "context_length": 8192,
@@ -2706,7 +2715,7 @@
   {
    "model_key": "nemotron-4-340b-instruct",
    "display_name": "nemotron-4-340b-instruct",
-   "rank": 301,
+   "rank": 302,
    "arena_score": 1277,
    "votes": 19659,
    "context_length": null,
@@ -2715,7 +2724,7 @@
   {
    "model_key": "llama-3-70b-instruct",
    "display_name": "llama-3-70b-instruct",
-   "rank": 302,
+   "rank": 303,
    "arena_score": 1277,
    "votes": 156876,
    "context_length": 8192,
@@ -2724,7 +2733,7 @@
   {
    "model_key": "command-r-plus-08-2024",
    "display_name": "command-r-plus-08-2024",
-   "rank": 303,
+   "rank": 304,
    "arena_score": 1276,
    "votes": 9866,
    "context_length": 128000,
@@ -2733,7 +2742,7 @@
   {
    "model_key": "gpt-4-0613",
    "display_name": "gpt-4-0613",
-   "rank": 304,
+   "rank": 305,
    "arena_score": 1276,
    "votes": 88723,
    "context_length": 8192,
@@ -2742,7 +2751,7 @@
   {
    "model_key": "mistral-small-24b-instruct-2501",
    "display_name": "mistral-small-24b-instruct-2501",
-   "rank": 305,
+   "rank": 306,
    "arena_score": 1274,
    "votes": 14681,
    "context_length": 32768,
@@ -2751,7 +2760,7 @@
   {
    "model_key": "glm-4-0520",
    "display_name": "glm-4-0520",
-   "rank": 306,
+   "rank": 307,
    "arena_score": 1273,
    "votes": 9788,
    "context_length": null,
@@ -2760,7 +2769,7 @@
   {
    "model_key": "reka-flash-20240904",
    "display_name": "reka-flash-20240904",
-   "rank": 307,
+   "rank": 308,
    "arena_score": 1272,
    "votes": 7536,
    "context_length": null,
@@ -2769,7 +2778,7 @@
   {
    "model_key": "qwen2.5-coder-32b-instruct",
    "display_name": "qwen2.5-coder-32b-instruct",
-   "rank": 308,
+   "rank": 309,
    "arena_score": 1271,
    "votes": 5432,
    "context_length": 32000,
@@ -2778,7 +2787,7 @@
   {
    "model_key": "c4ai-aya-expanse-32b",
    "display_name": "c4ai-aya-expanse-32b",
-   "rank": 309,
+   "rank": 310,
    "arena_score": 1267,
    "votes": 27124,
    "context_length": 128000,
@@ -2787,7 +2796,7 @@
   {
    "model_key": "gemma-2-9b-it",
    "display_name": "gemma-2-9b-it",
-   "rank": 310,
+   "rank": 311,
    "arena_score": 1267,
    "votes": 54611,
    "context_length": 8192,
@@ -2796,7 +2805,7 @@
   {
    "model_key": "deepseek-coder-v2",
    "display_name": "deepseek-coder-v2",
-   "rank": 311,
+   "rank": 312,
    "arena_score": 1265,
    "votes": 15147,
    "context_length": 128000,
@@ -2805,7 +2814,7 @@
   {
    "model_key": "qwen2-72b-instruct",
    "display_name": "qwen2-72b-instruct",
-   "rank": 312,
+   "rank": 313,
    "arena_score": 1262,
    "votes": 37325,
    "context_length": 32768,
@@ -2814,7 +2823,7 @@
   {
    "model_key": "command-r-plus",
    "display_name": "command-r-plus",
-   "rank": 313,
+   "rank": 314,
    "arena_score": 1262,
    "votes": 77554,
    "context_length": 128000,
@@ -2823,7 +2832,7 @@
   {
    "model_key": "claude-3-haiku-20240307",
    "display_name": "claude-3-haiku-20240307",
-   "rank": 314,
+   "rank": 315,
    "arena_score": 1262,
    "votes": 117701,
    "context_length": 200000,
@@ -2832,7 +2841,7 @@
   {
    "model_key": "amazon-nova-lite-v1.0",
    "display_name": "amazon-nova-lite-v1.0",
-   "rank": 315,
+   "rank": 316,
    "arena_score": 1260,
    "votes": 19372,
    "context_length": 300000,
@@ -2841,7 +2850,7 @@
   {
    "model_key": "gemini-1.5-flash-8b-001",
    "display_name": "gemini-1.5-flash-8b-001",
-   "rank": 316,
+   "rank": 317,
    "arena_score": 1259,
    "votes": 35558,
    "context_length": 1048576,
@@ -2850,7 +2859,7 @@
   {
    "model_key": "phi-4",
    "display_name": "phi-4",
-   "rank": 317,
+   "rank": 318,
    "arena_score": 1256,
    "votes": 24126,
    "context_length": 16384,
@@ -2859,7 +2868,7 @@
   {
    "model_key": "olmo-2-0325-32b-instruct",
    "display_name": "olmo-2-0325-32b-instruct",
-   "rank": 318,
+   "rank": 319,
    "arena_score": 1252,
    "votes": 3334,
    "context_length": 128000,
@@ -2868,7 +2877,7 @@
   {
    "model_key": "command-r-08-2024",
    "display_name": "command-r-08-2024",
-   "rank": 319,
+   "rank": 320,
    "arena_score": 1250,
    "votes": 10140,
    "context_length": 128000,
@@ -2877,8 +2886,8 @@
   {
    "model_key": "mistral-large-2402",
    "display_name": "mistral-large-2402",
-   "rank": 320,
-   "arena_score": 1242,
+   "rank": 321,
+   "arena_score": 1243,
    "votes": 62436,
    "context_length": 32000,
    "organization": "Mistral"
@@ -2886,7 +2895,7 @@
   {
    "model_key": "amazon-nova-micro-v1.0",
    "display_name": "amazon-nova-micro-v1.0",
-   "rank": 321,
+   "rank": 322,
    "arena_score": 1241,
    "votes": 19364,
    "context_length": 128000,
@@ -2895,7 +2904,7 @@
   {
    "model_key": "jamba-1.5-mini",
    "display_name": "jamba-1.5-mini",
-   "rank": 322,
+   "rank": 323,
    "arena_score": 1240,
    "votes": 8858,
    "context_length": 256000,
@@ -2904,7 +2913,7 @@
   {
    "model_key": "ministral-8b-2410",
    "display_name": "ministral-8b-2410",
-   "rank": 323,
+   "rank": 324,
    "arena_score": 1238,
    "votes": 4781,
    "context_length": 131072,
@@ -2913,7 +2922,7 @@
   {
    "model_key": "gemini-pro-dev-api",
    "display_name": "gemini-pro-dev-api",
-   "rank": 324,
+   "rank": 325,
    "arena_score": 1237,
    "votes": 18354,
    "context_length": 32760,
@@ -2922,7 +2931,7 @@
   {
    "model_key": "qwen1.5-110b-chat",
    "display_name": "qwen1.5-110b-chat",
-   "rank": 325,
+   "rank": 326,
    "arena_score": 1234,
    "votes": 26195,
    "context_length": null,
@@ -2931,8 +2940,8 @@
   {
    "model_key": "reka-flash-21b-20240226-online",
    "display_name": "reka-flash-21b-20240226-online",
-   "rank": 326,
-   "arena_score": 1233,
+   "rank": 327,
+   "arena_score": 1234,
    "votes": 15450,
    "context_length": null,
    "organization": ""
@@ -2940,8 +2949,8 @@
   {
    "model_key": "qwen1.5-72b-chat",
    "display_name": "qwen1.5-72b-chat",
-   "rank": 327,
-   "arena_score": 1233,
+   "rank": 328,
+   "arena_score": 1234,
    "votes": 39302,
    "context_length": null,
    "organization": "Alibaba"
@@ -2949,7 +2958,7 @@
   {
    "model_key": "hunyuan-standard-256k",
    "display_name": "hunyuan-standard-256k",
-   "rank": 328,
+   "rank": 329,
    "arena_score": 1233,
    "votes": 2728,
    "context_length": null,
@@ -2958,7 +2967,7 @@
   {
    "model_key": "mixtral-8x22b-instruct-v0.1",
    "display_name": "mixtral-8x22b-instruct-v0.1",
-   "rank": 329,
+   "rank": 330,
    "arena_score": 1230,
    "votes": 51416,
    "context_length": 65536,
@@ -2967,7 +2976,7 @@
   {
    "model_key": "command-r",
    "display_name": "command-r",
-   "rank": 330,
+   "rank": 331,
    "arena_score": 1227,
    "votes": 54036,
    "context_length": 128000,
@@ -2976,7 +2985,7 @@
   {
    "model_key": "reka-flash-21b-20240226",
    "display_name": "reka-flash-21b-20240226",
-   "rank": 331,
+   "rank": 332,
    "arena_score": 1227,
    "votes": 24806,
    "context_length": null,
@@ -2985,7 +2994,7 @@
   {
    "model_key": "gpt-3.5-turbo-0125",
    "display_name": "gpt-3.5-turbo-0125",
-   "rank": 332,
+   "rank": 333,
    "arena_score": 1226,
    "votes": 66207,
    "context_length": 16385,
@@ -2994,7 +3003,7 @@
   {
    "model_key": "llama-3-8b-instruct",
    "display_name": "llama-3-8b-instruct",
-   "rank": 333,
+   "rank": 334,
    "arena_score": 1224,
    "votes": 104642,
    "context_length": 8192,
@@ -3003,7 +3012,7 @@
   {
    "model_key": "gemini-pro",
    "display_name": "gemini-pro",
-   "rank": 334,
+   "rank": 335,
    "arena_score": 1224,
    "votes": 6390,
    "context_length": 32760,
@@ -3012,7 +3021,7 @@
   {
    "model_key": "c4ai-aya-expanse-8b",
    "display_name": "c4ai-aya-expanse-8b",
-   "rank": 335,
+   "rank": 336,
    "arena_score": 1223,
    "votes": 9818,
    "context_length": null,
@@ -3021,7 +3030,7 @@
   {
    "model_key": "mistral-medium",
    "display_name": "mistral-medium",
-   "rank": 336,
+   "rank": 337,
    "arena_score": 1223,
    "votes": 34550,
    "context_length": 262144,
@@ -3030,8 +3039,8 @@
   {
    "model_key": "llama-3.1-tulu-3-8b",
    "display_name": "llama-3.1-tulu-3-8b",
-   "rank": 337,
-   "arena_score": 1220,
+   "rank": 338,
+   "arena_score": 1221,
    "votes": 2896,
    "context_length": null,
    "organization": "Ai2"
@@ -3039,7 +3048,7 @@
   {
    "model_key": "zephyr-orpo-141b-A35b-v0.1",
    "display_name": "zephyr-orpo-141b-A35b-v0.1",
-   "rank": 338,
+   "rank": 339,
    "arena_score": 1213,
    "votes": 4652,
    "context_length": null,
@@ -3048,7 +3057,7 @@
   {
    "model_key": "yi-1.5-34b-chat",
    "display_name": "yi-1.5-34b-chat",
-   "rank": 339,
+   "rank": 340,
    "arena_score": 1213,
    "votes": 24146,
    "context_length": null,
@@ -3057,7 +3066,7 @@
   {
    "model_key": "llama-3.1-8b-instruct",
    "display_name": "llama-3.1-8b-instruct",
-   "rank": 340,
+   "rank": 341,
    "arena_score": 1211,
    "votes": 49605,
    "context_length": 131072,
@@ -3066,8 +3075,8 @@
   {
    "model_key": "granite-3.1-8b-instruct",
    "display_name": "granite-3.1-8b-instruct",
-   "rank": 341,
-   "arena_score": 1208,
+   "rank": 342,
+   "arena_score": 1209,
    "votes": 3090,
    "context_length": null,
    "organization": "IBM"
@@ -3075,7 +3084,7 @@
   {
    "model_key": "gpt-3.5-turbo-1106",
    "display_name": "gpt-3.5-turbo-1106",
-   "rank": 342,
+   "rank": 343,
    "arena_score": 1204,
    "votes": 16619,
    "context_length": 16385,
@@ -3084,7 +3093,7 @@
   {
    "model_key": "qwen1.5-32b-chat",
    "display_name": "qwen1.5-32b-chat",
-   "rank": 343,
+   "rank": 344,
    "arena_score": 1204,
    "votes": 21741,
    "context_length": null,
@@ -3093,7 +3102,7 @@
   {
    "model_key": "gemma-2-2b-it",
    "display_name": "gemma-2-2b-it",
-   "rank": 344,
+   "rank": 345,
    "arena_score": 1200,
    "votes": 46616,
    "context_length": null,
@@ -3102,7 +3111,7 @@
   {
    "model_key": "phi-3-medium-4k-instruct",
    "display_name": "phi-3-medium-4k-instruct",
-   "rank": 345,
+   "rank": 346,
    "arena_score": 1198,
    "votes": 25055,
    "context_length": null,
@@ -3111,7 +3120,7 @@
   {
    "model_key": "mixtral-8x7b-instruct-v0.1",
    "display_name": "mixtral-8x7b-instruct-v0.1",
-   "rank": 346,
+   "rank": 347,
    "arena_score": 1197,
    "votes": 73503,
    "context_length": 32000,
@@ -3120,7 +3129,7 @@
   {
    "model_key": "dbrx-instruct-preview",
    "display_name": "dbrx-instruct-preview",
-   "rank": 347,
+   "rank": 348,
    "arena_score": 1195,
    "votes": 32191,
    "context_length": 32768,
@@ -3129,7 +3138,7 @@
   {
    "model_key": "qwen1.5-14b-chat",
    "display_name": "qwen1.5-14b-chat",
-   "rank": 348,
+   "rank": 349,
    "arena_score": 1191,
    "votes": 17839,
    "context_length": null,
@@ -3138,7 +3147,7 @@
   {
    "model_key": "internlm2_5-20b-chat",
    "display_name": "internlm2_5-20b-chat",
-   "rank": 349,
+   "rank": 350,
    "arena_score": 1191,
    "votes": 9901,
    "context_length": 32768,
@@ -3147,7 +3156,7 @@
   {
    "model_key": "deepseek-llm-67b-chat",
    "display_name": "deepseek-llm-67b-chat",
-   "rank": 350,
+   "rank": 351,
    "arena_score": 1185,
    "votes": 4932,
    "context_length": null,
@@ -3156,7 +3165,7 @@
   {
    "model_key": "wizardlm-70b",
    "display_name": "wizardlm-70b",
-   "rank": 351,
+   "rank": 352,
    "arena_score": 1185,
    "votes": 8214,
    "context_length": null,
@@ -3165,7 +3174,7 @@
   {
    "model_key": "yi-34b-chat",
    "display_name": "yi-34b-chat",
-   "rank": 352,
+   "rank": 353,
    "arena_score": 1184,
    "votes": 15483,
    "context_length": 4096,
@@ -3174,7 +3183,7 @@
   {
    "model_key": "granite-3.0-8b-instruct",
    "display_name": "granite-3.0-8b-instruct",
-   "rank": 353,
+   "rank": 354,
    "arena_score": 1183,
    "votes": 6638,
    "context_length": null,
@@ -3183,7 +3192,7 @@
   {
    "model_key": "openchat-3.5",
    "display_name": "openchat-3.5",
-   "rank": 354,
+   "rank": 355,
    "arena_score": 1183,
    "votes": 7968,
    "context_length": null,
@@ -3192,7 +3201,7 @@
   {
    "model_key": "openchat-3.5-0106",
    "display_name": "openchat-3.5-0106",
-   "rank": 355,
+   "rank": 356,
    "arena_score": 1183,
    "votes": 12637,
    "context_length": null,
@@ -3201,7 +3210,7 @@
   {
    "model_key": "gemma-1.1-7b-it",
    "display_name": "gemma-1.1-7b-it",
-   "rank": 356,
+   "rank": 357,
    "arena_score": 1183,
    "votes": 23893,
    "context_length": 8192,
@@ -3210,7 +3219,7 @@
   {
    "model_key": "snowflake-arctic-instruct",
    "display_name": "snowflake-arctic-instruct",
-   "rank": 357,
+   "rank": 358,
    "arena_score": 1180,
    "votes": 32832,
    "context_length": null,
@@ -3219,7 +3228,7 @@
   {
    "model_key": "granite-3.1-2b-instruct",
    "display_name": "granite-3.1-2b-instruct",
-   "rank": 358,
+   "rank": 359,
    "arena_score": 1179,
    "votes": 3188,
    "context_length": null,
@@ -3228,7 +3237,7 @@
   {
    "model_key": "tulu-2-dpo-70b",
    "display_name": "tulu-2-dpo-70b",
-   "rank": 359,
+   "rank": 360,
    "arena_score": 1178,
    "votes": 6535,
    "context_length": null,
@@ -3237,7 +3246,7 @@
   {
    "model_key": "openhermes-2.5-mistral-7b",
    "display_name": "openhermes-2.5-mistral-7b",
-   "rank": 360,
+   "rank": 361,
    "arena_score": 1176,
    "votes": 5006,
    "context_length": null,
@@ -3246,7 +3255,7 @@
   {
    "model_key": "vicuna-33b",
    "display_name": "vicuna-33b",
-   "rank": 361,
+   "rank": 362,
    "arena_score": 1173,
    "votes": 22479,
    "context_length": 2048,
@@ -3255,7 +3264,7 @@
   {
    "model_key": "phi-3-small-8k-instruct",
    "display_name": "phi-3-small-8k-instruct",
-   "rank": 362,
+   "rank": 363,
    "arena_score": 1171,
    "votes": 17766,
    "context_length": null,
@@ -3264,7 +3273,7 @@
   {
    "model_key": "starling-lm-7b-beta",
    "display_name": "starling-lm-7b-beta",
-   "rank": 363,
+   "rank": 364,
    "arena_score": 1171,
    "votes": 16056,
    "context_length": null,
@@ -3273,7 +3282,7 @@
   {
    "model_key": "llama-2-70b-chat",
    "display_name": "llama-2-70b-chat",
-   "rank": 364,
+   "rank": 365,
    "arena_score": 1171,
    "votes": 38492,
    "context_length": 4096,
@@ -3282,7 +3291,7 @@
   {
    "model_key": "starling-lm-7b-alpha",
    "display_name": "starling-lm-7b-alpha",
-   "rank": 365,
+   "rank": 366,
    "arena_score": 1167,
    "votes": 10224,
    "context_length": null,
@@ -3291,7 +3300,7 @@
   {
    "model_key": "llama-3.2-3b-instruct",
    "display_name": "llama-3.2-3b-instruct",
-   "rank": 366,
+   "rank": 367,
    "arena_score": 1167,
    "votes": 7936,
    "context_length": 131072,
@@ -3300,7 +3309,7 @@
   {
    "model_key": "nous-hermes-2-mixtral-8x7b-dpo",
    "display_name": "nous-hermes-2-mixtral-8x7b-dpo",
-   "rank": 367,
+   "rank": 368,
    "arena_score": 1164,
    "votes": 3777,
    "context_length": null,
@@ -3309,7 +3318,7 @@
   {
    "model_key": "granite-3.0-2b-instruct",
    "display_name": "granite-3.0-2b-instruct",
-   "rank": 368,
+   "rank": 369,
    "arena_score": 1157,
    "votes": 6837,
    "context_length": null,
@@ -3318,7 +3327,7 @@
   {
    "model_key": "llama2-70b-steerlm-chat",
    "display_name": "llama2-70b-steerlm-chat",
-   "rank": 369,
+   "rank": 370,
    "arena_score": 1155,
    "votes": 3585,
    "context_length": null,
@@ -3327,7 +3336,7 @@
   {
    "model_key": "qwq-32b-preview",
    "display_name": "qwq-32b-preview",
-   "rank": 370,
+   "rank": 371,
    "arena_score": 1154,
    "votes": 3231,
    "context_length": 16384,
@@ -3336,7 +3345,7 @@
   {
    "model_key": "solar-10.7b-instruct-v1.0",
    "display_name": "solar-10.7b-instruct-v1.0",
-   "rank": 371,
+   "rank": 372,
    "arena_score": 1152,
    "votes": 4155,
    "context_length": null,
@@ -3345,7 +3354,7 @@
   {
    "model_key": "dolphin-2.2.1-mistral-7b",
    "display_name": "dolphin-2.2.1-mistral-7b",
-   "rank": 372,
+   "rank": 373,
    "arena_score": 1152,
    "votes": 1679,
    "context_length": 16384,
@@ -3354,7 +3363,7 @@
   {
    "model_key": "mpt-30b-chat",
    "display_name": "mpt-30b-chat",
-   "rank": 373,
+   "rank": 374,
    "arena_score": 1151,
    "votes": 2572,
    "context_length": null,
@@ -3363,8 +3372,8 @@
   {
    "model_key": "wizardlm-13b",
    "display_name": "wizardlm-13b",
-   "rank": 374,
-   "arena_score": 1149,
+   "rank": 375,
+   "arena_score": 1150,
    "votes": 7044,
    "context_length": null,
    "organization": "Microsoft"
@@ -3372,7 +3381,7 @@
   {
    "model_key": "mistral-7b-instruct-v0.2",
    "display_name": "mistral-7b-instruct-v0.2",
-   "rank": 375,
+   "rank": 376,
    "arena_score": 1149,
    "votes": 19402,
    "context_length": 32768,
@@ -3381,7 +3390,7 @@
   {
    "model_key": "falcon-180b-chat",
    "display_name": "falcon-180b-chat",
-   "rank": 376,
+   "rank": 377,
    "arena_score": 1148,
    "votes": 1295,
    "context_length": null,
@@ -3390,7 +3399,7 @@
   {
    "model_key": "qwen1.5-7b-chat",
    "display_name": "qwen1.5-7b-chat",
-   "rank": 377,
+   "rank": 378,
    "arena_score": 1144,
    "votes": 4737,
    "context_length": null,
@@ -3399,7 +3408,7 @@
   {
    "model_key": "phi-3-mini-4k-instruct-june-2024",
    "display_name": "phi-3-mini-4k-instruct-june-2024",
-   "rank": 378,
+   "rank": 379,
    "arena_score": 1143,
    "votes": 12297,
    "context_length": 4096,
@@ -3408,7 +3417,7 @@
   {
    "model_key": "vicuna-13b",
    "display_name": "vicuna-13b",
-   "rank": 379,
+   "rank": 380,
    "arena_score": 1142,
    "votes": 19367,
    "context_length": null,
@@ -3417,7 +3426,7 @@
   {
    "model_key": "llama-2-13b-chat",
    "display_name": "llama-2-13b-chat",
-   "rank": 380,
+   "rank": 381,
    "arena_score": 1141,
    "votes": 19174,
    "context_length": 4096,
@@ -3426,7 +3435,7 @@
   {
    "model_key": "qwen-14b-chat",
    "display_name": "qwen-14b-chat",
-   "rank": 381,
+   "rank": 382,
    "arena_score": 1139,
    "votes": 4964,
    "context_length": null,
@@ -3435,7 +3444,7 @@
   {
    "model_key": "palm-2",
    "display_name": "palm-2",
-   "rank": 382,
+   "rank": 383,
    "arena_score": 1139,
    "votes": 8554,
    "context_length": 25804,
@@ -3444,7 +3453,7 @@
   {
    "model_key": "gemma-7b-it",
    "display_name": "gemma-7b-it",
-   "rank": 383,
+   "rank": 384,
    "arena_score": 1138,
    "votes": 8925,
    "context_length": 8192,
@@ -3453,7 +3462,7 @@
   {
    "model_key": "codellama-34b-instruct",
    "display_name": "codellama-34b-instruct",
-   "rank": 384,
+   "rank": 385,
    "arena_score": 1137,
    "votes": 7366,
    "context_length": 16384,
@@ -3462,7 +3471,7 @@
   {
    "model_key": "zephyr-7b-beta",
    "display_name": "zephyr-7b-beta",
-   "rank": 385,
+   "rank": 386,
    "arena_score": 1131,
    "votes": 11118,
    "context_length": 16384,
@@ -3471,7 +3480,7 @@
   {
    "model_key": "phi-3-mini-128k-instruct",
    "display_name": "phi-3-mini-128k-instruct",
-   "rank": 386,
+   "rank": 387,
    "arena_score": 1130,
    "votes": 20685,
    "context_length": null,
@@ -3480,7 +3489,7 @@
   {
    "model_key": "phi-3-mini-4k-instruct",
    "display_name": "phi-3-mini-4k-instruct",
-   "rank": 387,
+   "rank": 388,
    "arena_score": 1128,
    "votes": 20118,
    "context_length": null,
@@ -3489,7 +3498,7 @@
   {
    "model_key": "guanaco-33b",
    "display_name": "guanaco-33b",
-   "rank": 388,
+   "rank": 389,
    "arena_score": 1127,
    "votes": 2921,
    "context_length": null,
@@ -3498,7 +3507,7 @@
   {
    "model_key": "zephyr-7b-alpha",
    "display_name": "zephyr-7b-alpha",
-   "rank": 389,
+   "rank": 390,
    "arena_score": 1127,
    "votes": 1785,
    "context_length": null,
@@ -3507,7 +3516,7 @@
   {
    "model_key": "stripedhyena-nous-7b",
    "display_name": "stripedhyena-nous-7b",
-   "rank": 390,
+   "rank": 391,
    "arena_score": 1122,
    "votes": 5182,
    "context_length": null,
@@ -3516,7 +3525,7 @@
   {
    "model_key": "codellama-70b-instruct",
    "display_name": "codellama-70b-instruct",
-   "rank": 391,
+   "rank": 392,
    "arena_score": 1119,
    "votes": 1143,
    "context_length": 16384,
@@ -3525,7 +3534,7 @@
   {
    "model_key": "gemma-1.1-2b-it",
    "display_name": "gemma-1.1-2b-it",
-   "rank": 392,
+   "rank": 393,
    "arena_score": 1117,
    "votes": 10854,
    "context_length": null,
@@ -3534,7 +3543,7 @@
   {
    "model_key": "vicuna-7b",
    "display_name": "vicuna-7b",
-   "rank": 393,
+   "rank": 394,
    "arena_score": 1115,
    "votes": 6923,
    "context_length": null,
@@ -3543,7 +3552,7 @@
   {
    "model_key": "smollm2-1.7b-instruct",
    "display_name": "smollm2-1.7b-instruct",
-   "rank": 394,
+   "rank": 395,
    "arena_score": 1115,
    "votes": 2199,
    "context_length": null,
@@ -3552,7 +3561,7 @@
   {
    "model_key": "llama-3.2-1b-instruct",
    "display_name": "llama-3.2-1b-instruct",
-   "rank": 395,
+   "rank": 396,
    "arena_score": 1111,
    "votes": 8045,
    "context_length": 60000,
@@ -3561,7 +3570,7 @@
   {
    "model_key": "mistral-7b-instruct",
    "display_name": "mistral-7b-instruct",
-   "rank": 396,
+   "rank": 397,
    "arena_score": 1110,
    "votes": 8977,
    "context_length": 4096,
@@ -3570,7 +3579,7 @@
   {
    "model_key": "llama-2-7b-chat",
    "display_name": "llama-2-7b-chat",
-   "rank": 397,
+   "rank": 398,
    "arena_score": 1108,
    "votes": 14148,
    "context_length": 4096,
@@ -3579,7 +3588,7 @@
   {
    "model_key": "gemma-2b-it",
    "display_name": "gemma-2b-it",
-   "rank": 398,
+   "rank": 399,
    "arena_score": 1094,
    "votes": 4780,
    "context_length": null,
@@ -3588,7 +3597,7 @@
   {
    "model_key": "qwen1.5-4b-chat",
    "display_name": "qwen1.5-4b-chat",
-   "rank": 399,
+   "rank": 400,
    "arena_score": 1091,
    "votes": 7597,
    "context_length": null,
@@ -3597,7 +3606,7 @@
   {
    "model_key": "olmo-7b-instruct",
    "display_name": "olmo-7b-instruct",
-   "rank": 400,
+   "rank": 401,
    "arena_score": 1074,
    "votes": 6328,
    "context_length": null,
@@ -3606,7 +3615,7 @@
   {
    "model_key": "koala-13b",
    "display_name": "koala-13b",
-   "rank": 401,
+   "rank": 402,
    "arena_score": 1071,
    "votes": 6965,
    "context_length": null,
@@ -3615,7 +3624,7 @@
   {
    "model_key": "alpaca-13b",
    "display_name": "alpaca-13b",
-   "rank": 402,
+   "rank": 403,
    "arena_score": 1070,
    "votes": 5745,
    "context_length": null,
@@ -3624,7 +3633,7 @@
   {
    "model_key": "gpt4all-13b-snoozy",
    "display_name": "gpt4all-13b-snoozy",
-   "rank": 403,
+   "rank": 404,
    "arena_score": 1068,
    "votes": 1743,
    "context_length": null,
@@ -3633,7 +3642,7 @@
   {
    "model_key": "mpt-7b-chat",
    "display_name": "mpt-7b-chat",
-   "rank": 404,
+   "rank": 405,
    "arena_score": 1063,
    "votes": 3924,
    "context_length": null,
@@ -3642,7 +3651,7 @@
   {
    "model_key": "chatglm3-6b",
    "display_name": "chatglm3-6b",
-   "rank": 405,
+   "rank": 406,
    "arena_score": 1057,
    "votes": 4658,
    "context_length": null,
@@ -3651,7 +3660,7 @@
   {
    "model_key": "RWKV-4-Raven-14B",
    "display_name": "RWKV-4-Raven-14B",
-   "rank": 406,
+   "rank": 407,
    "arena_score": 1042,
    "votes": 4845,
    "context_length": null,
@@ -3660,7 +3669,7 @@
   {
    "model_key": "chatglm2-6b",
    "display_name": "chatglm2-6b",
-   "rank": 407,
+   "rank": 408,
    "arena_score": 1025,
    "votes": 2658,
    "context_length": null,
@@ -3669,7 +3678,7 @@
   {
    "model_key": "oasst-pythia-12b",
    "display_name": "oasst-pythia-12b",
-   "rank": 408,
+   "rank": 409,
    "arena_score": 1023,
    "votes": 6310,
    "context_length": null,
@@ -3678,7 +3687,7 @@
   {
    "model_key": "chatglm-6b",
    "display_name": "chatglm-6b",
-   "rank": 409,
+   "rank": 410,
    "arena_score": 996,
    "votes": 4914,
    "context_length": null,
@@ -3687,8 +3696,8 @@
   {
    "model_key": "fastchat-t5-3b",
    "display_name": "fastchat-t5-3b",
-   "rank": 410,
-   "arena_score": 992,
+   "rank": 411,
+   "arena_score": 993,
    "votes": 4203,
    "context_length": null,
    "organization": ""
@@ -3696,7 +3705,7 @@
   {
    "model_key": "dolly-v2-12b",
    "display_name": "dolly-v2-12b",
-   "rank": 411,
+   "rank": 412,
    "arena_score": 982,
    "votes": 3412,
    "context_length": null,
@@ -3705,7 +3714,7 @@
   {
    "model_key": "llama-13b",
    "display_name": "llama-13b",
-   "rank": 412,
+   "rank": 413,
    "arena_score": 975,
    "votes": 2391,
    "context_length": null,
@@ -3714,7 +3723,7 @@
   {
    "model_key": "stablelm-tuned-alpha-7b",
    "display_name": "stablelm-tuned-alpha-7b",
-   "rank": 413,
+   "rank": 414,
    "arena_score": 953,
    "votes": 3287,
    "context_length": null,
