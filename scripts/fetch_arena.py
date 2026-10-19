@@ -8,11 +8,19 @@ free models as possible. data/arena_scores.json remains the hand-curated
 subset the user edits; this file is the auto-refreshed superset.
 
 Writes: data/sources/arena_leaderboard.json
+
+arena.ai now answers automated requests with a Cloudflare "Just a moment..."
+challenge (HTTP 403), from CI runners and laptops alike. A blocked fetch keeps
+the last known snapshot and ends successfully so one unreachable source cannot
+fail the whole weekly build. Set ARENA_STRICT=1 to turn that into a hard error
+for monitoring; see BLOCKED.md for what a real fix needs.
 """
 import json
+import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -69,12 +77,53 @@ def extract_entries(html):
     return None
 
 
+STRICT = os.environ.get("ARENA_STRICT", "").strip() == "1"
+
+
+def previous_snapshot():
+    if not OUT.exists():
+        return None
+    try:
+        with open(OUT, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
+def skip_with_last_snapshot(reason):
+    """Keep the previous file and let the build continue unless ARENA_STRICT=1."""
+    if STRICT:
+        print(f"ERROR: arena fetch failed ({reason}); ARENA_STRICT=1", file=sys.stderr)
+        return 1
+    prev = previous_snapshot()
+    if prev is None:
+        print(
+            f"ERROR: arena fetch failed ({reason}) and no previous snapshot exists",
+            file=sys.stderr,
+        )
+        return 1
+    print(
+        "WARNING: arena fetch failed ({reason}); keeping snapshot from {when} "
+        "({count} entries)".format(
+            reason=reason,
+            when=prev.get("fetched_at", "unknown"),
+            count=prev.get("count", 0),
+        ),
+        file=sys.stderr,
+    )
+    return 0
+
+
 def main():
-    html = fetch(URL)
+    try:
+        html = fetch(URL)
+    except urllib.error.HTTPError as e:
+        return skip_with_last_snapshot(f"HTTP {e.code}")
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
+        return skip_with_last_snapshot(str(e))
     entries = extract_entries(html)
     if not entries:
-        print("ERROR: could not parse arena leaderboard", file=sys.stderr)
-        sys.exit(1)
+        return skip_with_last_snapshot("could not parse the RSC payload")
     out = [
         {
             "model_key": e.get("modelKey"),

@@ -33,6 +33,11 @@ benchmarks) weekly (Mon 06:00 UTC) plus on manual dispatch, merges everything
 into `models.json` and commits; Pages auto-deploys. No secrets are involved
 anywhere in the gateway refresh — the VPS owns its config and pushes it.
 
+Arena note (2026-10-19): arena.ai serves automated requests a Cloudflare
+challenge (HTTP 403). `fetch_arena.py` logs a warning and reuses the last
+`arena_leaderboard.json` snapshot instead of failing the whole build;
+`ARENA_STRICT=1` restores the hard failure. See `BLOCKED.md` item 4.
+
 ## Scoring methodology
 
 **Quality is a gate, not a weight.** A fast model that gives wrong answers is

@@ -50,9 +50,37 @@ Live at https://ons96.github.io/free-llm-chat-leaderboard/.
 
 ---
 
+## 4. arena.ai blocks automated scraping (degraded, build no longer fails)
+
+**What happened:** since 2026-10-19 `https://arena.ai/leaderboard/text` answers
+automated requests with a Cloudflare "Just a moment..." challenge (HTTP 403),
+both from GitHub Actions runners and from a home connection. The legacy
+`lmarena.ai` host redirects to the same block, and browser-like headers do not
+help; plain `urllib`/`curl` cannot pass it.
+
+**Impact:** `scripts/fetch_arena.py` cannot refresh
+`data/sources/arena_leaderboard.json`, so the auto snapshot is stuck at
+2026-08-18. Arena preference is one 10% component of the composite score and
+the hand-curated `data/arena_scores.json` still applies, so the leaderboard
+keeps working; only that signal ages.
+
+**What the code does now:** a blocked fetch logs a warning and keeps the last
+snapshot instead of failing `scripts/build.py`, so the AA, OpenRouter, gateway,
+and benchmark updates flow again. `ARENA_STRICT=1` restores the hard failure
+for monitoring.
+
+**What a real fix needs (human decision):**
+- an official LMArena data feed/API, if one exists; or
+- a maintained public mirror of the arena leaderboard; or
+- a headless-browser fetch (heavier CI, and probably still ToS-sensitive).
+Do not add a Cloudflare bypass: it is brittle and against the site's intent.
+
+---
+
 ## Not blocked
 
-- All data sources (gateway snapshot, AA public scrape, OpenRouter, arena,
-  benchmarks, hand-maintained JSONs) are working.
+- Gateway snapshot, AA public scrape, OpenRouter, benchmarks, and the
+  hand-maintained JSONs are working. Arena auto-refresh is blocked upstream
+  (item 4); the pipeline degrades gracefully instead of failing.
 - Scoring, frontend, weekly GitHub Action, README: complete.
 - No paid services, no credit cards, no paid CI used anywhere.
