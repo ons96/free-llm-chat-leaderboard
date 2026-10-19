@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T05:30:08Z",
+  "generated_at": "2026-10-19T05:30:09Z",
   "source_note": "Snapshot of VPS-40 LLM-API-Key-Proxy config, auto-refreshed weekly by the CI workflow via the restricted VPS_SSH_KEY deploy key. Regenerate manually with scripts/parse_gateway.py <config-dir>.",
-  "providers_total": 91,
-  "providers_free_tier": 89,
+  "providers_total": 92,
+  "providers_free_tier": 90,
   "models": [
     {
       "provider_id": "agnes_ai",
@@ -415,6 +415,22 @@
       "pinned": false
     },
     {
+      "provider_id": "blaze-free",
+      "provider_name": "Blaze Free",
+      "model_id": "MiniMax-M3-official",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "coding-elite",
+        "coding-fast"
+      ],
+      "pinned": false
+    },
+    {
       "provider_id": "cerebras",
       "provider_name": "Cerebras",
       "model_id": "gpt-oss-120b",
@@ -511,6 +527,76 @@
       "notes": "",
       "blocked": true,
       "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "cliproxyapi",
+      "provider_name": "CLIProxyAPI",
+      "model_id": "coder-model",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "coding-elite",
+        "coding-smart"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "cliproxyapi",
+      "provider_name": "CLIProxyAPI",
+      "model_id": "gemini-2.5-flash",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "auto",
+        "chat-fast",
+        "chat-smart",
+        "coding-elite",
+        "coding-fast",
+        "coding-smart",
+        "glm5-elite"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "cliproxyapi",
+      "provider_name": "CLIProxyAPI",
+      "model_id": "gemini-3-flash",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "chat-smart",
+        "coding-elite",
+        "coding-fast",
+        "coding-smart"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "cliproxyapi",
+      "provider_name": "CLIProxyAPI",
+      "model_id": "gpt-oss-120b-medium",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "coding-elite"
+      ],
       "pinned": false
     },
     {
@@ -643,121 +729,16 @@
     {
       "provider_id": "crowllm",
       "provider_name": "Crowllm",
-      "model_id": "agnes-2-0-flash:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "agnes-2-5-flash:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "agnes-3-0-flash:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "deepseek-v4-flash-0731-thinking:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "deepseek-v4-flash-0731:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "deepseek-v4-flash:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemini-2.0-flash:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemini-2.5-pro:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemini-3-flash:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
       "model_id": "gemini-3-pro:free",
       "context": null,
       "tps": null,
       "capabilities": [],
-      "notes": "",
+      "notes": "Served via gateway virtual model chain",
       "blocked": false,
       "source": "gateway",
+      "virtual_models": [
+        "chat-elite"
+      ],
       "pinned": false
     },
     {
@@ -767,393 +748,12 @@
       "context": null,
       "tps": null,
       "capabilities": [],
-      "notes": "",
+      "notes": "Served via gateway virtual model chain",
       "blocked": false,
       "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemini-3.5-flash:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemini-3.7-flash:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemini-3.8-flash:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemma-4-26b-a4b-it-chimerax:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemma-4-26b-a4b-it-darksoul:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemma-4-26b-a4b-it-luminous:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemma-4-26b-a4b-it-meromero:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemma-4-26b-a4b-it-moonlight:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemma-4-26b-a4b-it-musica:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemma4:31b:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "glm-5.3-flash-thinking:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "glm-5.3-flash:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gpt-4.1-mini:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gpt-4.1:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gpt-4.5:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gpt-4o-mini:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gpt-4o:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gpt-5.3-instant:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gpt-5.3:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gpt-5.4-thinking:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gpt-5.5-instant:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gpt-5.6-sol:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gpt-5:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gpt-oss:120b:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gpt-oss:20b:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "grok-4.7-fast:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "grok-4.7:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "hy3:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "kimi-k2.6:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "laguna-s-2-1:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "laguna-xs-2-1:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "mimo-v2-6-flash:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
+      "virtual_models": [
+        "chat-elite"
+      ],
       "pinned": false
     },
     {
@@ -1163,9 +763,14 @@
       "context": null,
       "tps": null,
       "capabilities": [],
-      "notes": "",
+      "notes": "Served via gateway virtual model chain",
       "blocked": false,
       "source": "gateway",
+      "virtual_models": [
+        "chat-elite",
+        "coding-free",
+        "p0-minimax-m3"
+      ],
       "pinned": false
     },
     {
@@ -1175,261 +780,13 @@
       "context": null,
       "tps": null,
       "capabilities": [],
-      "notes": "",
+      "notes": "Served via gateway virtual model chain",
       "blocked": false,
       "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "minimax-m2.7:free-thinking",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "mistral-medium-3.5:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "muse-glimmer-30b:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "muse-glimmer-30b:free-thinking",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "muse-spark-1-3-contributor:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "muse-spark-1.1:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "nemotron-3-nano:30b:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "nemotron-3-super-120b-a12b:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "nemotron-3-ultra-550b-a55b:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "nemotron-3-ultra:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "north-mini-code:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "o3:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "o4-mini:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "openai/gpt-oss-20b:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "openai/gpt-oss-safeguard-20b:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "qwen-3.6-plus:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "qwen-3.8-27b:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "qwen-3.8-max:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "runpod/kimi-k3",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "space-bunny-alpha:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "step-5-preview:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "",
-      "blocked": false,
-      "source": "gateway",
+      "virtual_models": [
+        "coding-free",
+        "p0-minimax-m3"
+      ],
       "pinned": false
     },
     {
@@ -2423,6 +1780,9 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
+      "virtual_models": [
+        "chat-elite"
+      ],
       "pinned": false
     },
     {
@@ -2439,7 +1799,7 @@
         "fast"
       ],
       "notes": "",
-      "blocked": true,
+      "blocked": false,
       "source": "gateway",
       "pinned": false
     },
@@ -2457,7 +1817,7 @@
         "long_context"
       ],
       "notes": "",
-      "blocked": true,
+      "blocked": false,
       "source": "gateway",
       "pinned": false
     },
@@ -2493,7 +1853,7 @@
         "fast"
       ],
       "notes": "Best free flash model, 1M context",
-      "blocked": true,
+      "blocked": false,
       "source": "gateway",
       "pinned": false
     },
@@ -2512,7 +1872,7 @@
         "reasoning"
       ],
       "notes": "Best free Gemini model, 2M context",
-      "blocked": true,
+      "blocked": false,
       "source": "gateway",
       "pinned": false
     },
@@ -2531,8 +1891,11 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": true,
+      "blocked": false,
       "source": "gateway",
+      "virtual_models": [
+        "chat-elite"
+      ],
       "pinned": false
     },
     {
@@ -2546,7 +1909,7 @@
         "code"
       ],
       "notes": "",
-      "blocked": true,
+      "blocked": false,
       "source": "gateway",
       "pinned": false
     },
@@ -4866,6 +4229,138 @@
       "pinned": false
     },
     {
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
+      "model_id": "meituan/longcat-2.0:free",
+      "context": 1048756,
+      "tps": null,
+      "capabilities": [
+        "chat",
+        "code",
+        "tools"
+      ],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
+      "model_id": "meituan/longcat-2.5-preview:free",
+      "context": 1048576,
+      "tps": null,
+      "capabilities": [
+        "chat",
+        "code",
+        "tools"
+      ],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
+      "model_id": "poolside/laguna-s-2.1:free",
+      "context": 262144,
+      "tps": null,
+      "capabilities": [
+        "chat",
+        "code",
+        "tools"
+      ],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
+      "model_id": "poolside/laguna-xs-2.1:free",
+      "context": 262144,
+      "tps": null,
+      "capabilities": [
+        "chat",
+        "code",
+        "tools"
+      ],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
+      "model_id": "stealth/missingno",
+      "context": 262144,
+      "tps": null,
+      "capabilities": [
+        "chat",
+        "code",
+        "tools",
+        "reasoning"
+      ],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
+      "model_id": "stepfun/step-3.7-flash:free",
+      "context": 262144,
+      "tps": null,
+      "capabilities": [
+        "chat",
+        "code",
+        "tools",
+        "reasoning"
+      ],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
+      "model_id": "stepfun/step-5-preview:free",
+      "context": 1048576,
+      "tps": null,
+      "capabilities": [
+        "chat",
+        "code",
+        "tools",
+        "reasoning"
+      ],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
+      "model_id": "upstage/solar-mini4:free",
+      "context": 524288,
+      "tps": null,
+      "capabilities": [
+        "chat",
+        "code",
+        "tools",
+        "reasoning"
+      ],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
       "provider_id": "nova",
       "provider_name": "Nova",
       "model_id": "nova-2-lite-v1",
@@ -4904,6 +4399,81 @@
     {
       "provider_id": "nvidia",
       "provider_name": "NVIDIA NIM",
+      "model_id": "meta/llama-3.3-70b-instruct",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "chat-rp"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "mistralai/mistral-7b-instruct-v0.3",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "chat-rp"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "mistralai/mistral-large-3-675b-instruct-2512",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "chat-rp"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "mistralai/mistral-nemotron",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "chat-rp"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "mistralai/mistral-small-4-119b-2603",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "chat-rp"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
       "model_id": "nvidia/gemma-2-27b-it",
       "context": 8192,
       "tps": 120,
@@ -4914,6 +4484,26 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/gliner-pii",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
       "pinned": false
     },
     {
@@ -4935,6 +4525,46 @@
     {
       "provider_id": "nvidia",
       "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/llama-3.1-nemotron-70b-instruct",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
       "model_id": "nvidia/llama-3.3-70b-instruct",
       "context": 131072,
       "tps": 100,
@@ -4946,6 +4576,362 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/llama-3_2-nemoretriever-300m-embed-v1",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/nemotron-3-content-safety",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/nemotron-3-nano-30b-a3b",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/nemotron-3.5-lightning-30b-a3b",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/nemotron-content-safety-reasoning-4b",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle",
+        "title-fast"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/nemotron-nano-12b-v2-vl",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/nemotron-voicechat",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/nv-embed-v1",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/nv-embedcode-7b-v1",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/nvidia-nemotron-nano-9b-v2",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/rerank-qa-mistral-4b",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/studiovoice",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "nvidia/usdvalidate",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "pinned": false
+    },
+    {
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "model_id": "upstage/solar-10.7b-instruct",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "chat-rp"
+      ],
       "pinned": false
     },
     {
@@ -5762,6 +5748,11 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
+      "virtual_models": [
+        "chat-elite",
+        "coding-free",
+        "p0-minimax-m3"
+      ],
       "pinned": false
     },
     {
@@ -5892,1823 +5883,6 @@
       "tps": null,
       "capabilities": [],
       "notes": "",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "claude-haiku-4-5-20251001",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "claude-haiku-4-5-20251001-thinking",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "reasoning"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "claude-opus-4-1-20250805",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "claude-opus-4-1-20250805-thinking",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "reasoning"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "claude-opus-4-5-20251101",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "claude-opus-4-5-20251101-thinking",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "reasoning"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "claude-opus-4-6-20260205",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "claude-opus-4-6-20260205-thinking",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "reasoning"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "claude-sonnet-4-5-20250929",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "claude-sonnet-4-5-20250929-thinking",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "reasoning"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "claude-sonnet-4-6-20260217",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "claude-sonnet-4-6-20260217-thinking",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "reasoning"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gemini-2.5-flash",
-      "context": 1000000,
-      "tps": 150,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "fast"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gemini-2.5-flash-thinking",
-      "context": 1000000,
-      "tps": 150,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "fast",
-        "reasoning"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gemini-2.5-pro",
-      "context": 1000000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gemini-2.5-pro-thinking",
-      "context": 1000000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "reasoning"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gemini-3-flash-preview",
-      "context": 1000000,
-      "tps": 150,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "fast"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gemini-3-flash-preview-thinking",
-      "context": 1000000,
-      "tps": 150,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "fast",
-        "reasoning"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gemini-3-pro-preview",
-      "context": 1000000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gemini-3-pro-preview-thinking",
-      "context": 1000000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "reasoning"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gemini-3.1-pro-preview",
-      "context": 1000000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "glm-5",
-      "context": 200000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5-codex",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5-codex-high",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5-codex-low",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5-codex-medium",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5-codex-mini",
-      "context": 128000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5-codex-mini-high",
-      "context": 128000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5-codex-mini-medium",
-      "context": 128000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5-high",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5-low",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5-medium",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5-minimal",
-      "context": 128000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-codex",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-codex-high",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-codex-low",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-codex-max",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-codex-max-high",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-codex-max-low",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-codex-max-medium",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-codex-max-xhigh",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-codex-medium",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-codex-mini",
-      "context": 128000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-codex-mini-high",
-      "context": 128000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-codex-mini-medium",
-      "context": 128000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-high",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-low",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-medium",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.1-minimal",
-      "context": 128000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.2",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.2-codex",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.2-codex-high",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.2-codex-low",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.2-codex-medium",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.2-codex-xhigh",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.2-high",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.2-low",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.2-medium",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.2-thinking",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "reasoning"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.2-xhigh",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.3-codex",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.3-codex-high",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.3-codex-low",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.3-codex-medium",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.3-codex-spark",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.3-codex-spark-high",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.3-codex-spark-low",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.3-codex-spark-medium",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.3-codex-spark-xhigh",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.3-codex-xhigh",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.4",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.4-codex-xhigh",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling",
-        "coding"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.4-high",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "gpt-5.4-xhigh",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "kimi-k2.5",
-      "context": 131072,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "minimax-m2.5",
-      "context": 100000,
-      "tps": 200,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "qwen3-max",
-      "context": 131072,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "supacoder",
-      "provider_name": "SupaCoder",
-      "model_id": "qwen3.5-plus",
-      "context": 131072,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "",
-      "blocked": true,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "command-r-plus-08-2024",
-      "context": 128000,
-      "tps": 80,
-      "capabilities": [
-        "chat",
-        "code"
-      ],
-      "notes": "Requires Pro/Max plan",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "deepseek-v3.2",
-      "context": 64000,
-      "tps": 60,
-      "capabilities": [
-        "chat",
-        "code",
-        "reasoning"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "gemini-2.5-flash",
-      "context": 1048576,
-      "tps": 80,
-      "capabilities": [
-        "chat",
-        "code",
-        "vision"
-      ],
-      "notes": "Requires Pro/Max plan",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "gemini-2.5-pro",
-      "context": 2000000,
-      "tps": 30,
-      "capabilities": [
-        "chat",
-        "code",
-        "vision"
-      ],
-      "notes": "Requires Pro/Max plan",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "gemini-3-flash-preview",
-      "context": 1048576,
-      "tps": 80,
-      "capabilities": [
-        "chat",
-        "code",
-        "vision"
-      ],
-      "notes": "Requires Pro/Max plan",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "gemini-3-pro-preview",
-      "context": 1048576,
-      "tps": 50,
-      "capabilities": [
-        "chat",
-        "code",
-        "vision"
-      ],
-      "notes": "Requires Pro/Max plan",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "gemma-3-27b-it",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "glm-4.7",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "glm-5",
-      "context": 128000,
-      "tps": 80,
-      "capabilities": [
-        "chat",
-        "code"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "gpt-5",
-      "context": 400000,
-      "tps": 50,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools"
-      ],
-      "notes": "Requires Pro/Max plan",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "gpt-5.2",
-      "context": 400000,
-      "tps": 50,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools"
-      ],
-      "notes": "Requires Pro/Max plan",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "gpt-5.3-codex",
-      "context": 400000,
-      "tps": 50,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "function_calling"
-      ],
-      "notes": "Requires Pro/Max plan",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "gpt-5.4",
-      "context": 400000,
-      "tps": 50,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools"
-      ],
-      "notes": "Requires Pro/Max plan",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "gpt-5.4-mini",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code",
-        "tools",
-        "fast"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "gpt-oss-120b",
-      "context": 32000,
-      "tps": 40,
-      "capabilities": [
-        "chat",
-        "code"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "kimi-k2.5",
-      "context": 262144,
-      "tps": 50,
-      "capabilities": [
-        "chat",
-        "code",
-        "reasoning"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "llama-3-70b-instruct",
-      "context": 128000,
-      "tps": 80,
-      "capabilities": [
-        "chat",
-        "code"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "llama-3-8b-instruct",
-      "context": 128000,
-      "tps": 150,
-      "capabilities": [
-        "chat",
-        "code",
-        "fast"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "llama-3.1-70b-instruct",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "llama-3.1-8b-instruct",
-      "context": 128000,
-      "tps": 150,
-      "capabilities": [
-        "chat",
-        "code",
-        "fast"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "llama-3.3-nemotron-super-49b-v1.5",
-      "context": 128000,
-      "tps": 60,
-      "capabilities": [
-        "chat",
-        "code",
-        "reasoning"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "minimax-m2.5",
-      "context": 100000,
-      "tps": 80,
-      "capabilities": [
-        "chat",
-        "code"
-      ],
-      "notes": "Requires Pro/Max plan",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "mixtral-8x7b-instruct",
-      "context": 32000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "code"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "nemotron-nano-9b-v2",
-      "context": 128000,
-      "tps": 100,
-      "capabilities": [
-        "chat",
-        "fast"
-      ],
-      "notes": "Starter plan (free)",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "qwen3.5-397b",
-      "context": 40000,
-      "tps": 30,
-      "capabilities": [
-        "chat",
-        "code",
-        "reasoning"
-      ],
-      "notes": "Requires Pro/Max plan",
-      "blocked": false,
-      "source": "gateway",
-      "pinned": false
-    },
-    {
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "model_id": "qwen3.6-plus",
-      "context": 131072,
-      "tps": 80,
-      "capabilities": [
-        "chat",
-        "code"
-      ],
-      "notes": "Requires Pro/Max plan",
       "blocked": false,
       "source": "gateway",
       "pinned": false
