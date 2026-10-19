@@ -1,6 +1,6 @@
 {
   "generated_at": null,
-  "count": 533,
+  "count": 536,
   "models": [
     {
       "family": "agnes-1.5-flash",
@@ -11,32 +11,6 @@
       "model_id": "agnes-1.5-flash",
       "provider_id": "agnes_ai",
       "provider_name": "Agnes AI",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "agnes-2-0-flash",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "agnes-2-0-flash:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "agnes-2-5-flash",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "agnes-2-5-flash:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -63,19 +37,6 @@
       "model_id": "agnes-2.5-flash",
       "provider_id": "kiosapi",
       "provider_name": "Kiosapi",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "agnes-3-0-flash",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "agnes-3-0-flash:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -246,8 +207,7 @@
     {
       "family": "apodex-1.1-mini",
       "sources": [
-        "gateway",
-        "openrouter"
+        "gateway"
       ],
       "match_confidence": "high",
       "model_id": "apodex-1.1-mini",
@@ -255,8 +215,7 @@
       "provider_name": "Kiosapi",
       "virtual_models": [],
       "notes": "",
-      "pinned": false,
-      "context": 262144
+      "pinned": false
     },
     {
       "family": "athene-70b",
@@ -921,6 +880,25 @@
       "arena_score": 1119
     },
     {
+      "family": "coder-model",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "coder-model",
+      "provider_id": "cliproxyapi",
+      "provider_name": "CLIProxyAPI",
+      "virtual_models": [
+        "coding-elite",
+        "coding-smart"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false,
+      "bench_ttft_s": null,
+      "bench_tps": null,
+      "bench_samples": 0
+    },
+    {
       "family": "codestral-latest",
       "sources": [
         "gateway"
@@ -992,18 +970,11 @@
     {
       "family": "command-r-plus-08",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
       "model_id": "command-r-plus-08-2024",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "tps": 80,
       "context": 128000,
-      "virtual_models": [],
-      "notes": "Requires Pro/Max plan",
-      "pinned": false,
       "arena_score": 1276
     },
     {
@@ -1199,17 +1170,14 @@
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "deepseek-v3.2",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "tps": 60,
+      "model_id": "DeepSeek-V3.2",
+      "provider_id": "sambanova",
+      "provider_name": "SambaNova",
+      "tps": 200,
       "context": 163840,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "bench_ttft_s": null,
-      "bench_tps": null,
-      "bench_samples": 0,
       "arena_score": 1425
     },
     {
@@ -1258,8 +1226,8 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "intelligence": 39.456167472527,
-      "release_date": "2026-09-10",
+      "intelligence": 45.0965048681912,
+      "release_date": "2026-10-17",
       "price_input_1m": 0.3,
       "price_output_1m": 1.2,
       "arena_score": 1458,
@@ -1424,6 +1392,21 @@
       "pinned": false
     },
     {
+      "family": "gemini-1.5-flash",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "gemini-1.5-flash",
+      "provider_id": "gemini",
+      "provider_name": "Google Gemini API",
+      "tps": 120,
+      "context": 1000000,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "gemini-1.5-flash-001",
       "sources": [
         "arena"
@@ -1454,6 +1437,21 @@
       "arena_score": 1259
     },
     {
+      "family": "gemini-1.5-pro",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "gemini-1.5-pro",
+      "provider_id": "gemini",
+      "provider_name": "Google Gemini API",
+      "tps": 60,
+      "context": 2000000,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "gemini-1.5-pro-001",
       "sources": [
         "arena"
@@ -1482,11 +1480,11 @@
       "model_id": "gemini-2.0-flash",
       "provider_id": "g4f",
       "provider_name": "G4F",
+      "tps": 80,
+      "context": 1000000,
       "virtual_models": [],
       "notes": "",
-      "pinned": false,
-      "tps": 80,
-      "context": 1000000
+      "pinned": false
     },
     {
       "family": "gemini-2.0-flash-001",
@@ -1517,12 +1515,23 @@
       ],
       "match_confidence": "high",
       "model_id": "gemini-2.5-flash",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "virtual_models": [],
-      "notes": "",
+      "provider_id": "noobrouter",
+      "provider_name": "NoobRouter",
+      "virtual_models": [
+        "auto",
+        "chat-fast",
+        "chat-smart",
+        "coding-elite",
+        "coding-fast",
+        "coding-smart",
+        "glm5-elite"
+      ],
+      "notes": "Served via gateway virtual model chain",
       "pinned": false,
-      "tps": 80,
+      "bench_ttft_s": null,
+      "bench_tps": null,
+      "bench_samples": 0,
+      "tps": 150,
       "context": 1048576,
       "arena_score": 1409,
       "ui_name": "Google Gemini app / AI Studio",
@@ -1537,12 +1546,12 @@
       ],
       "match_confidence": "high",
       "model_id": "gemini-2.5-pro",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
+      "provider_id": "gemini",
+      "provider_name": "Google Gemini API",
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "tps": 30,
+      "tps": 50,
       "context": 2000000,
       "arena_score": 1445
     },
@@ -1569,13 +1578,21 @@
       ],
       "match_confidence": "high",
       "model_id": "gemini-3-flash-preview",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "virtual_models": [],
-      "notes": "",
+      "provider_id": "noobrouter",
+      "provider_name": "NoobRouter",
+      "virtual_models": [
+        "chat-smart",
+        "coding-elite",
+        "coding-fast",
+        "coding-smart"
+      ],
+      "notes": "Served via gateway virtual model chain",
       "pinned": false,
-      "tps": 80,
-      "context": 1048576,
+      "bench_ttft_s": null,
+      "bench_tps": null,
+      "bench_samples": 0,
+      "tps": 150,
+      "context": 1000000,
       "arena_score": 1473,
       "ui_name": "Google Gemini app",
       "ui_url": "https://gemini.google.com",
@@ -1599,13 +1616,15 @@
       ],
       "match_confidence": "high",
       "model_id": "gemini-3-pro-preview",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "virtual_models": [],
-      "notes": "",
+      "provider_id": "gemini",
+      "provider_name": "Google Gemini API",
+      "virtual_models": [
+        "chat-elite"
+      ],
+      "notes": "Served via gateway virtual model chain",
       "pinned": false,
       "tps": 50,
-      "context": 1048576,
+      "context": 2000000,
       "arena_score": 1485,
       "ui_name": "Google Gemini app",
       "ui_url": "https://gemini.google.com",
@@ -1630,8 +1649,10 @@
       "model_id": "gemini-3.1-pro:free",
       "provider_id": "crowllm",
       "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
+      "virtual_models": [
+        "chat-elite"
+      ],
+      "notes": "Served via gateway virtual model chain",
       "pinned": false
     },
     {
@@ -1644,23 +1665,12 @@
       "model_id": "gemini-3.1-pro-preview",
       "provider_id": "gcli",
       "provider_name": "GCLI",
-      "virtual_models": [],
+      "virtual_models": [
+        "chat-elite"
+      ],
       "notes": "",
       "pinned": false,
       "arena_score": 1486
-    },
-    {
-      "family": "gemini-3.5-flash",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "gemini-3.5-flash:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "gemini-3.5-flash-high",
@@ -1699,19 +1709,6 @@
       "arena_score": 1484
     },
     {
-      "family": "gemini-3.7-flash",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "gemini-3.7-flash:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
       "family": "gemini-3.7-flash-high",
       "sources": [
         "arena"
@@ -1719,19 +1716,6 @@
       "match_confidence": "high",
       "model_id": "gemini-3.7-flash-high",
       "arena_score": 1490
-    },
-    {
-      "family": "gemini-3.8-flash",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "gemini-3.8-flash:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "gemini-3.8-flash-high",
@@ -1893,12 +1877,12 @@
       ],
       "match_confidence": "high",
       "model_id": "gemma-3-27b-it",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "tps": 100,
+      "provider_id": "gemini",
+      "provider_name": "Google Gemini API",
+      "tps": 80,
       "context": 131072,
       "virtual_models": [],
-      "notes": "Starter plan (free)",
+      "notes": "",
       "pinned": false,
       "arena_score": 1365
     },
@@ -1938,84 +1922,6 @@
       "notes": "",
       "pinned": false,
       "arena_score": 1438
-    },
-    {
-      "family": "gemma-4-26b-a4b-it-chimerax",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "gemma-4-26b-a4b-it-chimerax:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "gemma-4-26b-a4b-it-darksoul",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "gemma-4-26b-a4b-it-darksoul:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "gemma-4-26b-a4b-it-luminous",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "gemma-4-26b-a4b-it-luminous:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "gemma-4-26b-a4b-it-meromero",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "gemma-4-26b-a4b-it-meromero:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "gemma-4-26b-a4b-it-moonlight",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "gemma-4-26b-a4b-it-moonlight:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "gemma-4-26b-a4b-it-musica",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "gemma-4-26b-a4b-it-musica:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "gemma-4-31b",
@@ -2088,16 +1994,23 @@
       "pinned": false
     },
     {
-      "family": "gemma4:31b",
+      "family": "gliner-pii",
       "sources": [
         "gateway"
       ],
       "match_confidence": "high",
-      "model_id": "gemma4:31b:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
+      "model_id": "nvidia/gliner-pii",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
       "pinned": false
     },
     {
@@ -2268,9 +2181,6 @@
       "notes": "",
       "pinned": false,
       "tps": 100,
-      "bench_ttft_s": null,
-      "bench_tps": null,
-      "bench_samples": 0,
       "arena_score": 1441
     },
     {
@@ -2289,10 +2199,6 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "tps": 80,
-      "bench_ttft_s": null,
-      "bench_tps": null,
-      "bench_samples": 0,
       "intelligence": 41.807466113455,
       "release_date": "2026-08-26",
       "price_input_1m": 0.15,
@@ -2439,31 +2345,12 @@
     {
       "family": "gpt-4.1",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "gpt-4.1:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
+      "model_id": "gpt-4.1-nano-2025-04-14",
       "context": 1047576,
       "arena_score": 1415
-    },
-    {
-      "family": "gpt-4.5",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "gpt-4.5:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "gpt-4.5-preview-2025-02-27",
@@ -2485,11 +2372,11 @@
       "model_id": "gpt-4o",
       "provider_id": "g4f",
       "provider_name": "G4F",
+      "tps": 50,
+      "context": 128000,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "tps": 50,
-      "context": 128000,
       "arena_score": 1346
     },
     {
@@ -2503,14 +2390,11 @@
       "model_id": "gpt-5.5:free",
       "provider_id": "unorouter",
       "provider_name": "UnoRouter",
+      "tps": 100,
+      "context": 1050000,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "tps": 100,
-      "context": 1050000,
-      "bench_ttft_s": null,
-      "bench_tps": null,
-      "bench_samples": 0,
       "arena_score": 1482,
       "ui_name": "ChatGPT Free",
       "ui_url": "https://chatgpt.com",
@@ -2605,9 +2489,9 @@
       ],
       "match_confidence": "high",
       "model_id": "gpt-oss-120b",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "tps": 40,
+      "provider_id": "sambanova",
+      "provider_name": "SambaNova",
+      "tps": 300,
       "context": 131072,
       "virtual_models": [],
       "notes": "",
@@ -2627,54 +2511,15 @@
       "model_id": "openai/gpt-oss-20b",
       "provider_id": "groq",
       "provider_name": "Groq",
+      "tps": 400,
+      "context": 131072,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "tps": 400,
-      "context": 131072,
       "bench_ttft_s": 0.184,
       "bench_tps": 744.0,
       "bench_samples": null,
       "arena_score": 1317
-    },
-    {
-      "family": "gpt-oss-safeguard-20b",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "openai/gpt-oss-safeguard-20b:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "gpt-oss:120b",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "gpt-oss:120b:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "gpt-oss:20b",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "gpt-oss:20b:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "gpt4all-13b-snoozy",
@@ -2812,10 +2657,10 @@
       "model_id": "grok-4-3",
       "provider_id": "kenari",
       "provider_name": "Kenari",
+      "context": 1000000,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "context": 1000000,
       "intelligence": 46.4465506302286,
       "release_date": "2026-09-21",
       "price_input_1m": 2,
@@ -3031,16 +2876,10 @@
     {
       "family": "hy3",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "hy3:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
+      "model_id": "hy3",
       "arena_score": 1457
     },
     {
@@ -3199,17 +3038,14 @@
         "chat_ui"
       ],
       "match_confidence": "high",
-      "model_id": "kimi-k2.5",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
+      "model_id": "Kimi-K2.7-Code",
+      "provider_id": "scnet-token-plan",
+      "provider_name": "SCNet token plan",
       "context": 262144,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "tps": 50,
-      "bench_ttft_s": null,
-      "bench_tps": null,
-      "bench_samples": 0,
+      "tps": 80,
       "arena_score": 1461,
       "ui_name": "Kimi (Moonshot)",
       "ui_url": "https://kimi.moonshot.cn",
@@ -3246,16 +3082,11 @@
     {
       "family": "kimi-k3",
       "sources": [
-        "gateway",
         "artificial_analysis"
       ],
       "match_confidence": "high",
-      "model_id": "runpod/kimi-k3",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
+      "model_id": "kimi-k3",
+      "provider_name": "Artificial Analysis",
       "context": 1048576,
       "intelligence": 43.5938229518782,
       "release_date": "2026-07-16",
@@ -3308,45 +3139,19 @@
       "pinned": false
     },
     {
-      "family": "laguna-s-2-1",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "laguna-s-2-1:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
       "family": "laguna-s-2.1",
       "sources": [
         "gateway",
         "openrouter"
       ],
       "match_confidence": "high",
-      "model_id": "laguna-s-2.1",
-      "provider_id": "kiosapi",
-      "provider_name": "Kiosapi",
+      "model_id": "poolside/laguna-s-2.1:free",
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
       "virtual_models": [],
       "notes": "",
       "pinned": false,
       "context": 262144
-    },
-    {
-      "family": "laguna-xs-2-1",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "laguna-xs-2-1:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "laguna-xs-2.1",
@@ -3355,9 +3160,9 @@
         "openrouter"
       ],
       "match_confidence": "high",
-      "model_id": "laguna-xs-2.1",
-      "provider_id": "kiosapi",
-      "provider_name": "Kiosapi",
+      "model_id": "poolside/laguna-xs-2.1:free",
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
       "virtual_models": [],
       "notes": "",
       "pinned": false,
@@ -3511,37 +3316,43 @@
       "arena_score": 1108
     },
     {
+      "family": "llama-3-2-nemoretriever-300m-embed-v1",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/llama-3_2-nemoretriever-300m-embed-v1",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
       "family": "llama-3-70b",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
       "model_id": "llama-3-70b-instruct",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "tps": 80,
-      "context": 128000,
-      "virtual_models": [],
-      "notes": "Starter plan (free)",
-      "pinned": false,
+      "context": 8192,
       "arena_score": 1277
     },
     {
       "family": "llama-3-8b",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
       "model_id": "llama-3-8b-instruct",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "tps": 150,
-      "context": 128000,
-      "virtual_models": [],
-      "notes": "Starter plan (free)",
-      "pinned": false,
+      "context": 8192,
       "arena_score": 1224
     },
     {
@@ -3564,18 +3375,11 @@
     {
       "family": "llama-3.1-70b",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
       "model_id": "llama-3.1-70b-instruct",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "tps": 100,
       "context": 131072,
-      "virtual_models": [],
-      "notes": "Starter plan (free)",
-      "pinned": false,
       "arena_score": 1293
     },
     {
@@ -3585,10 +3389,10 @@
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "llama-3.1-8b-instruct",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "tps": 150,
+      "model_id": "@cf/meta/llama-3.1-8b-instruct",
+      "provider_id": "cloudflare",
+      "provider_name": "Cloudflare Workers AI",
+      "tps": 300,
       "context": 131072,
       "virtual_models": [],
       "notes": "",
@@ -3603,6 +3407,26 @@
       "match_confidence": "high",
       "model_id": "llama-3.1-nemotron-51b-instruct",
       "arena_score": 1287
+    },
+    {
+      "family": "llama-3.1-nemotron-nano-8b-v1",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
     },
     {
       "family": "llama-3.1-nemotron-ultra-253b-v1",
@@ -3693,18 +3517,43 @@
       "arena_score": 1328
     },
     {
+      "family": "llama-3.3-nemotron-super-49b-v1",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
       "family": "llama-3.3-nemotron-super-49b-v1.5",
       "sources": [
         "gateway"
       ],
       "match_confidence": "high",
-      "model_id": "llama-3.3-nemotron-super-49b-v1.5",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "tps": 60,
-      "context": 128000,
-      "virtual_models": [],
-      "notes": "Starter plan (free)",
+      "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
       "pinned": false
     },
     {
@@ -3789,6 +3638,26 @@
       "pinned": false
     },
     {
+      "family": "llama-nemotron-rerank-vl-1b-v2",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
       "family": "llama2-70b-steerlm",
       "sources": [
         "arena"
@@ -3796,6 +3665,34 @@
       "match_confidence": "high",
       "model_id": "llama2-70b-steerlm-chat",
       "arena_score": 1155
+    },
+    {
+      "family": "longcat-2.0",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "meituan/longcat-2.0:free",
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
+      "context": 1048756,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "longcat-2.5-preview",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "meituan/longcat-2.5-preview:free",
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
+      "context": 1048576,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "longcat-flash",
@@ -3915,19 +3812,6 @@
       "provider_name": "SambaNova",
       "tps": 400,
       "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "mimo-v2-6-flash",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "mimo-v2-6-flash:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -4117,12 +4001,16 @@
       ],
       "match_confidence": "high",
       "model_id": "minimax-m2.5",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "virtual_models": [],
-      "notes": "",
+      "provider_id": "noobrouter",
+      "provider_name": "NoobRouter",
+      "virtual_models": [
+        "chat-elite",
+        "coding-free",
+        "p0-minimax-m3"
+      ],
+      "notes": "Served via gateway virtual model chain",
       "pinned": false,
-      "tps": 80,
+      "tps": 200,
       "context": 204800,
       "arena_score": 1391
     },
@@ -4136,7 +4024,11 @@
       "provider_id": "septorlabs",
       "provider_name": "SeptorLabs",
       "context": 131072,
-      "virtual_models": [],
+      "virtual_models": [
+        "chat-elite",
+        "coding-free",
+        "p0-minimax-m3"
+      ],
       "notes": "",
       "pinned": false
     },
@@ -4164,8 +4056,11 @@
       "model_id": "minimax-m2.7:free",
       "provider_id": "unorouter",
       "provider_name": "UnoRouter",
-      "virtual_models": [],
-      "notes": "",
+      "virtual_models": [
+        "coding-free",
+        "p0-minimax-m3"
+      ],
+      "notes": "Served via gateway virtual model chain",
       "pinned": false,
       "tps": 200,
       "context": 204800,
@@ -4186,38 +4081,63 @@
       "pinned": false
     },
     {
-      "family": "minimax-m2.7-thinking",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "minimax-m2.7:free-thinking",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
       "family": "minimax-m3",
       "sources": [
         "gateway",
-        "artificial_analysis",
         "arena"
       ],
       "match_confidence": "high",
       "model_id": "MiniMax-M3",
       "provider_id": "scnet-token-plan",
       "provider_name": "SCNet token plan",
-      "context": 1000000,
+      "context": 524288,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "intelligence": 29.2202932236316,
-      "release_date": "2026-06-01",
-      "price_input_1m": 0.3,
-      "price_output_1m": 1.2,
       "arena_score": 1440
+    },
+    {
+      "family": "minimax-m3-1-flash",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "minimax-m3-1-flash",
+      "provider_name": "Artificial Analysis",
+      "context": 1000000,
+      "intelligence": 42.3811052132362,
+      "release_date": "2026-10-19",
+      "price_input_1m": 0.15,
+      "price_output_1m": 0.6
+    },
+    {
+      "family": "minimax-m3-official",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "MiniMax-M3-official",
+      "provider_id": "blaze-free",
+      "provider_name": "Blaze Free",
+      "virtual_models": [
+        "coding-elite",
+        "coding-fast"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
+      "family": "minimax-m3.1-flash",
+      "sources": [
+        "openrouter"
+      ],
+      "match_confidence": "high",
+      "model_id": "minimax/minimax-m3.1-flash:free",
+      "provider_name": "OpenRouter",
+      "context": 1000000,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "ministral-8b",
@@ -4228,6 +4148,20 @@
       "model_id": "ministral-8b-2410",
       "context": 131072,
       "arena_score": 1238
+    },
+    {
+      "family": "missingno",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "stealth/missingno",
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
+      "context": 262144,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "mistral-7b",
@@ -4248,6 +4182,21 @@
       "model_id": "mistral-7b-instruct-v0.2",
       "context": 32768,
       "arena_score": 1149
+    },
+    {
+      "family": "mistral-7b-instruct-v0.3",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "mistralai/mistral-7b-instruct-v0.3",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "chat-rp"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
     },
     {
       "family": "mistral-large",
@@ -4280,6 +4229,21 @@
       "arena_score": 1414
     },
     {
+      "family": "mistral-large-3-675b-instruct",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "mistralai/mistral-large-3-675b-instruct-2512",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "chat-rp"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
       "family": "mistral-large-4",
       "sources": [
         "artificial_analysis",
@@ -4298,17 +4262,11 @@
     {
       "family": "mistral-medium",
       "sources": [
-        "gateway",
         "arena",
         "chat_ui"
       ],
       "match_confidence": "high",
-      "model_id": "mistral-medium-3.5:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
+      "model_id": "mistral-medium",
       "context": 262144,
       "arena_score": 1426,
       "ui_name": "Mistral Le Chat",
@@ -4331,15 +4289,30 @@
       "pinned": false
     },
     {
+      "family": "mistral-nemotron",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "mistralai/mistral-nemotron",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "chat-rp"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
       "family": "mistral-small",
       "sources": [
         "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
-      "provider_id": "meganova",
-      "provider_name": "Meganova",
+      "model_id": "mistralai/mistral-small-4-119b-2603",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
       "context": 262144,
       "virtual_models": [],
       "notes": "",
@@ -4362,10 +4335,10 @@
         "gateway"
       ],
       "match_confidence": "high",
-      "model_id": "mixtral-8x7b-instruct",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "tps": 100,
+      "model_id": "mixtral-8x7b-32768",
+      "provider_id": "groq",
+      "provider_name": "Groq",
+      "tps": 500,
       "context": 32768,
       "virtual_models": [],
       "notes": "",
@@ -4442,17 +4415,10 @@
     {
       "family": "muse-glimmer",
       "sources": [
-        "artificial_analysis",
         "arena"
       ],
       "match_confidence": "high",
       "model_id": "muse-glimmer",
-      "provider_name": "Artificial Analysis",
-      "context": 131072,
-      "intelligence": 17.4754176089465,
-      "release_date": "2026-08-10",
-      "price_input_1m": 0.32499999999999996,
-      "price_output_1m": 1.35,
       "arena_score": 1425
     },
     {
@@ -4464,20 +4430,7 @@
       "model_id": "muse-glimmer-30b",
       "provider_id": "requesty",
       "provider_name": "Requesty",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
-      "context": 131072
-    },
-    {
-      "family": "muse-glimmer-30b-thinking",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "muse-glimmer-30b:free-thinking",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
+      "context": 131072,
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -4492,45 +4445,12 @@
       "arena_score": 1488
     },
     {
-      "family": "muse-spark-1-3",
-      "sources": [
-        "artificial_analysis"
-      ],
-      "match_confidence": "high",
-      "model_id": "muse-spark-1-3",
-      "provider_name": "Artificial Analysis",
-      "context": 1000000,
-      "intelligence": 48.0923107719685,
-      "release_date": "2026-09-02",
-      "price_input_1m": 1.25,
-      "price_output_1m": 4.25
-    },
-    {
-      "family": "muse-spark-1-3-contributor",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "muse-spark-1-3-contributor:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
       "family": "muse-spark-1.1",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "muse-spark-1.1:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
+      "model_id": "muse-spark-1.1",
       "arena_score": 1489
     },
     {
@@ -4551,6 +4471,100 @@
       "model_id": "muse-spark-1.3-max",
       "context": 1000000,
       "arena_score": 1494
+    },
+    {
+      "family": "muse-spark-open",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "muse-spark-open",
+      "provider_name": "Artificial Analysis",
+      "context": 1048576,
+      "intelligence": 38.8666662997805,
+      "release_date": "2026-10-15",
+      "price_input_1m": 1.25,
+      "price_output_1m": 4.25
+    },
+    {
+      "family": "muse-wonder",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "muse-wonder",
+      "provider_name": "Artificial Analysis",
+      "context": 1048576,
+      "intelligence": 52.393894697293,
+      "release_date": "2026-10-12",
+      "price_input_1m": 4,
+      "price_output_1m": 20
+    },
+    {
+      "family": "muse-wonder-full",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "muse-wonder-full",
+      "provider_name": "Artificial Analysis",
+      "context": 1000000,
+      "intelligence": 55.8021199855616,
+      "release_date": "2026-10-12"
+    },
+    {
+      "family": "nemotron-3-5-super-vl",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "nemotron-3-5-super-vl",
+      "provider_name": "Artificial Analysis",
+      "context": 1000000,
+      "intelligence": 26.4910658661689,
+      "release_date": "2026-10-15",
+      "price_input_1m": 0.225,
+      "price_output_1m": 0.575
+    },
+    {
+      "family": "nemotron-3-content-safety",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/nemotron-3-content-safety",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
+      "family": "nemotron-3-nano-30b-a3b",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/nemotron-3-nano-30b-a3b",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
     },
     {
       "family": "nemotron-3-nano-30b-a3b-free",
@@ -4576,23 +4590,17 @@
       "model_id": "nemotron-3-nano-omni-30b-a3b-reasoning",
       "provider_id": "requesty",
       "provider_name": "Requesty",
-      "context": 256000,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "nemotron-3-nano:30b",
-      "sources": [
-        "gateway"
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
       ],
-      "match_confidence": "high",
-      "model_id": "nemotron-3-nano:30b:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false,
+      "context": 256000
     },
     {
       "family": "nemotron-3-super-120b-a12b",
@@ -4608,19 +4616,6 @@
       "notes": "",
       "pinned": false,
       "context": 1048576
-    },
-    {
-      "family": "nemotron-3-ultra",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "nemotron-3-ultra:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "nemotron-3-ultra-550b-a55b",
@@ -4682,6 +4677,19 @@
       "pinned": false
     },
     {
+      "family": "nemotron-3.5-super-vl",
+      "sources": [
+        "openrouter"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/nemotron-3.5-super-vl:free",
+      "provider_name": "OpenRouter",
+      "context": 1000000,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "nemotron-4-340b",
       "sources": [
         "arena"
@@ -4693,26 +4701,85 @@
     {
       "family": "nemotron-70b",
       "sources": [
+        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "llama-3.1-nemotron-70b-instruct",
+      "model_id": "nvidia/llama-3.1-nemotron-70b-instruct",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false,
       "context": 131072,
       "arena_score": 1299
     },
     {
-      "family": "nemotron-nano-9b-v2",
+      "family": "nemotron-content-safety-reasoning-4b",
       "sources": [
         "gateway"
       ],
       "match_confidence": "high",
-      "model_id": "nemotron-nano-9b-v2",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "tps": 100,
-      "context": 128000,
-      "virtual_models": [],
-      "notes": "Starter plan (free)",
+      "model_id": "nvidia/nemotron-content-safety-reasoning-4b",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle",
+        "title-fast"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
+      "family": "nemotron-nano-12b-v2-vl",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/nemotron-nano-12b-v2-vl",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
+      "family": "nemotron-voicechat",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/nemotron-voicechat",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
       "pinned": false
     },
     {
@@ -4778,6 +4845,46 @@
       "pinned": false
     },
     {
+      "family": "nv-embed-v1",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/nv-embed-v1",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
+      "family": "nv-embedcode-7b-v1",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/nv-embedcode-7b-v1",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
       "family": "nvidia-llama-3.3-nemotron-super-49b-v1.5",
       "sources": [
         "arena"
@@ -4807,20 +4914,6 @@
       "arena_score": 1360
     },
     {
-      "family": "nvidia-nemotron-3-ultra-550b-a55b",
-      "sources": [
-        "artificial_analysis"
-      ],
-      "match_confidence": "high",
-      "model_id": "nvidia-nemotron-3-ultra-550b-a55b",
-      "provider_name": "Artificial Analysis",
-      "context": 262144,
-      "intelligence": 22.9279123422858,
-      "release_date": "2026-06-04",
-      "price_input_1m": 0.6,
-      "price_output_1m": 2.5
-    },
-    {
       "family": "nvidia-nemotron-3-ultra-550b-a55b-nvfp4",
       "sources": [
         "arena"
@@ -4837,6 +4930,26 @@
       "match_confidence": "high",
       "model_id": "nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4",
       "arena_score": 1349
+    },
+    {
+      "family": "nvidia-nemotron-nano-9b-v2",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/nvidia-nemotron-nano-9b-v2",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
     },
     {
       "family": "o1-2024-12-17",
@@ -4867,19 +4980,6 @@
       "arena_score": 1389
     },
     {
-      "family": "o3",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "o3:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
       "family": "o3-2025-04-16",
       "sources": [
         "arena"
@@ -4902,16 +5002,10 @@
     {
       "family": "o4-mini",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "o4-mini:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
+      "model_id": "o4-mini-2025-04-16",
       "context": 200000,
       "arena_score": 1391
     },
@@ -5202,45 +5296,6 @@
       "pinned": false
     },
     {
-      "family": "qwen-3.6-plus",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "qwen-3.6-plus:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "qwen-3.8-27b",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "qwen-3.8-27b:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "qwen-3.8-max",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "qwen-3.8-max:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
       "family": "qwen-image-max",
       "sources": [
         "gateway"
@@ -5507,7 +5562,7 @@
       "model_id": "qwen3-8-27b",
       "provider_name": "Artificial Analysis",
       "context": 256000,
-      "intelligence": 33.6962858057476,
+      "intelligence": 33.6762858057476,
       "release_date": "2026-08-14",
       "price_input_1m": 0.5,
       "price_output_1m": 3
@@ -5728,21 +5783,6 @@
       "arena_score": 1394
     },
     {
-      "family": "qwen3.5-397b",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "qwen3.5-397b",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
-      "tps": 30,
-      "context": 40000,
-      "virtual_models": [],
-      "notes": "Requires Pro/Max plan",
-      "pinned": false
-    },
-    {
       "family": "qwen3.5-397b-a17b",
       "sources": [
         "gateway",
@@ -5849,16 +5889,12 @@
       ],
       "match_confidence": "high",
       "model_id": "qwen3.6-plus",
-      "provider_id": "swiftrouter",
-      "provider_name": "Swiftrouter",
+      "provider_id": "alibaba-token-plan-cn",
+      "provider_name": "Alibaba Token Plan Cn",
       "context": 1000000,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "tps": 80,
-      "bench_ttft_s": null,
-      "bench_tps": null,
-      "bench_samples": 0,
       "arena_score": 1443
     },
     {
@@ -5973,6 +6009,20 @@
       "arena_score": 1154
     },
     {
+      "family": "reflection-beam",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "reflection-beam",
+      "provider_name": "Artificial Analysis",
+      "context": 1048576,
+      "intelligence": 30.3334426348039,
+      "release_date": "2026-10-16",
+      "price_input_1m": 0.7,
+      "price_output_1m": 2.1
+    },
+    {
       "family": "reka-core",
       "sources": [
         "arena"
@@ -6007,6 +6057,26 @@
       "match_confidence": "high",
       "model_id": "reka-flash-21b-20240226-online",
       "arena_score": 1234
+    },
+    {
+      "family": "rerank-qa-mistral-4b",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/rerank-qa-mistral-4b",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
     },
     {
       "family": "ring-flash-2.0",
@@ -6100,6 +6170,21 @@
       "arena_score": 1180
     },
     {
+      "family": "solar-10.7b",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "upstage/solar-10.7b-instruct",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "chat-rp"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
       "family": "solar-10.7b-instruct-v1.0",
       "sources": [
         "arena"
@@ -6107,6 +6192,20 @@
       "match_confidence": "high",
       "model_id": "solar-10.7b-instruct-v1.0",
       "arena_score": 1152
+    },
+    {
+      "family": "solar-mini4",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "upstage/solar-mini4:free",
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
+      "context": 524288,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "solar-pro4",
@@ -6117,19 +6216,6 @@
       "model_id": "solar-pro4",
       "context": 524288,
       "arena_score": 1386
-    },
-    {
-      "family": "space-bunny-alpha",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "space-bunny-alpha:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "stablelm-tuned-alpha-7b",
@@ -6229,7 +6315,7 @@
       "model_id": "step-3.7-flash:free",
       "provider_id": "unorouter",
       "provider_name": "UnoRouter",
-      "context": 256000,
+      "context": 262144,
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -6254,9 +6340,10 @@
         "gateway"
       ],
       "match_confidence": "high",
-      "model_id": "step-5-preview:free",
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
+      "model_id": "stepfun/step-5-preview:free",
+      "provider_id": "nous-inference",
+      "provider_name": "Nous Inference",
+      "context": 1048576,
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -6282,6 +6369,26 @@
       "match_confidence": "high",
       "model_id": "stripedhyena-nous-7b",
       "arena_score": 1122
+    },
+    {
+      "family": "studiovoice",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/studiovoice",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
     },
     {
       "family": "tc-code-latest",
@@ -6440,6 +6547,26 @@
       "pinned": false
     },
     {
+      "family": "usdvalidate",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/usdvalidate",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
       "family": "veo-3.1-fast-generate-preview",
       "sources": [
         "gateway"
@@ -6512,6 +6639,19 @@
       "match_confidence": "high",
       "model_id": "wizardlm-70b",
       "arena_score": 1185
+    },
+    {
+      "family": "xing4.0-29b-a4b",
+      "sources": [
+        "openrouter"
+      ],
+      "match_confidence": "high",
+      "model_id": "xingchen-agi/xing4.0-29b-a4b:free",
+      "provider_name": "OpenRouter",
+      "context": 262144,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "yi-1.5-34b",
