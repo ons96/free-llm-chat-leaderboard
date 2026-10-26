@@ -1,6 +1,6 @@
 {
   "generated_at": null,
-  "count": 536,
+  "count": 558,
   "models": [
     {
       "family": "agnes-1.5-flash",
@@ -829,12 +829,17 @@
     {
       "family": "claude-sonnet-5-5",
       "sources": [
+        "gateway",
         "artificial_analysis"
       ],
       "match_confidence": "high",
       "model_id": "claude-sonnet-5-5",
-      "provider_name": "Artificial Analysis",
+      "provider_id": "crax",
+      "provider_name": "Crax",
       "context": 1000000,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false,
       "intelligence": 56.0001286580794,
       "release_date": "2026-09-28",
       "price_input_1m": 2,
@@ -1153,9 +1158,9 @@
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "deepseek-v3.1",
-      "provider_id": "iflow",
-      "provider_name": "Iflow",
+      "model_id": "deepseek-v3.1:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
       "tps": 80,
       "context": 163840,
       "virtual_models": [],
@@ -1377,6 +1382,19 @@
       "match_confidence": "high",
       "model_id": "fastchat-t5-3b",
       "arena_score": 993
+    },
+    {
+      "family": "flint-v1.0",
+      "sources": [
+        "openrouter"
+      ],
+      "match_confidence": "high",
+      "model_id": "recursive/flint-v1.0:free",
+      "provider_name": "OpenRouter",
+      "context": 262144,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "free",
@@ -2876,10 +2894,17 @@
     {
       "family": "hy3",
       "sources": [
+        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "hy3",
+      "model_id": "hy3:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false,
       "arena_score": 1457
     },
     {
@@ -3080,18 +3105,32 @@
       "pinned": false
     },
     {
-      "family": "kimi-k3",
+      "family": "kimi-k3-1-pro",
       "sources": [
         "artificial_analysis"
       ],
       "match_confidence": "high",
-      "model_id": "kimi-k3",
+      "model_id": "kimi-k3-1-pro",
       "provider_name": "Artificial Analysis",
-      "context": 1048576,
-      "intelligence": 43.5938229518782,
-      "release_date": "2026-07-16",
-      "price_input_1m": 3,
-      "price_output_1m": 15
+      "context": 1000000,
+      "intelligence": 55.0869210959395,
+      "release_date": "2026-10-23",
+      "price_input_1m": 2,
+      "price_output_1m": 10
+    },
+    {
+      "family": "kimi-k3-cheap",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "kimi-k3-cheap:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "kimi-k3-free",
@@ -3767,6 +3806,20 @@
       "arena_score": 1305
     },
     {
+      "family": "magistral-small",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "magistral-small:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "mercury",
       "sources": [
         "arena"
@@ -3973,15 +4026,57 @@
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "minimax-m2",
-      "provider_id": "iflow",
-      "provider_name": "Iflow",
+      "model_id": "minimax-m2:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
       "tps": 80,
       "context": 204800,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
       "arena_score": 1343
+    },
+    {
+      "family": "minimax-m2-cheap",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "minimax-m2-cheap:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "minimax-m2.1",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "minimax-m2.1:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "minimax-m2.1-cheap",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "minimax-m2.1-cheap:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "minimax-m2.1-preview",
@@ -4010,9 +4105,23 @@
       ],
       "notes": "Served via gateway virtual model chain",
       "pinned": false,
-      "tps": 200,
       "context": 204800,
+      "tps": 200,
       "arena_score": 1391
+    },
+    {
+      "family": "minimax-m2.5-cheap",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "minimax-m2.5-cheap:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "minimax-m2.5-free",
@@ -4067,6 +4176,20 @@
       "arena_score": 1415
     },
     {
+      "family": "minimax-m2.7-cheap",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "minimax-m2.7-cheap:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "minimax-m2.7-highspeed",
       "sources": [
         "gateway"
@@ -4105,10 +4228,24 @@
       "model_id": "minimax-m3-1-flash",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 42.3811052132362,
+      "intelligence": 42.7057475126235,
       "release_date": "2026-10-19",
       "price_input_1m": 0.15,
       "price_output_1m": 0.6
+    },
+    {
+      "family": "minimax-m3-cheap",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "minimax-m3-cheap:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "minimax-m3-official",
@@ -4129,12 +4266,69 @@
     {
       "family": "minimax-m3.1-flash",
       "sources": [
-        "openrouter"
+        "gateway"
       ],
       "match_confidence": "high",
-      "model_id": "minimax/minimax-m3.1-flash:free",
-      "provider_name": "OpenRouter",
-      "context": 1000000,
+      "model_id": "minimax-m3.1-flash:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "ministral-3-14b",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "ministral-3-14b-instruct:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "ministral-3-3b",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "ministral-3-3b-instruct:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "ministral-3-8b",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "ministral-3-8b-instruct:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "ministral-3b",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "ministral-3b-2512:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -4222,10 +4416,17 @@
     {
       "family": "mistral-large-3",
       "sources": [
+        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "mistral-large-3",
+      "model_id": "mistral-large-3:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false,
       "arena_score": 1414
     },
     {
@@ -4445,6 +4646,21 @@
       "arena_score": 1488
     },
     {
+      "family": "muse-spark-1-3-contributor",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "muse-spark-1-3-contributor:free",
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "virtual_models": [
+        "chat-rp"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
       "family": "muse-spark-1.1",
       "sources": [
         "arena"
@@ -4461,6 +4677,62 @@
       "match_confidence": "high",
       "model_id": "muse-spark-1.2 (xHigh)",
       "arena_score": 1498
+    },
+    {
+      "family": "muse-spark-1.2-contributor",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "muse-spark-1.2-contributor:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "muse-spark-1.2-contributor-cheap",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "muse-spark-1.2-contributor-cheap:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "muse-spark-1.3-contributor",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "muse-spark-1.3-contributor:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "muse-spark-1.3-contributor-cheap",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "muse-spark-1.3-contributor-cheap:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "muse-spark-1.3-max",
@@ -4511,6 +4783,20 @@
       "context": 1000000,
       "intelligence": 55.8021199855616,
       "release_date": "2026-10-12"
+    },
+    {
+      "family": "mythomax-l2-13b",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "mythomax-l2-13b:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "nemotron-3-5-super-vl",
@@ -4612,8 +4898,14 @@
       "model_id": "nemotron-3-super-120b-a12b",
       "provider_id": "requesty",
       "provider_name": "Requesty",
-      "virtual_models": [],
-      "notes": "",
+      "virtual_models": [
+        "chat-fast",
+        "chat-rp",
+        "chat-smart",
+        "coding-fast",
+        "coding-smart"
+      ],
+      "notes": "Served via gateway virtual model chain",
       "pinned": false,
       "context": 1048576
     },
@@ -5296,6 +5588,20 @@
       "pinned": false
     },
     {
+      "family": "qwen-3.8-27b",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "qwen-3.8-27b:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "qwen-image-max",
       "sources": [
         "gateway"
@@ -5532,11 +5838,11 @@
       "model_id": "Qwen3-32B",
       "provider_id": "sambanova",
       "provider_name": "SambaNova",
-      "tps": 500,
       "context": 131072,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
+      "tps": 500,
       "arena_score": 1347
     },
     {
@@ -5673,11 +5979,17 @@
     {
       "family": "qwen3-next-80b-a3b",
       "sources": [
+        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "qwen3-next-80b-a3b-instruct",
+      "model_id": "qwen3-next-80b-a3b-instruct:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
       "context": 262144,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false,
       "arena_score": 1399
     },
     {
@@ -5707,11 +6019,17 @@
     {
       "family": "qwen3-vl-235b-a22b",
       "sources": [
+        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "qwen3-vl-235b-a22b-instruct",
+      "model_id": "qwen3-vl-235b-a22b-instruct:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
       "context": 262144,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false,
       "arena_score": 1413
     },
     {
@@ -5775,11 +6093,17 @@
     {
       "family": "qwen3.5-35b-a3b",
       "sources": [
+        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "qwen3.5-35b-a3b",
+      "model_id": "qwen3.5-35b-a3b:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
       "context": 262144,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false,
       "arena_score": 1394
     },
     {
@@ -5808,6 +6132,20 @@
       "provider_id": "siliconflow-cn",
       "provider_name": "SiliconFlow CN",
       "context": 262144,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "qwen3.5-9b",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "qwen3.5-9b:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -5850,9 +6188,9 @@
         "gateway"
       ],
       "match_confidence": "high",
-      "model_id": "qwen/qwen3.6-35b-a3b-fp8",
-      "provider_id": "inferx",
-      "provider_name": "InferX",
+      "model_id": "qwen3.6-35b-a3b:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
       "context": 262144,
       "virtual_models": [],
       "notes": "",
@@ -5960,6 +6298,20 @@
       "pinned": false
     },
     {
+      "family": "qwen3.8-flash",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "qwen3.8-flash:free",
+      "provider_id": "literouter",
+      "provider_name": "Literouter",
+      "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "qwen3.8-flash-free",
       "sources": [
         "gateway"
@@ -6019,8 +6371,8 @@
       "context": 1048576,
       "intelligence": 30.3334426348039,
       "release_date": "2026-10-16",
-      "price_input_1m": 0.7,
-      "price_output_1m": 2.1
+      "price_input_1m": 0.4,
+      "price_output_1m": 1.2
     },
     {
       "family": "reka-core",

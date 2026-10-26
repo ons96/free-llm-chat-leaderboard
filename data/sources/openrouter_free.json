@@ -1,6 +1,6 @@
 {
- "fetched_at": "2026-10-19T23:00:27Z",
- "total_models": 470,
+ "fetched_at": "2026-10-26T12:21:38Z",
+ "total_models": 467,
  "free_models_count": 17,
  "models": [
   {
@@ -82,22 +82,6 @@
    },
    "created": 1786470519,
    "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or..."
-  },
-  {
-   "id": "minimax/minimax-m3.1-flash:free",
-   "name": "MiniMax: MiniMax M3.1 Flash (free)",
-   "context_length": 1000000,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 1000000,
-    "max_completion_tokens": 524288,
-    "is_moderated": false
-   },
-   "created": 1792379569,
-   "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex,..."
   },
   {
    "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -226,6 +210,22 @@
    },
    "created": 1783002429,
    "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines..."
+  },
+  {
+   "id": "recursive/flint-v1.0:free",
+   "name": "Recursive: Flint (free)",
+   "context_length": 262144,
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 262144,
+    "max_completion_tokens": 235929,
+    "is_moderated": false
+   },
+   "created": 1792622765,
+   "description": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited..."
   },
   {
    "id": "thinkingmachines/inkling-small:free",
