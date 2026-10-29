@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Parse the VPS-40 LLM-API-Key-Proxy gateway config into a normalized snapshot.
 
-The gateway config lives on VPS 40 (40.233.101.233) at
+The gateway config lives on VPS 40 (<VPS40_IP>) at
 ~/LLM-API-Key-Proxy/config/. In CI the workflow fetches the config over SSH
 (restricted VPS_SSH_KEY deploy key) into ./gateway-config and calls this
 script. Locally you can point it at any mirror of the config files.
