@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-10-26T12:21:38Z",
- "total_models": 467,
- "free_models_count": 17,
+ "fetched_at": "2026-11-02T14:54:15Z",
+ "total_models": 451,
+ "free_models_count": 14,
  "models": [
   {
    "id": "cohere/north-mini-code:free",
@@ -100,22 +100,6 @@
    "description": "NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception and context sub-agent in enterprise agent systems. It accepts text, image, video, and..."
   },
   {
-   "id": "nvidia/nemotron-3-super-120b-a12b:free",
-   "name": "NVIDIA: Nemotron 3 Super (free)",
-   "context_length": 262144,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 262144,
-    "max_completion_tokens": 235929,
-    "is_moderated": false
-   },
-   "created": 1773245239,
-   "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer..."
-  },
-  {
    "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
    "name": "NVIDIA: Nemotron 3 Ultra (free)",
    "context_length": 1000000,
@@ -178,38 +162,6 @@
    },
    "created": 1792076662,
    "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video..."
-  },
-  {
-   "id": "poolside/laguna-s-2.1:free",
-   "name": "Poolside: Laguna S 2.1 (free)",
-   "context_length": 262144,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 262144,
-    "max_completion_tokens": 32768,
-    "is_moderated": false
-   },
-   "created": 1784652683,
-   "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and..."
-  },
-  {
-   "id": "poolside/laguna-xs-2.1:free",
-   "name": "Poolside: Laguna XS 2.1 (free)",
-   "context_length": 262144,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 262144,
-    "max_completion_tokens": 32768,
-    "is_moderated": false
-   },
-   "created": 1783002429,
-   "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines..."
   },
   {
    "id": "recursive/flint-v1.0:free",

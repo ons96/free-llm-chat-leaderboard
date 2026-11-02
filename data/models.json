@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T12:21:39Z",
-  "count": 298,
+  "generated_at": "2026-11-02T14:54:15Z",
+  "count": 292,
   "scoring": {
     "weights": {
       "intelligence": 0.3,
@@ -31,25 +31,26 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 75.7,
+      "chat_score": 73.4,
       "intelligence": 90.4,
       "grounding": 90.4,
       "grounding_source": "intelligence_proxy",
-      "speed": 52.5,
+      "speed": 43.1,
       "speed_tps": 150.0,
       "latency_ms": null,
       "context_window": 1000000,
       "arena_score": 1473,
       "recency_days": null,
       "reliability_notes": [
-        "served via gateway virtual model: chat-smart, coding-elite, coding-fast, coding-smart",
+        "served via gateway virtual model: agent-build, agent-explore, agent-librarian, agent-metis, agent-momus, agent-oracle, auto, chat-elite, chat-rp, coding-elite, coding-fast, coding-smart, glm5-elite, p0-minimax-m3",
+        "pinned chain head (actively maintained)",
         "Served via gateway virtual model chain",
         "chat UI: Free: Gemini 3.x Flash with rate limits; Pro limited"
       ],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": 1
     },
     {
@@ -69,11 +70,11 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 73.6,
+      "chat_score": 71.8,
       "intelligence": 93.2,
       "grounding": 93.2,
       "grounding_source": "intelligence_proxy",
-      "speed": 32.8,
+      "speed": 25.5,
       "speed_tps": 100.0,
       "latency_ms": null,
       "context_window": 1050000,
@@ -85,8 +86,44 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": 2
+    },
+    {
+      "id": "kimi-k2",
+      "name": "Kimi K2",
+      "family": "kimi-k2",
+      "providers": [
+        "SCNet token plan",
+        "Kimi (Moonshot)"
+      ],
+      "free_via": [
+        "gateway",
+        "chat-ui"
+      ],
+      "sources": [
+        "gateway",
+        "arena",
+        "chat_ui"
+      ],
+      "chat_score": 67.0,
+      "intelligence": 88.5,
+      "grounding": 88.5,
+      "grounding_source": "intelligence_proxy",
+      "speed": 25.5,
+      "speed_tps": 100.0,
+      "latency_ms": null,
+      "context_window": 262144,
+      "arena_score": 1461,
+      "recency_days": null,
+      "reliability_notes": [
+        "chat UI: Free web chat"
+      ],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 3
     },
     {
       "id": "deepseek-v3.2",
@@ -102,11 +139,11 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 66.8,
-      "intelligence": 74.5,
-      "grounding": 74.5,
+      "chat_score": 64.8,
+      "intelligence": 74.9,
+      "grounding": 74.9,
       "grounding_source": "intelligence_proxy",
-      "speed": 63.9,
+      "speed": 54.9,
       "speed_tps": 200.0,
       "latency_ms": null,
       "context_window": 163840,
@@ -116,45 +153,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 3
-    },
-    {
-      "id": "gemini-3-pro",
-      "name": "Gemini 3 Pro",
-      "family": "gemini-3-pro",
-      "providers": [
-        "Google Gemini API",
-        "Google Gemini app"
-      ],
-      "free_via": [
-        "gateway",
-        "chat-ui"
-      ],
-      "sources": [
-        "gateway",
-        "arena",
-        "chat_ui"
-      ],
-      "chat_score": 66.4,
-      "intelligence": 94.1,
-      "grounding": 94.1,
-      "grounding_source": "intelligence_proxy",
-      "speed": 1.6,
-      "speed_tps": 50.0,
-      "latency_ms": null,
-      "context_window": 2000000,
-      "arena_score": 1485,
-      "recency_days": null,
-      "reliability_notes": [
-        "served via gateway virtual model: chat-elite",
-        "Served via gateway virtual model chain",
-        "chat UI: Free tier: limited Pro queries per day"
-      ],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": 4
     },
     {
@@ -171,11 +170,11 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 66.2,
-      "intelligence": 72.2,
-      "grounding": 72.2,
+      "chat_score": 64.7,
+      "intelligence": 73.5,
+      "grounding": 73.5,
       "grounding_source": "intelligence_proxy",
-      "speed": 63.9,
+      "speed": 54.9,
       "speed_tps": 200.0,
       "latency_ms": null,
       "context_window": 262144,
@@ -185,7 +184,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": 5
     },
     {
@@ -205,11 +204,11 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 65.0,
-      "intelligence": 71.7,
-      "grounding": 71.7,
+      "chat_score": 63.5,
+      "intelligence": 73.0,
+      "grounding": 73.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 63.9,
+      "speed": 54.9,
       "speed_tps": 200.0,
       "latency_ms": null,
       "context_window": 163840,
@@ -221,109 +220,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": 6
-    },
-    {
-      "id": "kimi-k2",
-      "name": "Kimi K2",
-      "family": "kimi-k2",
-      "providers": [
-        "SCNet token plan",
-        "Kimi (Moonshot)"
-      ],
-      "free_via": [
-        "gateway",
-        "chat-ui"
-      ],
-      "sources": [
-        "gateway",
-        "arena",
-        "chat_ui"
-      ],
-      "chat_score": 64.6,
-      "intelligence": 88.4,
-      "grounding": 88.4,
-      "grounding_source": "intelligence_proxy",
-      "speed": 16.4,
-      "speed_tps": 80.0,
-      "latency_ms": null,
-      "context_window": 262144,
-      "arena_score": 1461,
-      "recency_days": null,
-      "reliability_notes": [
-        "chat UI: Free web chat"
-      ],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 7
-    },
-    {
-      "id": "minimax-m2.7",
-      "name": "Minimax M2.7",
-      "family": "minimax-m2.7",
-      "providers": [
-        "UnoRouter"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 64.0,
-      "intelligence": 69.1,
-      "grounding": 69.1,
-      "grounding_source": "intelligence_proxy",
-      "speed": 63.9,
-      "speed_tps": 200.0,
-      "latency_ms": null,
-      "context_window": 204800,
-      "arena_score": 1415,
-      "recency_days": null,
-      "reliability_notes": [
-        "served via gateway virtual model: coding-free, p0-minimax-m3",
-        "Served via gateway virtual model chain"
-      ],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 8
-    },
-    {
-      "id": "glm-4.7",
-      "name": "GLM 4.7",
-      "family": "glm-4.7",
-      "providers": [
-        "Zhipu AI coding plan"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 63.9,
-      "intelligence": 81.6,
-      "grounding": 81.6,
-      "grounding_source": "intelligence_proxy",
-      "speed": 32.8,
-      "speed_tps": 100.0,
-      "latency_ms": null,
-      "context_window": 204800,
-      "arena_score": 1441,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 9
     },
     {
       "id": "claude-opus-4-6",
@@ -353,8 +251,39 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 10
+      "last_updated": "2026-11-02",
+      "rank": 7
+    },
+    {
+      "id": "minimax-m2.7",
+      "name": "Minimax M2.7",
+      "family": "minimax-m2.7",
+      "providers": [
+        "UnoRouter"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 63.1,
+      "intelligence": 71.5,
+      "grounding": 71.5,
+      "grounding_source": "intelligence_proxy",
+      "speed": 54.9,
+      "speed_tps": 200.0,
+      "latency_ms": null,
+      "context_window": 204800,
+      "arena_score": 1415,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 8
     },
     {
       "id": "claude-opus-4-7",
@@ -384,8 +313,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 11
+      "last_updated": "2026-11-02",
+      "rank": 9
     },
     {
       "id": "qwen3.8-max",
@@ -402,8 +331,8 @@
         "arena"
       ],
       "chat_score": 62.6,
-      "intelligence": 96.0,
-      "grounding": 96.0,
+      "intelligence": 96.1,
+      "grounding": 96.1,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -415,8 +344,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 12
+      "last_updated": "2026-11-02",
+      "rank": 10
     },
     {
       "id": "mimo-v2.5-pro",
@@ -432,9 +361,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 62.4,
-      "intelligence": 89.2,
-      "grounding": 89.2,
+      "chat_score": 62.5,
+      "intelligence": 89.3,
+      "grounding": 89.3,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -446,41 +375,41 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 13
+      "last_updated": "2026-11-02",
+      "rank": 11
     },
     {
-      "id": "gemini-3.1-pro-preview",
-      "name": "Gemini 3.1 Pro Preview",
-      "family": "gemini-3.1-pro-preview",
+      "id": "gemini-3-pro",
+      "name": "Gemini 3 Pro",
+      "family": "gemini-3-pro",
       "providers": [
-        "GCLI"
+        "Google Gemini app"
       ],
       "free_via": [
-        "gateway"
+        "chat-ui"
       ],
       "sources": [
-        "gateway",
-        "arena"
+        "arena",
+        "chat_ui"
       ],
-      "chat_score": 61.3,
-      "intelligence": 94.3,
-      "grounding": 94.3,
+      "chat_score": 61.1,
+      "intelligence": 94.1,
+      "grounding": 94.1,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
       "latency_ms": null,
       "context_window": null,
-      "arena_score": 1486,
+      "arena_score": 1485,
       "recency_days": null,
       "reliability_notes": [
-        "served via gateway virtual model: chat-elite"
+        "chat UI: Free tier: limited Pro queries per day"
       ],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 14
+      "last_updated": "2026-11-02",
+      "rank": 12
     },
     {
       "id": "qwen3.7-plus",
@@ -510,8 +439,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 15
+      "last_updated": "2026-11-02",
+      "rank": 13
     },
     {
       "id": "gemini-2.5-flash",
@@ -530,57 +459,27 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 60.4,
-      "intelligence": 65.4,
-      "grounding": 65.4,
+      "chat_score": 59.9,
+      "intelligence": 68.7,
+      "grounding": 68.7,
       "grounding_source": "intelligence_proxy",
-      "speed": 52.5,
+      "speed": 43.1,
       "speed_tps": 150.0,
       "latency_ms": null,
       "context_window": 1048576,
       "arena_score": 1409,
       "recency_days": null,
       "reliability_notes": [
-        "served via gateway virtual model: auto, chat-fast, chat-smart, coding-elite, coding-fast, coding-smart, glm5-elite",
+        "served via gateway virtual model: agent-build, agent-explore, agent-librarian, agent-metis, agent-momus, agent-oracle, auto, chat-fast, chat-smart, coding-fast, coding-free, coding-smart, glm5-elite, title-fast",
+        "pinned chain head (actively maintained)",
         "Served via gateway virtual model chain",
         "chat UI: AI Studio free tier, generous rate limits"
       ],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 16
-    },
-    {
-      "id": "gemini-2.5-pro",
-      "name": "Gemini 2.5 Pro",
-      "family": "gemini-2.5-pro",
-      "providers": [
-        "Google Gemini API"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 59.3,
-      "intelligence": 83.3,
-      "grounding": 83.3,
-      "grounding_source": "intelligence_proxy",
-      "speed": 1.6,
-      "speed_tps": 50.0,
-      "latency_ms": null,
-      "context_window": 2000000,
-      "arena_score": 1445,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 17
+      "last_updated": "2026-11-02",
+      "rank": 14
     },
     {
       "id": "claude-opus-4-8",
@@ -597,8 +496,8 @@
         "arena"
       ],
       "chat_score": 59.0,
-      "intelligence": 90.9,
-      "grounding": 90.9,
+      "intelligence": 91.0,
+      "grounding": 91.0,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -610,39 +509,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 18
-    },
-    {
-      "id": "glm-4.6",
-      "name": "GLM 4.6",
-      "family": "glm-4.6",
-      "providers": [
-        "ModelScope"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 58.9,
-      "intelligence": 73.7,
-      "grounding": 73.7,
-      "grounding_source": "intelligence_proxy",
-      "speed": 32.8,
-      "speed_tps": 100.0,
-      "latency_ms": null,
-      "context_window": 204800,
-      "arena_score": 1424,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 19
+      "last_updated": "2026-11-02",
+      "rank": 15
     },
     {
       "id": "gemma-4-31b",
@@ -661,7 +529,7 @@
         "openrouter",
         "arena"
       ],
-      "chat_score": 58.6,
+      "chat_score": 58.7,
       "intelligence": 85.6,
       "grounding": 85.6,
       "grounding_source": "intelligence_proxy",
@@ -675,8 +543,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 20
+      "last_updated": "2026-11-02",
+      "rank": 16
     },
     {
       "id": "mimo-v2-pro",
@@ -692,9 +560,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 58.6,
-      "intelligence": 84.4,
-      "grounding": 84.4,
+      "chat_score": 58.7,
+      "intelligence": 84.5,
+      "grounding": 84.5,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -706,42 +574,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 21
-    },
-    {
-      "id": "minimax-m2.5",
-      "name": "Minimax M2.5",
-      "family": "minimax-m2.5",
-      "providers": [
-        "NoobRouter"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 58.0,
-      "intelligence": 59.8,
-      "grounding": 59.8,
-      "grounding_source": "intelligence_proxy",
-      "speed": 63.9,
-      "speed_tps": 200.0,
-      "latency_ms": null,
-      "context_window": 204800,
-      "arena_score": 1391,
-      "recency_days": null,
-      "reliability_notes": [
-        "served via gateway virtual model: chat-elite, coding-free, p0-minimax-m3",
-        "Served via gateway virtual model chain"
-      ],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 22
+      "last_updated": "2026-11-02",
+      "rank": 17
     },
     {
       "id": "hy3",
@@ -757,7 +591,7 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 57.8,
+      "chat_score": 57.9,
       "intelligence": 87.0,
       "grounding": 87.0,
       "grounding_source": "intelligence_proxy",
@@ -771,8 +605,39 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 23
+      "last_updated": "2026-11-02",
+      "rank": 18
+    },
+    {
+      "id": "glm-4.6",
+      "name": "GLM 4.6",
+      "family": "glm-4.6",
+      "providers": [
+        "ModelScope"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 57.7,
+      "intelligence": 74.6,
+      "grounding": 74.6,
+      "grounding_source": "intelligence_proxy",
+      "speed": 25.5,
+      "speed_tps": 100.0,
+      "latency_ms": null,
+      "context_window": 204800,
+      "arena_score": 1424,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 19
     },
     {
       "id": "qwen3.6-plus",
@@ -788,9 +653,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 57.3,
-      "intelligence": 82.4,
-      "grounding": 82.4,
+      "chat_score": 57.1,
+      "intelligence": 82.0,
+      "grounding": 82.0,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -802,15 +667,15 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 24
+      "last_updated": "2026-11-02",
+      "rank": 20
     },
     {
-      "id": "gpt-oss-120b",
-      "name": "GPT Oss 120B",
-      "family": "gpt-oss-120b",
+      "id": "minimax-m2.5",
+      "name": "Minimax M2.5",
+      "family": "minimax-m2.5",
       "providers": [
-        "SambaNova"
+        "NoobRouter"
       ],
       "free_via": [
         "gateway"
@@ -819,22 +684,22 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 57.0,
-      "intelligence": 51.6,
-      "grounding": 51.6,
+      "chat_score": 56.4,
+      "intelligence": 60.8,
+      "grounding": 60.8,
       "grounding_source": "intelligence_proxy",
-      "speed": 86.9,
-      "speed_tps": 483.4,
-      "latency_ms": 244,
-      "context_window": 131072,
-      "arena_score": 1352,
+      "speed": 54.9,
+      "speed_tps": 200.0,
+      "latency_ms": null,
+      "context_window": 204800,
+      "arena_score": 1391,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 25
+      "last_updated": "2026-11-02",
+      "rank": 21
     },
     {
       "id": "minimax-m3",
@@ -850,9 +715,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 56.5,
-      "intelligence": 81.3,
-      "grounding": 81.3,
+      "chat_score": 56.2,
+      "intelligence": 80.8,
+      "grounding": 80.8,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -864,39 +729,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 26
-    },
-    {
-      "id": "qwen3-32b",
-      "name": "Qwen3 32B",
-      "family": "qwen3-32b",
-      "providers": [
-        "SambaNova"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 56.3,
-      "intelligence": 49.9,
-      "grounding": 49.9,
-      "grounding_source": "intelligence_proxy",
-      "speed": 88.5,
-      "speed_tps": 500.0,
-      "latency_ms": null,
-      "context_window": 131072,
-      "arena_score": 1347,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 27
+      "last_updated": "2026-11-02",
+      "rank": 22
     },
     {
       "id": "qwen3.5-397b-a17b",
@@ -913,8 +747,8 @@
         "arena"
       ],
       "chat_score": 56.2,
-      "intelligence": 81.9,
-      "grounding": 81.9,
+      "intelligence": 81.7,
+      "grounding": 81.7,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -926,8 +760,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 28
+      "last_updated": "2026-11-02",
+      "rank": 23
     },
     {
       "id": "claude-sonnet-4-5",
@@ -944,8 +778,8 @@
         "chat_ui"
       ],
       "chat_score": 55.8,
-      "intelligence": 86.1,
-      "grounding": 86.1,
+      "intelligence": 86.2,
+      "grounding": 86.2,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -959,8 +793,70 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 29
+      "last_updated": "2026-11-02",
+      "rank": 24
+    },
+    {
+      "id": "gpt-oss-120b",
+      "name": "GPT Oss 120B",
+      "family": "gpt-oss-120b",
+      "providers": [
+        "SambaNova"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 55.8,
+      "intelligence": 51.3,
+      "grounding": 51.3,
+      "grounding_source": "intelligence_proxy",
+      "speed": 82.4,
+      "speed_tps": 483.4,
+      "latency_ms": 244,
+      "context_window": 131072,
+      "arena_score": 1352,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 25
+    },
+    {
+      "id": "glm-4.7",
+      "name": "GLM 4.7",
+      "family": "glm-4.7",
+      "providers": [
+        "Zhipu AI coding plan"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 55.6,
+      "intelligence": 81.4,
+      "grounding": 81.4,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 204800,
+      "arena_score": 1441,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 26
     },
     {
       "id": "gemma-4-26b-a4b",
@@ -979,9 +875,9 @@
         "openrouter",
         "arena"
       ],
-      "chat_score": 55.0,
-      "intelligence": 79.9,
-      "grounding": 79.9,
+      "chat_score": 55.3,
+      "intelligence": 80.3,
+      "grounding": 80.3,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -993,8 +889,39 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 30
+      "last_updated": "2026-11-02",
+      "rank": 27
+    },
+    {
+      "id": "qwen3-32b",
+      "name": "Qwen3 32B",
+      "family": "qwen3-32b",
+      "providers": [
+        "SambaNova"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 55.2,
+      "intelligence": 49.6,
+      "grounding": 49.6,
+      "grounding_source": "intelligence_proxy",
+      "speed": 84.3,
+      "speed_tps": 500.0,
+      "latency_ms": null,
+      "context_window": 131072,
+      "arena_score": 1347,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 28
     },
     {
       "id": "qwen3-max-preview",
@@ -1010,9 +937,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 54.0,
-      "intelligence": 78.2,
-      "grounding": 78.2,
+      "chat_score": 54.4,
+      "intelligence": 78.9,
+      "grounding": 78.9,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1024,8 +951,134 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
+      "rank": 29
+    },
+    {
+      "id": "glm-5v-turbo",
+      "name": "GLM 5V Turbo",
+      "family": "glm-5v-turbo",
+      "providers": [
+        "Zhipu AI coding plan"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 53.7,
+      "intelligence": 78.3,
+      "grounding": 78.3,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 202752,
+      "arena_score": 1433,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 30
+    },
+    {
+      "id": "mimo-v2-omni",
+      "name": "Mimo V2 Omni",
+      "family": "mimo-v2-omni",
+      "providers": [
+        "Xiaomi Token Plan Sgp"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 53.3,
+      "intelligence": 77.5,
+      "grounding": 77.5,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 256000,
+      "arena_score": 1431,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
       "rank": 31
+    },
+    {
+      "id": "deepseek-v3.1",
+      "name": "DeepSeek V3.1",
+      "family": "deepseek-v3.1",
+      "providers": [
+        "Literouter"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 52.4,
+      "intelligence": 72.4,
+      "grounding": 72.4,
+      "grounding_source": "intelligence_proxy",
+      "speed": 11.8,
+      "speed_tps": 80.0,
+      "latency_ms": null,
+      "context_window": 163840,
+      "arena_score": 1417,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 32
+    },
+    {
+      "id": "mistral-medium",
+      "name": "Mistral Medium",
+      "family": "mistral-medium",
+      "providers": [
+        "Mistral Le Chat"
+      ],
+      "free_via": [
+        "chat-ui"
+      ],
+      "sources": [
+        "arena",
+        "chat_ui"
+      ],
+      "chat_score": 52.4,
+      "intelligence": 75.8,
+      "grounding": 75.8,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 262144,
+      "arena_score": 1426,
+      "recency_days": null,
+      "reliability_notes": [
+        "chat UI: Free tier with rate limits"
+      ],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 33
     },
     {
       "id": "grok-4",
@@ -1047,9 +1100,9 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 53.8,
-      "intelligence": 74.2,
-      "grounding": 74.2,
+      "chat_score": 50.4,
+      "intelligence": 67.9,
+      "grounding": 67.9,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1063,15 +1116,15 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 32
+      "last_updated": "2026-11-02",
+      "rank": 34
     },
     {
-      "id": "glm-5v-turbo",
-      "name": "GLM 5V Turbo",
-      "family": "glm-5v-turbo",
+      "id": "gpt-oss-20b",
+      "name": "GPT Oss 20B",
+      "family": "gpt-oss-20b",
       "providers": [
-        "Zhipu AI coding plan"
+        "Groq"
       ],
       "free_via": [
         "gateway"
@@ -1080,22 +1133,53 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 53.1,
-      "intelligence": 77.3,
-      "grounding": 77.3,
+      "chat_score": 50.3,
+      "intelligence": 39.2,
+      "grounding": 39.2,
       "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 202752,
-      "arena_score": 1433,
+      "speed": 92.2,
+      "speed_tps": 744.0,
+      "latency_ms": 184,
+      "context_window": 131072,
+      "arena_score": 1317,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 33
+      "last_updated": "2026-11-02",
+      "rank": 35
+    },
+    {
+      "id": "gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "family": "gemini-4-carbon",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 50.0,
+      "intelligence": 83.7,
+      "grounding": 83.7,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 36
     },
     {
       "id": "deepseek-v4",
@@ -1117,9 +1201,9 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 53.0,
-      "intelligence": 72.5,
-      "grounding": 72.5,
+      "chat_score": 49.8,
+      "intelligence": 66.8,
+      "grounding": 66.8,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1133,70 +1217,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 34
-    },
-    {
-      "id": "mimo-v2-omni",
-      "name": "Mimo V2 Omni",
-      "family": "mimo-v2-omni",
-      "providers": [
-        "Xiaomi Token Plan Sgp"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 52.7,
-      "intelligence": 76.5,
-      "grounding": 76.5,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 256000,
-      "arena_score": 1431,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 35
-    },
-    {
-      "id": "deepseek-v3.1",
-      "name": "DeepSeek V3.1",
-      "family": "deepseek-v3.1",
-      "providers": [
-        "Literouter"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 52.5,
-      "intelligence": 70.5,
-      "grounding": 70.5,
-      "grounding_source": "intelligence_proxy",
-      "speed": 16.4,
-      "speed_tps": 80.0,
-      "latency_ms": null,
-      "context_window": 163840,
-      "arena_score": 1417,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 36
+      "last_updated": "2026-11-02",
+      "rank": 37
     },
     {
       "id": "glm-5",
@@ -1218,9 +1240,9 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 52.1,
-      "intelligence": 70.3,
-      "grounding": 70.3,
+      "chat_score": 49.8,
+      "intelligence": 66.2,
+      "grounding": 66.2,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1234,134 +1256,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 37
-    },
-    {
-      "id": "mistral-medium",
-      "name": "Mistral Medium",
-      "family": "mistral-medium",
-      "providers": [
-        "Mistral Le Chat"
-      ],
-      "free_via": [
-        "chat-ui"
-      ],
-      "sources": [
-        "arena",
-        "chat_ui"
-      ],
-      "chat_score": 52.1,
-      "intelligence": 75.4,
-      "grounding": 75.4,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 262144,
-      "arena_score": 1426,
-      "recency_days": null,
-      "reliability_notes": [
-        "chat UI: Free tier with rate limits"
-      ],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": 38
-    },
-    {
-      "id": "gpt-oss-20b",
-      "name": "GPT Oss 20B",
-      "family": "gpt-oss-20b",
-      "providers": [
-        "Groq"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 51.1,
-      "intelligence": 39.4,
-      "grounding": 39.4,
-      "grounding_source": "intelligence_proxy",
-      "speed": 95.1,
-      "speed_tps": 744.0,
-      "latency_ms": 184,
-      "context_window": 131072,
-      "arena_score": 1317,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 39
-    },
-    {
-      "id": "llama-4-maverick-17b-128e",
-      "name": "Llama 4 Maverick 17B 128E",
-      "family": "llama-4-maverick-17b-128e",
-      "providers": [
-        "SambaNova"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 49.6,
-      "intelligence": 43.3,
-      "grounding": 43.3,
-      "grounding_source": "intelligence_proxy",
-      "speed": 78.7,
-      "speed_tps": 400.0,
-      "latency_ms": null,
-      "context_window": 131072,
-      "arena_score": 1327,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 40
-    },
-    {
-      "id": "claude-opus-5-5",
-      "name": "Claude Opus 5 5",
-      "family": "claude-opus-5-5",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 49.1,
-      "intelligence": 82.2,
-      "grounding": 82.2,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 41
     },
     {
       "id": "grok-3",
@@ -1380,11 +1276,11 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 49.1,
-      "intelligence": 66.6,
-      "grounding": 66.6,
+      "chat_score": 49.6,
+      "intelligence": 69.6,
+      "grounding": 69.6,
       "grounding_source": "intelligence_proxy",
-      "speed": 16.4,
+      "speed": 11.8,
       "speed_tps": 80.0,
       "latency_ms": null,
       "context_window": 131072,
@@ -1396,13 +1292,13 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 42
+      "last_updated": "2026-11-02",
+      "rank": 39
     },
     {
-      "id": "mistral-large-4",
-      "name": "Mistral Large 4",
-      "family": "mistral-large-4",
+      "id": "claude-opus-5-5",
+      "name": "Claude Opus 5 5",
+      "family": "claude-opus-5-5",
       "providers": [
         "Artificial Analysis"
       ],
@@ -1411,25 +1307,181 @@
         "aa-benchmark"
       ],
       "sources": [
-        "artificial_analysis",
-        "arena"
+        "artificial_analysis"
       ],
-      "chat_score": 49.1,
-      "intelligence": 67.1,
-      "grounding": 67.1,
+      "chat_score": 49.5,
+      "intelligence": 82.8,
+      "grounding": 82.8,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
       "latency_ms": null,
-      "context_window": 1048576,
-      "arena_score": 1429,
+      "context_window": 1000000,
+      "arena_score": null,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
+      "rank": 40
+    },
+    {
+      "id": "qwen3-vl-235b-a22b",
+      "name": "Qwen3 Vl 235B A22B",
+      "family": "qwen3-vl-235b-a22b",
+      "providers": [
+        "Literouter"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 48.8,
+      "intelligence": 70.1,
+      "grounding": 70.1,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 262144,
+      "arena_score": 1413,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 41
+    },
+    {
+      "id": "gpt-6-astra",
+      "name": "GPT 6 Astra",
+      "family": "gpt-6-astra",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 48.6,
+      "intelligence": 81.1,
+      "grounding": 81.1,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 42
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "name": "Claude Haiku 4 5",
+      "family": "claude-haiku-4-5",
+      "providers": [
+        "Claude Free"
+      ],
+      "free_via": [
+        "chat-ui"
+      ],
+      "sources": [
+        "arena",
+        "chat_ui"
+      ],
+      "chat_score": 48.4,
+      "intelligence": 70.7,
+      "grounding": 70.7,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 200000,
+      "arena_score": 1414,
+      "recency_days": null,
+      "reliability_notes": [
+        "chat UI: Free tier: faster, higher quota than Sonnet"
+      ],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
       "rank": 43
+    },
+    {
+      "id": "llama-4-maverick-17b-128e",
+      "name": "Llama 4 Maverick 17B 128E",
+      "family": "llama-4-maverick-17b-128e",
+      "providers": [
+        "SambaNova"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 48.0,
+      "intelligence": 43.1,
+      "grounding": 43.1,
+      "grounding_source": "intelligence_proxy",
+      "speed": 72.5,
+      "speed_tps": 400.0,
+      "latency_ms": null,
+      "context_window": 131072,
+      "arena_score": 1327,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 44
+    },
+    {
+      "id": "gpt-6-1-sol",
+      "name": "GPT 6 1 Sol",
+      "family": "gpt-6-1-sol",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 47.9,
+      "intelligence": 80.0,
+      "grounding": 80.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 45
     },
     {
       "id": "claude-sonnet-5-5",
@@ -1447,9 +1499,9 @@
         "gateway",
         "artificial_analysis"
       ],
-      "chat_score": 48.5,
-      "intelligence": 81.0,
-      "grounding": 81.0,
+      "chat_score": 47.8,
+      "intelligence": 79.7,
+      "grounding": 79.7,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1461,289 +1513,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 44
-    },
-    {
-      "id": "muse-wonder-full",
-      "name": "Muse Wonder Full",
-      "family": "muse-wonder-full",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 48.3,
-      "intelligence": 80.7,
-      "grounding": 80.7,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 45
-    },
-    {
-      "id": "kimi-k3-1-pro",
-      "name": "Kimi K3 1 Pro",
-      "family": "kimi-k3-1-pro",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 48.2,
-      "intelligence": 80.5,
-      "grounding": 80.5,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": 46
-    },
-    {
-      "id": "claude-fable-5-1",
-      "name": "Claude Fable 5 1",
-      "family": "claude-fable-5-1",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 47.5,
-      "intelligence": 79.3,
-      "grounding": 79.3,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 47
-    },
-    {
-      "id": "gpt-6-astra",
-      "name": "GPT 6 Astra",
-      "family": "gpt-6-astra",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 47.4,
-      "intelligence": 79.0,
-      "grounding": 79.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 48
-    },
-    {
-      "id": "muse-wonder",
-      "name": "Muse Wonder",
-      "family": "muse-wonder",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 47.4,
-      "intelligence": 77.9,
-      "grounding": 77.9,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1048576,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 49
-    },
-    {
-      "id": "qwen3-vl-235b-a22b",
-      "name": "Qwen3 Vl 235B A22B",
-      "family": "qwen3-vl-235b-a22b",
-      "providers": [
-        "Literouter"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 47.4,
-      "intelligence": 67.7,
-      "grounding": 67.7,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 262144,
-      "arena_score": 1413,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 50
-    },
-    {
-      "id": "gemini-4-argon",
-      "name": "Gemini 4 Argon",
-      "family": "gemini-4-argon",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 47.2,
-      "intelligence": 78.8,
-      "grounding": 78.8,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 51
-    },
-    {
-      "id": "claude-haiku-4-5",
-      "name": "Claude Haiku 4 5",
-      "family": "claude-haiku-4-5",
-      "providers": [
-        "Claude Free"
-      ],
-      "free_via": [
-        "chat-ui"
-      ],
-      "sources": [
-        "arena",
-        "chat_ui"
-      ],
-      "chat_score": 47.1,
-      "intelligence": 68.3,
-      "grounding": 68.3,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 200000,
-      "arena_score": 1414,
-      "recency_days": null,
-      "reliability_notes": [
-        "chat UI: Free tier: faster, higher quota than Sonnet"
-      ],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 52
-    },
-    {
-      "id": "gpt-6-1-sol",
-      "name": "GPT 6 1 Sol",
-      "family": "gpt-6-1-sol",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 46.3,
-      "intelligence": 77.1,
-      "grounding": 77.1,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 53
     },
     {
       "id": "mistral-large-3",
@@ -1759,9 +1530,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 46.1,
-      "intelligence": 68.3,
-      "grounding": 68.3,
+      "chat_score": 47.4,
+      "intelligence": 70.7,
+      "grounding": 70.7,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1773,7 +1544,225 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
+      "rank": 47
+    },
+    {
+      "id": "glm-4.5",
+      "name": "GLM 4.5",
+      "family": "glm-4.5",
+      "providers": [
+        "Zhipu AI coding plan"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 46.7,
+      "intelligence": 69.6,
+      "grounding": 69.6,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 131072,
+      "arena_score": 1411,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 48
+    },
+    {
+      "id": "gpt-6-1-terra",
+      "name": "GPT 6 1 Terra",
+      "family": "gpt-6-1-terra",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 46.7,
+      "intelligence": 77.7,
+      "grounding": 77.7,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 49
+    },
+    {
+      "id": "muse-wonder-full",
+      "name": "Muse Wonder Full",
+      "family": "muse-wonder-full",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 46.4,
+      "intelligence": 77.2,
+      "grounding": 77.2,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 50
+    },
+    {
+      "id": "claude-fable-5-1",
+      "name": "Claude Fable 5 1",
+      "family": "claude-fable-5-1",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 46.2,
+      "intelligence": 76.9,
+      "grounding": 76.9,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 51
+    },
+    {
+      "id": "mistral-large-4",
+      "name": "Mistral Large 4",
+      "family": "mistral-large-4",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis",
+        "arena"
+      ],
+      "chat_score": 46.1,
+      "intelligence": 61.7,
+      "grounding": 61.7,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1048576,
+      "arena_score": 1429,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 52
+    },
+    {
+      "id": "qwen3-next-80b-a3b",
+      "name": "Qwen3 Next 80B A3B",
+      "family": "qwen3-next-80b-a3b",
+      "providers": [
+        "Literouter"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 46.1,
+      "intelligence": 65.9,
+      "grounding": 65.9,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 262144,
+      "arena_score": 1399,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 53
+    },
+    {
+      "id": "qwen3-coder",
+      "name": "Qwen3 Coder",
+      "family": "qwen3-coder",
+      "providers": [
+        "SeptorLabs"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 45.6,
+      "intelligence": 59.7,
+      "grounding": 59.7,
+      "grounding_source": "intelligence_proxy",
+      "speed": 7.8,
+      "speed_tps": 60.0,
+      "latency_ms": null,
+      "context_window": 1024000,
+      "arena_score": 1388,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
       "rank": 54
     },
     {
@@ -1790,11 +1779,11 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 45.9,
-      "intelligence": 62.3,
-      "grounding": 62.3,
+      "chat_score": 45.4,
+      "intelligence": 63.7,
+      "grounding": 63.7,
       "grounding_source": "intelligence_proxy",
-      "speed": 16.4,
+      "speed": 11.8,
       "speed_tps": 80.0,
       "latency_ms": null,
       "context_window": 65536,
@@ -1804,15 +1793,77 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": 55
     },
     {
-      "id": "qwen3-coder",
-      "name": "Qwen3 Coder",
-      "family": "qwen3-coder",
+      "id": "kimi-k3-1-pro",
+      "name": "Kimi K3 1 Pro",
+      "family": "kimi-k3-1-pro",
       "providers": [
-        "SeptorLabs"
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 44.8,
+      "intelligence": 74.4,
+      "grounding": 74.4,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 56
+    },
+    {
+      "id": "muse-wonder",
+      "name": "Muse Wonder",
+      "family": "muse-wonder",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 44.5,
+      "intelligence": 72.7,
+      "grounding": 72.7,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1048576,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 57
+    },
+    {
+      "id": "qwen3.5-35b-a3b",
+      "name": "Qwen3.5 35B A3B",
+      "family": "qwen3.5-35b-a3b",
+      "providers": [
+        "Literouter"
       ],
       "free_via": [
         "gateway"
@@ -1821,22 +1872,22 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 45.5,
-      "intelligence": 58.6,
-      "grounding": 58.6,
+      "chat_score": 44.3,
+      "intelligence": 62.8,
+      "grounding": 62.8,
       "grounding_source": "intelligence_proxy",
-      "speed": 9.8,
-      "speed_tps": 60.0,
+      "speed": 0.0,
+      "speed_tps": null,
       "latency_ms": null,
-      "context_window": 1024000,
-      "arena_score": 1388,
+      "context_window": 262144,
+      "arena_score": 1394,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 56
+      "last_updated": "2026-11-02",
+      "rank": 58
     },
     {
       "id": "inkling",
@@ -1856,9 +1907,9 @@
         "artificial_analysis",
         "arena"
       ],
-      "chat_score": 45.2,
-      "intelligence": 59.5,
-      "grounding": 59.5,
+      "chat_score": 42.9,
+      "intelligence": 55.2,
+      "grounding": 55.2,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1870,139 +1921,15 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 57
-    },
-    {
-      "id": "glm-4.5",
-      "name": "GLM 4.5",
-      "family": "glm-4.5",
-      "providers": [
-        "Zhipu AI coding plan"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 45.0,
-      "intelligence": 66.6,
-      "grounding": 66.6,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 131072,
-      "arena_score": 1411,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 58
-    },
-    {
-      "id": "qwen3-next-80b-a3b",
-      "name": "Qwen3 Next 80B A3B",
-      "family": "qwen3-next-80b-a3b",
-      "providers": [
-        "Literouter"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 44.9,
-      "intelligence": 63.7,
-      "grounding": 63.7,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 262144,
-      "arena_score": 1399,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": 59
     },
     {
-      "id": "mimo-v2-6-pro",
-      "name": "Mimo V2 6 Pro",
-      "family": "mimo-v2-6-pro",
+      "id": "claude-sonnet-4",
+      "name": "Claude Sonnet 4",
+      "family": "claude-sonnet-4",
       "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 44.6,
-      "intelligence": 73.9,
-      "grounding": 73.9,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 60
-    },
-    {
-      "id": "qwen3-8-max",
-      "name": "Qwen3 8 Max",
-      "family": "qwen3-8-max",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 43.9,
-      "intelligence": 72.8,
-      "grounding": 72.8,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 983616,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 61
-    },
-    {
-      "id": "qwen3.5-35b-a3b",
-      "name": "Qwen3.5 35B A3B",
-      "family": "qwen3.5-35b-a3b",
-      "providers": [
-        "Literouter"
+        "Kiro"
       ],
       "free_via": [
         "gateway"
@@ -2011,53 +1938,22 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 43.7,
-      "intelligence": 61.8,
-      "grounding": 61.8,
+      "chat_score": 42.3,
+      "intelligence": 60.8,
+      "grounding": 60.8,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
       "latency_ms": null,
-      "context_window": 262144,
-      "arena_score": 1394,
+      "context_window": 200000,
+      "arena_score": 1391,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 62
-    },
-    {
-      "id": "step-5",
-      "name": "Step 5",
-      "family": "step-5",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 43.2,
-      "intelligence": 71.4,
-      "grounding": 71.4,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 63
+      "last_updated": "2026-11-02",
+      "rank": 60
     },
     {
       "id": "claude-haiku-5-5",
@@ -2073,9 +1969,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 43.0,
-      "intelligence": 71.1,
-      "grounding": 71.1,
+      "chat_score": 41.6,
+      "intelligence": 68.5,
+      "grounding": 68.5,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2087,13 +1983,44 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 64
+      "last_updated": "2026-11-02",
+      "rank": 61
     },
     {
-      "id": "minimax-m3-1-flash",
-      "name": "Minimax M3 1 Flash",
-      "family": "minimax-m3-1-flash",
+      "id": "qwen3-30b-a3b-instruct",
+      "name": "Qwen3 30B A3B Instruct",
+      "family": "qwen3-30b-a3b-instruct",
+      "providers": [
+        "ModelScope"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 41.1,
+      "intelligence": 57.7,
+      "grounding": 57.7,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 262144,
+      "arena_score": 1382,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 62
+    },
+    {
+      "id": "qwen3-8-max",
+      "name": "Qwen3 8 Max",
+      "family": "qwen3-8-max",
       "providers": [
         "Artificial Analysis"
       ],
@@ -2104,21 +2031,83 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 42.9,
-      "intelligence": 70.8,
-      "grounding": 70.8,
+      "chat_score": 41.1,
+      "intelligence": 67.6,
+      "grounding": 67.6,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
       "latency_ms": null,
-      "context_window": 1000000,
+      "context_window": 983616,
       "arena_score": null,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
+      "rank": 63
+    },
+    {
+      "id": "hunyuan-t1",
+      "name": "Hunyuan T1",
+      "family": "hunyuan-t1",
+      "providers": [
+        "Tencent Coding Plan"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 40.4,
+      "intelligence": 59.4,
+      "grounding": 59.4,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 131072,
+      "arena_score": 1387,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 64
+    },
+    {
+      "id": "ling-3-1-flash",
+      "name": "Ling 3 1 Flash",
+      "family": "ling-3-1-flash",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 40.3,
+      "intelligence": 65.1,
+      "grounding": 65.1,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1048576,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
       "rank": 65
     },
     {
@@ -2135,9 +2124,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 42.2,
-      "intelligence": 69.7,
-      "grounding": 69.7,
+      "chat_score": 40.0,
+      "intelligence": 65.6,
+      "grounding": 65.6,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2149,44 +2138,13 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": 66
     },
     {
-      "id": "claude-sonnet-4",
-      "name": "Claude Sonnet 4",
-      "family": "claude-sonnet-4",
-      "providers": [
-        "Kiro"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 41.7,
-      "intelligence": 59.8,
-      "grounding": 59.8,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 200000,
-      "arena_score": 1391,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 67
-    },
-    {
-      "id": "muse-spark-open",
-      "name": "Muse Spark Open",
-      "family": "muse-spark-open",
+      "id": "mimo-v2-6-pro",
+      "name": "Mimo V2 6 Pro",
+      "family": "mimo-v2-6-pro",
       "providers": [
         "Artificial Analysis"
       ],
@@ -2197,133 +2155,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 41.6,
-      "intelligence": 67.4,
-      "grounding": 67.4,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1048576,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 68
-    },
-    {
-      "id": "gemma-3-27b",
-      "name": "Gemma 3 27B",
-      "family": "gemma-3-27b",
-      "providers": [
-        "Google Gemini API"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 41.5,
-      "intelligence": 54.7,
-      "grounding": 54.7,
-      "grounding_source": "intelligence_proxy",
-      "speed": 16.4,
-      "speed_tps": 80.0,
-      "latency_ms": null,
-      "context_window": 131072,
-      "arena_score": 1365,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 69
-    },
-    {
-      "id": "llama-3.3-70b",
-      "name": "Llama 3.3 70B",
-      "family": "llama-3.3-70b",
-      "providers": [
-        "Together AI"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 40.6,
-      "intelligence": 39.7,
-      "grounding": 39.7,
-      "grounding_source": "intelligence_proxy",
-      "speed": 52.5,
-      "speed_tps": 150.0,
-      "latency_ms": null,
-      "context_window": 131072,
-      "arena_score": 1318,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 70
-    },
-    {
-      "id": "qwen3-30b-a3b-instruct",
-      "name": "Qwen3 30B A3B Instruct",
-      "family": "qwen3-30b-a3b-instruct",
-      "providers": [
-        "ModelScope"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 40.6,
-      "intelligence": 56.9,
-      "grounding": 56.9,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 262144,
-      "arena_score": 1382,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 71
-    },
-    {
-      "id": "gpt-6-luna",
-      "name": "GPT 6 Luna",
-      "family": "gpt-6-luna",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 40.4,
-      "intelligence": 66.3,
-      "grounding": 66.3,
+      "chat_score": 39.9,
+      "intelligence": 65.4,
+      "grounding": 65.4,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2335,13 +2169,13 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 72
+      "last_updated": "2026-11-02",
+      "rank": 67
     },
     {
-      "id": "hunyuan-t1",
-      "name": "Hunyuan T1",
-      "family": "hunyuan-t1",
+      "id": "hunyuan-turbos",
+      "name": "Hunyuan Turbos",
+      "family": "hunyuan-turbos",
       "providers": [
         "Tencent Coding Plan"
       ],
@@ -2352,27 +2186,58 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 39.8,
-      "intelligence": 58.4,
-      "grounding": 58.4,
+      "chat_score": 39.7,
+      "intelligence": 58.3,
+      "grounding": 58.3,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
       "latency_ms": null,
       "context_window": 131072,
-      "arena_score": 1387,
+      "arena_score": 1383,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 73
+      "last_updated": "2026-11-02",
+      "rank": 68
     },
     {
-      "id": "reflection-beam",
-      "name": "Reflection Beam",
-      "family": "reflection-beam",
+      "id": "minimax-m3-1-flash",
+      "name": "Minimax M3 1 Flash",
+      "family": "minimax-m3-1-flash",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 39.6,
+      "intelligence": 64.8,
+      "grounding": 64.8,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 69
+    },
+    {
+      "id": "step-5",
+      "name": "Step 5",
+      "family": "step-5",
       "providers": [
         "Artificial Analysis"
       ],
@@ -2384,28 +2249,28 @@
         "artificial_analysis"
       ],
       "chat_score": 39.3,
-      "intelligence": 63.2,
-      "grounding": 63.2,
+      "intelligence": 64.2,
+      "grounding": 64.2,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
       "latency_ms": null,
-      "context_window": 1048576,
+      "context_window": 1000000,
       "arena_score": null,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 74
+      "last_updated": "2026-11-02",
+      "rank": 70
     },
     {
-      "id": "hunyuan-turbos",
-      "name": "Hunyuan Turbos",
-      "family": "hunyuan-turbos",
+      "id": "glm-4.6v",
+      "name": "GLM 4.6V",
+      "family": "glm-4.6v",
       "providers": [
-        "Tencent Coding Plan"
+        "Zhipu AI coding plan"
       ],
       "free_via": [
         "gateway"
@@ -2422,114 +2287,52 @@
       "speed_tps": null,
       "latency_ms": null,
       "context_window": 131072,
-      "arena_score": 1383,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 75
-    },
-    {
-      "id": "k2-horizon-375b-a23b",
-      "name": "K2 Horizon 375B A23B",
-      "family": "k2-horizon-375b-a23b",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 38.7,
-      "intelligence": 63.5,
-      "grounding": 63.5,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 524288,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 76
-    },
-    {
-      "id": "qwen3-8-27b",
-      "name": "Qwen3 8 27B",
-      "family": "qwen3-8-27b",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 38.7,
-      "intelligence": 64.9,
-      "grounding": 64.9,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 256000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 77
-    },
-    {
-      "id": "glm-4.6v",
-      "name": "GLM 4.6V",
-      "family": "glm-4.6v",
-      "providers": [
-        "Zhipu AI coding plan"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 38.5,
-      "intelligence": 56.4,
-      "grounding": 56.4,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 131072,
       "arena_score": 1379,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 78
+      "last_updated": "2026-11-02",
+      "rank": 71
     },
     {
-      "id": "minimax-m2",
-      "name": "Minimax M2",
-      "family": "minimax-m2",
+      "id": "gpt-6-luna",
+      "name": "GPT 6 Luna",
+      "family": "gpt-6-luna",
       "providers": [
-        "Literouter"
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 38.8,
+      "intelligence": 63.4,
+      "grounding": 63.4,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 72
+    },
+    {
+      "id": "llama-3.3-70b",
+      "name": "Llama 3.3 70B",
+      "family": "llama-3.3-70b",
+      "providers": [
+        "Together AI"
       ],
       "free_via": [
         "gateway"
@@ -2539,21 +2342,52 @@
         "arena"
       ],
       "chat_score": 38.2,
-      "intelligence": 47.6,
-      "grounding": 47.6,
+      "intelligence": 39.4,
+      "grounding": 39.4,
       "grounding_source": "intelligence_proxy",
-      "speed": 16.4,
-      "speed_tps": 80.0,
+      "speed": 43.1,
+      "speed_tps": 150.0,
       "latency_ms": null,
-      "context_window": 204800,
-      "arena_score": 1343,
+      "context_window": 131072,
+      "arena_score": 1318,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 79
+      "last_updated": "2026-11-02",
+      "rank": 73
+    },
+    {
+      "id": "muse-spark-open",
+      "name": "Muse Spark Open",
+      "family": "muse-spark-open",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 37.9,
+      "intelligence": 60.6,
+      "grounding": 60.6,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1048576,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 74
     },
     {
       "id": "mistral-small",
@@ -2569,9 +2403,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 37.8,
-      "intelligence": 52.7,
-      "grounding": 52.7,
+      "chat_score": 37.7,
+      "intelligence": 52.4,
+      "grounding": 52.4,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2583,7 +2417,162 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
+      "rank": 75
+    },
+    {
+      "id": "minimax-m2",
+      "name": "Minimax M2",
+      "family": "minimax-m2",
+      "providers": [
+        "Literouter"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 36.9,
+      "intelligence": 47.3,
+      "grounding": 47.3,
+      "grounding_source": "intelligence_proxy",
+      "speed": 11.8,
+      "speed_tps": 80.0,
+      "latency_ms": null,
+      "context_window": 204800,
+      "arena_score": 1343,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 76
+    },
+    {
+      "id": "reflection-beam",
+      "name": "Reflection Beam",
+      "family": "reflection-beam",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 35.7,
+      "intelligence": 56.6,
+      "grounding": 56.6,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1048576,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 77
+    },
+    {
+      "id": "k2-horizon-375b-a23b",
+      "name": "K2 Horizon 375B A23B",
+      "family": "k2-horizon-375b-a23b",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 35.2,
+      "intelligence": 56.9,
+      "grounding": 56.9,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 524288,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 78
+    },
+    {
+      "id": "qwen3-8-27b",
+      "name": "Qwen3 8 27B",
+      "family": "qwen3-8-27b",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 34.9,
+      "intelligence": 58.0,
+      "grounding": 58.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 256000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 79
+    },
+    {
+      "id": "glm-4.5v",
+      "name": "GLM 4.5V",
+      "family": "glm-4.5v",
+      "providers": [
+        "Zhipu AI coding plan"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 34.6,
+      "intelligence": 51.3,
+      "grounding": 51.3,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 65536,
+      "arena_score": 1352,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
       "rank": 80
     },
     {
@@ -2600,9 +2589,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 37.4,
-      "intelligence": 60.9,
-      "grounding": 60.9,
+      "chat_score": 34.5,
+      "intelligence": 55.5,
+      "grounding": 55.5,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2614,39 +2603,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": 81
-    },
-    {
-      "id": "glm-4.5v",
-      "name": "GLM 4.5V",
-      "family": "glm-4.5v",
-      "providers": [
-        "Zhipu AI coding plan"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 34.8,
-      "intelligence": 51.6,
-      "grounding": 51.6,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 65536,
-      "arena_score": 1352,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 82
     },
     {
       "id": "gpt-4o",
@@ -2662,11 +2620,11 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 33.7,
-      "intelligence": 49.0,
-      "grounding": 49.0,
+      "chat_score": 33.6,
+      "intelligence": 48.7,
+      "grounding": 48.7,
       "grounding_source": "intelligence_proxy",
-      "speed": 1.6,
+      "speed": 2.0,
       "speed_tps": 50.0,
       "latency_ms": null,
       "context_window": 128000,
@@ -2676,8 +2634,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 83
+      "last_updated": "2026-11-02",
+      "rank": 82
     },
     {
       "id": "gemma-2-27b",
@@ -2693,11 +2651,11 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 33.5,
-      "intelligence": 32.6,
-      "grounding": 32.6,
+      "chat_score": 31.8,
+      "intelligence": 32.4,
+      "grounding": 32.4,
       "grounding_source": "intelligence_proxy",
-      "speed": 47.5,
+      "speed": 41.2,
       "speed_tps": 120.0,
       "latency_ms": null,
       "context_window": 8192,
@@ -2707,8 +2665,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 84
+      "last_updated": "2026-11-02",
+      "rank": 83
     },
     {
       "id": "llama-3.1-8b",
@@ -2724,11 +2682,11 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 33.5,
-      "intelligence": 20.1,
-      "grounding": 20.1,
+      "chat_score": 31.8,
+      "intelligence": 20.0,
+      "grounding": 20.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 75.4,
+      "speed": 68.6,
       "speed_tps": 300.0,
       "latency_ms": null,
       "context_window": 131072,
@@ -2738,39 +2696,8 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
-    },
-    {
-      "id": "qwen2.5-72b",
-      "name": "Qwen2.5 72B",
-      "family": "qwen2.5-72b",
-      "providers": [
-        "Cloudflare Workers AI"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 31.7,
-      "intelligence": 34.8,
-      "grounding": 34.8,
-      "grounding_source": "intelligence_proxy",
-      "speed": 32.8,
-      "speed_tps": 100.0,
-      "latency_ms": null,
-      "context_window": 32768,
-      "arena_score": 1303,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 86
     },
     {
       "id": "llama-3.1-405b",
@@ -2786,11 +2713,11 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 31.5,
-      "intelligence": 45.0,
-      "grounding": 45.0,
+      "chat_score": 31.4,
+      "intelligence": 44.8,
+      "grounding": 44.8,
       "grounding_source": "intelligence_proxy",
-      "speed": 1.6,
+      "speed": 2.0,
       "speed_tps": 50.0,
       "latency_ms": null,
       "context_window": 131072,
@@ -2800,15 +2727,15 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 87
+      "last_updated": "2026-11-02",
+      "rank": 85
     },
     {
-      "id": "phi-4",
-      "name": "Phi 4",
-      "family": "phi-4",
+      "id": "qwen2.5-72b",
+      "name": "Qwen2.5 72B",
+      "family": "qwen2.5-72b",
       "providers": [
-        "GitHub Models"
+        "Cloudflare Workers AI"
       ],
       "free_via": [
         "gateway"
@@ -2817,22 +2744,22 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 31.3,
-      "intelligence": 26.1,
-      "grounding": 26.1,
+      "chat_score": 29.8,
+      "intelligence": 34.6,
+      "grounding": 34.6,
       "grounding_source": "intelligence_proxy",
-      "speed": 52.5,
-      "speed_tps": 150.0,
+      "speed": 25.5,
+      "speed_tps": 100.0,
       "latency_ms": null,
-      "context_window": 128000,
-      "arena_score": 1256,
+      "context_window": 32768,
+      "arena_score": 1303,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 88
+      "last_updated": "2026-11-02",
+      "rank": 86
     },
     {
       "id": "mistral-large",
@@ -2851,11 +2778,11 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 30.7,
-      "intelligence": 38.2,
-      "grounding": 38.2,
+      "chat_score": 29.4,
+      "intelligence": 38.0,
+      "grounding": 38.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 16.4,
+      "speed": 11.8,
       "speed_tps": 80.0,
       "latency_ms": null,
       "context_window": 131072,
@@ -2867,8 +2794,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 89
+      "last_updated": "2026-11-02",
+      "rank": 87
     },
     {
       "id": "claude-3-opus",
@@ -2884,9 +2811,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 29.3,
-      "intelligence": 40.8,
-      "grounding": 40.8,
+      "chat_score": 29.2,
+      "intelligence": 40.6,
+      "grounding": 40.6,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": 40.0,
@@ -2898,8 +2825,71 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 90
+      "last_updated": "2026-11-02",
+      "rank": 88
+    },
+    {
+      "id": "phi-4",
+      "name": "Phi 4",
+      "family": "phi-4",
+      "providers": [
+        "GitHub Models"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 28.9,
+      "intelligence": 25.9,
+      "grounding": 25.9,
+      "grounding_source": "intelligence_proxy",
+      "speed": 43.1,
+      "speed_tps": 150.0,
+      "latency_ms": null,
+      "context_window": 128000,
+      "arena_score": 1256,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-02",
+      "rank": 89
+    },
+    {
+      "id": "openai-fast",
+      "name": "Openai Fast",
+      "family": "openai-fast",
+      "providers": [
+        "Pollinations"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway"
+      ],
+      "chat_score": 26.0,
+      "intelligence": 0.0,
+      "grounding": 0.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 98.0,
+      "speed_tps": 2550.0,
+      "latency_ms": null,
+      "context_window": 131072,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [
+        "GPT-OSS 20B. Tools and reasoning verified 2026-10-20. Fallback only."
+      ],
+      "match_confidence": "high",
+      "below_threshold": true,
+      "unverified": true,
+      "last_updated": "2026-11-02",
+      "rank": null
     },
     {
       "id": "meta-llama-3.1-8b",
@@ -2914,11 +2904,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 24.8,
+      "chat_score": 24.2,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 98.4,
+      "speed": 96.1,
       "speed_tps": 1000.0,
       "latency_ms": null,
       "context_window": 8192,
@@ -2928,39 +2918,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "allam-2-7b",
-      "name": "Allam 2 7B",
-      "family": "allam-2-7b",
-      "providers": [
-        "Groq"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 24.4,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 96.7,
-      "speed_tps": 960.4,
-      "latency_ms": 335,
-      "context_window": 8192,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [
-        "Arabic language model"
-      ],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -2977,9 +2935,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 24.2,
-      "intelligence": 34.6,
-      "grounding": 34.6,
+      "chat_score": 24.1,
+      "intelligence": 34.4,
+      "grounding": 34.4,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2994,13 +2952,13 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 93
+      "last_updated": "2026-11-02",
+      "rank": 92
     },
     {
-      "id": "compound-mini",
-      "name": "Compound Mini",
-      "family": "compound-mini",
+      "id": "allam-2-7b",
+      "name": "Allam 2 7B",
+      "family": "allam-2-7b",
       "providers": [
         "Groq"
       ],
@@ -3010,21 +2968,23 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 22.8,
+      "chat_score": 23.8,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 85.2,
-      "speed_tps": 457.2,
-      "latency_ms": 115,
-      "context_window": 131072,
+      "speed": 94.1,
+      "speed_tps": 960.4,
+      "latency_ms": 335,
+      "context_window": 8192,
       "arena_score": null,
       "recency_days": null,
-      "reliability_notes": [],
+      "reliability_notes": [
+        "Arabic language model"
+      ],
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3040,11 +3000,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 22.8,
+      "chat_score": 21.7,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 88.5,
+      "speed": 84.3,
       "speed_tps": 500.0,
       "latency_ms": null,
       "context_window": 32768,
@@ -3054,13 +3014,13 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
-      "id": "gemma2-9b",
-      "name": "Gemma2 9B",
-      "family": "gemma2-9b",
+      "id": "compound-mini",
+      "name": "Compound Mini",
+      "family": "compound-mini",
       "providers": [
         "Groq"
       ],
@@ -3070,51 +3030,21 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 22.4,
+      "chat_score": 21.6,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 88.5,
-      "speed_tps": 500.0,
-      "latency_ms": null,
-      "context_window": 8192,
+      "speed": 80.4,
+      "speed_tps": 457.2,
+      "latency_ms": 115,
+      "context_window": 131072,
       "arena_score": null,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "tinyllama-1.1b",
-      "name": "Tinyllama 1.1B",
-      "family": "tinyllama-1.1b",
-      "providers": [
-        "Cloudflare Workers AI"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 22.2,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 88.5,
-      "speed_tps": 500.0,
-      "latency_ms": null,
-      "context_window": 2048,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3132,10 +3062,10 @@
         "arena"
       ],
       "chat_score": 21.6,
-      "intelligence": 32.0,
-      "grounding": 32.0,
+      "intelligence": 31.8,
+      "grounding": 31.8,
       "grounding_source": "intelligence_proxy",
-      "speed": 1.6,
+      "speed": 2.0,
       "speed_tps": 50.0,
       "latency_ms": null,
       "context_window": 8192,
@@ -3145,8 +3075,68 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-10-26",
-      "rank": 98
+      "last_updated": "2026-11-02",
+      "rank": 96
+    },
+    {
+      "id": "gemma2-9b",
+      "name": "Gemma2 9B",
+      "family": "gemma2-9b",
+      "providers": [
+        "Groq"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway"
+      ],
+      "chat_score": 21.3,
+      "intelligence": 0.0,
+      "grounding": 0.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 84.3,
+      "speed_tps": 500.0,
+      "latency_ms": null,
+      "context_window": 8192,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": true,
+      "unverified": true,
+      "last_updated": "2026-11-02",
+      "rank": null
+    },
+    {
+      "id": "tinyllama-1.1b",
+      "name": "Tinyllama 1.1B",
+      "family": "tinyllama-1.1b",
+      "providers": [
+        "Cloudflare Workers AI"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway"
+      ],
+      "chat_score": 21.2,
+      "intelligence": 0.0,
+      "grounding": 0.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 84.3,
+      "speed_tps": 500.0,
+      "latency_ms": null,
+      "context_window": 2048,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": true,
+      "unverified": true,
+      "last_updated": "2026-11-02",
+      "rank": null
     },
     {
       "id": "meta-llama-3.3-70b",
@@ -3161,11 +3151,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 21.2,
+      "chat_score": 19.6,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 78.7,
+      "speed": 72.5,
       "speed_tps": 400.0,
       "latency_ms": null,
       "context_window": 131072,
@@ -3175,7 +3165,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3191,11 +3181,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 20.3,
+      "chat_score": 18.8,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 78.7,
+      "speed": 72.5,
       "speed_tps": 400.0,
       "latency_ms": null,
       "context_window": 32768,
@@ -3205,7 +3195,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3221,11 +3211,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 20.3,
+      "chat_score": 18.8,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 78.7,
+      "speed": 72.5,
       "speed_tps": 400.0,
       "latency_ms": null,
       "context_window": 32768,
@@ -3235,7 +3225,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3251,11 +3241,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 19.9,
+      "chat_score": 18.2,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 73.8,
+      "speed": 66.7,
       "speed_tps": 293.3,
       "latency_ms": 385,
       "context_window": 131072,
@@ -3267,7 +3257,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3284,11 +3274,11 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 19.2,
-      "intelligence": 22.1,
-      "grounding": 22.1,
+      "chat_score": 17.9,
+      "intelligence": 22.0,
+      "grounding": 22.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 16.4,
+      "speed": 11.8,
       "speed_tps": 80.0,
       "latency_ms": null,
       "context_window": 16385,
@@ -3298,7 +3288,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": false,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3314,11 +3304,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 19.1,
+      "chat_score": 17.4,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 75.4,
+      "speed": 68.6,
       "speed_tps": 300.0,
       "latency_ms": null,
       "context_window": 8192,
@@ -3328,7 +3318,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3344,11 +3334,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 16.6,
+      "chat_score": 14.3,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 63.9,
+      "speed": 54.9,
       "speed_tps": 200.0,
       "latency_ms": null,
       "context_window": 32768,
@@ -3358,67 +3348,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "gemini-1.5-flash",
-      "name": "Gemini 1.5 Flash",
-      "family": "gemini-1.5-flash",
-      "providers": [
-        "Google Gemini API"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 15.8,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 47.5,
-      "speed_tps": 120.0,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "gemini-flash-1.5",
-      "name": "Gemini Flash 1.5",
-      "family": "gemini-flash-1.5",
-      "providers": [
-        "OpenRouter"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 15.8,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 47.5,
-      "speed_tps": 120.0,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3434,11 +3364,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 14.2,
+      "chat_score": 11.9,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 52.5,
+      "speed": 43.1,
       "speed_tps": 150.0,
       "latency_ms": null,
       "context_window": 128000,
@@ -3448,7 +3378,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3464,11 +3394,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 14.2,
+      "chat_score": 11.9,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 52.5,
+      "speed": 43.1,
       "speed_tps": 150.0,
       "latency_ms": null,
       "context_window": 128000,
@@ -3478,37 +3408,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "pickle",
-      "name": "Pickle",
-      "family": "pickle",
-      "providers": [
-        "OpenCode Zen"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 13.5,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 52.5,
-      "speed_tps": 150.0,
-      "latency_ms": null,
-      "context_window": 16384,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3524,11 +3424,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 10.7,
+      "chat_score": 8.9,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 32.8,
+      "speed": 25.5,
       "speed_tps": 100.0,
       "latency_ms": null,
       "context_window": 200000,
@@ -3540,7 +3440,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3556,11 +3456,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 10.7,
+      "chat_score": 8.9,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 32.8,
+      "speed": 25.5,
       "speed_tps": 100.0,
       "latency_ms": null,
       "context_window": 200000,
@@ -3570,7 +3470,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3586,11 +3486,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 9.7,
+      "chat_score": 7.9,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 32.8,
+      "speed": 25.5,
       "speed_tps": 100.0,
       "latency_ms": null,
       "context_window": 131072,
@@ -3600,37 +3500,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "m2.1",
-      "name": "M2.1",
-      "family": "m2.1",
-      "providers": [
-        "OpenCode Zen"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 8.8,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 32.8,
-      "speed_tps": 100.0,
-      "latency_ms": null,
-      "context_window": 32768,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3646,11 +3516,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 8.8,
+      "chat_score": 7.0,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 32.8,
+      "speed": 25.5,
       "speed_tps": 100.0,
       "latency_ms": null,
       "context_window": 32768,
@@ -3662,7 +3532,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3678,11 +3548,11 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 8.0,
+      "chat_score": 6.9,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
-      "speed": 16.4,
+      "speed": 11.8,
       "speed_tps": 80.0,
       "latency_ms": null,
       "context_window": 1000000,
@@ -3692,37 +3562,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "gemini-1.5-pro",
-      "name": "Gemini 1.5 Pro",
-      "family": "gemini-1.5-pro",
-      "providers": [
-        "Google Gemini API"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 7.4,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 9.8,
-      "speed_tps": 60.0,
-      "latency_ms": null,
-      "context_window": 2000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3738,7 +3578,7 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 4.8,
+      "chat_score": 4.9,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
@@ -3752,37 +3592,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "large-preview",
-      "name": "Large Preview",
-      "family": "large-preview",
-      "providers": [
-        "OpenCode Zen"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 4.7,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 16.4,
-      "speed_tps": 80.0,
-      "latency_ms": null,
-      "context_window": 32768,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3813,7 +3623,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3843,7 +3653,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3873,7 +3683,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3881,16 +3691,13 @@
       "name": "Nemotron 3 Super 120B A12B",
       "family": "nemotron-3-super-120b-a12b",
       "providers": [
-        "Requesty",
-        "OpenRouter"
+        "Requesty"
       ],
       "free_via": [
-        "gateway",
-        "openrouter-api"
+        "gateway"
       ],
       "sources": [
-        "gateway",
-        "openrouter"
+        "gateway"
       ],
       "chat_score": 4.5,
       "intelligence": 0.0,
@@ -3902,14 +3709,11 @@
       "context_window": 1048576,
       "arena_score": null,
       "recency_days": null,
-      "reliability_notes": [
-        "served via gateway virtual model: chat-fast, chat-rp, chat-smart, coding-fast, coding-smart",
-        "Served via gateway virtual model chain"
-      ],
+      "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3942,7 +3746,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -3972,7 +3776,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4002,7 +3806,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4032,7 +3836,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4062,7 +3866,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4092,7 +3896,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4122,7 +3926,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4151,11 +3955,13 @@
       "context_window": 1000000,
       "arena_score": null,
       "recency_days": null,
-      "reliability_notes": [],
+      "reliability_notes": [
+        "served via gateway virtual model: chat-elite, chat-rp"
+      ],
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4186,7 +3992,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4216,7 +4022,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4246,7 +4052,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4276,7 +4082,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4306,7 +4112,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4336,7 +4142,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4366,7 +4172,37 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
+      "rank": null
+    },
+    {
+      "id": "solar-mini4",
+      "name": "Solar Mini4",
+      "family": "solar-mini4",
+      "providers": [
+        "Nous Inference"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway"
+      ],
+      "chat_score": 3.9,
+      "intelligence": 0.0,
+      "grounding": 0.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 524288,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": true,
+      "unverified": true,
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4399,67 +4235,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "solar-mini4",
-      "name": "Solar Mini4",
-      "family": "solar-mini4",
-      "providers": [
-        "Nous Inference"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 3.8,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 524288,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "deepseek",
-      "name": "DeepSeek",
-      "family": "deepseek",
-      "providers": [
-        "OpenRouter"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 3.4,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 9.8,
-      "speed_tps": 60.0,
-      "latency_ms": null,
-      "context_window": 65536,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4489,7 +4265,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4519,7 +4295,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4550,7 +4326,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4580,7 +4356,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4610,7 +4386,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4640,7 +4416,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4648,16 +4424,13 @@
       "name": "Laguna S 2.1",
       "family": "laguna-s-2.1",
       "providers": [
-        "Nous Inference",
-        "OpenRouter"
+        "Nous Inference"
       ],
       "free_via": [
-        "gateway",
-        "openrouter-api"
+        "gateway"
       ],
       "sources": [
-        "gateway",
-        "openrouter"
+        "gateway"
       ],
       "chat_score": 3.2,
       "intelligence": 0.0,
@@ -4669,11 +4442,13 @@
       "context_window": 262144,
       "arena_score": null,
       "recency_days": null,
-      "reliability_notes": [],
+      "reliability_notes": [
+        "served via gateway virtual model: auto, chat-elite, chat-fast, coding-elite, coding-free, coding-smart, glm5-elite, p0-minimax-m3"
+      ],
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4681,16 +4456,13 @@
       "name": "Laguna Xs 2.1",
       "family": "laguna-xs-2.1",
       "providers": [
-        "Nous Inference",
-        "OpenRouter"
+        "Nous Inference"
       ],
       "free_via": [
-        "gateway",
-        "openrouter-api"
+        "gateway"
       ],
       "sources": [
-        "gateway",
-        "openrouter"
+        "gateway"
       ],
       "chat_score": 3.2,
       "intelligence": 0.0,
@@ -4706,7 +4478,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4736,7 +4508,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4766,7 +4538,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4796,7 +4568,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4826,7 +4598,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4856,7 +4628,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4886,7 +4658,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4916,7 +4688,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4946,7 +4718,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -4976,7 +4748,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5006,7 +4778,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5036,7 +4808,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5066,7 +4838,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5096,7 +4868,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5126,7 +4898,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5156,7 +4928,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5187,7 +4959,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5217,42 +4989,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "qwen3-max",
-      "name": "Qwen3 Max",
-      "family": "qwen3-max",
-      "providers": [
-        "Iflow",
-        "Qwen Chat (Alibaba)"
-      ],
-      "free_via": [
-        "gateway",
-        "chat-ui"
-      ],
-      "sources": [
-        "gateway",
-        "chat_ui"
-      ],
-      "chat_score": 3.1,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 9.8,
-      "speed_tps": 60.0,
-      "latency_ms": null,
-      "context_window": 32768,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [
-        "chat UI: Free web chat"
-      ],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5282,7 +5019,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5312,7 +5049,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5342,7 +5079,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5378,7 +5115,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5407,11 +5144,14 @@
       "context_window": 256000,
       "arena_score": null,
       "recency_days": null,
-      "reliability_notes": [],
+      "reliability_notes": [
+        "served via gateway virtual model: chat-fast, chat-smart, coding-fast, coding-free, p0-minimax-m3",
+        "Served via gateway virtual model chain"
+      ],
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5441,7 +5181,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5471,7 +5211,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5501,7 +5241,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5531,7 +5271,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5561,7 +5301,42 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
+      "rank": null
+    },
+    {
+      "id": "qwen3-max",
+      "name": "Qwen3 Max",
+      "family": "qwen3-max",
+      "providers": [
+        "Iflow",
+        "Qwen Chat (Alibaba)"
+      ],
+      "free_via": [
+        "gateway",
+        "chat-ui"
+      ],
+      "sources": [
+        "gateway",
+        "chat_ui"
+      ],
+      "chat_score": 2.6,
+      "intelligence": 0.0,
+      "grounding": 0.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 7.8,
+      "speed_tps": 60.0,
+      "latency_ms": null,
+      "context_window": 32768,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [
+        "chat UI: Free web chat"
+      ],
+      "match_confidence": "high",
+      "below_threshold": true,
+      "unverified": true,
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5591,7 +5366,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5621,7 +5396,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5651,7 +5426,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5681,7 +5456,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5711,7 +5486,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5741,7 +5516,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5771,7 +5546,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5801,7 +5576,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5831,7 +5606,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5861,7 +5636,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5891,7 +5666,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5921,7 +5696,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5951,7 +5726,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -5981,7 +5756,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6011,7 +5786,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6041,7 +5816,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6071,7 +5846,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6101,7 +5876,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6131,7 +5906,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6161,7 +5936,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6191,7 +5966,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6217,13 +5992,11 @@
       "context_window": 131072,
       "arena_score": null,
       "recency_days": null,
-      "reliability_notes": [
-        "served via gateway virtual model: chat-elite, coding-free, p0-minimax-m3"
-      ],
+      "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6253,7 +6026,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6283,7 +6056,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6313,7 +6086,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6343,7 +6116,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6373,7 +6146,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6403,7 +6176,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6433,7 +6206,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6463,7 +6236,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6493,7 +6266,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6523,7 +6296,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6553,7 +6326,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6583,7 +6356,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6613,7 +6386,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6643,7 +6416,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6676,7 +6449,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6706,7 +6479,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6736,7 +6509,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6766,7 +6539,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6796,7 +6569,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6826,7 +6599,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6856,37 +6629,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "brick-v1-beta",
-      "name": "Brick V1 Beta",
-      "family": "brick-v1-beta",
-      "providers": [
-        "Regolo AI"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 1.1,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 100000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6916,7 +6659,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6946,7 +6689,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -6976,7 +6719,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7006,7 +6749,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7036,7 +6779,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7066,7 +6809,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7096,7 +6839,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7126,15 +6869,15 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
-      "id": "hunyuan-mt-7b",
-      "name": "Hunyuan Mt 7B",
-      "family": "hunyuan-mt-7b",
+      "id": "brick-v1-beta",
+      "name": "Brick V1 Beta",
+      "family": "brick-v1-beta",
       "providers": [
-        "SiliconFlow CN"
+        "Regolo AI"
       ],
       "free_via": [
         "gateway"
@@ -7142,21 +6885,201 @@
       "sources": [
         "gateway"
       ],
-      "chat_score": 0.9,
+      "chat_score": 1.0,
       "intelligence": 0.0,
       "grounding": 0.0,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
       "latency_ms": null,
-      "context_window": 33000,
+      "context_window": 100000,
       "arena_score": null,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
+      "rank": null
+    },
+    {
+      "id": "claude-haiku-5.5",
+      "name": "Claude Haiku 5.5",
+      "family": "claude-haiku-5.5",
+      "providers": [
+        "Screechcore"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway"
+      ],
+      "chat_score": 1.0,
+      "intelligence": 0.0,
+      "grounding": 0.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 100000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": true,
+      "unverified": true,
+      "last_updated": "2026-11-02",
+      "rank": null
+    },
+    {
+      "id": "claude-haiku-5.5-thinking",
+      "name": "Claude Haiku 5.5 Thinking",
+      "family": "claude-haiku-5.5-thinking",
+      "providers": [
+        "Screechcore"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway"
+      ],
+      "chat_score": 1.0,
+      "intelligence": 0.0,
+      "grounding": 0.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 100000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": true,
+      "unverified": true,
+      "last_updated": "2026-11-02",
+      "rank": null
+    },
+    {
+      "id": "claude-opus-5.5",
+      "name": "Claude Opus 5.5",
+      "family": "claude-opus-5.5",
+      "providers": [
+        "Screechcore"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway"
+      ],
+      "chat_score": 1.0,
+      "intelligence": 0.0,
+      "grounding": 0.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 100000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": true,
+      "unverified": true,
+      "last_updated": "2026-11-02",
+      "rank": null
+    },
+    {
+      "id": "claude-opus-5.5-thinking",
+      "name": "Claude Opus 5.5 Thinking",
+      "family": "claude-opus-5.5-thinking",
+      "providers": [
+        "Screechcore"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway"
+      ],
+      "chat_score": 1.0,
+      "intelligence": 0.0,
+      "grounding": 0.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 100000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": true,
+      "unverified": true,
+      "last_updated": "2026-11-02",
+      "rank": null
+    },
+    {
+      "id": "claude-sonnet-5.5",
+      "name": "Claude Sonnet 5.5",
+      "family": "claude-sonnet-5.5",
+      "providers": [
+        "Screechcore"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway"
+      ],
+      "chat_score": 1.0,
+      "intelligence": 0.0,
+      "grounding": 0.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 100000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": true,
+      "unverified": true,
+      "last_updated": "2026-11-02",
+      "rank": null
+    },
+    {
+      "id": "claude-sonnet-5.5-thinking",
+      "name": "Claude Sonnet 5.5 Thinking",
+      "family": "claude-sonnet-5.5-thinking",
+      "providers": [
+        "Screechcore"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway"
+      ],
+      "chat_score": 1.0,
+      "intelligence": 0.0,
+      "grounding": 0.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 100000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": true,
+      "unverified": true,
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7189,7 +7112,37 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
+      "rank": null
+    },
+    {
+      "id": "hunyuan-mt-7b",
+      "name": "Hunyuan Mt 7B",
+      "family": "hunyuan-mt-7b",
+      "providers": [
+        "SiliconFlow CN"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway"
+      ],
+      "chat_score": 0.8,
+      "intelligence": 0.0,
+      "grounding": 0.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 33000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": true,
+      "unverified": true,
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7219,7 +7172,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7249,7 +7202,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7279,7 +7232,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7309,7 +7262,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7339,7 +7292,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7369,7 +7322,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7399,7 +7352,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7429,7 +7382,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7459,7 +7412,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7489,7 +7442,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7519,7 +7472,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7545,11 +7498,14 @@
       "context_window": null,
       "arena_score": null,
       "recency_days": null,
-      "reliability_notes": [],
+      "reliability_notes": [
+        "served via gateway virtual model: agent-build, agent-explore, agent-librarian, agent-metis, agent-momus, agent-oracle, auto, chat-fast, chat-smart, coding-free, glm5-elite",
+        "pinned chain head (actively maintained)"
+      ],
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7575,11 +7531,14 @@
       "context_window": null,
       "arena_score": null,
       "recency_days": null,
-      "reliability_notes": [],
+      "reliability_notes": [
+        "served via gateway virtual model: chat-rp, chat-smart, coding-elite",
+        "pinned chain head (actively maintained)"
+      ],
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7609,7 +7568,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7639,7 +7598,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7669,7 +7628,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7699,7 +7658,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7729,15 +7688,15 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
-      "id": "coder-model",
-      "name": "Coder Model",
-      "family": "coder-model",
+      "id": "beam-free",
+      "name": "Beam Free",
+      "family": "beam-free",
       "providers": [
-        "CLIProxyAPI"
+        "Kiosapi"
       ],
       "free_via": [
         "gateway"
@@ -7756,13 +7715,13 @@
       "arena_score": null,
       "recency_days": null,
       "reliability_notes": [
-        "served via gateway virtual model: coding-elite, coding-smart",
+        "served via gateway virtual model: chat-elite, chat-rp",
         "Served via gateway virtual model chain"
       ],
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7792,7 +7751,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7822,7 +7781,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7852,40 +7811,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "gemini-3.1-pro",
-      "name": "Gemini 3.1 Pro",
-      "family": "gemini-3.1-pro",
-      "providers": [
-        "Crowllm"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 0.0,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": null,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [
-        "served via gateway virtual model: chat-elite",
-        "Served via gateway virtual model chain"
-      ],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7918,7 +7844,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7948,7 +7874,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -7978,7 +7904,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8008,7 +7934,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8034,11 +7960,14 @@
       "context_window": null,
       "arena_score": null,
       "recency_days": null,
-      "reliability_notes": [],
+      "reliability_notes": [
+        "served via gateway virtual model: chat-elite, chat-rp",
+        "pinned chain head (actively maintained)"
+      ],
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8068,7 +7997,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8098,37 +8027,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "kimi-k3-free",
-      "name": "Kimi K3 Free",
-      "family": "kimi-k3-free",
-      "providers": [
-        "Dlab Community"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 0.0,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": null,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8158,7 +8057,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8191,7 +8090,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8224,7 +8123,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8257,7 +8156,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8290,7 +8189,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8322,7 +8221,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8355,7 +8254,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8385,40 +8284,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "minimax-m3-official",
-      "name": "Minimax M3 Official",
-      "family": "minimax-m3-official",
-      "providers": [
-        "Blaze Free"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 0.0,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": null,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [
-        "served via gateway virtual model: coding-elite, coding-fast",
-        "Served via gateway virtual model chain"
-      ],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8451,7 +8317,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8484,7 +8350,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8517,40 +8383,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "muse-spark-1-3-contributor",
-      "name": "Muse Spark 1 3 Contributor",
-      "family": "muse-spark-1-3-contributor",
-      "providers": [
-        "Crowllm"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 0.0,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": null,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [
-        "served via gateway virtual model: chat-rp",
-        "Served via gateway virtual model chain"
-      ],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8583,7 +8416,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8616,40 +8449,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
-      "rank": null
-    },
-    {
-      "id": "nemotron-content-safety-reasoning-4b",
-      "name": "Nemotron Content Safety Reasoning 4B",
-      "family": "nemotron-content-safety-reasoning-4b",
-      "providers": [
-        "NVIDIA NIM"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway"
-      ],
-      "chat_score": 0.0,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": null,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [
-        "served via gateway virtual model: agent-build, agent-explore, agent-librarian, agent-metis, agent-momus, agent-oracle, title-fast",
-        "Served via gateway virtual model chain"
-      ],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8682,7 +8482,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8715,7 +8515,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8748,7 +8548,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8781,7 +8581,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8814,7 +8614,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8846,7 +8646,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8876,7 +8676,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8906,7 +8706,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8936,7 +8736,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8966,7 +8766,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -8996,7 +8796,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -9026,7 +8826,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -9059,7 +8859,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -9089,7 +8889,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -9119,7 +8919,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -9149,7 +8949,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -9182,7 +8982,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -9212,7 +9012,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -9245,7 +9045,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     },
     {
@@ -9278,7 +9078,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-10-26",
+      "last_updated": "2026-11-02",
       "rank": null
     }
   ]
