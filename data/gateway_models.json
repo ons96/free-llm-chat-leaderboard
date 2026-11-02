@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T05:30:09Z",
+  "generated_at": "2026-11-02T05:30:09Z",
   "source_note": "Snapshot of VPS-40 LLM-API-Key-Proxy config, auto-refreshed weekly by the CI workflow via the restricted VPS_SSH_KEY deploy key. Regenerate manually with scripts/parse_gateway.py <config-dir>.",
-  "providers_total": 94,
-  "providers_free_tier": 92,
+  "providers_total": 96,
+  "providers_free_tier": 94,
   "models": [
     {
       "provider_id": "agnes_ai",
@@ -415,22 +415,6 @@
       "pinned": false
     },
     {
-      "provider_id": "blaze-free",
-      "provider_name": "Blaze Free",
-      "model_id": "MiniMax-M3-official",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-fast"
-      ],
-      "pinned": false
-    },
-    {
       "provider_id": "cerebras",
       "provider_name": "Cerebras",
       "model_id": "gpt-oss-120b",
@@ -532,22 +516,6 @@
     {
       "provider_id": "cliproxyapi",
       "provider_name": "CLIProxyAPI",
-      "model_id": "coder-model",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-elite",
-        "coding-smart"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "cliproxyapi",
-      "provider_name": "CLIProxyAPI",
       "model_id": "gemini-2.5-flash",
       "context": null,
       "tps": null,
@@ -556,15 +524,22 @@
       "blocked": false,
       "source": "gateway",
       "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle",
         "auto",
         "chat-fast",
         "chat-smart",
-        "coding-elite",
         "coding-fast",
+        "coding-free",
         "coding-smart",
-        "glm5-elite"
+        "glm5-elite",
+        "title-fast"
       ],
-      "pinned": false
+      "pinned": true
     },
     {
       "provider_id": "cliproxyapi",
@@ -577,12 +552,22 @@
       "blocked": false,
       "source": "gateway",
       "virtual_models": [
-        "chat-smart",
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle",
+        "auto",
+        "chat-elite",
+        "chat-rp",
         "coding-elite",
         "coding-fast",
-        "coding-smart"
+        "coding-smart",
+        "glm5-elite",
+        "p0-minimax-m3"
       ],
-      "pinned": false
+      "pinned": true
     },
     {
       "provider_id": "cliproxyapi",
@@ -595,9 +580,19 @@
       "blocked": false,
       "source": "gateway",
       "virtual_models": [
-        "coding-elite"
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle",
+        "chat-fast",
+        "coding-elite",
+        "coding-fast",
+        "coding-smart",
+        "title-fast"
       ],
-      "pinned": false
+      "pinned": true
     },
     {
       "provider_id": "cloudflare",
@@ -777,7 +772,7 @@
     {
       "provider_id": "crowllm",
       "provider_name": "Crowllm",
-      "model_id": "gemini-3-flash:free",
+      "model_id": "north-mini-code:free",
       "context": null,
       "tps": null,
       "capabilities": [],
@@ -786,85 +781,10 @@
       "source": "gateway",
       "virtual_models": [
         "chat-fast",
-        "chat-smart"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemini-3-pro:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "gemini-3.1-pro:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-elite"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "minimax-m2.5:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-elite",
+        "chat-smart",
+        "coding-fast",
         "coding-free",
         "p0-minimax-m3"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "minimax-m2.7:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "coding-free",
-        "p0-minimax-m3"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "crowllm",
-      "provider_name": "Crowllm",
-      "model_id": "muse-spark-1-3-contributor:free",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-rp"
       ],
       "pinned": false
     },
@@ -880,7 +800,7 @@
         "vision"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -896,7 +816,7 @@
         "vision"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -1797,7 +1717,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -1812,7 +1732,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -1827,7 +1747,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -1842,7 +1762,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -1857,11 +1777,8 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-elite"
-      ],
       "pinned": false
     },
     {
@@ -1878,7 +1795,7 @@
         "fast"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -1896,7 +1813,7 @@
         "long_context"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -1932,7 +1849,7 @@
         "fast"
       ],
       "notes": "Best free flash model, 1M context",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -1951,7 +1868,7 @@
         "reasoning"
       ],
       "notes": "Best free Gemini model, 2M context",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -1970,11 +1887,8 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
-      "virtual_models": [
-        "chat-elite"
-      ],
       "pinned": false
     },
     {
@@ -1988,7 +1902,7 @@
         "code"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -2710,41 +2624,6 @@
       "pinned": false
     },
     {
-      "provider_id": "jasper",
-      "provider_name": "Jasper",
-      "model_id": "deepseek-v4.1-flash",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-smart",
-        "coding-smart"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "jasper",
-      "provider_name": "Jasper",
-      "model_id": "nemotron-3-super-120b-a12b",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "chat-fast",
-        "chat-rp",
-        "chat-smart",
-        "coding-fast",
-        "coding-smart"
-      ],
-      "pinned": false
-    },
-    {
       "provider_id": "jiekou",
       "provider_name": "Jiekou",
       "model_id": "xiaomimimo/mimo-v2-flash",
@@ -3149,7 +3028,20 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
-      "pinned": false
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle",
+        "auto",
+        "chat-fast",
+        "chat-smart",
+        "coding-free",
+        "glm5-elite"
+      ],
+      "pinned": true
     },
     {
       "provider_id": "kiosapi",
@@ -3161,7 +3053,12 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
-      "pinned": false
+      "virtual_models": [
+        "chat-rp",
+        "chat-smart",
+        "coding-elite"
+      ],
+      "pinned": true
     },
     {
       "provider_id": "kiosapi",
@@ -3185,6 +3082,22 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "kiosapi",
+      "provider_name": "Kiosapi",
+      "model_id": "beam-free",
+      "context": null,
+      "tps": null,
+      "capabilities": [],
+      "notes": "Served via gateway virtual model chain",
+      "blocked": false,
+      "source": "gateway",
+      "virtual_models": [
+        "chat-elite",
+        "chat-rp"
+      ],
       "pinned": false
     },
     {
@@ -3257,7 +3170,11 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
-      "pinned": false
+      "virtual_models": [
+        "chat-elite",
+        "chat-rp"
+      ],
+      "pinned": true
     },
     {
       "provider_id": "kiosapi",
@@ -3279,7 +3196,7 @@
       "tps": null,
       "capabilities": [],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -3353,6 +3270,10 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
+      "virtual_models": [
+        "chat-elite",
+        "chat-rp"
+      ],
       "pinned": false
     },
     {
@@ -3365,7 +3286,24 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
-      "pinned": false
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-metis",
+        "agent-momus",
+        "agent-oracle",
+        "auto",
+        "chat-smart",
+        "coding-elite",
+        "coding-fast",
+        "coding-free",
+        "coding-smart",
+        "glm5-elite",
+        "p0-minimax-m3",
+        "title-fast"
+      ],
+      "pinned": true
     },
     {
       "provider_id": "kiosapi",
@@ -5084,6 +5022,16 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
+      "virtual_models": [
+        "auto",
+        "chat-elite",
+        "chat-fast",
+        "coding-elite",
+        "coding-free",
+        "coding-smart",
+        "glm5-elite",
+        "p0-minimax-m3"
+      ],
       "pinned": false
     },
     {
@@ -5551,27 +5499,6 @@
     {
       "provider_id": "nvidia",
       "provider_name": "NVIDIA NIM",
-      "model_id": "nvidia/nemotron-content-safety-reasoning-4b",
-      "context": null,
-      "tps": null,
-      "capabilities": [],
-      "notes": "Served via gateway virtual model chain",
-      "blocked": false,
-      "source": "gateway",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle",
-        "title-fast"
-      ],
-      "pinned": false
-    },
-    {
-      "provider_id": "nvidia",
-      "provider_name": "NVIDIA NIM",
       "model_id": "nvidia/nemotron-nano-12b-v2-vl",
       "context": null,
       "tps": null,
@@ -5767,7 +5694,7 @@
         "code"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5783,7 +5710,7 @@
         "tools"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5800,7 +5727,7 @@
         "reasoning"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5816,7 +5743,7 @@
         "tools"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5832,7 +5759,7 @@
         "tools"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5848,7 +5775,7 @@
         "tools"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5866,7 +5793,7 @@
         "fast"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5882,7 +5809,7 @@
         "tools"
       ],
       "notes": "",
-      "blocked": false,
+      "blocked": true,
       "source": "gateway",
       "pinned": false
     },
@@ -5930,6 +5857,22 @@
       "tps": null,
       "capabilities": [],
       "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "pollinations",
+      "provider_name": "Pollinations",
+      "model_id": "openai-fast",
+      "context": 131072,
+      "tps": 2550,
+      "capabilities": [
+        "chat",
+        "tools",
+        "reasoning"
+      ],
+      "notes": "GPT-OSS 20B. Tools and reasoning verified 2026-10-20. Fallback only.",
       "blocked": false,
       "source": "gateway",
       "pinned": false
@@ -6477,6 +6420,78 @@
       "pinned": false
     },
     {
+      "provider_id": "screechcore",
+      "provider_name": "Screechcore",
+      "model_id": "claude-haiku-5.5",
+      "context": 100000,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "screechcore",
+      "provider_name": "Screechcore",
+      "model_id": "claude-haiku-5.5-thinking",
+      "context": 100000,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "screechcore",
+      "provider_name": "Screechcore",
+      "model_id": "claude-opus-5.5",
+      "context": 100000,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "screechcore",
+      "provider_name": "Screechcore",
+      "model_id": "claude-opus-5.5-thinking",
+      "context": 100000,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "screechcore",
+      "provider_name": "Screechcore",
+      "model_id": "claude-sonnet-5.5",
+      "context": 100000,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
+      "provider_id": "screechcore",
+      "provider_name": "Screechcore",
+      "model_id": "claude-sonnet-5.5-thinking",
+      "context": 100000,
+      "tps": null,
+      "capabilities": [],
+      "notes": "",
+      "blocked": false,
+      "source": "gateway",
+      "pinned": false
+    },
+    {
       "provider_id": "septorlabs",
       "provider_name": "SeptorLabs",
       "model_id": "dolphin-mistral-24b-venice-edition-free",
@@ -6558,11 +6573,6 @@
       "notes": "",
       "blocked": false,
       "source": "gateway",
-      "virtual_models": [
-        "chat-elite",
-        "coding-free",
-        "p0-minimax-m3"
-      ],
       "pinned": false
     },
     {
