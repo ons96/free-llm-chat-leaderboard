@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-11-02T14:54:15Z",
- "total_models": 451,
- "free_models_count": 14,
+ "fetched_at": "2026-11-09T15:22:34Z",
+ "total_models": 462,
+ "free_models_count": 12,
  "models": [
   {
    "id": "cohere/north-mini-code:free",
@@ -84,6 +84,22 @@
    "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or..."
   },
   {
+   "id": "liquid/lfm-3-1.7b:free",
+   "name": "LiquidAI: LFM3-1.7B (free)",
+   "context_length": 262144,
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 262144,
+    "max_completion_tokens": 8192,
+    "is_moderated": false
+   },
+   "created": 1794009477,
+   "description": "A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used..."
+  },
+  {
    "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
    "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
    "context_length": 256000,
@@ -114,22 +130,6 @@
    },
    "created": 1780551208,
    "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it..."
-  },
-  {
-   "id": "nvidia/nemotron-3.5-content-safety:free",
-   "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
-   "context_length": 128000,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 128000,
-    "max_completion_tokens": 8192,
-    "is_moderated": false
-   },
-   "created": 1780581864,
-   "description": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting..."
   },
   {
    "id": "nvidia/nemotron-3.5-lightning:free",
@@ -178,38 +178,6 @@
    },
    "created": 1792622765,
    "description": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited..."
-  },
-  {
-   "id": "thinkingmachines/inkling-small:free",
-   "name": "Thinking Machines: Inkling Small (free)",
-   "context_length": 1048576,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 1048576,
-    "max_completion_tokens": 262144,
-    "is_moderated": false
-   },
-   "created": 1785443117,
-   "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of..."
-  },
-  {
-   "id": "thinkingmachines/inkling:free",
-   "name": "Thinking Machines: Inkling (free)",
-   "context_length": 1048576,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 1048576,
-    "max_completion_tokens": 262144,
-    "is_moderated": false
-   },
-   "created": 1784325956,
-   "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,..."
   },
   {
    "id": "xingchen-agi/xing4.0-29b-a4b:free",

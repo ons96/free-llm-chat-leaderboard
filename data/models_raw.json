@@ -1,6 +1,6 @@
 {
   "generated_at": null,
-  "count": 555,
+  "count": 546,
   "models": [
     {
       "family": "agnes-1.5-flash",
@@ -37,21 +37,9 @@
       "model_id": "agnes-2.5-flash",
       "provider_id": "kiosapi",
       "provider_name": "Kiosapi",
-      "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle",
-        "auto",
-        "chat-fast",
-        "chat-smart",
-        "coding-free",
-        "glm5-elite"
-      ],
+      "virtual_models": [],
       "notes": "",
-      "pinned": true
+      "pinned": false
     },
     {
       "family": "agnes-3.0-flash",
@@ -62,13 +50,9 @@
       "model_id": "agnes-3.0-flash",
       "provider_id": "kiosapi",
       "provider_name": "Kiosapi",
-      "virtual_models": [
-        "chat-rp",
-        "chat-smart",
-        "coding-elite"
-      ],
+      "virtual_models": [],
       "notes": "",
-      "pinned": true
+      "pinned": false
     },
     {
       "family": "agnes-image-2.0-flash",
@@ -293,22 +277,6 @@
       "pinned": false
     },
     {
-      "family": "beam-free",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "beam-free",
-      "provider_id": "kiosapi",
-      "provider_name": "Kiosapi",
-      "virtual_models": [
-        "chat-elite",
-        "chat-rp"
-      ],
-      "notes": "Served via gateway virtual model chain",
-      "pinned": false
-    },
-    {
       "family": "brick-v1-beta",
       "sources": [
         "gateway"
@@ -501,7 +469,7 @@
       "model_id": "claude-fable-5-1",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 49.0102124158081,
+      "intelligence": 49.1602124158081,
       "release_date": "2026-09-01",
       "price_input_1m": 10,
       "price_output_1m": 50
@@ -563,38 +531,10 @@
       "model_id": "claude-haiku-5-5",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 36.2345435880142,
+      "intelligence": 36.4845435880142,
       "release_date": "2026-10-07",
       "price_input_1m": 0.1,
       "price_output_1m": 0.5
-    },
-    {
-      "family": "claude-haiku-5.5",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "claude-haiku-5.5",
-      "provider_id": "screechcore",
-      "provider_name": "Screechcore",
-      "context": 100000,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "claude-haiku-5.5-thinking",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "claude-haiku-5.5-thinking",
-      "provider_id": "screechcore",
-      "provider_name": "Screechcore",
-      "context": 100000,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "claude-opus-4",
@@ -777,7 +717,7 @@
       "model_id": "claude-opus-5-5",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 58.4060336078904,
+      "intelligence": 59.1060336078904,
       "release_date": "2026-09-22",
       "price_input_1m": 4,
       "price_output_1m": 20
@@ -801,20 +741,6 @@
       "arena_score": 1489
     },
     {
-      "family": "claude-opus-5.5",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "claude-opus-5.5",
-      "provider_id": "screechcore",
-      "provider_name": "Screechcore",
-      "context": 100000,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
       "family": "claude-opus-5.5-high",
       "sources": [
         "arena"
@@ -823,20 +749,6 @@
       "model_id": "claude-opus-5.5-high",
       "context": 1000000,
       "arena_score": 1507
-    },
-    {
-      "family": "claude-opus-5.5-thinking",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "claude-opus-5.5-thinking",
-      "provider_id": "screechcore",
-      "provider_name": "Screechcore",
-      "context": 100000,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "claude-sonnet-4",
@@ -917,18 +829,13 @@
     {
       "family": "claude-sonnet-5-5",
       "sources": [
-        "gateway",
         "artificial_analysis"
       ],
       "match_confidence": "high",
       "model_id": "claude-sonnet-5-5",
-      "provider_id": "crax",
-      "provider_name": "Crax",
+      "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
-      "intelligence": 54.24133407109,
+      "intelligence": 54.54133407109,
       "release_date": "2026-09-28",
       "price_input_1m": 2,
       "price_output_1m": 10
@@ -941,34 +848,6 @@
       "match_confidence": "high",
       "model_id": "claude-sonnet-5-high",
       "arena_score": 1462
-    },
-    {
-      "family": "claude-sonnet-5.5",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "claude-sonnet-5.5",
-      "provider_id": "screechcore",
-      "provider_name": "Screechcore",
-      "context": 100000,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "claude-sonnet-5.5-thinking",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "claude-sonnet-5.5-thinking",
-      "provider_id": "screechcore",
-      "provider_name": "Screechcore",
-      "context": 100000,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "claude-sonnet-5.5-xhigh",
@@ -999,6 +878,25 @@
       "model_id": "codellama-70b-instruct",
       "context": 16384,
       "arena_score": 1119
+    },
+    {
+      "family": "coder-model",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "coder-model",
+      "provider_id": "cliproxyapi",
+      "provider_name": "CLIProxyAPI",
+      "virtual_models": [
+        "coding-elite",
+        "coding-smart"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false,
+      "bench_ttft_s": null,
+      "bench_tps": null,
+      "bench_samples": 0
     },
     {
       "family": "codestral-latest",
@@ -1126,6 +1024,21 @@
       "arena_score": 1195
     },
     {
+      "family": "deepseek",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "deepseek/deepseek-chat",
+      "provider_id": "openrouter",
+      "provider_name": "OpenRouter",
+      "tps": 60,
+      "context": 65536,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "deepseek-3.2",
       "sources": [
         "gateway"
@@ -1240,9 +1153,9 @@
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "deepseek-v3.1:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
+      "model_id": "deepseek-v3.1",
+      "provider_id": "iflow",
+      "provider_name": "Iflow",
       "tps": 80,
       "context": 163840,
       "virtual_models": [],
@@ -1313,7 +1226,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "intelligence": 32.4896393532027,
+      "intelligence": 32.5896393532027,
       "release_date": "2026-10-17",
       "price_input_1m": 0.3,
       "price_output_1m": 1.2,
@@ -1492,6 +1405,21 @@
       "pinned": false
     },
     {
+      "family": "gemini-1.5-flash",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "gemini-1.5-flash",
+      "provider_id": "gemini",
+      "provider_name": "Google Gemini API",
+      "tps": 120,
+      "context": 1000000,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "gemini-1.5-flash-001",
       "sources": [
         "arena"
@@ -1520,6 +1448,21 @@
       "model_id": "gemini-1.5-flash-8b-001",
       "context": 1048576,
       "arena_score": 1259
+    },
+    {
+      "family": "gemini-1.5-pro",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "gemini-1.5-pro",
+      "provider_id": "gemini",
+      "provider_name": "Google Gemini API",
+      "tps": 60,
+      "context": 2000000,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "gemini-1.5-pro-001",
@@ -1588,23 +1531,16 @@
       "provider_id": "noobrouter",
       "provider_name": "NoobRouter",
       "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle",
         "auto",
         "chat-fast",
         "chat-smart",
+        "coding-elite",
         "coding-fast",
-        "coding-free",
         "coding-smart",
-        "glm5-elite",
-        "title-fast"
+        "glm5-elite"
       ],
       "notes": "Served via gateway virtual model chain",
-      "pinned": true,
+      "pinned": false,
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
@@ -1618,11 +1554,18 @@
     {
       "family": "gemini-2.5-pro",
       "sources": [
+        "gateway",
         "arena"
       ],
       "match_confidence": "high",
       "model_id": "gemini-2.5-pro",
-      "context": 1048576,
+      "provider_id": "gemini",
+      "provider_name": "Google Gemini API",
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false,
+      "tps": 50,
+      "context": 2000000,
       "arena_score": 1445
     },
     {
@@ -1634,7 +1577,7 @@
       "model_id": "gemini-3-8-flash",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 30.5468119957291,
+      "intelligence": 30.8468119957291,
       "release_date": "2026-09-02",
       "price_input_1m": 0.75,
       "price_output_1m": 3.75
@@ -1651,23 +1594,13 @@
       "provider_id": "noobrouter",
       "provider_name": "NoobRouter",
       "virtual_models": [
-        "agent-build",
-        "agent-explore",
-        "agent-librarian",
-        "agent-metis",
-        "agent-momus",
-        "agent-oracle",
-        "auto",
-        "chat-elite",
-        "chat-rp",
+        "chat-smart",
         "coding-elite",
         "coding-fast",
-        "coding-smart",
-        "glm5-elite",
-        "p0-minimax-m3"
+        "coding-smart"
       ],
       "notes": "Served via gateway virtual model chain",
-      "pinned": true,
+      "pinned": false,
       "bench_ttft_s": null,
       "bench_tps": null,
       "bench_samples": 0,
@@ -1690,11 +1623,21 @@
     {
       "family": "gemini-3-pro",
       "sources": [
+        "gateway",
         "arena",
         "chat_ui"
       ],
       "match_confidence": "high",
-      "model_id": "gemini-3-pro",
+      "model_id": "gemini-3-pro-preview",
+      "provider_id": "gemini",
+      "provider_name": "Google Gemini API",
+      "virtual_models": [
+        "chat-elite"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false,
+      "tps": 50,
+      "context": 2000000,
       "arena_score": 1485,
       "ui_name": "Google Gemini app",
       "ui_url": "https://gemini.google.com",
@@ -1711,12 +1654,35 @@
       "arena_score": 1433
     },
     {
+      "family": "gemini-3.1-pro",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "gemini-3.1-pro:free",
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "virtual_models": [
+        "chat-elite"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
       "family": "gemini-3.1-pro-preview",
       "sources": [
+        "gateway",
         "arena"
       ],
       "match_confidence": "high",
       "model_id": "gemini-3.1-pro-preview",
+      "provider_id": "gcli",
+      "provider_name": "GCLI",
+      "virtual_models": [
+        "chat-elite"
+      ],
+      "notes": "",
+      "pinned": false,
       "arena_score": 1486
     },
     {
@@ -1765,6 +1731,21 @@
       "arena_score": 1490
     },
     {
+      "family": "gemini-3.8-flash",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "gemini-3.8-flash",
+      "provider_id": "g4fpool",
+      "provider_name": "G4Fpool",
+      "virtual_models": [
+        "chat-smart"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
       "family": "gemini-3.8-flash-high",
       "sources": [
         "arena"
@@ -1793,7 +1774,7 @@
       "model_id": "gemini-4-carbon",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 59.425738829526,
+      "intelligence": 60.025738829526,
       "release_date": "2026-10-28",
       "price_input_1m": 4,
       "price_output_1m": 20
@@ -1806,6 +1787,36 @@
       "match_confidence": "high",
       "model_id": "gemini-advanced-0514",
       "arena_score": 1336
+    },
+    {
+      "family": "gemini-claude-opus-4-6-thinking",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "gemini-claude-opus-4-6-thinking",
+      "provider_id": "g4fpool",
+      "provider_name": "G4Fpool",
+      "virtual_models": [
+        "chat-elite"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
+      "family": "gemini-flash-1.5",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "google/gemini-flash-1.5",
+      "provider_id": "openrouter",
+      "provider_name": "OpenRouter",
+      "tps": 120,
+      "context": 1000000,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
     },
     {
       "family": "gemini-pro",
@@ -1904,11 +1915,18 @@
     {
       "family": "gemma-3-27b",
       "sources": [
+        "gateway",
         "arena"
       ],
       "match_confidence": "high",
       "model_id": "gemma-3-27b-it",
+      "provider_id": "gemini",
+      "provider_name": "Google Gemini API",
+      "tps": 80,
       "context": 131072,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false,
       "arena_score": 1365
     },
     {
@@ -2032,7 +2050,6 @@
         "agent-explore",
         "agent-librarian",
         "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -2205,6 +2222,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
+      "tps": 100,
       "arena_score": 1441
     },
     {
@@ -2298,12 +2316,9 @@
       "model_id": "glyph-cluster",
       "provider_id": "kiosapi",
       "provider_name": "Kiosapi",
-      "virtual_models": [
-        "chat-elite",
-        "chat-rp"
-      ],
+      "virtual_models": [],
       "notes": "",
-      "pinned": true
+      "pinned": false
     },
     {
       "family": "gpt-3.5-turbo",
@@ -2436,7 +2451,7 @@
       "model_id": "gpt-6-1-sol",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 54.5087338138148,
+      "intelligence": 54.6087338138148,
       "release_date": "2026-09-29",
       "price_input_1m": 2,
       "price_output_1m": 10
@@ -2450,7 +2465,7 @@
       "model_id": "gpt-6-1-terra",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 50.9765188577015,
+      "intelligence": 51.3265188577015,
       "release_date": "2026-10-26",
       "price_input_1m": 1,
       "price_output_1m": 5
@@ -2487,7 +2502,7 @@
       "model_id": "gpt-6-luna",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 27.7552004938153,
+      "intelligence": 27.8552004938153,
       "release_date": "2026-09-22",
       "price_input_1m": 0.1,
       "price_output_1m": 0.5
@@ -2702,7 +2717,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "intelligence": 34.3350117067196,
+      "intelligence": 35.4850117067196,
       "release_date": "2026-09-21",
       "price_input_1m": 2,
       "price_output_1m": 6,
@@ -2917,17 +2932,10 @@
     {
       "family": "hy3",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "hy3:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
+      "model_id": "hy3",
       "arena_score": 1457
     },
     {
@@ -2956,21 +2964,11 @@
     {
       "family": "inkling",
       "sources": [
-        "openrouter",
-        "artificial_analysis",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "thinkingmachines/inkling:free",
-      "provider_name": "OpenRouter",
-      "context": 1048576,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
-      "intelligence": 12.4781698715401,
-      "release_date": "2026-07-15",
-      "price_input_1m": 1,
-      "price_output_1m": 4.05,
+      "model_id": "inkling",
+      "context": 524288,
       "arena_score": 1441
     },
     {
@@ -2984,17 +2982,18 @@
       "arena_score": 1405
     },
     {
-      "family": "inkling-small",
+      "family": "inkling-2-small",
       "sources": [
-        "openrouter"
+        "artificial_analysis"
       ],
       "match_confidence": "high",
-      "model_id": "thinkingmachines/inkling-small:free",
-      "provider_name": "OpenRouter",
-      "context": 1048576,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
+      "model_id": "inkling-2-small",
+      "provider_name": "Artificial Analysis",
+      "context": 1024000,
+      "intelligence": 30.6286781498958,
+      "release_date": "2026-11-05",
+      "price_input_1m": 0.3,
+      "price_output_1m": 1
     },
     {
       "family": "intellect-3",
@@ -3045,7 +3044,7 @@
       "model_id": "k2-horizon-375b-a23b",
       "provider_name": "Artificial Analysis",
       "context": 524288,
-      "intelligence": 17.7702731734027,
+      "intelligence": 17.8202731734027,
       "release_date": "2026-09-03",
       "price_input_1m": 0,
       "price_output_1m": 0
@@ -3093,7 +3092,7 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "tps": 100,
+      "tps": 80,
       "arena_score": 1461,
       "ui_name": "Kimi (Moonshot)",
       "ui_url": "https://kimi.moonshot.cn",
@@ -3136,21 +3135,20 @@
       "model_id": "kimi-k3-1-pro",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 46.0026236744189,
+      "intelligence": 46.4526236744189,
       "release_date": "2026-10-23",
       "price_input_1m": 2,
       "price_output_1m": 10
     },
     {
-      "family": "kimi-k3-cheap",
+      "family": "kimi-k3-free",
       "sources": [
         "gateway"
       ],
       "match_confidence": "high",
-      "model_id": "kimi-k3-cheap:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
+      "model_id": "kimi-k3-free",
+      "provider_id": "dlab-community",
+      "provider_name": "Dlab Community",
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -3196,19 +3194,10 @@
       "model_id": "poolside/laguna-s-2.1:free",
       "provider_id": "nous-inference",
       "provider_name": "Nous Inference",
-      "context": 262144,
-      "virtual_models": [
-        "auto",
-        "chat-elite",
-        "chat-fast",
-        "coding-elite",
-        "coding-free",
-        "coding-smart",
-        "glm5-elite",
-        "p0-minimax-m3"
-      ],
+      "virtual_models": [],
       "notes": "",
-      "pinned": false
+      "pinned": false,
+      "context": 262144
     },
     {
       "family": "laguna-xs-2.1",
@@ -3234,6 +3223,21 @@
       "provider_id": "poolside",
       "provider_name": "Poolside",
       "context": 131040,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "large-preview",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "trinity/large-preview",
+      "provider_id": "opencode_zen",
+      "provider_name": "OpenCode Zen",
+      "tps": 80,
+      "context": 32768,
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -3268,6 +3272,19 @@
       "context": 65536
     },
     {
+      "family": "lfm-3-1.7b",
+      "sources": [
+        "openrouter"
+      ],
+      "match_confidence": "high",
+      "model_id": "liquid/lfm-3-1.7b:free",
+      "provider_name": "OpenRouter",
+      "context": 262144,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "ling-2.6-flash-free",
       "sources": [
         "gateway"
@@ -3290,7 +3307,7 @@
       "model_id": "ling-3-1-flash-1019",
       "provider_name": "Artificial Analysis",
       "context": 1048576,
-      "intelligence": 29.470119369837,
+      "intelligence": 29.570119369837,
       "release_date": "2026-10-22",
       "price_input_1m": 0.3,
       "price_output_1m": 0.9
@@ -3383,8 +3400,6 @@
         "agent-build",
         "agent-explore",
         "agent-librarian",
-        "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -3477,7 +3492,6 @@
         "agent-explore",
         "agent-librarian",
         "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -3585,7 +3599,6 @@
         "agent-explore",
         "agent-librarian",
         "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -3605,7 +3618,6 @@
         "agent-explore",
         "agent-librarian",
         "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -3706,7 +3718,6 @@
         "agent-explore",
         "agent-librarian",
         "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -3783,6 +3794,21 @@
       "pinned": false
     },
     {
+      "family": "m2.1",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "minimax/m2.1",
+      "provider_id": "opencode_zen",
+      "provider_name": "OpenCode Zen",
+      "tps": 100,
+      "context": 32768,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "magibu-11b-v8",
       "sources": [
         "gateway"
@@ -3805,20 +3831,6 @@
       "model_id": "magistral-medium-2506",
       "context": 40000,
       "arena_score": 1305
-    },
-    {
-      "family": "magistral-small",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "magistral-small:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "mercury",
@@ -4027,57 +4039,15 @@
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "minimax-m2:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
+      "model_id": "minimax-m2",
+      "provider_id": "iflow",
+      "provider_name": "Iflow",
       "tps": 80,
       "context": 204800,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
       "arena_score": 1343
-    },
-    {
-      "family": "minimax-m2-cheap",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "minimax-m2-cheap:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "minimax-m2.1",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "minimax-m2.1:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "minimax-m2.1-cheap",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "minimax-m2.1-cheap:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "minimax-m2.1-preview",
@@ -4099,26 +4069,16 @@
       "model_id": "minimax-m2.5",
       "provider_id": "noobrouter",
       "provider_name": "NoobRouter",
-      "context": 204800,
-      "virtual_models": [],
-      "notes": "",
+      "virtual_models": [
+        "chat-elite",
+        "coding-free",
+        "p0-minimax-m3"
+      ],
+      "notes": "Served via gateway virtual model chain",
       "pinned": false,
       "tps": 200,
+      "context": 204800,
       "arena_score": 1391
-    },
-    {
-      "family": "minimax-m2.5-cheap",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "minimax-m2.5-cheap:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "minimax-m2.5-free",
@@ -4130,7 +4090,11 @@
       "provider_id": "septorlabs",
       "provider_name": "SeptorLabs",
       "context": 131072,
-      "virtual_models": [],
+      "virtual_models": [
+        "chat-elite",
+        "coding-free",
+        "p0-minimax-m3"
+      ],
       "notes": "",
       "pinned": false
     },
@@ -4158,26 +4122,15 @@
       "model_id": "minimax-m2.7:free",
       "provider_id": "unorouter",
       "provider_name": "UnoRouter",
+      "virtual_models": [
+        "coding-free",
+        "p0-minimax-m3"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false,
       "tps": 200,
       "context": 204800,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
       "arena_score": 1415
-    },
-    {
-      "family": "minimax-m2.7-cheap",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "minimax-m2.7-cheap:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "minimax-m2.7-highspeed",
@@ -4218,23 +4171,25 @@
       "model_id": "minimax-m3-1-flash",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 28.9095214290458,
+      "intelligence": 29.0595214290458,
       "release_date": "2026-10-19",
       "price_input_1m": 0.15,
       "price_output_1m": 0.6
     },
     {
-      "family": "minimax-m3-cheap",
+      "family": "minimax-m3-official",
       "sources": [
         "gateway"
       ],
       "match_confidence": "high",
-      "model_id": "minimax-m3-cheap:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
+      "model_id": "MiniMax-M3-official",
+      "provider_id": "blaze-free",
+      "provider_name": "Blaze Free",
+      "virtual_models": [
+        "coding-elite",
+        "coding-fast"
+      ],
+      "notes": "Served via gateway virtual model chain",
       "pinned": false
     },
     {
@@ -4243,66 +4198,9 @@
         "gateway"
       ],
       "match_confidence": "high",
-      "model_id": "minimax-m3.1-flash:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "ministral-3-14b",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "ministral-3-14b-instruct:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "ministral-3-3b",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "ministral-3-3b-instruct:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "ministral-3-8b",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "ministral-3-8b-instruct:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "ministral-3b",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "ministral-3b-2512:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
+      "model_id": "MiniMax-M3.1-Flash",
+      "provider_id": "hcnsec",
+      "provider_name": "Hcnsec",
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -4390,17 +4288,10 @@
     {
       "family": "mistral-large-3",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "mistral-large-3:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
+      "model_id": "mistral-large-3",
       "arena_score": 1414
     },
     {
@@ -4428,7 +4319,7 @@
       "model_id": "mistral-large-4",
       "provider_name": "Artificial Analysis",
       "context": 1048576,
-      "intelligence": 26.0249946754784,
+      "intelligence": 26.1249946754784,
       "release_date": "2026-10-29",
       "price_input_1m": 0.7,
       "price_output_1m": 2.1,
@@ -4620,6 +4511,21 @@
       "arena_score": 1488
     },
     {
+      "family": "muse-spark-1-3-contributor",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "muse-spark-1-3-contributor:free",
+      "provider_id": "crowllm",
+      "provider_name": "Crowllm",
+      "virtual_models": [
+        "chat-rp"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
+    },
+    {
       "family": "muse-spark-1.1",
       "sources": [
         "arena"
@@ -4636,62 +4542,6 @@
       "match_confidence": "high",
       "model_id": "muse-spark-1.2 (xHigh)",
       "arena_score": 1498
-    },
-    {
-      "family": "muse-spark-1.2-contributor",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "muse-spark-1.2-contributor:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "muse-spark-1.2-contributor-cheap",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "muse-spark-1.2-contributor-cheap:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "muse-spark-1.3-contributor",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "muse-spark-1.3-contributor:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "muse-spark-1.3-contributor-cheap",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "muse-spark-1.3-contributor-cheap:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "muse-spark-1.3-max",
@@ -4712,7 +4562,7 @@
       "model_id": "muse-spark-open",
       "provider_name": "Artificial Analysis",
       "context": 1048576,
-      "intelligence": 24.6815868992913,
+      "intelligence": 24.8815868992913,
       "release_date": "2026-10-15",
       "price_input_1m": 1.25,
       "price_output_1m": 4.25
@@ -4726,7 +4576,7 @@
       "model_id": "muse-wonder",
       "provider_name": "Artificial Analysis",
       "context": 1048576,
-      "intelligence": 43.3248225998431,
+      "intelligence": 43.5748225998431,
       "release_date": "2026-10-12",
       "price_input_1m": 4,
       "price_output_1m": 20
@@ -4740,22 +4590,8 @@
       "model_id": "muse-wonder-full",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 49.7272123627021,
+      "intelligence": 50.0772123627021,
       "release_date": "2026-10-12"
-    },
-    {
-      "family": "mythomax-l2-13b",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "mythomax-l2-13b:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "nemotron-3-5-super-vl",
@@ -4768,7 +4604,7 @@
       "context": 1000000,
       "intelligence": 13.6203422723141,
       "release_date": "2026-10-15",
-      "price_input_1m": 0.2,
+      "price_input_1m": 0.175,
       "price_output_1m": 0.5
     },
     {
@@ -4785,7 +4621,6 @@
         "agent-explore",
         "agent-librarian",
         "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -4805,7 +4640,6 @@
         "agent-explore",
         "agent-librarian",
         "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -4840,7 +4674,6 @@
         "agent-explore",
         "agent-librarian",
         "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -4856,8 +4689,14 @@
       "model_id": "nemotron-3-super-120b-a12b",
       "provider_id": "requesty",
       "provider_name": "Requesty",
-      "virtual_models": [],
-      "notes": "",
+      "virtual_models": [
+        "chat-fast",
+        "chat-rp",
+        "chat-smart",
+        "coding-fast",
+        "coding-smart"
+      ],
+      "notes": "Served via gateway virtual model chain",
       "pinned": false,
       "context": 1048576
     },
@@ -4879,8 +4718,7 @@
     {
       "family": "nemotron-3.5-content-safety",
       "sources": [
-        "gateway",
-        "openrouter"
+        "gateway"
       ],
       "match_confidence": "high",
       "model_id": "nemotron-3.5-content-safety",
@@ -4901,10 +4739,7 @@
       "model_id": "nemotron-3.5-lightning",
       "provider_id": "kiosapi",
       "provider_name": "Kiosapi",
-      "virtual_models": [
-        "chat-elite",
-        "chat-rp"
-      ],
+      "virtual_models": [],
       "notes": "",
       "pinned": false,
       "context": 1000000
@@ -4937,6 +4772,24 @@
       "pinned": false
     },
     {
+      "family": "nemotron-3.5-super-vl-120b-a12b",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/nemotron-3.5-super-vl-120b-a12b",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "tps": 60,
+      "context": 131072,
+      "virtual_models": [
+        "coding-fast",
+        "coding-smart"
+      ],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "nemotron-4-340b",
       "sources": [
         "arena"
@@ -4960,13 +4813,31 @@
         "agent-explore",
         "agent-librarian",
         "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
       "pinned": false,
       "context": 131072,
       "arena_score": 1299
+    },
+    {
+      "family": "nemotron-content-safety-reasoning-4b",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "nvidia/nemotron-content-safety-reasoning-4b",
+      "provider_id": "nvidia",
+      "provider_name": "NVIDIA NIM",
+      "virtual_models": [
+        "agent-build",
+        "agent-explore",
+        "agent-librarian",
+        "agent-oracle",
+        "title-fast"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false
     },
     {
       "family": "nemotron-nano-12b-v2-vl",
@@ -4982,7 +4853,6 @@
         "agent-explore",
         "agent-librarian",
         "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -5002,7 +4872,6 @@
         "agent-explore",
         "agent-librarian",
         "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -5018,14 +4887,8 @@
       "model_id": "north-mini-code",
       "provider_id": "kiosapi",
       "provider_name": "Kiosapi",
-      "virtual_models": [
-        "chat-fast",
-        "chat-smart",
-        "coding-fast",
-        "coding-free",
-        "p0-minimax-m3"
-      ],
-      "notes": "Served via gateway virtual model chain",
+      "virtual_models": [],
+      "notes": "",
       "pinned": false,
       "context": 256000
     },
@@ -5089,8 +4952,6 @@
         "agent-build",
         "agent-explore",
         "agent-librarian",
-        "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -5109,8 +4970,6 @@
         "agent-build",
         "agent-explore",
         "agent-librarian",
-        "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -5177,7 +5036,6 @@
         "agent-explore",
         "agent-librarian",
         "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -5504,6 +5362,39 @@
       "arena_score": 1256
     },
     {
+      "family": "pickle",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "bigcode/pickle",
+      "provider_id": "opencode_zen",
+      "provider_name": "OpenCode Zen",
+      "tps": 150,
+      "context": 16384,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "pixtral-12b",
+      "sources": [
+        "gateway"
+      ],
+      "match_confidence": "high",
+      "model_id": "pixtral-12b-2409",
+      "provider_id": "mistral",
+      "provider_name": "Mistral",
+      "tps": 60,
+      "context": 131072,
+      "virtual_models": [
+        "coding-fast",
+        "coding-smart"
+      ],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "qwen-14b",
       "sources": [
         "arena"
@@ -5522,20 +5413,6 @@
       "provider_id": "noobrouter",
       "provider_name": "NoobRouter",
       "tps": 100,
-      "context": 131072,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "qwen-3.8-27b",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "qwen-3.8-27b:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
       "context": 131072,
       "virtual_models": [],
       "notes": "",
@@ -5778,11 +5655,11 @@
       "model_id": "Qwen3-32B",
       "provider_id": "sambanova",
       "provider_name": "SambaNova",
+      "tps": 500,
       "context": 131072,
       "virtual_models": [],
       "notes": "",
       "pinned": false,
-      "tps": 500,
       "arena_score": 1347
     },
     {
@@ -5822,7 +5699,7 @@
       "model_id": "qwen3-8-max",
       "provider_name": "Artificial Analysis",
       "context": 983616,
-      "intelligence": 33.5545627367888,
+      "intelligence": 33.6545627367888,
       "release_date": "2026-09-02",
       "price_input_1m": 2,
       "price_output_1m": 6
@@ -5919,17 +5796,11 @@
     {
       "family": "qwen3-next-80b-a3b",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "qwen3-next-80b-a3b-instruct:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
+      "model_id": "qwen3-next-80b-a3b-instruct",
       "context": 262144,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
       "arena_score": 1399
     },
     {
@@ -5959,17 +5830,11 @@
     {
       "family": "qwen3-vl-235b-a22b",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "qwen3-vl-235b-a22b-instruct:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
+      "model_id": "qwen3-vl-235b-a22b-instruct",
       "context": 262144,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
       "arena_score": 1413
     },
     {
@@ -6033,17 +5898,11 @@
     {
       "family": "qwen3.5-35b-a3b",
       "sources": [
-        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "qwen3.5-35b-a3b:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
+      "model_id": "qwen3.5-35b-a3b",
       "context": 262144,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
       "arena_score": 1394
     },
     {
@@ -6072,20 +5931,6 @@
       "provider_id": "siliconflow-cn",
       "provider_name": "SiliconFlow CN",
       "context": 262144,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "qwen3.5-9b",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "qwen3.5-9b:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -6128,9 +5973,9 @@
         "gateway"
       ],
       "match_confidence": "high",
-      "model_id": "qwen3.6-35b-a3b:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
+      "model_id": "qwen/qwen3.6-35b-a3b-fp8",
+      "provider_id": "inferx",
+      "provider_name": "InferX",
       "context": 262144,
       "virtual_models": [],
       "notes": "",
@@ -6217,10 +6062,18 @@
     {
       "family": "qwen3.8-27b",
       "sources": [
+        "gateway",
         "arena"
       ],
       "match_confidence": "high",
-      "model_id": "qwen3.8-27b",
+      "model_id": "qwen/qwen3.8-27b",
+      "provider_id": "g4fpool",
+      "provider_name": "G4Fpool",
+      "virtual_models": [
+        "chat-fast"
+      ],
+      "notes": "Served via gateway virtual model chain",
+      "pinned": false,
       "context": 262144,
       "arena_score": 1438
     },
@@ -6233,20 +6086,6 @@
       "model_id": "qwen3.8-27b-free",
       "provider_id": "kiosapi",
       "provider_name": "Kiosapi",
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
-    },
-    {
-      "family": "qwen3.8-flash",
-      "sources": [
-        "gateway"
-      ],
-      "match_confidence": "high",
-      "model_id": "qwen3.8-flash:free",
-      "provider_id": "literouter",
-      "provider_name": "Literouter",
-      "context": 131072,
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -6363,8 +6202,6 @@
         "agent-build",
         "agent-explore",
         "agent-librarian",
-        "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -6613,20 +6450,6 @@
       "pinned": false
     },
     {
-      "family": "step-5",
-      "sources": [
-        "artificial_analysis"
-      ],
-      "match_confidence": "high",
-      "model_id": "step-5",
-      "provider_name": "Artificial Analysis",
-      "context": 1000000,
-      "intelligence": 28.5283090216016,
-      "release_date": "2026-09-18",
-      "price_input_1m": 1,
-      "price_output_1m": 2.7
-    },
-    {
       "family": "step-5-preview",
       "sources": [
         "gateway"
@@ -6676,7 +6499,6 @@
         "agent-explore",
         "agent-librarian",
         "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
@@ -6695,6 +6517,20 @@
       "virtual_models": [],
       "notes": "",
       "pinned": false
+    },
+    {
+      "family": "tencent-hy4",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "tencent-hy4",
+      "provider_name": "Artificial Analysis",
+      "context": 1048576,
+      "intelligence": 34.5552385392508,
+      "release_date": "2026-11-03",
+      "price_input_1m": 0.834,
+      "price_output_1m": 2.501
     },
     {
       "family": "tim-qwen3.6-27b",
@@ -6851,8 +6687,6 @@
         "agent-build",
         "agent-explore",
         "agent-librarian",
-        "agent-metis",
-        "agent-momus",
         "agent-oracle"
       ],
       "notes": "Served via gateway virtual model chain",
