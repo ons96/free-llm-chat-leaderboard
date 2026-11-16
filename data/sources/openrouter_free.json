@@ -1,8 +1,24 @@
 {
- "fetched_at": "2026-11-09T15:22:34Z",
- "total_models": 462,
- "free_models_count": 12,
+ "fetched_at": "2026-11-16T14:57:28Z",
+ "total_models": 469,
+ "free_models_count": 14,
  "models": [
+  {
+   "id": "baidu/ernie-5.5-flash-preview:free",
+   "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+   "context_length": 1024000,
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 1024000,
+    "max_completion_tokens": 921600,
+    "is_moderated": false
+   },
+   "created": 1794333533,
+   "description": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total..."
+  },
   {
    "id": "cohere/north-mini-code:free",
    "name": "Cohere: North Mini Code (free)",
@@ -68,20 +84,20 @@
    "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function..."
   },
   {
-   "id": "liquid/lfm-2.5-2.6b:free",
-   "name": "LiquidAI: LFM2.5-2.6B (free)",
-   "context_length": 65536,
+   "id": "inclusionai/ling-3.2-flash:free",
+   "name": "inclusionAI: Ling 3.2 Flash (free)",
+   "context_length": 1048576,
    "pricing": {
     "prompt": "0",
     "completion": "0"
    },
    "top_provider": {
-    "context_length": 65536,
-    "max_completion_tokens": 8192,
+    "context_length": 1048576,
+    "max_completion_tokens": 262144,
     "is_moderated": false
    },
-   "created": 1786470519,
-   "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or..."
+   "created": 1794591958,
+   "description": "Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can..."
   },
   {
    "id": "liquid/lfm-3-1.7b:free",
@@ -164,6 +180,22 @@
    "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video..."
   },
   {
+   "id": "particle-ai/particle-1:free",
+   "name": "Particle AI: Particle-1 (free)",
+   "context_length": 1048576,
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 1048576,
+    "max_completion_tokens": 131072,
+    "is_moderated": false
+   },
+   "created": 1793207893,
+   "description": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and data..."
+  },
+  {
    "id": "recursive/flint-v1.0:free",
    "name": "Recursive: Flint (free)",
    "context_length": 262144,
@@ -180,20 +212,20 @@
    "description": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited..."
   },
   {
-   "id": "xingchen-agi/xing4.0-29b-a4b:free",
-   "name": "XingChen: Xing4.0 29B A4B (free)",
-   "context_length": 262144,
+   "id": "thinkingmachines/inkling-2-small:free",
+   "name": "Thinking Machines: Inkling 2 Small (free)",
+   "context_length": 1048576,
    "pricing": {
     "prompt": "0",
     "completion": "0"
    },
    "top_provider": {
-    "context_length": 262144,
-    "max_completion_tokens": 235929,
+    "context_length": 1048576,
+    "max_completion_tokens": 131072,
     "is_moderated": false
    },
-   "created": 1792177496,
-   "description": "Xing4.0-29B-A4B is an open-weight mixture-of-experts language model from China Telecom's AI team (TeleAI) and the successor to the TeleChat series. It has 29B total parameters with 4B active per token..."
+   "created": 1794261847,
+   "description": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second..."
   }
  ]
 }

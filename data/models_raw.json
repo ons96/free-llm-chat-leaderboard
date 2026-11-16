@@ -1,6 +1,6 @@
 {
   "generated_at": null,
-  "count": 546,
+  "count": 547,
   "models": [
     {
       "family": "agnes-1.5-flash",
@@ -461,18 +461,18 @@
       "arena_score": 1506
     },
     {
-      "family": "claude-fable-5-1",
+      "family": "claude-fable-5-2",
       "sources": [
         "artificial_analysis"
       ],
       "match_confidence": "high",
-      "model_id": "claude-fable-5-1",
+      "model_id": "claude-fable-5-2",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 49.1602124158081,
-      "release_date": "2026-09-01",
-      "price_input_1m": 10,
-      "price_output_1m": 50
+      "intelligence": 64.563595756626,
+      "release_date": "2026-11-09",
+      "price_input_1m": 8,
+      "price_output_1m": 40
     },
     {
       "family": "claude-fable-5-high",
@@ -1348,6 +1348,19 @@
       "arena_score": 1468
     },
     {
+      "family": "ernie-5.5-flash-preview",
+      "sources": [
+        "openrouter"
+      ],
+      "match_confidence": "high",
+      "model_id": "baidu/ernie-5.5-flash-preview:free",
+      "provider_name": "OpenRouter",
+      "context": 1024000,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "fable-5",
       "sources": [
         "gateway"
@@ -1569,20 +1582,6 @@
       "arena_score": 1445
     },
     {
-      "family": "gemini-3-8-flash",
-      "sources": [
-        "artificial_analysis"
-      ],
-      "match_confidence": "high",
-      "model_id": "gemini-3-8-flash",
-      "provider_name": "Artificial Analysis",
-      "context": 1000000,
-      "intelligence": 30.8468119957291,
-      "release_date": "2026-09-02",
-      "price_input_1m": 0.75,
-      "price_output_1m": 3.75
-    },
-    {
       "family": "gemini-3-flash",
       "sources": [
         "gateway",
@@ -1776,8 +1775,22 @@
       "context": 1000000,
       "intelligence": 60.025738829526,
       "release_date": "2026-10-28",
-      "price_input_1m": 4,
-      "price_output_1m": 20
+      "price_input_1m": 2,
+      "price_output_1m": 10
+    },
+    {
+      "family": "gemini-4-hydrogen",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "gemini-4-hydrogen",
+      "provider_name": "Artificial Analysis",
+      "context": 1000000,
+      "intelligence": 53.9192287317542,
+      "release_date": "2026-11-12",
+      "price_input_1m": 1.5,
+      "price_output_1m": 7.5
     },
     {
       "family": "gemini-advanced",
@@ -2984,12 +2997,16 @@
     {
       "family": "inkling-2-small",
       "sources": [
+        "openrouter",
         "artificial_analysis"
       ],
       "match_confidence": "high",
-      "model_id": "inkling-2-small",
-      "provider_name": "Artificial Analysis",
-      "context": 1024000,
+      "model_id": "thinkingmachines/inkling-2-small:free",
+      "provider_name": "OpenRouter",
+      "context": 1048576,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false,
       "intelligence": 30.6286781498958,
       "release_date": "2026-11-05",
       "price_input_1m": 0.3,
@@ -3259,8 +3276,7 @@
     {
       "family": "lfm-2.5-2.6b",
       "sources": [
-        "gateway",
-        "openrouter"
+        "gateway"
       ],
       "match_confidence": "high",
       "model_id": "lfm-2.5-2.6b",
@@ -3268,8 +3284,7 @@
       "provider_name": "Kiosapi",
       "virtual_models": [],
       "notes": "",
-      "pinned": false,
-      "context": 65536
+      "pinned": false
     },
     {
       "family": "lfm-3-1.7b",
@@ -3304,7 +3319,7 @@
         "artificial_analysis"
       ],
       "match_confidence": "high",
-      "model_id": "ling-3-1-flash-1019",
+      "model_id": "ling-3-1-flash",
       "provider_name": "Artificial Analysis",
       "context": 1048576,
       "intelligence": 29.570119369837,
@@ -3335,6 +3350,19 @@
       "model_id": "ling-3.1-flash",
       "provider_id": "kiosapi",
       "provider_name": "Kiosapi",
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
+      "family": "ling-3.2-flash",
+      "sources": [
+        "openrouter"
+      ],
+      "match_confidence": "high",
+      "model_id": "inclusionai/ling-3.2-flash:free",
+      "provider_name": "OpenRouter",
+      "context": 1048576,
       "virtual_models": [],
       "notes": "",
       "pinned": false
@@ -4163,20 +4191,6 @@
       "arena_score": 1440
     },
     {
-      "family": "minimax-m3-1-flash",
-      "sources": [
-        "artificial_analysis"
-      ],
-      "match_confidence": "high",
-      "model_id": "minimax-m3-1-flash",
-      "provider_name": "Artificial Analysis",
-      "context": 1000000,
-      "intelligence": 29.0595214290458,
-      "release_date": "2026-10-19",
-      "price_input_1m": 0.15,
-      "price_output_1m": 0.6
-    },
-    {
       "family": "minimax-m3-official",
       "sources": [
         "gateway"
@@ -4479,6 +4493,20 @@
       "arena_score": 1063
     },
     {
+      "family": "muse-ember",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "muse-ember",
+      "provider_name": "Artificial Analysis",
+      "context": 1048576,
+      "intelligence": 36.0212987864912,
+      "release_date": "2026-11-09",
+      "price_input_1m": 0.1,
+      "price_output_1m": 0.5
+    },
+    {
       "family": "muse-glimmer",
       "sources": [
         "arena"
@@ -4554,20 +4582,6 @@
       "arena_score": 1494
     },
     {
-      "family": "muse-spark-open",
-      "sources": [
-        "artificial_analysis"
-      ],
-      "match_confidence": "high",
-      "model_id": "muse-spark-open",
-      "provider_name": "Artificial Analysis",
-      "context": 1048576,
-      "intelligence": 24.8815868992913,
-      "release_date": "2026-10-15",
-      "price_input_1m": 1.25,
-      "price_output_1m": 4.25
-    },
-    {
       "family": "muse-wonder",
       "sources": [
         "artificial_analysis"
@@ -4604,7 +4618,7 @@
       "context": 1000000,
       "intelligence": 13.6203422723141,
       "release_date": "2026-10-15",
-      "price_input_1m": 0.175,
+      "price_input_1m": 0.2,
       "price_output_1m": 0.5
     },
     {
@@ -5288,6 +5302,19 @@
       "arena_score": 1139
     },
     {
+      "family": "particle-1",
+      "sources": [
+        "openrouter"
+      ],
+      "match_confidence": "high",
+      "model_id": "particle-ai/particle-1:free",
+      "provider_name": "OpenRouter",
+      "context": 1048576,
+      "virtual_models": [],
+      "notes": "",
+      "pinned": false
+    },
+    {
       "family": "perplexity",
       "sources": [
         "chat_ui"
@@ -5689,20 +5716,6 @@
       "release_date": "2026-08-14",
       "price_input_1m": 0.5,
       "price_output_1m": 3
-    },
-    {
-      "family": "qwen3-8-max",
-      "sources": [
-        "artificial_analysis"
-      ],
-      "match_confidence": "high",
-      "model_id": "qwen3-8-max",
-      "provider_name": "Artificial Analysis",
-      "context": 983616,
-      "intelligence": 33.6545627367888,
-      "release_date": "2026-09-02",
-      "price_input_1m": 2,
-      "price_output_1m": 6
     },
     {
       "family": "qwen3-8b",
@@ -6118,6 +6131,20 @@
       "notes": "",
       "pinned": false,
       "arena_score": 1491
+    },
+    {
+      "family": "qwen4-max",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "qwen4-max",
+      "provider_name": "Artificial Analysis",
+      "context": 983616,
+      "intelligence": 42.8914543287565,
+      "release_date": "2026-11-16",
+      "price_input_1m": 1.5,
+      "price_output_1m": 4.5
     },
     {
       "family": "qwq-32b",
@@ -6765,19 +6792,6 @@
       "match_confidence": "high",
       "model_id": "wizardlm-70b",
       "arena_score": 1185
-    },
-    {
-      "family": "xing4.0-29b-a4b",
-      "sources": [
-        "openrouter"
-      ],
-      "match_confidence": "high",
-      "model_id": "xingchen-agi/xing4.0-29b-a4b:free",
-      "provider_name": "OpenRouter",
-      "context": 262144,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false
     },
     {
       "family": "yi-1.5-34b",
