@@ -1,6 +1,6 @@
 {
   "generated_at": null,
-  "count": 547,
+  "count": 548,
   "models": [
     {
       "family": "agnes-1.5-flash",
@@ -1775,8 +1775,8 @@
       "context": 1000000,
       "intelligence": 60.025738829526,
       "release_date": "2026-10-28",
-      "price_input_1m": 2,
-      "price_output_1m": 10
+      "price_input_1m": 4,
+      "price_output_1m": 20
     },
     {
       "family": "gemini-4-hydrogen",
@@ -1791,6 +1791,20 @@
       "release_date": "2026-11-12",
       "price_input_1m": 1.5,
       "price_output_1m": 7.5
+    },
+    {
+      "family": "gemini-4-neon",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "gemini-4-neon",
+      "provider_name": "Artificial Analysis",
+      "context": 1000000,
+      "intelligence": 61.3982491392674,
+      "release_date": "2026-11-18",
+      "price_input_1m": 3,
+      "price_output_1m": 15
     },
     {
       "family": "gemini-advanced",
@@ -2456,20 +2470,6 @@
       "ui_limits": "Free tier: limited GPT-5 messages; unlimited GPT-5 mini"
     },
     {
-      "family": "gpt-6-1-sol",
-      "sources": [
-        "artificial_analysis"
-      ],
-      "match_confidence": "high",
-      "model_id": "gpt-6-1-sol",
-      "provider_name": "Artificial Analysis",
-      "context": 1000000,
-      "intelligence": 54.6087338138148,
-      "release_date": "2026-09-29",
-      "price_input_1m": 2,
-      "price_output_1m": 10
-    },
-    {
       "family": "gpt-6-1-terra",
       "sources": [
         "artificial_analysis"
@@ -2484,18 +2484,32 @@
       "price_output_1m": 5
     },
     {
-      "family": "gpt-6-astra",
+      "family": "gpt-6-2-astra",
       "sources": [
         "artificial_analysis"
       ],
       "match_confidence": "high",
-      "model_id": "gpt-6-astra",
+      "model_id": "gpt-6-2-astra",
       "provider_name": "Artificial Analysis",
       "context": 1000000,
-      "intelligence": 56.8538559596797,
-      "release_date": "2026-09-03",
-      "price_input_1m": 10,
-      "price_output_1m": 50
+      "intelligence": 62.1387990593969,
+      "release_date": "2026-11-17",
+      "price_input_1m": 8,
+      "price_output_1m": 40
+    },
+    {
+      "family": "gpt-6-2-sol",
+      "sources": [
+        "artificial_analysis"
+      ],
+      "match_confidence": "high",
+      "model_id": "gpt-6-2-sol",
+      "provider_name": "Artificial Analysis",
+      "context": 1000000,
+      "intelligence": 57.2576209885477,
+      "release_date": "2026-11-17",
+      "price_input_1m": 2,
+      "price_output_1m": 10
     },
     {
       "family": "gpt-6-astra-max",
@@ -2997,16 +3011,12 @@
     {
       "family": "inkling-2-small",
       "sources": [
-        "openrouter",
         "artificial_analysis"
       ],
       "match_confidence": "high",
-      "model_id": "thinkingmachines/inkling-2-small:free",
-      "provider_name": "OpenRouter",
-      "context": 1048576,
-      "virtual_models": [],
-      "notes": "",
-      "pinned": false,
+      "model_id": "inkling-2-small",
+      "provider_name": "Artificial Analysis",
+      "context": 1024000,
       "intelligence": 30.6286781498958,
       "release_date": "2026-11-05",
       "price_input_1m": 0.3,
@@ -4618,7 +4628,7 @@
       "context": 1000000,
       "intelligence": 13.6203422723141,
       "release_date": "2026-10-15",
-      "price_input_1m": 0.2,
+      "price_input_1m": 0.15,
       "price_output_1m": 0.5
     },
     {
@@ -4894,8 +4904,7 @@
     {
       "family": "north-mini-code",
       "sources": [
-        "gateway",
-        "openrouter"
+        "gateway"
       ],
       "match_confidence": "high",
       "model_id": "north-mini-code",
@@ -4903,8 +4912,7 @@
       "provider_name": "Kiosapi",
       "virtual_models": [],
       "notes": "",
-      "pinned": false,
-      "context": 256000
+      "pinned": false
     },
     {
       "family": "nous-hermes-2-mixtral-8x7b-dpo",

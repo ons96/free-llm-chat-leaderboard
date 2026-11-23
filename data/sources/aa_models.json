@@ -1,6 +1,6 @@
 {
  "source": "rsc_scrape",
- "fetched_at": "2026-11-16T14:57:28Z",
+ "fetched_at": "2026-11-23T17:30:40Z",
  "api_note": "AA_API_KEY env var absent -> used public-page RSC scrape fallback",
  "models": [
   {
@@ -44,10 +44,10 @@
    "omniscienceHallucinationRate": 0.6022494887525562,
    "mlcrOverall": 0.127777777777778,
    "gdpPdfAllPass": 0.192,
-   "gdpval": 1692.11,
+   "gdpval": 1691.43,
    "gdpvalInterval": {
-    "lower": 1672.22,
-    "upper": 1711.99
+    "lower": 1671.71,
+    "upper": 1711.14
    },
    "itBenchSre": null,
    "tau2": null,
@@ -86,7 +86,7 @@
    "price1mBlended0To1To1": 0.6525,
    "price1mBlended100To1To1": 0.016323529411764705,
    "price1mBlended0To100To1": 0.4393069306930693,
-   "intelligenceIndexTimePerTask": 2283.60106947743,
+   "intelligenceIndexTimePerTask": 2689.9201334261024,
    "intelligenceIndexCost": {
     "total": 220.73459941339127,
     "input": 107.13514372339127,
@@ -167,9 +167,9 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1511.72,
-     "lower95ci": 1503.36,
-     "upper95ci": 1520.52
+     "elo": 1511.17,
+     "lower95ci": 1503.27,
+     "upper95ci": 1519.95
     }
    },
    "aa3dElo": 982.8947,
@@ -184,79 +184,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 857.16,
-     "eloquent": 1078.93,
-     "literate": 648.72,
-     "naturalSounding": 688.72,
-     "metaphorical": 1320.42,
-     "structured": 711.57,
-     "scannable": 1539.37,
-     "summarizesBottomLine": 944.45,
-     "answerFirst": 660.37,
-     "informationDense": 1043.57,
-     "evidenceBased": 921.31,
-     "resourceSpecific": 1380.05,
-     "providesActionableGuidance": 788.83,
-     "pragmatic": 647.85,
-     "truthful": 448.77,
-     "admitsUncertainty": 798.97,
-     "disclaimsWithAssumptions": 723.19,
-     "flagsNuances": 783.26,
-     "sycophantic": 863.2,
-     "friendly": 1036.2,
-     "humorous": 1076.75,
-     "sincere": 655.09,
-     "emotionallyIntelligent": 953.08,
-     "direct": 671.36,
-     "confident": 812.26,
-     "opinionated": 779.8,
-     "constructivelyPushesBack": 1231.91,
-     "creative": 1008.29,
-     "openEnded": 1047.08,
-     "slop": 1626.79
+     "lexicallyVaried": 853.22,
+     "eloquent": 1077.58,
+     "literate": 650.12,
+     "naturalSounding": 690.23,
+     "metaphorical": 1305.59,
+     "structured": 705.68,
+     "scannable": 1538.6,
+     "summarizesBottomLine": 935.22,
+     "answerFirst": 667.55,
+     "informationDense": 1016.2,
+     "evidenceBased": 909.89,
+     "resourceSpecific": 1362.82,
+     "providesActionableGuidance": 740.45,
+     "pragmatic": 647.43,
+     "truthful": 452.91,
+     "admitsUncertainty": 790.62,
+     "disclaimsWithAssumptions": 721.37,
+     "flagsNuances": 776.66,
+     "sycophantic": 863.81,
+     "friendly": 1030.27,
+     "humorous": 1068.09,
+     "sincere": 658.55,
+     "emotionallyIntelligent": 944.79,
+     "direct": 677.6,
+     "confident": 810.65,
+     "opinionated": 770.67,
+     "constructivelyPushesBack": 1211.61,
+     "creative": 1001.08,
+     "openEnded": 1040.65,
+     "slop": 1624.13
     },
     "indexScores": {
-     "expressiveness": 37.17307692307692,
-     "organization": 42.88461538461539,
-     "informativeness": 25.75,
-     "transparency": 42.88461538461539,
-     "warmth": 61.92307692307693,
-     "conviction": 21.942307692307693,
-     "imagination": 73.34615384615384,
-     "slop": 60.01923076923077
+     "expressiveness": 31.338709677419356,
+     "organization": 47.306451612903224,
+     "informativeness": 36.12903225806452,
+     "transparency": 50.5,
+     "warmth": 63.274193548387096,
+     "conviction": 16.967741935483872,
+     "imagination": 77.64516129032258,
+     "slop": 66.46774193548387
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 34,
-      "upper": 43
+      "lower": 29,
+      "upper": 36
      },
      "organization": {
-      "lower": 29,
-      "upper": 58
+      "lower": 35,
+      "upper": 56
      },
      "informativeness": {
-      "lower": 23,
-      "upper": 29
+      "lower": 32,
+      "upper": 37
      },
      "transparency": {
-      "lower": 36,
-      "upper": 46
+      "lower": 42,
+      "upper": 55
      },
      "warmth": {
-      "lower": 60,
-      "upper": 65
+      "lower": 58,
+      "upper": 71
      },
      "conviction": {
-      "lower": 20,
-      "upper": 26
+      "lower": 16,
+      "upper": 21
      },
      "imagination": {
-      "lower": 62,
-      "upper": 78
+      "lower": 66,
+      "upper": 81
      },
      "slop": {
-      "lower": 56,
-      "upper": 64
+      "lower": 62,
+      "upper": 70
      }
     }
    },
@@ -284,22 +284,22 @@
     "endsWithQuestion": 0.341111111111111
    },
    "headline": {
-    "outputSpeed": 53.018511617225876,
-    "timeToFirstToken": 4.197400615656114,
-    "timeToFirstAnswerToken": 39.93906642692749
+    "outputSpeed": 45.0099348031534,
+    "timeToFirstToken": 8.24288471628203,
+    "timeToFirstAnswerToken": 35.9439413202996
    },
    "multiTurn": {
-    "timeToFirstToken": 3.743078430350908
+    "timeToFirstToken": 3.55059456482873
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 2.3498747402221585
+     "timeToFirstToken": 3.30761626478947
     },
     "10k": {
-     "timeToFirstToken": 2.802691879411808
+     "timeToFirstToken": 4.10624222591669
     },
     "100k": {
-     "timeToFirstToken": 8.802601783249997
+     "timeToFirstToken": 31.3916661124998
     }
    },
    "performanceDataSource": {
@@ -350,346 +350,6 @@
    "outputModalityVideo": false
   },
   {
-   "id": "2f339a97-9a0d-499a-9cb5-e0db665bfa25",
-   "slug": "gpt-6-astra",
-   "name": "GPT-6 Astra (Max)",
-   "shortName": "GPT-6 Astra (max)",
-   "suffix": "Max",
-   "chartDefaultSelected": true,
-   "chartHighlighted": true,
-   "releaseDate": "2026-09-03",
-   "knowledgeCutoffDate": "2026-04-30",
-   "isReasoning": true,
-   "effort": {
-    "slug": "max",
-    "label": "max",
-    "level": 60
-   },
-   "release": {
-    "slug": "gpt-6-astra",
-    "name": "GPT-6 Astra",
-    "deprecatedTo": null
-   },
-   "deprecated": false,
-   "isOpenWeights": false,
-   "openSourceCategorization": "proprietary",
-   "parameters": null,
-   "inferenceParametersActiveBillions": null,
-   "sizeClass": "large",
-   "contextWindowTokens": 1000000,
-   "licenseName": null,
-   "licenseUrl": null,
-   "modelWeightsSourceUrl": null,
-   "microevalsEnabled": true,
-   "intelligenceIndex": 56.8538559596797,
-   "capabilities": {
-    "financeAndAccounting": 57.3776245156695,
-    "strategyAndOps": 57.975067214996,
-    "legal": 55.5694430236527,
-    "healthcareAndMedical": 53.7312422164979,
-    "engineering": 61.7947113636364,
-    "economics": 57.1995666666667
-   },
-   "omniscience": 42.43333333333333,
-   "omniscienceAccuracy": 0.6156666666666667,
-   "omniscienceHallucinationRate": 0.4978317432784042,
-   "mlcrOverall": 0.416666666666667,
-   "harveyLab": 0.0861111111111111,
-   "gdpPdfAllPass": 0.31,
-   "gdpval": 1587,
-   "gdpvalInterval": {
-    "lower": 1568.63,
-    "upper": 1605.38
-   },
-   "itBenchSre": 0.485875706214689,
-   "tau2": null,
-   "tauBanking": 0.414432989690722,
-   "terminalbenchHard": null,
-   "terminalBench21": 0.883895131086142,
-   "terminalBench40": 0.590909090909091,
-   "frontierCode": 0.469827666666667,
-   "frontierCode20": 0.42374797979798,
-   "terminalBenchScience": 0.633333333333333,
-   "healthbench": 0.5822174183894343,
-   "vialsScore": 0.6273291925465838,
-   "mkaClimbWsr": 0.5024483143341066,
-   "healthbenchProfessional": 0.6597887253032397,
-   "hleDiamond": 0.638,
-   "critptAgenticHard": 0.705,
-   "scicode": 0.564814814814815,
-   "lcr": 0.806666666666667,
-   "ifbench": null,
-   "hle": 0.546802594995366,
-   "gpqa": 0.960606060606061,
-   "critpt": 0.317142857142857,
-   "apexAgents": null,
-   "mmmuPro": 0.86878612716763,
-   "livecodebench": null,
-   "aime25": null,
-   "analystAgent": 0.5125,
-   "automationBenchPartialScore": 0.6849174806688876,
-   "price1mInputTokens": 10,
-   "price1mOutputTokens": 50,
-   "cacheHitPrice": 1,
-   "cacheHitDiscountPercent": 0.9,
-   "pricePer1k1mpImages": null,
-   "price1mBlended0To3To1": 20,
-   "price1mBlended7To2To1": 7.7,
-   "price1mBlended0To1To1": 30,
-   "price1mBlended100To1To1": 1.5686274509803921,
-   "price1mBlended0To100To1": 10.396039603960396,
-   "intelligenceIndexTimePerTask": 1246.767724479189,
-   "intelligenceIndexCost": {
-    "total": 5661.179482563332,
-    "input": 2944.7865325633325,
-    "nonCacheInput": 171.48405,
-    "cacheRead": 1567.2864189075362,
-    "cacheWrite": 1206.0160636557962,
-    "output": 2716.39295,
-    "reasoning": 1943.70705,
-    "answer": 772.6859000000001
-   },
-   "intelligenceIndexCostPerTask": {
-    "cost": {
-     "total": 6.244666943602518,
-     "input": 3.6460069947806435,
-     "nonCacheInput": 0.0815024655,
-     "cacheRead": 2.1747247960716,
-     "cacheWrite": 1.3897797332090436,
-     "output": 2.598659948821875,
-     "reasoning": 1.7879848417442221,
-     "answer": 0.8106751070776523
-    },
-    "evaluations": [
-     {
-      "slug": "aa-briefcase",
-      "weightedCostPerTask": 1.4253125872586803
-     },
-     {
-      "slug": "automationbench-aa",
-      "weightedCostPerTask": 0.07977961555688814
-     },
-     {
-      "slug": "terminalbench-4-0",
-      "weightedCostPerTask": 0.8498119471851334
-     },
-     {
-      "slug": "frontiercode-2-0",
-      "weightedCostPerTask": 0.9808143266315885
-     },
-     {
-      "slug": "omniscience",
-      "weightedCostPerTask": 0.014827424999999998
-     },
-     {
-      "slug": "gdp-pdf",
-      "weightedCostPerTask": 0.10379103499999999
-     },
-     {
-      "slug": "hle-diamond",
-      "weightedCostPerTask": 0.055121698000000004
-     },
-     {
-      "slug": "critpt-v2-hard",
-      "weightedCostPerTask": 0.11377333332804072
-     },
-     {
-      "slug": "terminal-bench-science",
-      "weightedCostPerTask": 2.621434975642187
-     }
-    ]
-   },
-   "canonicalIntelligenceIndexTokenCount": {
-    "input": 1680916109,
-    "output": 54327859,
-    "answer": 15453718,
-    "reasoning": 38874141
-   },
-   "intelligenceIndexOutputTokensPerTask": {
-    "reasoning": 35759.69683488444,
-    "answer": 16213.502141553043,
-    "output": 51973.19897643748
-   },
-   "briefcaseBreakdown": {
-    "overall": {
-     "elo": 1568.82,
-     "lower95ci": 1561.64,
-     "upper95ci": 1577.67
-    }
-   },
-   "aa3dElo": 1168.398,
-   "aa3dEloInterval": {
-    "lower": 1140.6644,
-    "upper": 1196.1316
-   },
-   "code2videoElo": 1426.78,
-   "code2videoEloInterval": {
-    "lower": 1402.61,
-    "upper": 1450.94
-   },
-   "personalityBench": {
-    "scores": {
-     "lexicallyVaried": 1039.71,
-     "eloquent": 1060.17,
-     "literate": 991.69,
-     "naturalSounding": 1042.24,
-     "metaphorical": 1019.9,
-     "structured": 1011.03,
-     "scannable": 961.13,
-     "summarizesBottomLine": 958.28,
-     "answerFirst": 943.36,
-     "informationDense": 987.38,
-     "evidenceBased": 1037.3,
-     "resourceSpecific": 998.98,
-     "providesActionableGuidance": 1044.52,
-     "pragmatic": 1059.85,
-     "truthful": 1036.41,
-     "admitsUncertainty": 997.83,
-     "disclaimsWithAssumptions": 973.74,
-     "flagsNuances": 1022.45,
-     "sycophantic": 985.3,
-     "friendly": 1002.44,
-     "humorous": 1087.18,
-     "sincere": 1082.65,
-     "emotionallyIntelligent": 1052.29,
-     "direct": 938.04,
-     "confident": 942.32,
-     "opinionated": 995.37,
-     "constructivelyPushesBack": 1009.65,
-     "creative": 1033.92,
-     "openEnded": 1040.14,
-     "slop": 1006.99
-    },
-    "indexScores": {
-     "expressiveness": 58.11538461538461,
-     "organization": 69.53846153846153,
-     "informativeness": 29.557692307692307,
-     "transparency": 94.28846153846153,
-     "warmth": 75.25,
-     "conviction": 44.78846153846154,
-     "imagination": 77.15384615384616,
-     "slop": 16.230769230769234
-    },
-    "indexIntervals": {
-     "expressiveness": {
-      "lower": 50,
-      "upper": 62
-     },
-     "organization": {
-      "lower": 60,
-      "upper": 76
-     },
-     "informativeness": {
-      "lower": 27,
-      "upper": 31
-     },
-     "transparency": {
-      "lower": 86,
-      "upper": 96
-     },
-     "warmth": {
-      "lower": 69,
-      "upper": 81
-     },
-     "conviction": {
-      "lower": 38,
-      "upper": 53
-     },
-     "imagination": {
-      "lower": 63,
-      "upper": 79
-     },
-     "slop": {
-      "lower": 12,
-      "upper": 17
-     }
-    }
-   },
-   "personalityBenchMeans": {
-    "charCount": 2412.58555555556,
-    "wordCount": 351.876666666667,
-    "sentenceCount": 28.4377777777778,
-    "paragraphCount": 9.75666666666667,
-    "avgSentenceLength": 12.5988469396685,
-    "listCount": 1.45777777777778,
-    "headingCount": 1.99333333333333,
-    "tableCount": 0.165555555555556,
-    "emDashCount": 3.19,
-    "contractionCount": 6.24555555555556,
-    "exclamationCount": 0.0411111111111111,
-    "questionCount": 2.48444444444444,
-    "parentheticalCount": 0.277777777777778,
-    "quoteCount": 5.99444444444444,
-    "colonCount": 5.2,
-    "ellipsisCount": 0.0488888888888889,
-    "boldCount": 8.83666666666667,
-    "italicsCount": 0.523333333333333,
-    "emojiCount": 0.00222222222222222,
-    "acronymCount": 1.32888888888889,
-    "endsWithQuestion": 0.323333333333333
-   },
-   "headline": {
-    "outputSpeed": 41.68635260280596,
-    "timeToFirstToken": 204.15928518697652,
-    "timeToFirstAnswerToken": 204.15928518697652
-   },
-   "multiTurn": {
-    "timeToFirstToken": 30.628653836312775
-   },
-   "workloads": {
-    "1k": {
-     "timeToFirstToken": 292.3816451577647
-    },
-    "10k": {
-     "timeToFirstToken": 433.7461106206562
-    },
-    "100k": {
-     "timeToFirstToken": 406.94199383449995
-    }
-   },
-   "performanceDataSource": {
-    "type": "firstParty",
-    "providerName": "OpenAI"
-   },
-   "priceDataSource": {
-    "type": "firstParty",
-    "providerName": "OpenAI"
-   },
-   "creator": {
-    "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
-    "slug": "openai",
-    "name": "OpenAI",
-    "logo": "/img/logos/openai.svg",
-    "color": "#1f1f1f",
-    "country": "us"
-   },
-   "hosts": [
-    {
-     "slug": "amazon_bedrock",
-     "name": "Amazon Bedrock",
-     "logo": "/img/logos/aws.svg"
-    },
-    {
-     "slug": "azure",
-     "name": "Microsoft Azure",
-     "logo": "/img/logos/microsoft.svg"
-    },
-    {
-     "slug": "openai",
-     "name": "OpenAI",
-     "logo": "/img/logos/openai.svg"
-    }
-   ],
-   "inputModalityText": true,
-   "inputModalityImage": true,
-   "inputModalitySpeech": false,
-   "inputModalityVideo": false,
-   "outputModalityText": true,
-   "outputModalityImage": false,
-   "outputModalitySpeech": false,
-   "outputModalityVideo": false
-  },
-  {
    "id": "2f3c4dc9-a450-4303-8697-0237257cf08f",
    "slug": "claude-opus-5-5",
    "name": "Claude Opus 5.5 (Max, Default Fallback)",
@@ -708,7 +368,11 @@
    "release": {
     "slug": "claude-opus-5-5",
     "name": "Claude Opus 5.5",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "medium",
+     "label": "medium"
+    }
    },
    "deprecated": false,
    "isOpenWeights": false,
@@ -778,7 +442,7 @@
    "price1mBlended0To1To1": 12,
    "price1mBlended100To1To1": 0.43137254901960786,
    "price1mBlended0To100To1": 4.158415841584159,
-   "intelligenceIndexTimePerTask": 1491.8264080539836,
+   "intelligenceIndexTimePerTask": 1516.7599775028011,
    "intelligenceIndexCost": {
     "total": 8909.667015653067,
     "input": 4546.758855653068,
@@ -852,9 +516,9 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1800.84,
-     "lower95ci": 1790.7,
-     "upper95ci": 1811.76
+     "elo": 1797.44,
+     "lower95ci": 1787.51,
+     "upper95ci": 1808.03
     }
    },
    "aa3dElo": 1202.4312,
@@ -869,79 +533,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 1671.25,
-     "eloquent": 1292.93,
-     "literate": 1058.68,
-     "naturalSounding": 1079.89,
-     "metaphorical": 1462.73,
-     "structured": 1002.53,
-     "scannable": 1189.92,
-     "summarizesBottomLine": 935.33,
-     "answerFirst": 959.56,
-     "informationDense": 1853.27,
-     "evidenceBased": 1714.85,
-     "resourceSpecific": 1631.4,
-     "providesActionableGuidance": 1238.5,
-     "pragmatic": 1240.74,
-     "truthful": 1066.26,
-     "admitsUncertainty": 897.27,
-     "disclaimsWithAssumptions": 898.31,
-     "flagsNuances": 1139.5,
-     "sycophantic": 988.55,
-     "friendly": 1078.81,
-     "humorous": 1350.67,
-     "sincere": 1203.73,
-     "emotionallyIntelligent": 1091.32,
-     "direct": 780.71,
-     "confident": 1098.36,
-     "opinionated": 1132.42,
-     "constructivelyPushesBack": 1277.91,
-     "creative": 1530.81,
-     "openEnded": 934.14,
-     "slop": 1074.58
+     "lexicallyVaried": 1652.51,
+     "eloquent": 1283.09,
+     "literate": 1054.13,
+     "naturalSounding": 1090.5,
+     "metaphorical": 1446.64,
+     "structured": 1000.52,
+     "scannable": 1190.61,
+     "summarizesBottomLine": 939.68,
+     "answerFirst": 966.78,
+     "informationDense": 1832.95,
+     "evidenceBased": 1706.78,
+     "resourceSpecific": 1614.82,
+     "providesActionableGuidance": 1210.54,
+     "pragmatic": 1219.33,
+     "truthful": 1045.76,
+     "admitsUncertainty": 896.92,
+     "disclaimsWithAssumptions": 896.36,
+     "flagsNuances": 1136.13,
+     "sycophantic": 985.93,
+     "friendly": 1075.65,
+     "humorous": 1349.1,
+     "sincere": 1204.81,
+     "emotionallyIntelligent": 1086.18,
+     "direct": 785.99,
+     "confident": 1103.83,
+     "opinionated": 1127.82,
+     "constructivelyPushesBack": 1259.98,
+     "creative": 1500.52,
+     "openEnded": 924.31,
+     "slop": 1068.11
     },
     "indexScores": {
-     "expressiveness": 90.48076923076923,
-     "organization": 79.0576923076923,
-     "informativeness": 90.48076923076923,
-     "transparency": 90.48076923076923,
-     "warmth": 84.76923076923077,
-     "conviction": 69.53846153846153,
-     "imagination": 94.28846153846153,
-     "slop": 20.03846153846154
+     "expressiveness": 92.01612903225806,
+     "organization": 84.03225806451613,
+     "informativeness": 92.01612903225806,
+     "transparency": 90.41935483870968,
+     "warmth": 87.2258064516129,
+     "conviction": 66.46774193548387,
+     "imagination": 95.20967741935485,
+     "slop": 32.935483870967744
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 89,
-      "upper": 92
-     },
-     "organization": {
-      "lower": 72,
+      "lower": 91,
       "upper": 93
      },
+     "organization": {
+      "lower": 77,
+      "upper": 95
+     },
      "informativeness": {
-      "lower": 90,
-      "upper": 94
+      "lower": 92,
+      "upper": 95
      },
      "transparency": {
-      "lower": 83,
+      "lower": 87,
       "upper": 95
      },
      "warmth": {
-      "lower": 84,
-      "upper": 87
+      "lower": 86,
+      "upper": 89
      },
      "conviction": {
-      "lower": 64,
-      "upper": 78
+      "lower": 57,
+      "upper": 79
      },
      "imagination": {
-      "lower": 89,
-      "upper": 95
+      "lower": 90,
+      "upper": 96
      },
      "slop": {
-      "lower": 18,
-      "upper": 23
+      "lower": 31,
+      "upper": 35
      }
     }
    },
@@ -969,22 +633,22 @@
     "endsWithQuestion": 0.04
    },
    "headline": {
-    "outputSpeed": 116.1748028596855,
-    "timeToFirstToken": 380.51416174408223,
-    "timeToFirstAnswerToken": 380.51416174408223
+    "outputSpeed": 114.26503957593,
+    "timeToFirstToken": 351.792441841452,
+    "timeToFirstAnswerToken": 351.792441841452
    },
    "multiTurn": {
-    "timeToFirstToken": 60.727317521194855
+    "timeToFirstToken": 58.2507965111805
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 600.1960572822942
+     "timeToFirstToken": 587.595783787447
     },
     "10k": {
-     "timeToFirstToken": 707.9196594852812
+     "timeToFirstToken": 706.710707814722
     },
     "100k": {
-     "timeToFirstToken": 792.7873011333332
+     "timeToFirstToken": 641.695769913
     }
    },
    "performanceDataSource": {
@@ -1197,9 +861,9 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1519.51,
-     "lower95ci": 1509.47,
-     "upper95ci": 1530.58
+     "elo": 1516.72,
+     "lower95ci": 1506.56,
+     "upper95ci": 1527.05
     }
    },
    "headline": null,
@@ -1255,7 +919,11 @@
    "release": {
     "slug": "claude-fable-5-2",
     "name": "Claude Fable 5.2",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "high",
+     "label": "high"
+    }
    },
    "deprecated": false,
    "isOpenWeights": false,
@@ -1325,7 +993,7 @@
    "price1mBlended0To1To1": 24,
    "price1mBlended100To1To1": 0.6666666666666666,
    "price1mBlended0To100To1": 8.316831683168317,
-   "intelligenceIndexTimePerTask": 2508.9728077276945,
+   "intelligenceIndexTimePerTask": 2493.0905897976077,
    "intelligenceIndexCost": {
     "total": 22191.421519777276,
     "input": 11237.737559841287,
@@ -1399,9 +1067,9 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1784.88,
-     "lower95ci": 1772.55,
-     "upper95ci": 1797.66
+     "elo": 1783.12,
+     "lower95ci": 1773.2,
+     "upper95ci": 1794.32
     }
    },
    "aa3dElo": 1271.4151,
@@ -1411,79 +1079,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 1210.9,
-     "eloquent": 1247.57,
-     "literate": 1053.75,
-     "naturalSounding": 1274.67,
-     "metaphorical": 1224.43,
-     "structured": 924.6,
-     "scannable": 1104.55,
-     "summarizesBottomLine": 786.18,
-     "answerFirst": 1032.76,
-     "informationDense": 1356.44,
-     "evidenceBased": 1204.68,
-     "resourceSpecific": 1305.15,
-     "providesActionableGuidance": 867.95,
-     "pragmatic": 1088.92,
-     "truthful": 919.58,
-     "admitsUncertainty": 796.46,
-     "disclaimsWithAssumptions": 904.27,
-     "flagsNuances": 932.36,
-     "sycophantic": 896.97,
-     "friendly": 1069.12,
-     "humorous": 1142.08,
-     "sincere": 1302.71,
-     "emotionallyIntelligent": 1054.41,
-     "direct": 990.38,
-     "confident": 1022.07,
-     "opinionated": 1176.64,
-     "constructivelyPushesBack": 1188.96,
-     "creative": 1176.22,
-     "openEnded": 901.22,
-     "slop": 835.91
+     "lexicallyVaried": 1193.8,
+     "eloquent": 1243.02,
+     "literate": 1055.2,
+     "naturalSounding": 1275.75,
+     "metaphorical": 1206.1,
+     "structured": 925.56,
+     "scannable": 1104.6,
+     "summarizesBottomLine": 783.72,
+     "answerFirst": 1036.44,
+     "informationDense": 1335.63,
+     "evidenceBased": 1195.7,
+     "resourceSpecific": 1286.72,
+     "providesActionableGuidance": 838.75,
+     "pragmatic": 1086.85,
+     "truthful": 915.62,
+     "admitsUncertainty": 791.96,
+     "disclaimsWithAssumptions": 895.08,
+     "flagsNuances": 926.43,
+     "sycophantic": 898.21,
+     "friendly": 1060.29,
+     "humorous": 1138.24,
+     "sincere": 1305.78,
+     "emotionallyIntelligent": 1047.39,
+     "direct": 999.21,
+     "confident": 1025.96,
+     "opinionated": 1172.74,
+     "constructivelyPushesBack": 1171.02,
+     "creative": 1163.83,
+     "openEnded": 897.06,
+     "slop": 817.61
     },
     "indexScores": {
-     "expressiveness": 80.96153846153847,
-     "organization": 54.30769230769231,
-     "informativeness": 46.69230769230769,
-     "transparency": 80.96153846153847,
-     "warmth": 82.86538461538461,
-     "conviction": 75.25,
-     "imagination": 67.63461538461539,
-     "slop": 6.711538461538462
+     "expressiveness": 84.03225806451613,
+     "organization": 61.67741935483871,
+     "informativeness": 60.08064516129033,
+     "transparency": 82.43548387096774,
+     "warmth": 85.62903225806451,
+     "conviction": 72.85483870967742,
+     "imagination": 71.25806451612904,
+     "slop": 21.758064516129032
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 75,
-      "upper": 87
-     },
-     "organization": {
-      "lower": 38,
-      "upper": 67
-     },
-     "informativeness": {
-      "lower": 43,
-      "upper": 56
-     },
-     "transparency": {
-      "lower": 65,
-      "upper": 85
-     },
-     "warmth": {
-      "lower": 81,
-      "upper": 84
-     },
-     "conviction": {
-      "lower": 68,
+      "lower": 79,
       "upper": 88
      },
+     "organization": {
+      "lower": 48,
+      "upper": 73
+     },
+     "informativeness": {
+      "lower": 52,
+      "upper": 65
+     },
+     "transparency": {
+      "lower": 71,
+      "upper": 88
+     },
+     "warmth": {
+      "lower": 83,
+      "upper": 87
+     },
+     "conviction": {
+      "lower": 60,
+      "upper": 83
+     },
      "imagination": {
-      "lower": 61,
-      "upper": 78
+      "lower": 64,
+      "upper": 81
      },
      "slop": {
-      "lower": 5,
-      "upper": 8
+      "lower": 19,
+      "upper": 24
      }
     }
    },
@@ -1511,22 +1179,22 @@
     "endsWithQuestion": 0.124444444444444
    },
    "headline": {
-    "outputSpeed": 109.11874353402938,
-    "timeToFirstToken": 238.1338952863517,
-    "timeToFirstAnswerToken": 238.1338952863517
+    "outputSpeed": 109.813883803764,
+    "timeToFirstToken": 206.936899119499,
+    "timeToFirstAnswerToken": 206.936899119499
    },
    "multiTurn": {
-    "timeToFirstToken": 100.23483302406441
+    "timeToFirstToken": 72.4186353420657
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 225.76674908950002
+     "timeToFirstToken": 216.326858568289
     },
     "10k": {
-     "timeToFirstToken": 424.7781932291666
+     "timeToFirstToken": 458.453508427105
     },
     "100k": {
-     "timeToFirstToken": 477.55393032725004
+     "timeToFirstToken": 349.5851216954
     }
    },
    "performanceDataSource": {
@@ -1580,7 +1248,11 @@
    "release": {
     "slug": "grok-4-7",
     "name": "Grok 4.7",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "high",
+     "label": "high"
+    }
    },
    "deprecated": false,
    "isOpenWeights": false,
@@ -1608,10 +1280,10 @@
    "mlcrOverall": 0.2,
    "harveyLab": 0.09444444444444446,
    "gdpPdfAllPass": 0.2,
-   "gdpval": 1716.83,
+   "gdpval": 1717.09,
    "gdpvalInterval": {
-    "lower": 1696.62,
-    "upper": 1737.03
+    "lower": 1697.04,
+    "upper": 1737.15
    },
    "itBenchSre": 0.420809792843691,
    "tau2": null,
@@ -1650,7 +1322,7 @@
    "price1mBlended0To1To1": 4,
    "price1mBlended100To1To1": 0.5686274509803921,
    "price1mBlended0To100To1": 2.0396039603960396,
-   "intelligenceIndexTimePerTask": 1543.879596979006,
+   "intelligenceIndexTimePerTask": 1396.1696484656686,
    "intelligenceIndexCost": {
     "total": 5905.498377650051,
     "input": 5017.497891650051,
@@ -1724,9 +1396,9 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1635.7,
-     "lower95ci": 1627.96,
-     "upper95ci": 1645.67
+     "elo": 1634.38,
+     "lower95ci": 1626.37,
+     "upper95ci": 1642.41
     }
    },
    "aa3dElo": 992.4478,
@@ -1741,79 +1413,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 1290.77,
-     "eloquent": 1309.8,
-     "literate": 1004.09,
-     "naturalSounding": 1106.65,
-     "metaphorical": 1182.97,
-     "structured": 783.86,
-     "scannable": 813.91,
-     "summarizesBottomLine": 896.4,
-     "answerFirst": 1038.98,
-     "informationDense": 1125.97,
-     "evidenceBased": 786.76,
-     "resourceSpecific": 1209.24,
-     "providesActionableGuidance": 1027.91,
-     "pragmatic": 1116.48,
-     "truthful": 755.17,
-     "admitsUncertainty": 746.05,
-     "disclaimsWithAssumptions": 692.06,
-     "flagsNuances": 890.19,
-     "sycophantic": 700.72,
-     "friendly": 712.51,
-     "humorous": 880.4,
-     "sincere": 1264.66,
-     "emotionallyIntelligent": 839.12,
-     "direct": 1101.08,
-     "confident": 1249.2,
-     "opinionated": 1040.95,
-     "constructivelyPushesBack": 1115.53,
-     "creative": 969.42,
-     "openEnded": 618.18,
-     "slop": 904.32
+     "lexicallyVaried": 1274.15,
+     "eloquent": 1298.65,
+     "literate": 1012.04,
+     "naturalSounding": 1105.96,
+     "metaphorical": 1168.59,
+     "structured": 789.05,
+     "scannable": 820.01,
+     "summarizesBottomLine": 887.88,
+     "answerFirst": 1035.86,
+     "informationDense": 1104.23,
+     "evidenceBased": 778.76,
+     "resourceSpecific": 1187.74,
+     "providesActionableGuidance": 1003.22,
+     "pragmatic": 1119.52,
+     "truthful": 756.73,
+     "admitsUncertainty": 743.07,
+     "disclaimsWithAssumptions": 687.48,
+     "flagsNuances": 895.14,
+     "sycophantic": 700.5,
+     "friendly": 698.77,
+     "humorous": 881.14,
+     "sincere": 1271.45,
+     "emotionallyIntelligent": 833.92,
+     "direct": 1118.75,
+     "confident": 1259.98,
+     "opinionated": 1044.73,
+     "constructivelyPushesBack": 1099.54,
+     "creative": 961.83,
+     "openEnded": 619.92,
+     "slop": 901.26
     },
     "indexScores": {
-     "expressiveness": 75.25,
-     "organization": 29.557692307692307,
-     "informativeness": 33.36538461538461,
-     "transparency": 58.11538461538461,
-     "warmth": 44.78846153846154,
-     "conviction": 82.86538461538461,
-     "imagination": 35.26923076923077,
-     "slop": 8.615384615384617
+     "expressiveness": 79.24193548387096,
+     "organization": 40.91935483870967,
+     "informativeness": 44.11290322580645,
+     "transparency": 64.87096774193549,
+     "warmth": 37.725806451612904,
+     "conviction": 80.83870967741935,
+     "imagination": 29.741935483870968,
+     "slop": 24.951612903225808
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 73,
-      "upper": 79
+      "lower": 78,
+      "upper": 83
      },
      "organization": {
-      "lower": 22,
-      "upper": 45
+      "lower": 32,
+      "upper": 54
      },
      "informativeness": {
-      "lower": 30,
-      "upper": 40
+      "lower": 40,
+      "upper": 50
      },
      "transparency": {
-      "lower": 50,
-      "upper": 66
+      "lower": 62,
+      "upper": 75
      },
      "warmth": {
-      "lower": 39,
-      "upper": 51
+      "lower": 33,
+      "upper": 42
      },
      "conviction": {
-      "lower": 74,
-      "upper": 91
+      "lower": 73,
+      "upper": 90
      },
      "imagination": {
-      "lower": 27,
-      "upper": 41
+      "lower": 24,
+      "upper": 37
      },
      "slop": {
-      "lower": 8,
-      "upper": 11
+      "lower": 24,
+      "upper": 27
      }
     }
    },
@@ -1841,22 +1513,22 @@
     "endsWithQuestion": 0.00444444444444444
    },
    "headline": {
-    "outputSpeed": 67.70666632633571,
-    "timeToFirstToken": 54.143573565488204,
-    "timeToFirstAnswerToken": 54.143573565488204
+    "outputSpeed": 74.8697988353853,
+    "timeToFirstToken": 58.0763336854765,
+    "timeToFirstAnswerToken": 58.0763336854765
    },
    "multiTurn": {
-    "timeToFirstToken": 34.46099798181901
+    "timeToFirstToken": 42.8653680074916
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 25.098192437388818
+     "timeToFirstToken": 20.6772744711053
     },
     "10k": {
-     "timeToFirstToken": 115.90412918733334
+     "timeToFirstToken": 94.7015073250789
     },
     "100k": {
-     "timeToFirstToken": 80.47612582275
+     "timeToFirstToken": 104.4831162942
     }
    },
    "performanceDataSource": {
@@ -1910,7 +1582,11 @@
    "release": {
     "slug": "kimi-k3-1-pro",
     "name": "Kimi K3.1 Pro",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "max",
+     "label": "max"
+    }
    },
    "deprecated": false,
    "isOpenWeights": true,
@@ -1937,10 +1613,10 @@
    "omniscienceHallucinationRate": 0.3733681462140992,
    "mlcrOverall": 0.383333333333333,
    "gdpPdfAllPass": 0.314,
-   "gdpval": 1860.57,
+   "gdpval": 1855.77,
    "gdpvalInterval": {
-    "lower": 1832.42,
-    "upper": 1888.71
+    "lower": 1828.35,
+    "upper": 1883.2
    },
    "itBenchSre": null,
    "tau2": null,
@@ -1979,7 +1655,7 @@
    "price1mBlended0To1To1": 6,
    "price1mBlended100To1To1": 0.3137254901960784,
    "price1mBlended0To100To1": 2.0792079207920793,
-   "intelligenceIndexTimePerTask": 2403.7529710317167,
+   "intelligenceIndexTimePerTask": 2213.2853465941175,
    "intelligenceIndexCost": {
     "total": 3152.800614059493,
     "input": 2021.012864059493,
@@ -2060,9 +1736,9 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1673.56,
-     "lower95ci": 1663.56,
-     "upper95ci": 1685.46
+     "elo": 1672.48,
+     "lower95ci": 1663.07,
+     "upper95ci": 1682.67
     }
    },
    "aa3dElo": 1112.0815,
@@ -2072,79 +1748,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 1147.75,
-     "eloquent": 1189.33,
-     "literate": 1048.43,
-     "naturalSounding": 944.7,
-     "metaphorical": 1043.53,
-     "structured": 966,
-     "scannable": 969.88,
-     "summarizesBottomLine": 1073.03,
-     "answerFirst": 975.95,
-     "informationDense": 1126.25,
-     "evidenceBased": 853.4,
-     "resourceSpecific": 1122.5,
-     "providesActionableGuidance": 1169.88,
-     "pragmatic": 974.12,
-     "truthful": 990.89,
-     "admitsUncertainty": 917.81,
-     "disclaimsWithAssumptions": 953.12,
-     "flagsNuances": 1097.92,
-     "sycophantic": 1017.1,
-     "friendly": 860.31,
-     "humorous": 998.11,
-     "sincere": 1017.76,
-     "emotionallyIntelligent": 897.38,
-     "direct": 979.12,
-     "confident": 1107.04,
-     "opinionated": 1089.29,
-     "constructivelyPushesBack": 1055.51,
-     "creative": 1021.06,
-     "openEnded": 784.47,
-     "slop": 1083.01
+     "lexicallyVaried": 1141.37,
+     "eloquent": 1187.64,
+     "literate": 1056.03,
+     "naturalSounding": 952.49,
+     "metaphorical": 1057.81,
+     "structured": 972.95,
+     "scannable": 975.2,
+     "summarizesBottomLine": 1069.41,
+     "answerFirst": 982.31,
+     "informationDense": 1115.92,
+     "evidenceBased": 862.7,
+     "resourceSpecific": 1093.85,
+     "providesActionableGuidance": 1151,
+     "pragmatic": 957.94,
+     "truthful": 990.79,
+     "admitsUncertainty": 923.01,
+     "disclaimsWithAssumptions": 952.59,
+     "flagsNuances": 1096.71,
+     "sycophantic": 1017.01,
+     "friendly": 854.5,
+     "humorous": 1015.15,
+     "sincere": 1014.11,
+     "emotionallyIntelligent": 905.61,
+     "direct": 963.8,
+     "confident": 1110.58,
+     "opinionated": 1084.83,
+     "constructivelyPushesBack": 1056.88,
+     "creative": 1021.59,
+     "openEnded": 794.86,
+     "slop": 1081.81
     },
     "indexScores": {
-     "expressiveness": 65.73076923076923,
-     "organization": 82.86538461538461,
-     "informativeness": 31.461538461538463,
-     "transparency": 88.57692307692308,
-     "warmth": 58.11538461538461,
-     "conviction": 65.73076923076923,
-     "imagination": 54.30769230769231,
-     "slop": 21.942307692307693
+     "expressiveness": 72.85483870967742,
+     "organization": 90.41935483870968,
+     "informativeness": 47.306451612903224,
+     "transparency": 92.01612903225806,
+     "warmth": 52.096774193548384,
+     "conviction": 56.88709677419355,
+     "imagination": 56.88709677419355,
+     "slop": 34.53225806451613
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 59,
-      "upper": 69
+      "lower": 69,
+      "upper": 76
      },
      "organization": {
-      "lower": 73,
-      "upper": 96
+      "lower": 79,
+      "upper": 97
      },
      "informativeness": {
-      "lower": 30,
-      "upper": 39
+      "lower": 40,
+      "upper": 50
      },
      "transparency": {
-      "lower": 82,
-      "upper": 95
+      "lower": 87,
+      "upper": 96
      },
      "warmth": {
-      "lower": 51,
-      "upper": 60
+      "lower": 44,
+      "upper": 61
      },
      "conviction": {
-      "lower": 60,
-      "upper": 73
+      "lower": 51,
+      "upper": 67
      },
      "imagination": {
-      "lower": 47,
-      "upper": 56
+      "lower": 52,
+      "upper": 61
      },
      "slop": {
-      "lower": 18,
-      "upper": 24
+      "lower": 31,
+      "upper": 36
      }
     }
    },
@@ -2172,22 +1848,22 @@
     "endsWithQuestion": 0.0633333333333333
    },
    "headline": {
-    "outputSpeed": 30.052576575915438,
-    "timeToFirstToken": 4.367311634859426,
-    "timeToFirstAnswerToken": 159.11840007110393
+    "outputSpeed": 32.6387965937961,
+    "timeToFirstToken": 3.62249315804332,
+    "timeToFirstAnswerToken": 145.104070869474
    },
    "multiTurn": {
-    "timeToFirstToken": 3.604857067746637
+    "timeToFirstToken": 2.39824721935685
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 2.3690909249166605
+     "timeToFirstToken": 1.91507361136839
     },
     "10k": {
-     "timeToFirstToken": 3.3440362029999986
+     "timeToFirstToken": 2.54108182942102
     },
     "100k": {
-     "timeToFirstToken": 9.676171477999988
+     "timeToFirstToken": 10.0840618494
     }
    },
    "performanceDataSource": {
@@ -2253,6 +1929,11 @@
      "logo": "/img/logos/lithos-ai.svg"
     },
     {
+     "slug": "makora",
+     "name": "Makora",
+     "logo": "/img/logos/makora.svg"
+    },
+    {
      "slug": "modal",
      "name": "Modal",
      "logo": "/img/logos/modal.svg"
@@ -2276,11 +1957,6 @@
      "slug": "siliconflow",
      "name": "SiliconFlow",
      "logo": "/img/logos/siliconflow.png"
-    },
-    {
-     "slug": "systalyze",
-     "name": "Systalyze",
-     "logo": "/img/logos/systalyze.svg"
     },
     {
      "slug": "togetherai",
@@ -2385,7 +2061,7 @@
    "price1mBlended0To1To1": 0.8,
    "price1mBlended100To1To1": 0.05490196078431373,
    "price1mBlended0To100To1": 0.40792079207920795,
-   "intelligenceIndexTimePerTask": 120.02661618780871,
+   "intelligenceIndexTimePerTask": 110.39983858904078,
    "intelligenceIndexCost": {
     "total": 249.82968364404098,
     "input": 185.34486364404097,
@@ -2478,79 +2154,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 1090.35,
-     "eloquent": 1173.05,
-     "literate": 747.1,
-     "naturalSounding": 672.79,
-     "metaphorical": 1346.75,
-     "structured": 771.04,
-     "scannable": 1391.42,
-     "summarizesBottomLine": 1085.06,
-     "answerFirst": 839.76,
-     "informationDense": 1585.16,
-     "evidenceBased": 966.94,
-     "resourceSpecific": 1811.43,
-     "providesActionableGuidance": 1477.87,
-     "pragmatic": 1034.64,
-     "truthful": 490.45,
-     "admitsUncertainty": 776.02,
-     "disclaimsWithAssumptions": 823.73,
-     "flagsNuances": 1275.95,
-     "sycophantic": 958.12,
-     "friendly": 907.82,
-     "humorous": 941.37,
-     "sincere": 629.55,
-     "emotionallyIntelligent": 745.59,
-     "direct": 621.31,
-     "confident": 974.27,
-     "opinionated": 970.53,
-     "constructivelyPushesBack": 1243.19,
-     "creative": 1193.96,
-     "openEnded": 912.52,
-     "slop": 1548.13
+     "lexicallyVaried": 1063.4,
+     "eloquent": 1173.91,
+     "literate": 755.47,
+     "naturalSounding": 674.76,
+     "metaphorical": 1326.13,
+     "structured": 774.08,
+     "scannable": 1390.95,
+     "summarizesBottomLine": 1077.9,
+     "answerFirst": 843.33,
+     "informationDense": 1563.86,
+     "evidenceBased": 952.11,
+     "resourceSpecific": 1794.81,
+     "providesActionableGuidance": 1448.66,
+     "pragmatic": 1027.43,
+     "truthful": 495.58,
+     "admitsUncertainty": 760.1,
+     "disclaimsWithAssumptions": 814.19,
+     "flagsNuances": 1272.25,
+     "sycophantic": 957.27,
+     "friendly": 902.87,
+     "humorous": 932.82,
+     "sincere": 633.23,
+     "emotionallyIntelligent": 737.73,
+     "direct": 627.07,
+     "confident": 977.06,
+     "opinionated": 965.33,
+     "constructivelyPushesBack": 1222.83,
+     "creative": 1165.98,
+     "openEnded": 903.34,
+     "slop": 1545.46
     },
     "indexScores": {
-     "expressiveness": 48.59615384615385,
-     "organization": 77.15384615384616,
-     "informativeness": 86.67307692307692,
-     "transparency": 69.53846153846153,
-     "warmth": 39.07692307692308,
-     "conviction": 39.07692307692308,
-     "imagination": 71.4423076923077,
-     "slop": 52.40384615384616
+     "expressiveness": 47.306451612903224,
+     "organization": 80.83870967741935,
+     "informativeness": 87.2258064516129,
+     "transparency": 71.25806451612904,
+     "warmth": 34.53225806451613,
+     "conviction": 32.935483870967744,
+     "imagination": 74.45161290322581,
+     "slop": 60.08064516129033
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 45,
-      "upper": 58
+      "lower": 38,
+      "upper": 61
      },
      "organization": {
-      "lower": 72,
+      "lower": 75,
       "upper": 93
      },
      "informativeness": {
-      "lower": 80,
-      "upper": 89
+      "lower": 81,
+      "upper": 91
      },
      "transparency": {
-      "lower": 58,
-      "upper": 81
+      "lower": 64,
+      "upper": 82
      },
      "warmth": {
-      "lower": 36,
-      "upper": 47
+      "lower": 32,
+      "upper": 40
      },
      "conviction": {
-      "lower": 35,
-      "upper": 49
+      "lower": 30,
+      "upper": 44
      },
      "imagination": {
-      "lower": 62,
-      "upper": 79
+      "lower": 65,
+      "upper": 81
      },
      "slop": {
-      "lower": 47,
-      "upper": 54
+      "lower": 56,
+      "upper": 62
      }
     }
    },
@@ -2578,22 +2254,22 @@
     "endsWithQuestion": 0.05
    },
    "headline": {
-    "outputSpeed": 285.2882262275745,
-    "timeToFirstToken": 0.7399542124165182,
-    "timeToFirstAnswerToken": 5.909507668382221
+    "outputSpeed": 310.165131307692,
+    "timeToFirstToken": 0.719538832996463,
+    "timeToFirstAnswerToken": 6.80952373926527
    },
    "multiTurn": {
-    "timeToFirstToken": 0.4228322627211473
+    "timeToFirstToken": 0.334567851198174
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 0.40798577258822555
+     "timeToFirstToken": 0.233217926394761
     },
     "10k": {
-     "timeToFirstToken": 0.6507748545278208
+     "timeToFirstToken": 0.433356669657868
     },
     "100k": {
-     "timeToFirstToken": 2.65191237075001
+     "timeToFirstToken": 1.88463042860005
     }
    },
    "performanceDataSource": {
@@ -2665,7 +2341,11 @@
    "release": {
     "slug": "gpt-6-luna",
     "name": "GPT-6 Luna",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "medium",
+     "label": "medium"
+    }
    },
    "deprecated": false,
    "isOpenWeights": false,
@@ -2693,10 +2373,10 @@
    "mlcrOverall": 0.261111111111111,
    "harveyLab": 0.03333333333333333,
    "gdpPdfAllPass": 0.228,
-   "gdpval": 1443.29,
+   "gdpval": 1443.09,
    "gdpvalInterval": {
-    "lower": 1423.55,
-    "upper": 1463.02
+    "lower": 1423.45,
+    "upper": 1462.72
    },
    "itBenchSre": null,
    "tau2": null,
@@ -2735,7 +2415,7 @@
    "price1mBlended0To1To1": 0.3,
    "price1mBlended100To1To1": 0.01568627450980392,
    "price1mBlended0To100To1": 0.10396039603960396,
-   "intelligenceIndexTimePerTask": 726.5904853910885,
+   "intelligenceIndexTimePerTask": 688.1120996274627,
    "intelligenceIndexCost": {
     "total": 136.06082185078296,
     "input": 81.26666385078296,
@@ -2809,9 +2489,9 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1337.44,
-     "lower95ci": 1328.85,
-     "upper95ci": 1347.11
+     "elo": 1335.97,
+     "lower95ci": 1328.22,
+     "upper95ci": 1344.77
     }
    },
    "aa3dElo": 1000,
@@ -2826,79 +2506,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 885.49,
-     "eloquent": 911.95,
-     "literate": 902.99,
-     "naturalSounding": 1113.58,
-     "metaphorical": 890.23,
-     "structured": 803.48,
-     "scannable": 585.38,
-     "summarizesBottomLine": 941.39,
-     "answerFirst": 1045.62,
-     "informationDense": 863.34,
-     "evidenceBased": 857.42,
-     "resourceSpecific": 1078.62,
-     "providesActionableGuidance": 904.81,
-     "pragmatic": 890.94,
-     "truthful": 887.83,
-     "admitsUncertainty": 770.54,
-     "disclaimsWithAssumptions": 870.71,
-     "flagsNuances": 787.06,
-     "sycophantic": 1011.81,
-     "friendly": 877.47,
-     "humorous": 826.83,
-     "sincere": 991.37,
-     "emotionallyIntelligent": 895.4,
-     "direct": 1026.62,
-     "confident": 1008.6,
-     "opinionated": 1015.8,
-     "constructivelyPushesBack": 857.46,
-     "creative": 686.68,
-     "openEnded": 732.08,
-     "slop": 791.77
+     "lexicallyVaried": 884.48,
+     "eloquent": 916.22,
+     "literate": 910.34,
+     "naturalSounding": 1099.61,
+     "metaphorical": 890.66,
+     "structured": 806.14,
+     "scannable": 580.19,
+     "summarizesBottomLine": 942.67,
+     "answerFirst": 1044.12,
+     "informationDense": 853.43,
+     "evidenceBased": 859.04,
+     "resourceSpecific": 1052.92,
+     "providesActionableGuidance": 902.96,
+     "pragmatic": 886.44,
+     "truthful": 886.35,
+     "admitsUncertainty": 772.72,
+     "disclaimsWithAssumptions": 862.49,
+     "flagsNuances": 794.27,
+     "sycophantic": 1012.24,
+     "friendly": 871.02,
+     "humorous": 821.01,
+     "sincere": 989.61,
+     "emotionallyIntelligent": 892.05,
+     "direct": 1037.58,
+     "confident": 1009.31,
+     "opinionated": 1007.45,
+     "constructivelyPushesBack": 853.63,
+     "creative": 688.41,
+     "openEnded": 729.34,
+     "slop": 781.78
     },
     "indexScores": {
-     "expressiveness": 40.98076923076923,
-     "organization": 25.75,
-     "informativeness": 21.942307692307693,
-     "transparency": 54.30769230769231,
-     "warmth": 50.5,
-     "conviction": 48.59615384615385,
-     "imagination": 23.846153846153847,
-     "slop": 2.903846153846154
+     "expressiveness": 36.12903225806452,
+     "organization": 36.12903225806452,
+     "informativeness": 29.741935483870968,
+     "transparency": 63.274193548387096,
+     "warmth": 42.516129032258064,
+     "conviction": 40.91935483870967,
+     "imagination": 18.56451612903226,
+     "slop": 18.56451612903226
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 35,
-      "upper": 45
+      "lower": 31,
+      "upper": 38
      },
      "organization": {
-      "lower": 21,
-      "upper": 34
+      "lower": 32,
+      "upper": 49
      },
      "informativeness": {
-      "lower": 19,
-      "upper": 23
+      "lower": 27,
+      "upper": 34
      },
      "transparency": {
-      "lower": 47,
-      "upper": 61
+      "lower": 58,
+      "upper": 67
      },
      "warmth": {
-      "lower": 45,
-      "upper": 54
+      "lower": 39,
+      "upper": 44
      },
      "conviction": {
-      "lower": 42,
-      "upper": 57
+      "lower": 31,
+      "upper": 46
      },
      "imagination": {
-      "lower": 19,
-      "upper": 28
+      "lower": 16,
+      "upper": 24
      },
      "slop": {
-      "lower": 3,
-      "upper": 6
+      "lower": 18,
+      "upper": 21
      }
     }
    },
@@ -2926,22 +2606,22 @@
     "endsWithQuestion": 0.05
    },
    "headline": {
-    "outputSpeed": 103.62928483038212,
-    "timeToFirstToken": 71.90752752074741,
-    "timeToFirstAnswerToken": 71.90752752074741
+    "outputSpeed": 109.424107505744,
+    "timeToFirstToken": 58.4280802587868,
+    "timeToFirstAnswerToken": 58.4280802587868
    },
    "multiTurn": {
-    "timeToFirstToken": 16.51014852545776
+    "timeToFirstToken": 15.5361935907683
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 106.70483378583333
+     "timeToFirstToken": 95.0366188126053
     },
     "10k": {
-     "timeToFirstToken": 164.10628009652783
+     "timeToFirstToken": 128.813884826211
     },
     "100k": {
-     "timeToFirstToken": 111.10360566575
+     "timeToFirstToken": 80.1093971416001
     }
    },
    "performanceDataSource": {
@@ -2982,6 +2662,555 @@
    "outputModalityVideo": false
   },
   {
+   "id": "75c1b0b8-9db3-4c7e-95be-d74e59defee4",
+   "slug": "gpt-6-2-astra",
+   "name": "GPT-6.2 Astra (Max)",
+   "shortName": "GPT-6.2 Astra (max)",
+   "suffix": "Max",
+   "chartDefaultSelected": true,
+   "chartHighlighted": true,
+   "releaseDate": "2026-11-17",
+   "knowledgeCutoffDate": null,
+   "isReasoning": true,
+   "effort": {
+    "slug": "max",
+    "label": "max",
+    "level": 60
+   },
+   "release": {
+    "slug": "gpt-6-2-astra",
+    "name": "GPT-6.2 Astra",
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "medium",
+     "label": "medium"
+    }
+   },
+   "deprecated": false,
+   "isOpenWeights": false,
+   "openSourceCategorization": "proprietary",
+   "parameters": null,
+   "inferenceParametersActiveBillions": null,
+   "sizeClass": "large",
+   "contextWindowTokens": 1000000,
+   "licenseName": null,
+   "licenseUrl": null,
+   "modelWeightsSourceUrl": null,
+   "microevalsEnabled": false,
+   "intelligenceIndex": 62.1387990593969,
+   "capabilities": {
+    "financeAndAccounting": 60.9040689518801,
+    "strategyAndOps": 63.2844398639784,
+    "legal": 58.7475662536527,
+    "healthcareAndMedical": 57.0051915145813,
+    "engineering": 66.6162431277056,
+    "economics": 61.0752
+   },
+   "omniscience": 50,
+   "omniscienceAccuracy": 0.6856666666666666,
+   "omniscienceHallucinationRate": 0.5906680805938495,
+   "mlcrOverall": 0.394444444444444,
+   "harveyLab": 0.15,
+   "gdpPdfAllPass": 0.298,
+   "gdpval": null,
+   "itBenchSre": null,
+   "tau2": null,
+   "tauBanking": null,
+   "terminalbenchHard": null,
+   "terminalBench21": null,
+   "terminalBench40": 0.641414141414141,
+   "frontierCode": null,
+   "frontierCode20": 0.453801767676768,
+   "terminalBenchScience": 0.780952380952381,
+   "healthbench": 0.5352292968776978,
+   "vialsScore": 0.6583850931677019,
+   "mkaClimbWsr": 0.5267475470603226,
+   "healthbenchProfessional": null,
+   "hleDiamond": 0.722,
+   "critptAgenticHard": 0.715,
+   "scicode": null,
+   "lcr": null,
+   "ifbench": null,
+   "hle": null,
+   "gpqa": null,
+   "critpt": null,
+   "apexAgents": null,
+   "mmmuPro": 0.894797687861272,
+   "livecodebench": null,
+   "aime25": null,
+   "analystAgent": 0.625,
+   "automationBenchPartialScore": 0.7724838304241671,
+   "enterpriseOpsGym": 0.2990152193375112,
+   "price1mInputTokens": 8,
+   "price1mOutputTokens": 40,
+   "cacheHitPrice": 0.4,
+   "cacheHitDiscountPercent": 0.95,
+   "pricePer1k1mpImages": null,
+   "price1mBlended0To3To1": 16,
+   "price1mBlended7To2To1": 5.88,
+   "price1mBlended0To1To1": 24,
+   "price1mBlended100To1To1": 0.8627450980392157,
+   "price1mBlended0To100To1": 8.316831683168317,
+   "intelligenceIndexTimePerTask": 850.1473471446378,
+   "intelligenceIndexCost": {
+    "total": 4530.463989478202,
+    "input": 1900.421749478202,
+    "nonCacheInput": 137.198,
+    "cacheRead": 817.4406037717416,
+    "cacheWrite": 945.7831457064605,
+    "output": 2630.04224,
+    "reasoning": 2093.27284,
+    "answer": 536.7694
+   },
+   "intelligenceIndexCostPerTask": {
+    "cost": {
+     "total": 3.9979061566801852,
+     "input": 2.356726934633595,
+     "nonCacheInput": 0.06520363679999999,
+     "cacheRead": 1.1946376954881024,
+     "cacheWrite": 1.096885602345493,
+     "output": 1.6411792220465897,
+     "reasoning": 1.0459880578077598,
+     "answer": 0.5951911642388297
+    },
+    "evaluations": [
+     {
+      "slug": "aa-briefcase",
+      "weightedCostPerTask": 0.8233438285312429
+     },
+     {
+      "slug": "automationbench-aa",
+      "weightedCostPerTask": 0.04742004008369172
+     },
+     {
+      "slug": "terminalbench-4-0",
+      "weightedCostPerTask": 0.4657998705285525
+     },
+     {
+      "slug": "frontiercode-2-0",
+      "weightedCostPerTask": 0.8798486059510036
+     },
+     {
+      "slug": "omniscience",
+      "weightedCostPerTask": 0.03834839239999999
+     },
+     {
+      "slug": "gdp-pdf",
+      "weightedCostPerTask": 0.08357970399999999
+     },
+     {
+      "slug": "hle-diamond",
+      "weightedCostPerTask": 0.0656734824
+     },
+     {
+      "slug": "critpt-v2-hard",
+      "weightedCostPerTask": 0.12755604424269043
+     },
+     {
+      "slug": "terminal-bench-science",
+      "weightedCostPerTask": 1.466336188543004
+     }
+    ]
+   },
+   "canonicalIntelligenceIndexTokenCount": {
+    "input": 2155329574,
+    "output": 65751056,
+    "answer": 13419235,
+    "reasoning": 52331821
+   },
+   "intelligenceIndexOutputTokensPerTask": {
+    "reasoning": 26149.701445193998,
+    "answer": 14879.779105970738,
+    "output": 41029.480551164736
+   },
+   "briefcaseBreakdown": {
+    "overall": {
+     "elo": 1643.07,
+     "lower95ci": 1632.19,
+     "upper95ci": 1655.4
+    }
+   },
+   "aa3dElo": 1317.6168,
+   "aa3dEloInterval": {
+    "lower": 1286.4142,
+    "upper": 1348.8195
+   },
+   "personalityBench": {
+    "scores": {
+     "lexicallyVaried": 937.02,
+     "eloquent": 1075.1,
+     "literate": 898.58,
+     "naturalSounding": 1482.82,
+     "metaphorical": 942.44,
+     "structured": 747.14,
+     "scannable": 560.4,
+     "summarizesBottomLine": 786.9,
+     "answerFirst": 1064.82,
+     "informationDense": 856.38,
+     "evidenceBased": 922.23,
+     "resourceSpecific": 859.7,
+     "providesActionableGuidance": 781.19,
+     "pragmatic": 1178.78,
+     "truthful": 931.62,
+     "admitsUncertainty": 595.08,
+     "disclaimsWithAssumptions": 787.61,
+     "flagsNuances": 636,
+     "sycophantic": 1059.48,
+     "friendly": 872.85,
+     "humorous": 981.22,
+     "sincere": 1319.03,
+     "emotionallyIntelligent": 1023.18,
+     "direct": 1253.08,
+     "confident": 1129.63,
+     "opinionated": 1088.67,
+     "constructivelyPushesBack": 767.82,
+     "creative": 1213.01,
+     "openEnded": 766.4,
+     "slop": 410.72
+    },
+    "indexScores": {
+     "expressiveness": 66.46774193548387,
+     "organization": 10.580645161290322,
+     "informativeness": 31.338709677419356,
+     "transparency": 40.91935483870967,
+     "warmth": 68.06451612903226,
+     "conviction": 55.29032258064516,
+     "imagination": 63.274193548387096,
+     "slop": 7.387096774193548
+    },
+    "indexIntervals": {
+     "expressiveness": {
+      "lower": 55,
+      "upper": 72
+     },
+     "organization": {
+      "lower": 9,
+      "upper": 26
+     },
+     "informativeness": {
+      "lower": 25,
+      "upper": 36
+     },
+     "transparency": {
+      "lower": 28,
+      "upper": 50
+     },
+     "warmth": {
+      "lower": 62,
+      "upper": 78
+     },
+     "conviction": {
+      "lower": 50,
+      "upper": 67
+     },
+     "imagination": {
+      "lower": 61,
+      "upper": 65
+     },
+     "slop": {
+      "lower": 3,
+      "upper": 11
+     }
+    }
+   },
+   "personalityBenchMeans": {
+    "charCount": 1207.07222222222,
+    "wordCount": 199.891111111111,
+    "sentenceCount": 14.3944444444444,
+    "paragraphCount": 3.41777777777778,
+    "avgSentenceLength": 14.290772925973,
+    "listCount": 0.4,
+    "headingCount": 0.0922222222222222,
+    "tableCount": 0.0622222222222222,
+    "emDashCount": 0.623333333333333,
+    "contractionCount": 4.56333333333333,
+    "exclamationCount": 0.0311111111111111,
+    "questionCount": 1.27777777777778,
+    "parentheticalCount": 0.331111111111111,
+    "quoteCount": 3.05444444444444,
+    "colonCount": 1.95222222222222,
+    "ellipsisCount": 0.0122222222222222,
+    "boldCount": 3.58,
+    "italicsCount": 0.772222222222222,
+    "emojiCount": 0.00222222222222222,
+    "acronymCount": 0.716666666666667,
+    "endsWithQuestion": 0.123333333333333
+   },
+   "headline": {
+    "outputSpeed": 48.2616109889293,
+    "timeToFirstToken": 162.480904788359,
+    "timeToFirstAnswerToken": 162.480904788359
+   },
+   "multiTurn": {
+    "timeToFirstToken": 19.3045924846981
+   },
+   "workloads": {
+    "1k": {
+     "timeToFirstToken": 189.439945983211
+    },
+    "10k": {
+     "timeToFirstToken": 377.944008415447
+    },
+    "100k": {
+     "timeToFirstToken": 349.5876968774
+    }
+   },
+   "performanceDataSource": {
+    "type": "firstParty",
+    "providerName": "OpenAI"
+   },
+   "priceDataSource": {
+    "type": "firstParty",
+    "providerName": "OpenAI"
+   },
+   "creator": {
+    "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
+    "slug": "openai",
+    "name": "OpenAI",
+    "logo": "/img/logos/openai.svg",
+    "color": "#1f1f1f",
+    "country": "us"
+   },
+   "hosts": [
+    {
+     "slug": "openai",
+     "name": "OpenAI",
+     "logo": "/img/logos/openai.svg"
+    }
+   ],
+   "inputModalityText": true,
+   "inputModalityImage": true,
+   "inputModalitySpeech": false,
+   "inputModalityVideo": false,
+   "outputModalityText": true,
+   "outputModalityImage": false,
+   "outputModalitySpeech": false,
+   "outputModalityVideo": false
+  },
+  {
+   "id": "7c667f2d-0149-4eb1-864c-7e66c166ad88",
+   "slug": "gemini-4-neon",
+   "name": "Gemini 4 Neon (Xhigh)",
+   "shortName": "Gemini 4 Neon (xhigh)",
+   "suffix": "Xhigh",
+   "chartDefaultSelected": true,
+   "chartHighlighted": true,
+   "releaseDate": "2026-11-18",
+   "knowledgeCutoffDate": null,
+   "isReasoning": true,
+   "effort": {
+    "slug": "xhigh",
+    "label": "xhigh",
+    "level": 50
+   },
+   "release": {
+    "slug": "gemini-4-neon",
+    "name": "Gemini 4 Neon",
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "high",
+     "label": "high"
+    }
+   },
+   "deprecated": false,
+   "isOpenWeights": false,
+   "openSourceCategorization": "proprietary",
+   "parameters": null,
+   "inferenceParametersActiveBillions": null,
+   "sizeClass": "large",
+   "contextWindowTokens": 1000000,
+   "licenseName": null,
+   "licenseUrl": null,
+   "modelWeightsSourceUrl": null,
+   "microevalsEnabled": false,
+   "intelligenceIndex": 61.3982491392674,
+   "capabilities": {
+    "financeAndAccounting": 65.0510769572976,
+    "strategyAndOps": 63.7737073846756,
+    "legal": 63.7559419157939,
+    "healthcareAndMedical": 60.1145899459484,
+    "engineering": 66.8388920454545,
+    "economics": 61.92575
+   },
+   "omniscience": 54.766666666666666,
+   "omniscienceAccuracy": 0.6046666666666667,
+   "omniscienceHallucinationRate": 0.14418212478920742,
+   "mlcrOverall": 0.316666666666667,
+   "gdpPdfAllPass": 0.28,
+   "gdpval": null,
+   "itBenchSre": null,
+   "tau2": null,
+   "tauBanking": null,
+   "terminalbenchHard": null,
+   "terminalBench21": null,
+   "terminalBench40": 0.636363636363636,
+   "frontierCode": null,
+   "frontierCode20": 0.444105303030303,
+   "terminalBenchScience": 0.7,
+   "healthbench": null,
+   "vialsScore": null,
+   "mkaClimbWsr": 0.5648217589644973,
+   "healthbenchProfessional": null,
+   "hleDiamond": 0.713,
+   "critptAgenticHard": 0.605,
+   "scicode": null,
+   "lcr": null,
+   "ifbench": null,
+   "hle": null,
+   "gpqa": null,
+   "critpt": null,
+   "apexAgents": null,
+   "mmmuPro": null,
+   "livecodebench": null,
+   "aime25": null,
+   "analystAgent": null,
+   "automationBenchPartialScore": 0.7933804374911678,
+   "price1mInputTokens": 3,
+   "price1mOutputTokens": 15,
+   "cacheHitPrice": 0.15,
+   "cacheHitDiscountPercent": 0.95,
+   "pricePer1k1mpImages": null,
+   "price1mBlended0To3To1": 6,
+   "price1mBlended7To2To1": 2.205,
+   "price1mBlended0To1To1": 9,
+   "price1mBlended100To1To1": 0.3235294117647059,
+   "price1mBlended0To100To1": 3.118811881188119,
+   "intelligenceIndexTimePerTask": 1547.294599979892,
+   "intelligenceIndexCost": {
+    "total": 7787.910053117797,
+    "input": 3547.254353117797,
+    "nonCacheInput": 543.991008,
+    "cacheRead": 1095.0986485727476,
+    "cacheWrite": 1908.1646965450495,
+    "output": 4240.6557,
+    "reasoning": 3582.3460050000003,
+    "answer": 658.309695
+   },
+   "intelligenceIndexCostPerTask": {
+    "cost": {
+     "total": 6.444838101104699,
+     "input": 4.320375702010858,
+     "nonCacheInput": 0.06442769385000001,
+     "cacheRead": 1.6613094203593957,
+     "cacheWrite": 2.5946385878014624,
+     "output": 2.1244623990938414,
+     "reasoning": 1.2075504753724653,
+     "answer": 0.9169119237213756
+    },
+    "evaluations": [
+     {
+      "slug": "aa-briefcase",
+      "weightedCostPerTask": 1.0036992863143557
+     },
+     {
+      "slug": "automationbench-aa",
+      "weightedCostPerTask": 0.07246002418377502
+     },
+     {
+      "slug": "terminalbench-4-0",
+      "weightedCostPerTask": 0.6696523326075094
+     },
+     {
+      "slug": "frontiercode-2-0",
+      "weightedCostPerTask": 1.2972201616109285
+     },
+     {
+      "slug": "omniscience",
+      "weightedCostPerTask": 0.0591876606
+     },
+     {
+      "slug": "gdp-pdf",
+      "weightedCostPerTask": 0.043749205500000006
+     },
+     {
+      "slug": "hle-diamond",
+      "weightedCostPerTask": 0.19465650750000002
+     },
+     {
+      "slug": "critpt-v2-hard",
+      "weightedCostPerTask": 0.3464886309112457
+     },
+     {
+      "slug": "terminal-bench-science",
+      "weightedCostPerTask": 2.7577242918768845
+     }
+    ]
+   },
+   "canonicalIntelligenceIndexTokenCount": {
+    "input": 8118042892,
+    "output": 282710380,
+    "answer": 43887313,
+    "reasoning": 238823067
+   },
+   "intelligenceIndexOutputTokensPerTask": {
+    "reasoning": 80503.36502483103,
+    "answer": 61127.46158142504,
+    "output": 141630.82660625607
+   },
+   "briefcaseBreakdown": {
+    "overall": {
+     "elo": 1698.69,
+     "lower95ci": 1687.24,
+     "upper95ci": 1709.65
+    }
+   },
+   "aa3dElo": 1246.4944,
+   "aa3dEloInterval": {
+    "lower": 1215.2889,
+    "upper": 1277.7
+   },
+   "headline": {
+    "outputSpeed": 91.5344929195104,
+    "timeToFirstToken": 57.5052788677287,
+    "timeToFirstAnswerToken": 57.5052788677287
+   },
+   "multiTurn": {
+    "timeToFirstToken": 24.0847476129119
+   },
+   "workloads": {
+    "1k": {
+     "timeToFirstToken": 65.0277799598181
+    },
+    "10k": {
+     "timeToFirstToken": 104.458204362818
+    },
+    "100k": {
+     "timeToFirstToken": 103.291446045
+    }
+   },
+   "performanceDataSource": {
+    "type": "firstParty",
+    "providerName": "Google"
+   },
+   "priceDataSource": {
+    "type": "firstParty",
+    "providerName": "Google"
+   },
+   "creator": {
+    "id": "faddc6d9-2c14-445f-9b28-56726f59c793",
+    "slug": "google",
+    "name": "Google",
+    "logo": "/img/logos/google.svg",
+    "color": "#34A853",
+    "country": "us"
+   },
+   "hosts": [
+    {
+     "slug": "google",
+     "name": "Google",
+     "logo": "/img/logos/google.svg"
+    }
+   ],
+   "inputModalityText": true,
+   "inputModalityImage": true,
+   "inputModalitySpeech": true,
+   "inputModalityVideo": true,
+   "outputModalityText": true,
+   "outputModalityImage": false,
+   "outputModalitySpeech": false,
+   "outputModalityVideo": false
+  },
+  {
    "id": "7d064a11-6e78-4030-b535-cdf940615041",
    "slug": "claude-haiku-5-5",
    "name": "Claude Haiku 5.5 (Max)",
@@ -3000,7 +3229,11 @@
    "release": {
     "slug": "claude-haiku-5-5",
     "name": "Claude Haiku 5.5",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "medium",
+     "label": "medium"
+    }
    },
    "deprecated": false,
    "isOpenWeights": false,
@@ -3028,10 +3261,10 @@
    "mlcrOverall": 0.35,
    "harveyLab": 0.005555555555555555,
    "gdpPdfAllPass": 0.208,
-   "gdpval": 1628.98,
+   "gdpval": 1629.35,
    "gdpvalInterval": {
-    "lower": 1607.63,
-    "upper": 1650.34
+    "lower": 1608.12,
+    "upper": 1650.58
    },
    "itBenchSre": null,
    "tau2": null,
@@ -3070,7 +3303,7 @@
    "price1mBlended0To1To1": 0.3,
    "price1mBlended100To1To1": 0.01568627450980392,
    "price1mBlended0To100To1": 0.10396039603960396,
-   "intelligenceIndexTimePerTask": 880.0304109481046,
+   "intelligenceIndexTimePerTask": 878.3798835270022,
    "intelligenceIndexCost": {
     "total": 339.47280224093265,
     "input": 190.61184474093267,
@@ -3144,9 +3377,9 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1572.56,
-     "lower95ci": 1563.12,
-     "upper95ci": 1582.84
+     "elo": 1571.33,
+     "lower95ci": 1562.38,
+     "upper95ci": 1581.12
     }
    },
    "aa3dElo": 998.1405,
@@ -3161,79 +3394,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 1439.04,
-     "eloquent": 1095.21,
-     "literate": 1069.75,
-     "naturalSounding": 1138.31,
-     "metaphorical": 1256.42,
-     "structured": 919.91,
-     "scannable": 972.38,
-     "summarizesBottomLine": 846.02,
-     "answerFirst": 946.55,
-     "informationDense": 1599.42,
-     "evidenceBased": 1359.79,
-     "resourceSpecific": 1472.66,
-     "providesActionableGuidance": 1196.58,
-     "pragmatic": 1142.39,
-     "truthful": 882.55,
-     "admitsUncertainty": 900.02,
-     "disclaimsWithAssumptions": 823.51,
-     "flagsNuances": 1039.37,
-     "sycophantic": 1007.9,
-     "friendly": 1033.12,
-     "humorous": 949.18,
-     "sincere": 1246.45,
-     "emotionallyIntelligent": 952.45,
-     "direct": 954.97,
-     "confident": 1110.68,
-     "opinionated": 1049.3,
-     "constructivelyPushesBack": 1154.6,
-     "creative": 1200.65,
-     "openEnded": 876.32,
-     "slop": 918.54
+     "lexicallyVaried": 1421.02,
+     "eloquent": 1087.86,
+     "literate": 1065.62,
+     "naturalSounding": 1138.34,
+     "metaphorical": 1231.99,
+     "structured": 920.06,
+     "scannable": 979.46,
+     "summarizesBottomLine": 835.46,
+     "answerFirst": 951.4,
+     "informationDense": 1579.13,
+     "evidenceBased": 1352.55,
+     "resourceSpecific": 1456.16,
+     "providesActionableGuidance": 1166.95,
+     "pragmatic": 1133.22,
+     "truthful": 876.02,
+     "admitsUncertainty": 898.29,
+     "disclaimsWithAssumptions": 814.65,
+     "flagsNuances": 1036.72,
+     "sycophantic": 1004.38,
+     "friendly": 1030.03,
+     "humorous": 952.88,
+     "sincere": 1240.82,
+     "emotionallyIntelligent": 946.28,
+     "direct": 950.35,
+     "confident": 1119.57,
+     "opinionated": 1043.8,
+     "constructivelyPushesBack": 1140.06,
+     "creative": 1183.38,
+     "openEnded": 879.2,
+     "slop": 912.77
     },
     "indexScores": {
-     "expressiveness": 77.15384615384616,
-     "organization": 40.98076923076923,
-     "informativeness": 75.25,
-     "transparency": 77.15384615384616,
-     "warmth": 69.53846153846153,
-     "conviction": 67.63461538461539,
-     "imagination": 63.82692307692307,
-     "slop": 10.51923076923077
+     "expressiveness": 80.83870967741935,
+     "organization": 52.096774193548384,
+     "informativeness": 82.43548387096774,
+     "transparency": 79.24193548387096,
+     "warmth": 74.45161290322581,
+     "conviction": 60.08064516129033,
+     "imagination": 69.66129032258065,
+     "slop": 26.548387096774192
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 75,
-      "upper": 84
+      "lower": 79,
+      "upper": 87
      },
      "organization": {
-      "lower": 28,
-      "upper": 56
+      "lower": 38,
+      "upper": 62
      },
      "informativeness": {
-      "lower": 74,
-      "upper": 85
+      "lower": 80,
+      "upper": 88
      },
      "transparency": {
-      "lower": 64,
-      "upper": 82
+      "lower": 70,
+      "upper": 84
      },
      "warmth": {
-      "lower": 64,
-      "upper": 76
+      "lower": 66,
+      "upper": 79
      },
      "conviction": {
-      "lower": 62,
-      "upper": 73
+      "lower": 53,
+      "upper": 71
      },
      "imagination": {
-      "lower": 61,
-      "upper": 77
+      "lower": 65,
+      "upper": 80
      },
      "slop": {
-      "lower": 8,
-      "upper": 11
+      "lower": 25,
+      "upper": 27
      }
     }
    },
@@ -3261,22 +3494,22 @@
     "endsWithQuestion": 0.0922222222222222
    },
    "headline": {
-    "outputSpeed": 256.7706262247505,
-    "timeToFirstToken": 185.47981543990772,
-    "timeToFirstAnswerToken": 185.47981543990772
+    "outputSpeed": 257.253113321126,
+    "timeToFirstToken": 169.738165176908,
+    "timeToFirstAnswerToken": 169.738165176908
    },
    "multiTurn": {
-    "timeToFirstToken": 56.8036176890654
+    "timeToFirstToken": 56.6179945790537
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 251.48687034661108
+     "timeToFirstToken": 219.030000049895
     },
     "10k": {
-     "timeToFirstToken": 311.71962157297224
+     "timeToFirstToken": 312.211224039895
     },
     "100k": {
-     "timeToFirstToken": 379.26154765266665
+     "timeToFirstToken": 317.3337832345
     }
    },
    "performanceDataSource": {
@@ -3318,7 +3551,7 @@
    "shortName": "Gemini 4 Carbon (high)",
    "suffix": "High",
    "chartDefaultSelected": true,
-   "chartHighlighted": true,
+   "chartHighlighted": false,
    "releaseDate": "2026-10-28",
    "knowledgeCutoffDate": null,
    "isReasoning": true,
@@ -3330,7 +3563,11 @@
    "release": {
     "slug": "gemini-4-carbon",
     "name": "Gemini 4 Carbon",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "medium",
+     "label": "medium"
+    }
    },
    "deprecated": false,
    "isOpenWeights": false,
@@ -3389,74 +3626,74 @@
    "aime25": null,
    "analystAgent": null,
    "automationBenchPartialScore": 0.7781660572624064,
-   "price1mInputTokens": 2,
-   "price1mOutputTokens": 10,
-   "cacheHitPrice": 0.1,
+   "price1mInputTokens": 4,
+   "price1mOutputTokens": 20,
+   "cacheHitPrice": 0.2,
    "cacheHitDiscountPercent": 0.95,
    "pricePer1k1mpImages": null,
-   "price1mBlended0To3To1": 4,
-   "price1mBlended7To2To1": 1.47,
-   "price1mBlended0To1To1": 6,
-   "price1mBlended100To1To1": 0.21568627450980393,
-   "price1mBlended0To100To1": 2.0792079207920793,
-   "intelligenceIndexTimePerTask": 1979.8378029283435,
+   "price1mBlended0To3To1": 8,
+   "price1mBlended7To2To1": 2.94,
+   "price1mBlended0To1To1": 12,
+   "price1mBlended100To1To1": 0.43137254901960786,
+   "price1mBlended0To100To1": 4.158415841584159,
+   "intelligenceIndexTimePerTask": 2024.326860096992,
    "intelligenceIndexCost": {
-    "total": 5333.26684317719,
-    "input": 3285.67014317719,
-    "nonCacheInput": 165.503294,
-    "cacheRead": 693.321220174944,
+    "total": 8239.688057352134,
+    "input": 4144.494657352134,
+    "nonCacheInput": 331.006588,
+    "cacheRead": 1386.642440349888,
     "cacheWrite": 2426.845629002246,
-    "output": 2047.5966999999998,
-    "reasoning": 1678.7704199999998,
-    "answer": 368.82628
+    "output": 4095.1933999999997,
+    "reasoning": 3357.5408399999997,
+    "answer": 737.65256
    },
    "intelligenceIndexCostPerTask": {
     "cost": {
-     "total": 5.484780948230178,
-     "input": 4.257102989487116,
-     "nonCacheInput": 0.0235140179,
-     "cacheRead": 1.0195728204133172,
+     "total": 7.755545745286556,
+     "input": 5.300189827800433,
+     "nonCacheInput": 0.0470280358,
+     "cacheRead": 2.0391456408266344,
      "cacheWrite": 3.214016151173799,
-     "output": 1.2276779587430622,
-     "reasoning": 0.7217785657682819,
-     "answer": 0.5058993929747801
+     "output": 2.4553559174861244,
+     "reasoning": 1.4435571315365638,
+     "answer": 1.0117987859495603
     },
     "evaluations": [
      {
       "slug": "aa-briefcase",
-      "weightedCostPerTask": 0.8771039166898146
+      "weightedCostPerTask": 1.2241925695444855
      },
      {
       "slug": "automationbench-aa",
-      "weightedCostPerTask": 0.06390936065873529
+      "weightedCostPerTask": 0.09447564428076281
      },
      {
       "slug": "terminalbench-4-0",
-      "weightedCostPerTask": 0.7113908956231779
+      "weightedCostPerTask": 1.005298420599429
      },
      {
       "slug": "frontiercode-2-0",
-      "weightedCostPerTask": 1.3319482399182012
+      "weightedCostPerTask": 1.8027343513655203
      },
      {
       "slug": "omniscience",
-      "weightedCostPerTask": 0.0184733989
+      "weightedCostPerTask": 0.0369467978
      },
      {
       "slug": "gdp-pdf",
-      "weightedCostPerTask": 0.021176153
+      "weightedCostPerTask": 0.042352306
      },
      {
       "slug": "hle-diamond",
-      "weightedCostPerTask": 0.08138023900000001
+      "weightedCostPerTask": 0.16276047800000001
      },
      {
       "slug": "critpt-v2-hard",
-      "weightedCostPerTask": 0.24379593472764768
+      "weightedCostPerTask": 0.3907052761448875
      },
      {
       "slug": "terminal-bench-science",
-      "weightedCostPerTask": 2.135602809712601
+      "weightedCostPerTask": 2.996079901551472
      }
     ]
    },
@@ -3478,23 +3715,28 @@
      "upper95ci": 1621.24
     }
    },
+   "aa3dElo": 1200.2982,
+   "aa3dEloInterval": {
+    "lower": 1177.3711,
+    "upper": 1223.2252
+   },
    "headline": {
-    "outputSpeed": 62.00901694710674,
-    "timeToFirstToken": 73.99828993034963,
-    "timeToFirstAnswerToken": 73.99828993034963
+    "outputSpeed": 60.6462317396826,
+    "timeToFirstToken": 68.2627077386747,
+    "timeToFirstAnswerToken": 68.2627077386747
    },
    "multiTurn": {
-    "timeToFirstToken": 24.18737428170849
+    "timeToFirstToken": 25.4563041175337
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 85.51264869655562
+     "timeToFirstToken": 91.9110201881053
     },
     "10k": {
-     "timeToFirstToken": 113.34399599174998
+     "timeToFirstToken": 123.178939317842
     },
     "100k": {
-     "timeToFirstToken": 172.57097204866668
+     "timeToFirstToken": 118.1173745735
     }
    },
    "performanceDataSource": {
@@ -3530,6 +3772,332 @@
    "outputModalityVideo": false
   },
   {
+   "id": "a1a84b18-e8c9-48fb-8e04-6003bd9f6ff4",
+   "slug": "gpt-6-2-sol",
+   "name": "GPT-6.2 Sol (Max)",
+   "shortName": "GPT-6.2 Sol (max)",
+   "suffix": "Max",
+   "chartDefaultSelected": true,
+   "chartHighlighted": true,
+   "releaseDate": "2026-11-17",
+   "knowledgeCutoffDate": null,
+   "isReasoning": true,
+   "effort": {
+    "slug": "max",
+    "label": "max",
+    "level": 60
+   },
+   "release": {
+    "slug": "gpt-6-2-sol",
+    "name": "GPT-6.2 Sol",
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "medium",
+     "label": "medium"
+    }
+   },
+   "deprecated": false,
+   "isOpenWeights": false,
+   "openSourceCategorization": "proprietary",
+   "parameters": null,
+   "inferenceParametersActiveBillions": null,
+   "sizeClass": "large",
+   "contextWindowTokens": 1000000,
+   "licenseName": null,
+   "licenseUrl": null,
+   "modelWeightsSourceUrl": null,
+   "microevalsEnabled": false,
+   "intelligenceIndex": 57.2576209885477,
+   "capabilities": {
+    "financeAndAccounting": 57.2061223535043,
+    "strategyAndOps": 59.4019797848511,
+    "legal": 55.0250544074692,
+    "healthcareAndMedical": 53.2867243277634,
+    "engineering": 61.164913474026,
+    "economics": 57.3505666666667
+   },
+   "omniscience": 40.36666666666667,
+   "omniscienceAccuracy": 0.6163333333333333,
+   "omniscienceHallucinationRate": 0.5543006081668115,
+   "mlcrOverall": 0.372222222222222,
+   "harveyLab": 0.1111111111111111,
+   "gdpPdfAllPass": 0.3,
+   "gdpval": null,
+   "itBenchSre": null,
+   "tau2": null,
+   "tauBanking": null,
+   "terminalbenchHard": null,
+   "terminalBench21": null,
+   "terminalBench40": 0.601010101010101,
+   "frontierCode": null,
+   "frontierCode20": 0.443797727272727,
+   "terminalBenchScience": 0.676190476190476,
+   "healthbench": 0.5391563103957766,
+   "vialsScore": 0.6273291925465838,
+   "mkaClimbWsr": null,
+   "healthbenchProfessional": null,
+   "hleDiamond": 0.64,
+   "critptAgenticHard": 0.625,
+   "scicode": null,
+   "lcr": null,
+   "ifbench": null,
+   "hle": null,
+   "gpqa": null,
+   "critpt": null,
+   "apexAgents": null,
+   "mmmuPro": null,
+   "livecodebench": null,
+   "aime25": null,
+   "analystAgent": 0.5375,
+   "automationBenchPartialScore": 0.7127833267998683,
+   "enterpriseOpsGym": 0.2891674127126231,
+   "price1mInputTokens": 2,
+   "price1mOutputTokens": 10,
+   "cacheHitPrice": 0.1,
+   "cacheHitDiscountPercent": 0.95,
+   "pricePer1k1mpImages": null,
+   "price1mBlended0To3To1": 4,
+   "price1mBlended7To2To1": 1.47,
+   "price1mBlended0To1To1": 6,
+   "price1mBlended100To1To1": 0.21568627450980393,
+   "price1mBlended0To100To1": 2.0792079207920793,
+   "intelligenceIndexTimePerTask": 605.9081054566218,
+   "intelligenceIndexCost": {
+    "total": 1108.2817282990527,
+    "input": 499.3221582990528,
+    "nonCacheInput": 34.29894,
+    "cacheRead": 209.63875194587277,
+    "cacheWrite": 255.38446635318002,
+    "output": 608.95957,
+    "reasoning": 454.32093000000003,
+    "answer": 154.63863999999998
+   },
+   "intelligenceIndexCostPerTask": {
+    "cost": {
+     "total": 1.014379970300768,
+     "input": 0.6107756961183302,
+     "nonCacheInput": 0.0163008532,
+     "cacheRead": 0.30114865926299994,
+     "cacheWrite": 0.2933261836553303,
+     "output": 0.4036042741824378,
+     "reasoning": 0.22799616600251876,
+     "answer": 0.175608108179919
+    },
+    "evaluations": [
+     {
+      "slug": "aa-briefcase",
+      "weightedCostPerTask": 0.23483153548446342
+     },
+     {
+      "slug": "automationbench-aa",
+      "weightedCostPerTask": 0.013533763633487728
+     },
+     {
+      "slug": "terminalbench-4-0",
+      "weightedCostPerTask": 0.12935358360529964
+     },
+     {
+      "slug": "frontiercode-2-0",
+      "weightedCostPerTask": 0.19466286274079353
+     },
+     {
+      "slug": "omniscience",
+      "weightedCostPerTask": 0.007925340099999999
+     },
+     {
+      "slug": "gdp-pdf",
+      "weightedCostPerTask": 0.019820061
+     },
+     {
+      "slug": "hle-diamond",
+      "weightedCostPerTask": 0.014888130600000002
+     },
+     {
+      "slug": "critpt-v2-hard",
+      "weightedCostPerTask": 0.031372428411262636
+     },
+     {
+      "slug": "terminal-bench-science",
+      "weightedCostPerTask": 0.367992264725461
+     }
+    ]
+   },
+   "canonicalIntelligenceIndexTokenCount": {
+    "input": 2215690776,
+    "output": 60895957,
+    "answer": 15463864,
+    "reasoning": 45432093
+   },
+   "intelligenceIndexOutputTokensPerTask": {
+    "reasoning": 22799.616600251877,
+    "answer": 17560.810817991904,
+    "output": 40360.42741824378
+   },
+   "briefcaseBreakdown": {
+    "overall": {
+     "elo": 1611.82,
+     "lower95ci": 1600.86,
+     "upper95ci": 1624.29
+    }
+   },
+   "aa3dElo": 1259.2763,
+   "aa3dEloInterval": {
+    "lower": 1230.8786,
+    "upper": 1287.6741
+   },
+   "personalityBench": {
+    "scores": {
+     "lexicallyVaried": 864.26,
+     "eloquent": 972.37,
+     "literate": 862.12,
+     "naturalSounding": 1324.38,
+     "metaphorical": 955.18,
+     "structured": 775.89,
+     "scannable": 597.11,
+     "summarizesBottomLine": 846.39,
+     "answerFirst": 1059.39,
+     "informationDense": 946.72,
+     "evidenceBased": 1050.32,
+     "resourceSpecific": 923.91,
+     "providesActionableGuidance": 830.81,
+     "pragmatic": 1163.44,
+     "truthful": 960.8,
+     "admitsUncertainty": 677.54,
+     "disclaimsWithAssumptions": 865.3,
+     "flagsNuances": 703.3,
+     "sycophantic": 1023.74,
+     "friendly": 774.63,
+     "humorous": 978.84,
+     "sincere": 1225.38,
+     "emotionallyIntelligent": 882.24,
+     "direct": 1271.38,
+     "confident": 1085.64,
+     "opinionated": 961.7,
+     "constructivelyPushesBack": 835.67,
+     "creative": 1135.47,
+     "openEnded": 741.14,
+     "slop": 462.63
+    },
+    "indexScores": {
+     "expressiveness": 40.91935483870967,
+     "organization": 26.548387096774192,
+     "informativeness": 37.725806451612904,
+     "transparency": 56.88709677419355,
+     "warmth": 47.306451612903224,
+     "conviction": 48.903225806451616,
+     "imagination": 60.08064516129033,
+     "slop": 10.580645161290322
+    },
+    "indexIntervals": {
+     "expressiveness": {
+      "lower": 37,
+      "upper": 56
+     },
+     "organization": {
+      "lower": 12,
+      "upper": 35
+     },
+     "informativeness": {
+      "lower": 36,
+      "upper": 41
+     },
+     "transparency": {
+      "lower": 50,
+      "upper": 64
+     },
+     "warmth": {
+      "lower": 42,
+      "upper": 57
+     },
+     "conviction": {
+      "lower": 44,
+      "upper": 55
+     },
+     "imagination": {
+      "lower": 54,
+      "upper": 63
+     },
+     "slop": {
+      "lower": 7,
+      "upper": 14
+     }
+    }
+   },
+   "personalityBenchMeans": {
+    "charCount": 1394.80555555556,
+    "wordCount": 230.453333333333,
+    "sentenceCount": 16.3455555555556,
+    "paragraphCount": 3.61777777777778,
+    "avgSentenceLength": 14.4039301916534,
+    "listCount": 0.542222222222222,
+    "headingCount": 0.271111111111111,
+    "tableCount": 0.0811111111111111,
+    "emDashCount": 0.546666666666667,
+    "contractionCount": 5.58666666666667,
+    "exclamationCount": 0.0255555555555556,
+    "questionCount": 1.17111111111111,
+    "parentheticalCount": 0.35,
+    "quoteCount": 2.61666666666667,
+    "colonCount": 1.99111111111111,
+    "ellipsisCount": 0.0211111111111111,
+    "boldCount": 4.40111111111111,
+    "italicsCount": 0.532222222222222,
+    "emojiCount": 0,
+    "acronymCount": 0.894444444444444,
+    "endsWithQuestion": 0.103333333333333
+   },
+   "headline": {
+    "outputSpeed": 66.6114664167226,
+    "timeToFirstToken": 85.4664072484755,
+    "timeToFirstAnswerToken": 85.4664072484755
+   },
+   "multiTurn": {
+    "timeToFirstToken": 13.0600176913546
+   },
+   "workloads": {
+    "1k": {
+     "timeToFirstToken": 102.566720367711
+    },
+    "10k": {
+     "timeToFirstToken": 217.753078487079
+    },
+    "100k": {
+     "timeToFirstToken": 153.298591562
+    }
+   },
+   "performanceDataSource": {
+    "type": "firstParty",
+    "providerName": "OpenAI"
+   },
+   "priceDataSource": {
+    "type": "firstParty",
+    "providerName": "OpenAI"
+   },
+   "creator": {
+    "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
+    "slug": "openai",
+    "name": "OpenAI",
+    "logo": "/img/logos/openai.svg",
+    "color": "#1f1f1f",
+    "country": "us"
+   },
+   "hosts": [
+    {
+     "slug": "openai",
+     "name": "OpenAI",
+     "logo": "/img/logos/openai.svg"
+    }
+   ],
+   "inputModalityText": true,
+   "inputModalityImage": true,
+   "inputModalitySpeech": false,
+   "inputModalityVideo": false,
+   "outputModalityText": true,
+   "outputModalityImage": false,
+   "outputModalitySpeech": false,
+   "outputModalityVideo": false
+  },
+  {
    "id": "b01dee41-c62b-48ed-8d16-984adc405e5c",
    "slug": "qwen3-8-27b",
    "name": "Qwen3.8 27B (Xhigh)",
@@ -3548,7 +4116,11 @@
    "release": {
     "slug": "qwen3-8-27b",
     "name": "Qwen3.8 27B",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "xhigh",
+     "label": "xhigh"
+    }
    },
    "deprecated": false,
    "isOpenWeights": true,
@@ -3618,7 +4190,7 @@
    "price1mBlended0To1To1": 1.75,
    "price1mBlended100To1To1": 0.1323529411764706,
    "price1mBlended0To100To1": 0.5247524752475248,
-   "intelligenceIndexTimePerTask": 2314.433469199124,
+   "intelligenceIndexTimePerTask": 1656.7849277026967,
    "intelligenceIndexCost": {
     "total": 2390.035898580784,
     "input": 2006.9441185807839,
@@ -3711,79 +4283,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 510.91,
-     "eloquent": 987.42,
-     "literate": 608.47,
-     "naturalSounding": 655.54,
-     "metaphorical": 1184.64,
-     "structured": 583.59,
-     "scannable": 1205.53,
-     "summarizesBottomLine": 1097.87,
-     "answerFirst": 963.77,
-     "informationDense": 1021.17,
-     "evidenceBased": 713.52,
-     "resourceSpecific": 1449.14,
-     "providesActionableGuidance": 1396.03,
-     "pragmatic": 640.11,
-     "truthful": 183.43,
-     "admitsUncertainty": 767.64,
-     "disclaimsWithAssumptions": 812.96,
-     "flagsNuances": 932.09,
-     "sycophantic": 1104.16,
-     "friendly": 913.47,
-     "humorous": 797.97,
-     "sincere": 473.98,
-     "emotionallyIntelligent": 821.55,
-     "direct": 636.02,
-     "confident": 1017.42,
-     "opinionated": 1008.8,
-     "constructivelyPushesBack": 1085.28,
-     "creative": 826.16,
-     "openEnded": 717.79,
-     "slop": 1822.37
+     "lexicallyVaried": 508.55,
+     "eloquent": 978.89,
+     "literate": 610.17,
+     "naturalSounding": 658.2,
+     "metaphorical": 1164.14,
+     "structured": 589.11,
+     "scannable": 1205.87,
+     "summarizesBottomLine": 1094.68,
+     "answerFirst": 967.04,
+     "informationDense": 984.16,
+     "evidenceBased": 701.68,
+     "resourceSpecific": 1432.56,
+     "providesActionableGuidance": 1367.12,
+     "pragmatic": 638.58,
+     "truthful": 191.8,
+     "admitsUncertainty": 764.78,
+     "disclaimsWithAssumptions": 801.8,
+     "flagsNuances": 922.72,
+     "sycophantic": 1109.28,
+     "friendly": 902.02,
+     "humorous": 790.28,
+     "sincere": 477.82,
+     "emotionallyIntelligent": 823.13,
+     "direct": 643.14,
+     "confident": 1021.2,
+     "opinionated": 1003.35,
+     "constructivelyPushesBack": 1061.86,
+     "creative": 824.54,
+     "openEnded": 717.35,
+     "slop": 1819.77
     },
     "indexScores": {
-     "expressiveness": 21.942307692307693,
-     "organization": 61.92307692307693,
-     "informativeness": 37.17307692307692,
-     "transparency": 35.26923076923077,
-     "warmth": 35.26923076923077,
-     "conviction": 37.17307692307692,
-     "imagination": 33.36538461538461,
-     "slop": 79.0576923076923
+     "expressiveness": 18.56451612903226,
+     "organization": 69.66129032258065,
+     "informativeness": 45.70967741935484,
+     "transparency": 34.53225806451613,
+     "warmth": 29.741935483870968,
+     "conviction": 31.338709677419356,
+     "imagination": 28.14516129032258,
+     "slop": 82.43548387096774
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 21,
-      "upper": 26
+      "lower": 18,
+      "upper": 21
      },
      "organization": {
-      "lower": 52,
-      "upper": 74
+      "lower": 57,
+      "upper": 77
      },
      "informativeness": {
-      "lower": 31,
-      "upper": 41
+      "lower": 40,
+      "upper": 50
      },
      "transparency": {
-      "lower": 31,
-      "upper": 40
+      "lower": 27,
+      "upper": 45
      },
      "warmth": {
-      "lower": 34,
-      "upper": 39
+      "lower": 29,
+      "upper": 33
      },
      "conviction": {
-      "lower": 34,
-      "upper": 44
+      "lower": 28,
+      "upper": 41
      },
      "imagination": {
-      "lower": 27,
-      "upper": 39
+      "lower": 24,
+      "upper": 37
      },
      "slop": {
-      "lower": 76,
-      "upper": 82
+      "lower": 80,
+      "upper": 85
      }
     }
    },
@@ -3811,22 +4383,22 @@
     "endsWithQuestion": 0.0122222222222222
    },
    "headline": {
-    "outputSpeed": 47.442336092281465,
-    "timeToFirstToken": 5.599254652761403,
-    "timeToFirstAnswerToken": 114.39350114176604
+    "outputSpeed": 66.2742210367774,
+    "timeToFirstToken": 5.82659115009923,
+    "timeToFirstAnswerToken": 101.949123051107
    },
    "multiTurn": {
-    "timeToFirstToken": 3.4742346998560834
+    "timeToFirstToken": 4.24823874077558
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 1.363926240944484
+     "timeToFirstToken": 1.16168833536845
     },
     "10k": {
-     "timeToFirstToken": 3.9096387223056848
+     "timeToFirstToken": 3.44197112250004
     },
     "100k": {
-     "timeToFirstToken": 17.89925885375
+     "timeToFirstToken": 17.6111712204002
     }
    },
    "performanceDataSource": {
@@ -3925,7 +4497,11 @@
    "release": {
     "slug": "gpt-6-1-terra",
     "name": "GPT-6.1 Terra",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "medium",
+     "label": "medium"
+    }
    },
    "deprecated": false,
    "isOpenWeights": false,
@@ -3952,10 +4528,10 @@
    "omniscienceHallucinationRate": 0.3450031826861871,
    "mlcrOverall": 0.305555555555556,
    "gdpPdfAllPass": 0.286,
-   "gdpval": 1475.84,
+   "gdpval": 1474.92,
    "gdpvalInterval": {
-    "lower": 1453.16,
-    "upper": 1498.52
+    "lower": 1452.34,
+    "upper": 1497.51
    },
    "itBenchSre": null,
    "tau2": null,
@@ -3994,7 +4570,7 @@
    "price1mBlended0To1To1": 3,
    "price1mBlended100To1To1": 0.10784313725490197,
    "price1mBlended0To100To1": 1.0396039603960396,
-   "intelligenceIndexTimePerTask": 834.7160432566698,
+   "intelligenceIndexTimePerTask": 862.2575070132561,
    "intelligenceIndexCost": {
     "total": 972.3358390033461,
     "input": 475.405579003346,
@@ -4068,28 +4644,28 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1401.3,
-     "lower95ci": 1391.44,
-     "upper95ci": 1411.49
+     "elo": 1399.26,
+     "lower95ci": 1389.57,
+     "upper95ci": 1409.15
     }
    },
    "headline": {
-    "outputSpeed": 71.74076166580937,
-    "timeToFirstToken": 152.72289386533478,
-    "timeToFirstAnswerToken": 152.72289386533478
+    "outputSpeed": 69.4492819498103,
+    "timeToFirstToken": 160.283725440892,
+    "timeToFirstAnswerToken": 160.283725440892
    },
    "multiTurn": {
-    "timeToFirstToken": 15.300032112847118
+    "timeToFirstToken": 15.0283804410542
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 244.24583296105558
+     "timeToFirstToken": 283.987183845289
     },
     "10k": {
-     "timeToFirstToken": 347.12214809391173
+     "timeToFirstToken": 401.7784730375
     },
     "100k": {
-     "timeToFirstToken": 279.0692857985
+     "timeToFirstToken": 230.8515544394
     }
    },
    "performanceDataSource": {
@@ -4143,7 +4719,11 @@
    "release": {
     "slug": "claude-sonnet-5-5",
     "name": "Claude Sonnet 5.5",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "high",
+     "label": "high"
+    }
    },
    "deprecated": false,
    "isOpenWeights": false,
@@ -4213,7 +4793,7 @@
    "price1mBlended0To1To1": 6,
    "price1mBlended100To1To1": 0.21568627450980393,
    "price1mBlended0To100To1": 2.0792079207920793,
-   "intelligenceIndexTimePerTask": 1882.9692057872558,
+   "intelligenceIndexTimePerTask": 1884.2516457623415,
    "intelligenceIndexCost": {
     "total": 7980.631329822837,
     "input": 4628.416219822837,
@@ -4287,9 +4867,9 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1816.2,
-     "lower95ci": 1806.34,
-     "upper95ci": 1827.04
+     "elo": 1813.08,
+     "lower95ci": 1803.54,
+     "upper95ci": 1823.84
     }
    },
    "aa3dElo": 1203.6913,
@@ -4304,79 +4884,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 1398.58,
-     "eloquent": 1080.99,
-     "literate": 992.96,
-     "naturalSounding": 909.88,
-     "metaphorical": 1339.06,
-     "structured": 993.37,
-     "scannable": 1300.21,
-     "summarizesBottomLine": 922.8,
-     "answerFirst": 939.89,
-     "informationDense": 1703.15,
-     "evidenceBased": 1459.26,
-     "resourceSpecific": 1547.89,
-     "providesActionableGuidance": 1175.88,
-     "pragmatic": 1027.04,
-     "truthful": 1061.13,
-     "admitsUncertainty": 1069.19,
-     "disclaimsWithAssumptions": 938.8,
-     "flagsNuances": 1121.53,
-     "sycophantic": 911.2,
-     "friendly": 1037.33,
-     "humorous": 1090.78,
-     "sincere": 1058.76,
-     "emotionallyIntelligent": 933.38,
-     "direct": 818.58,
-     "confident": 1009.53,
-     "opinionated": 1053.45,
-     "constructivelyPushesBack": 1184.38,
-     "creative": 1197.52,
-     "openEnded": 1079.58,
-     "slop": 1059.69
+     "lexicallyVaried": 1380.27,
+     "eloquent": 1073.37,
+     "literate": 985.67,
+     "naturalSounding": 910.58,
+     "metaphorical": 1321.34,
+     "structured": 998.85,
+     "scannable": 1300,
+     "summarizesBottomLine": 907.99,
+     "answerFirst": 948.72,
+     "informationDense": 1682.83,
+     "evidenceBased": 1447.23,
+     "resourceSpecific": 1531.21,
+     "providesActionableGuidance": 1147.73,
+     "pragmatic": 1026.08,
+     "truthful": 1043.78,
+     "admitsUncertainty": 1067.18,
+     "disclaimsWithAssumptions": 931.1,
+     "flagsNuances": 1117.8,
+     "sycophantic": 909.77,
+     "friendly": 1035.96,
+     "humorous": 1086.53,
+     "sincere": 1065.74,
+     "emotionallyIntelligent": 915.45,
+     "direct": 821.03,
+     "confident": 1003.75,
+     "opinionated": 1045.11,
+     "constructivelyPushesBack": 1168.26,
+     "creative": 1180.82,
+     "openEnded": 1072.83,
+     "slop": 1055.43
     },
     "indexScores": {
-     "expressiveness": 73.34615384615384,
-     "organization": 84.76923076923077,
-     "informativeness": 84.76923076923077,
-     "transparency": 100,
-     "warmth": 73.34615384615384,
-     "conviction": 58.11538461538461,
-     "imagination": 84.76923076923077,
-     "slop": 18.134615384615383
+     "expressiveness": 77.64516129032258,
+     "organization": 82.43548387096774,
+     "informativeness": 88.8225806451613,
+     "transparency": 98.40322580645162,
+     "warmth": 77.64516129032258,
+     "conviction": 47.306451612903224,
+     "imagination": 88.8225806451613,
+     "slop": 31.338709677419356
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 69,
-      "upper": 76
+      "lower": 75,
+      "upper": 79
      },
      "organization": {
-      "lower": 73,
-      "upper": 94
+      "lower": 76,
+      "upper": 95
      },
      "informativeness": {
-      "lower": 78,
-      "upper": 89
+      "lower": 86,
+      "upper": 91
      },
      "transparency": {
-      "lower": 95,
+      "lower": 96,
       "upper": 100
      },
      "warmth": {
-      "lower": 65,
-      "upper": 76
+      "lower": 67,
+      "upper": 79
      },
      "conviction": {
-      "lower": 51,
-      "upper": 63
+      "lower": 45,
+      "upper": 53
      },
      "imagination": {
-      "lower": 80,
-      "upper": 91
+      "lower": 84,
+      "upper": 93
      },
      "slop": {
-      "lower": 17,
-      "upper": 22
+      "lower": 30,
+      "upper": 35
      }
     }
    },
@@ -4404,22 +4984,22 @@
     "endsWithQuestion": 0.135555555555556
    },
    "headline": {
-    "outputSpeed": 151.56228390425062,
-    "timeToFirstToken": 288.829493986095,
-    "timeToFirstAnswerToken": 288.829493986095
+    "outputSpeed": 151.45912914144,
+    "timeToFirstToken": 255.332115280798,
+    "timeToFirstAnswerToken": 255.332115280798
    },
    "multiTurn": {
-    "timeToFirstToken": 76.11581112387258
+    "timeToFirstToken": 64.679153573528
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 416.7150295147187
+     "timeToFirstToken": 393.703668446
     },
     "10k": {
-     "timeToFirstToken": 510.5026080752332
+     "timeToFirstToken": 501.164442781806
     },
     "100k": {
-     "timeToFirstToken": 577.411892955
+     "timeToFirstToken": 443.0871197364
     }
    },
    "performanceDataSource": {
@@ -4470,341 +5050,6 @@
    "outputModalityVideo": false
   },
   {
-   "id": "b25ac058-1e33-4c31-bbc9-a20c3ad0717a",
-   "slug": "gpt-6-1-sol",
-   "name": "GPT-6.1 Sol (Max)",
-   "shortName": "GPT-6.1 Sol (max)",
-   "suffix": "Max",
-   "chartDefaultSelected": true,
-   "chartHighlighted": true,
-   "releaseDate": "2026-09-29",
-   "knowledgeCutoffDate": null,
-   "isReasoning": true,
-   "effort": {
-    "slug": "max",
-    "label": "max",
-    "level": 60
-   },
-   "release": {
-    "slug": "gpt-6-1-sol",
-    "name": "GPT-6.1 Sol",
-    "deprecatedTo": null
-   },
-   "deprecated": false,
-   "isOpenWeights": false,
-   "openSourceCategorization": "proprietary",
-   "parameters": null,
-   "inferenceParametersActiveBillions": null,
-   "sizeClass": "large",
-   "contextWindowTokens": 1000000,
-   "licenseName": null,
-   "licenseUrl": null,
-   "modelWeightsSourceUrl": null,
-   "microevalsEnabled": true,
-   "intelligenceIndex": 54.6087338138148,
-   "capabilities": {
-    "financeAndAccounting": 56.2277560783758,
-    "strategyAndOps": 57.6134804164691,
-    "legal": 53.6635002700218,
-    "healthcareAndMedical": 52.0336299039313,
-    "engineering": 59.3526158549784,
-    "economics": 56.31315
-   },
-   "omniscience": 42.03333333333333,
-   "omniscienceAccuracy": 0.6183333333333333,
-   "omniscienceHallucinationRate": 0.5187772925764192,
-   "mlcrOverall": 0.383333333333333,
-   "harveyLab": 0.06944444444444443,
-   "gdpPdfAllPass": 0.31,
-   "gdpval": 1607.47,
-   "gdpvalInterval": {
-    "lower": 1586.55,
-    "upper": 1628.39
-   },
-   "itBenchSre": null,
-   "tau2": null,
-   "tauBanking": null,
-   "terminalbenchHard": null,
-   "terminalBench21": null,
-   "terminalBench40": 0.560606060606061,
-   "frontierCode": 0.491209333333333,
-   "frontierCode20": 0.406262878787879,
-   "terminalBenchScience": 0.580952380952381,
-   "healthbench": 0.5851711351185636,
-   "vialsScore": 0.5900621118012422,
-   "mkaClimbWsr": 0.47715669949990014,
-   "healthbenchProfessional": 0.6508743489998069,
-   "hleDiamond": 0.588,
-   "critptAgenticHard": 0.695,
-   "scicode": 0.541666666666667,
-   "lcr": 0.83,
-   "ifbench": null,
-   "hle": 0.529193697868397,
-   "gpqa": null,
-   "critpt": 0.317142857142857,
-   "apexAgents": null,
-   "mmmuPro": 0.859537572254335,
-   "livecodebench": null,
-   "aime25": null,
-   "analystAgent": 0.5,
-   "automationBenchPartialScore": 0.6486844882398171,
-   "price1mInputTokens": 2,
-   "price1mOutputTokens": 10,
-   "cacheHitPrice": 0.1,
-   "cacheHitDiscountPercent": 0.95,
-   "pricePer1k1mpImages": null,
-   "price1mBlended0To3To1": 4,
-   "price1mBlended7To2To1": 1.47,
-   "price1mBlended0To1To1": 6,
-   "price1mBlended100To1To1": 0.21568627450980393,
-   "price1mBlended0To100To1": 2.0792079207920793,
-   "intelligenceIndexTimePerTask": 1383.156444823217,
-   "intelligenceIndexCost": {
-    "total": 1123.9739209537065,
-    "input": 487.36386095370665,
-    "nonCacheInput": 34.296416,
-    "cacheRead": 178.93691854359557,
-    "cacheWrite": 274.1305264101111,
-    "output": 636.61006,
-    "reasoning": 466.11559,
-    "answer": 170.49447
-   },
-   "intelligenceIndexCostPerTask": {
-    "cost": {
-     "total": 1.2720632679446995,
-     "input": 0.5938263505669177,
-     "nonCacheInput": 0.016300453700000002,
-     "cacheRead": 0.25176175122452343,
-     "cacheWrite": 0.3257641456423942,
-     "output": 0.678236917377782,
-     "reasoning": 0.4921293730141594,
-     "answer": 0.18610754436362267
-    },
-    "evaluations": [
-     {
-      "slug": "aa-briefcase",
-      "weightedCostPerTask": 0.3468904165964641
-     },
-     {
-      "slug": "automationbench-aa",
-      "weightedCostPerTask": 0.014840974258735366
-     },
-     {
-      "slug": "terminalbench-4-0",
-      "weightedCostPerTask": 0.18227634618325742
-     },
-     {
-      "slug": "frontiercode-2-0",
-      "weightedCostPerTask": 0.16955699611735967
-     },
-     {
-      "slug": "omniscience",
-      "weightedCostPerTask": 0.002746373499999999
-     },
-     {
-      "slug": "gdp-pdf",
-      "weightedCostPerTask": 0.020993322
-     },
-     {
-      "slug": "hle-diamond",
-      "weightedCostPerTask": 0.010916368200000002
-     },
-     {
-      "slug": "critpt-v2-hard",
-      "weightedCostPerTask": 0.023002416704541756
-     },
-     {
-      "slug": "terminal-bench-science",
-      "weightedCostPerTask": 0.5008400543843414
-     }
-    ]
-   },
-   "canonicalIntelligenceIndexTokenCount": {
-    "input": 1916169604,
-    "output": 63661006,
-    "answer": 17049447,
-    "reasoning": 46611559
-   },
-   "intelligenceIndexOutputTokensPerTask": {
-    "reasoning": 49212.93730141593,
-    "answer": 18610.75443636227,
-    "output": 67823.6917377782
-   },
-   "briefcaseBreakdown": {
-    "overall": {
-     "elo": 1554.87,
-     "lower95ci": 1546.8,
-     "upper95ci": 1564.46
-    }
-   },
-   "aa3dElo": 1121.0821,
-   "aa3dEloInterval": {
-    "lower": 1093.4499,
-    "upper": 1148.7142
-   },
-   "code2videoElo": 1369.3,
-   "code2videoEloInterval": {
-    "lower": 1345.86,
-    "upper": 1392.73
-   },
-   "personalityBench": {
-    "scores": {
-     "lexicallyVaried": 1000,
-     "eloquent": 1000,
-     "literate": 1000,
-     "naturalSounding": 1000,
-     "metaphorical": 1000,
-     "structured": 1000,
-     "scannable": 1000,
-     "summarizesBottomLine": 1000,
-     "answerFirst": 1000,
-     "informationDense": 1000,
-     "evidenceBased": 1000,
-     "resourceSpecific": 1000,
-     "providesActionableGuidance": 1000,
-     "pragmatic": 1000,
-     "truthful": 1000,
-     "admitsUncertainty": 1000,
-     "disclaimsWithAssumptions": 1000,
-     "flagsNuances": 1000,
-     "sycophantic": 1000,
-     "friendly": 1000,
-     "humorous": 1000,
-     "sincere": 1000,
-     "emotionallyIntelligent": 1000,
-     "direct": 1000,
-     "confident": 1000,
-     "opinionated": 1000,
-     "constructivelyPushesBack": 1000,
-     "creative": 1000,
-     "openEnded": 1000,
-     "slop": 1000
-    },
-    "indexScores": {
-     "expressiveness": 50.5,
-     "organization": 80.96153846153847,
-     "informativeness": 27.653846153846153,
-     "transparency": 92.38461538461539,
-     "warmth": 65.73076923076923,
-     "conviction": 54.30769230769231,
-     "imagination": 61.92307692307693,
-     "slop": 14.326923076923077
-    },
-    "indexIntervals": {
-     "expressiveness": {
-      "lower": 51,
-      "upper": 51
-     },
-     "organization": {
-      "lower": 81,
-      "upper": 81
-     },
-     "informativeness": {
-      "lower": 28,
-      "upper": 28
-     },
-     "transparency": {
-      "lower": 92,
-      "upper": 92
-     },
-     "warmth": {
-      "lower": 66,
-      "upper": 66
-     },
-     "conviction": {
-      "lower": 54,
-      "upper": 54
-     },
-     "imagination": {
-      "lower": 62,
-      "upper": 62
-     },
-     "slop": {
-      "lower": 14,
-      "upper": 14
-     }
-    }
-   },
-   "personalityBenchMeans": {
-    "charCount": 2307.64777777778,
-    "wordCount": 336.96,
-    "sentenceCount": 27.1811111111111,
-    "paragraphCount": 9.48222222222222,
-    "avgSentenceLength": 12.6358599134664,
-    "listCount": 1.43444444444444,
-    "headingCount": 1.85111111111111,
-    "tableCount": 0.145555555555556,
-    "emDashCount": 3.01222222222222,
-    "contractionCount": 6.11444444444444,
-    "exclamationCount": 0.0288888888888889,
-    "questionCount": 2.25777777777778,
-    "parentheticalCount": 0.253333333333333,
-    "quoteCount": 5.56777777777778,
-    "colonCount": 5.09,
-    "ellipsisCount": 0.04,
-    "boldCount": 8.60111111111111,
-    "italicsCount": 0.534444444444444,
-    "emojiCount": 0.00666666666666667,
-    "acronymCount": 1.23222222222222,
-    "endsWithQuestion": 0.286666666666667
-   },
-   "headline": {
-    "outputSpeed": 49.035444971987125,
-    "timeToFirstToken": 168.5582807112814,
-    "timeToFirstAnswerToken": 168.5582807112814
-   },
-   "multiTurn": {
-    "timeToFirstToken": 22.944604839670564
-   },
-   "workloads": {
-    "1k": {
-     "timeToFirstToken": 204.92080224302947
-    },
-    "10k": {
-     "timeToFirstToken": 344.539281413147
-    },
-    "100k": {
-     "timeToFirstToken": 393.0557860925002
-    }
-   },
-   "performanceDataSource": {
-    "type": "firstParty",
-    "providerName": "OpenAI"
-   },
-   "priceDataSource": {
-    "type": "firstParty",
-    "providerName": "OpenAI"
-   },
-   "creator": {
-    "id": "e67e56e3-15cd-43db-b679-da4660a69f41",
-    "slug": "openai",
-    "name": "OpenAI",
-    "logo": "/img/logos/openai.svg",
-    "color": "#1f1f1f",
-    "country": "us"
-   },
-   "hosts": [
-    {
-     "slug": "azure",
-     "name": "Microsoft Azure",
-     "logo": "/img/logos/microsoft.svg"
-    },
-    {
-     "slug": "openai",
-     "name": "OpenAI",
-     "logo": "/img/logos/openai.svg"
-    }
-   ],
-   "inputModalityText": true,
-   "inputModalityImage": true,
-   "inputModalitySpeech": false,
-   "inputModalityVideo": false,
-   "outputModalityText": true,
-   "outputModalityImage": false,
-   "outputModalitySpeech": false,
-   "outputModalityVideo": false
-  },
-  {
    "id": "bb3d7e75-8e22-4082-b9d6-1db0803e042f",
    "slug": "k2-horizon-375b-a23b",
    "name": "K2 Horizon 375B A23B",
@@ -4823,7 +5068,11 @@
    "release": {
     "slug": "k2-horizon-375b-a23b",
     "name": "K2 Horizon 375B A23B",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "high",
+     "label": "high"
+    }
    },
    "deprecated": false,
    "isOpenWeights": true,
@@ -4892,7 +5141,7 @@
    "price1mBlended0To1To1": 0,
    "price1mBlended100To1To1": 0,
    "price1mBlended0To100To1": 0,
-   "intelligenceIndexTimePerTask": 315.7970685628354,
+   "intelligenceIndexTimePerTask": 237.47087116465786,
    "intelligenceIndexCost": {
     "total": 0,
     "input": 0,
@@ -4966,86 +5215,86 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1292.59,
-     "lower95ci": 1284.97,
-     "upper95ci": 1300.28
+     "elo": 1291.24,
+     "lower95ci": 1283.71,
+     "upper95ci": 1298.65
     }
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 893.47,
-     "eloquent": 1012.21,
-     "literate": 524.43,
-     "naturalSounding": 404.7,
-     "metaphorical": 1563.69,
-     "structured": 686.45,
-     "scannable": 1282.5,
-     "summarizesBottomLine": 1059.31,
-     "answerFirst": 746.64,
-     "informationDense": 1379.25,
-     "evidenceBased": 1065.62,
-     "resourceSpecific": 1831.49,
-     "providesActionableGuidance": 1480.72,
-     "pragmatic": 624.43,
-     "truthful": -58.8,
-     "admitsUncertainty": 383.98,
-     "disclaimsWithAssumptions": 578.79,
-     "flagsNuances": 913.98,
-     "sycophantic": 1312.78,
-     "friendly": 963.33,
-     "humorous": 695.97,
-     "sincere": -200.14,
-     "emotionallyIntelligent": 568.95,
-     "direct": 291.28,
-     "confident": 967.3,
-     "opinionated": 1040,
-     "constructivelyPushesBack": 806.91,
-     "creative": 1102.6,
-     "openEnded": 639.14,
-     "slop": 2108.88
+     "lexicallyVaried": 879.38,
+     "eloquent": 1007.51,
+     "literate": 529.03,
+     "naturalSounding": 406.89,
+     "metaphorical": 1546.67,
+     "structured": 700.24,
+     "scannable": 1282.44,
+     "summarizesBottomLine": 1057,
+     "answerFirst": 762.02,
+     "informationDense": 1356.04,
+     "evidenceBased": 1051.69,
+     "resourceSpecific": 1814.85,
+     "providesActionableGuidance": 1450.73,
+     "pragmatic": 628.12,
+     "truthful": -54.02,
+     "admitsUncertainty": 371.31,
+     "disclaimsWithAssumptions": 577.44,
+     "flagsNuances": 898.59,
+     "sycophantic": 1313.97,
+     "friendly": 947.28,
+     "humorous": 698.61,
+     "sincere": -198.57,
+     "emotionallyIntelligent": 568.15,
+     "direct": 297.69,
+     "confident": 975.09,
+     "opinionated": 1031.89,
+     "constructivelyPushesBack": 748.87,
+     "creative": 1087.82,
+     "openEnded": 640.03,
+     "slop": 2106.36
     },
     "indexScores": {
-     "expressiveness": 31.461538461538463,
-     "organization": 48.59615384615385,
-     "informativeness": 73.34615384615384,
-     "transparency": 18.134615384615383,
-     "warmth": 20.03846153846154,
-     "conviction": 12.423076923076923,
-     "imagination": 44.78846153846154,
-     "slop": 92.38461538461539
+     "expressiveness": 28.14516129032258,
+     "organization": 56.88709677419355,
+     "informativeness": 77.64516129032258,
+     "transparency": 15.370967741935484,
+     "warmth": 16.967741935483872,
+     "conviction": 13.774193548387096,
+     "imagination": 44.11290322580645,
+     "slop": 93.61290322580645
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 29,
-      "upper": 37
+      "lower": 24,
+      "upper": 31
      },
      "organization": {
-      "lower": 33,
-      "upper": 62
+      "lower": 48,
+      "upper": 71
      },
      "informativeness": {
-      "lower": 67,
-      "upper": 75
+      "lower": 71,
+      "upper": 79
      },
      "transparency": {
-      "lower": 16,
-      "upper": 21
+      "lower": 14,
+      "upper": 17
      },
      "warmth": {
-      "lower": 14,
-      "upper": 24
+      "lower": 12,
+      "upper": 21
      },
      "conviction": {
       "lower": 9,
-      "upper": 19
+      "upper": 16
      },
      "imagination": {
-      "lower": 42,
+      "lower": 39,
       "upper": 51
      },
      "slop": {
-      "lower": 90,
-      "upper": 95
+      "lower": 91,
+      "upper": 96
      }
     }
    },
@@ -5073,29 +5322,31 @@
     "endsWithQuestion": 0.0222222222222222
    },
    "headline": {
-    "outputSpeed": 201.60224248596376,
-    "timeToFirstToken": 7.285957291597398,
-    "timeToFirstAnswerToken": 19.456002508454176
+    "outputSpeed": 268.097711860487,
+    "timeToFirstToken": 3.06874697768691,
+    "timeToFirstAnswerToken": 14.7742356905562
    },
    "multiTurn": {
-    "timeToFirstToken": 7.047676264513413
+    "timeToFirstToken": 2.46497727722997
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 5.47009417617647
+     "timeToFirstToken": 1.62053522255258
     },
     "10k": {
-     "timeToFirstToken": 5.784700386617631
+     "timeToFirstToken": 2.46558849007892
     },
     "100k": {
-     "timeToFirstToken": 11.317920393250045
+     "timeToFirstToken": 6.93142632180006
     }
    },
    "performanceDataSource": {
-    "type": "median"
+    "type": "firstParty",
+    "providerName": "Institute of Foundation Models"
    },
    "priceDataSource": {
-    "type": "median"
+    "type": "firstParty",
+    "providerName": "Institute of Foundation Models"
    },
    "creator": {
     "id": "8b8b84fb-4b24-45be-b9e2-74ed50d00ff7",
@@ -5140,7 +5391,11 @@
    "release": {
     "slug": "glm-5-3",
     "name": "GLM-5.3",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "max",
+     "label": "max"
+    }
    },
    "deprecated": false,
    "isOpenWeights": true,
@@ -5168,10 +5423,10 @@
    "mlcrOverall": 0.172222222222222,
    "harveyLab": 0.0027777777777777775,
    "gdpPdfAllPass": 0.112,
-   "gdpval": 1654.78,
+   "gdpval": 1654.2,
    "gdpvalInterval": {
-    "lower": 1636.88,
-    "upper": 1672.68
+    "lower": 1636.41,
+    "upper": 1671.98
    },
    "itBenchSre": 0.460828625235405,
    "tau2": null,
@@ -5211,7 +5466,7 @@
    "price1mBlended0To1To1": 2.9000000000000004,
    "price1mBlended100To1To1": 0.3117647058823529,
    "price1mBlended0To100To1": 1.4297029702970299,
-   "intelligenceIndexTimePerTask": 1363.148057168179,
+   "intelligenceIndexTimePerTask": 1770.4002603792956,
    "intelligenceIndexCost": {
     "total": 3495.618189005314,
     "input": 2901.3229974053143,
@@ -5292,9 +5547,9 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1500.91,
-     "lower95ci": 1493.56,
-     "upper95ci": 1509.12
+     "elo": 1499.11,
+     "lower95ci": 1492.13,
+     "upper95ci": 1506.94
     }
    },
    "aa3dElo": 793.7933,
@@ -5309,79 +5564,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 1789.72,
-     "eloquent": 1689.75,
-     "literate": 934.77,
-     "naturalSounding": 1482.35,
-     "metaphorical": 1510.05,
-     "structured": 819.72,
-     "scannable": 986.86,
-     "summarizesBottomLine": 893.94,
-     "answerFirst": 866.78,
-     "informationDense": 1425.44,
-     "evidenceBased": 1319.53,
-     "resourceSpecific": 1326.3,
-     "providesActionableGuidance": 840.36,
-     "pragmatic": 1189.33,
-     "truthful": 742.57,
-     "admitsUncertainty": 814.6,
-     "disclaimsWithAssumptions": 853.21,
-     "flagsNuances": 1075.54,
-     "sycophantic": 909.01,
-     "friendly": 1112.1,
-     "humorous": 1281.8,
-     "sincere": 1406.43,
-     "emotionallyIntelligent": 1182.11,
-     "direct": 712.69,
-     "confident": 1119.54,
-     "opinionated": 1240.03,
-     "constructivelyPushesBack": 1446.27,
-     "creative": 1508.44,
-     "openEnded": 935.07,
-     "slop": 1212.6
+     "lexicallyVaried": 1771.9,
+     "eloquent": 1684.12,
+     "literate": 940.09,
+     "naturalSounding": 1472.74,
+     "metaphorical": 1493.14,
+     "structured": 822.36,
+     "scannable": 983.39,
+     "summarizesBottomLine": 894.04,
+     "answerFirst": 875.54,
+     "informationDense": 1404.75,
+     "evidenceBased": 1312.05,
+     "resourceSpecific": 1311.99,
+     "providesActionableGuidance": 811.1,
+     "pragmatic": 1197.11,
+     "truthful": 735.21,
+     "admitsUncertainty": 807.3,
+     "disclaimsWithAssumptions": 846.03,
+     "flagsNuances": 1072.64,
+     "sycophantic": 906.97,
+     "friendly": 1101.52,
+     "humorous": 1280.16,
+     "sincere": 1404.06,
+     "emotionallyIntelligent": 1171.76,
+     "direct": 717.87,
+     "confident": 1124.79,
+     "opinionated": 1238.41,
+     "constructivelyPushesBack": 1428.07,
+     "creative": 1472.34,
+     "openEnded": 936.7,
+     "slop": 1207.26
     },
     "indexScores": {
-     "expressiveness": 96.1923076923077,
-     "organization": 27.653846153846153,
-     "informativeness": 60.01923076923077,
-     "transparency": 79.0576923076923,
-     "warmth": 88.57692307692308,
-     "conviction": 88.57692307692308,
-     "imagination": 92.38461538461539,
-     "slop": 29.557692307692307
+     "expressiveness": 96.80645161290323,
+     "organization": 39.32258064516129,
+     "informativeness": 68.06451612903226,
+     "transparency": 80.83870967741935,
+     "warmth": 90.41935483870968,
+     "conviction": 90.41935483870968,
+     "imagination": 93.61290322580645,
+     "slop": 40.91935483870967
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 95,
+      "lower": 96,
       "upper": 98
      },
      "organization": {
-      "lower": 21,
-      "upper": 41
+      "lower": 32,
+      "upper": 52
      },
      "informativeness": {
-      "lower": 55,
-      "upper": 65
+      "lower": 64,
+      "upper": 71
      },
      "transparency": {
-      "lower": 65,
-      "upper": 82
+      "lower": 70,
+      "upper": 85
      },
      "warmth": {
-      "lower": 86,
-      "upper": 93
+      "lower": 88,
+      "upper": 94
      },
      "conviction": {
-      "lower": 79,
-      "upper": 93
-     },
-     "imagination": {
-      "lower": 88,
+      "lower": 81,
       "upper": 95
      },
+     "imagination": {
+      "lower": 90,
+      "upper": 96
+     },
      "slop": {
-      "lower": 27,
-      "upper": 34
+      "lower": 39,
+      "upper": 44
      }
     }
    },
@@ -5409,22 +5664,22 @@
     "endsWithQuestion": 0.1
    },
    "headline": {
-    "outputSpeed": 87.2880273139072,
-    "timeToFirstToken": 2.586390391476114,
-    "timeToFirstAnswerToken": 58.76295596312547
+    "outputSpeed": 67.2088157180363,
+    "timeToFirstToken": 4.93181727674649,
+    "timeToFirstAnswerToken": 83.9367879948544
    },
    "multiTurn": {
-    "timeToFirstToken": 2.6637720612120623
+    "timeToFirstToken": 6.00983076121827
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 1.3505047425293821
+     "timeToFirstToken": 5.42702409526315
     },
     "10k": {
-     "timeToFirstToken": 1.5299494869411518
+     "timeToFirstToken": 1.80767326536108
     },
     "100k": {
-     "timeToFirstToken": 4.646571935749963
+     "timeToFirstToken": 4.3267140161999
     }
    },
    "performanceDataSource": {
@@ -5550,11 +5805,6 @@
      "logo": "/img/logos/supernova-labs.svg"
     },
     {
-     "slug": "systalyze",
-     "name": "Systalyze",
-     "logo": "/img/logos/systalyze.svg"
-    },
-    {
      "slug": "togetherai",
      "name": "Together AI",
      "logo": "/img/logos/togetherai.svg"
@@ -5596,15 +5846,15 @@
     "deprecatedTo": null
    },
    "deprecated": false,
-   "isOpenWeights": false,
-   "openSourceCategorization": "proprietary",
-   "parameters": null,
-   "inferenceParametersActiveBillions": null,
+   "isOpenWeights": true,
+   "openSourceCategorization": "commercial-license",
+   "parameters": 774,
+   "inferenceParametersActiveBillions": 50.2,
    "sizeClass": "large",
    "contextWindowTokens": 1048576,
-   "licenseName": null,
-   "licenseUrl": null,
-   "modelWeightsSourceUrl": null,
+   "licenseName": "Tencent Hy License",
+   "licenseUrl": "https://huggingface.co/tencent/Hy4/blob/main/LICENSE",
+   "modelWeightsSourceUrl": "https://huggingface.co/tencent/Hy4",
    "microevalsEnabled": true,
    "intelligenceIndex": 34.5552385392508,
    "capabilities": {
@@ -5658,7 +5908,7 @@
    "price1mBlended0To1To1": 1.6675,
    "price1mBlended100To1To1": 0.07387254901960784,
    "price1mBlended0To100To1": 0.8505049504950495,
-   "intelligenceIndexTimePerTask": 833.6674183029934,
+   "intelligenceIndexTimePerTask": 838.9329231435072,
    "intelligenceIndexCost": {
     "total": 1021.4601930407449,
     "input": 622.455177349745,
@@ -5732,28 +5982,28 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1445.86,
-     "lower95ci": 1435.38,
-     "upper95ci": 1456.24
+     "elo": 1445.2,
+     "lower95ci": 1435.61,
+     "upper95ci": 1454.96
     }
    },
    "headline": {
-    "outputSpeed": 93.63212022606466,
-    "timeToFirstToken": 2.9370348282518948,
-    "timeToFirstAnswerToken": 110.62971614795782
+    "outputSpeed": 93.0444446578791,
+    "timeToFirstToken": 2.70205271913083,
+    "timeToFirstAnswerToken": 102.385439285994
    },
    "multiTurn": {
-    "timeToFirstToken": 2.295218811631245
+    "timeToFirstToken": 2.29896344257393
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 1.6419412587940971
+     "timeToFirstToken": 1.4051923261842
     },
     "10k": {
-     "timeToFirstToken": 2.7671348163235607
+     "timeToFirstToken": 2.31178687807888
     },
     "100k": {
-     "timeToFirstToken": 6.3274764594999775
+     "timeToFirstToken": 5.5984467828001
     }
    },
    "performanceDataSource": {
@@ -5807,7 +6057,11 @@
    "release": {
     "slug": "gemini-4-hydrogen",
     "name": "Gemini 4 Hydrogen",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "high",
+     "label": "high"
+    }
    },
    "deprecated": false,
    "isOpenWeights": false,
@@ -5872,7 +6126,7 @@
    "price1mBlended0To1To1": 4.5,
    "price1mBlended100To1To1": 0.16176470588235295,
    "price1mBlended0To100To1": 1.5594059405940595,
-   "intelligenceIndexTimePerTask": 893.477384431448,
+   "intelligenceIndexTimePerTask": 984.1227893586404,
    "intelligenceIndexCost": {
     "total": 4085.7167679072754,
     "input": 1808.8231704072755,
@@ -5946,28 +6200,33 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1567.52,
-     "lower95ci": 1557.41,
-     "upper95ci": 1578.57
+     "elo": 1568.48,
+     "lower95ci": 1557.9,
+     "upper95ci": 1579.19
     }
    },
+   "aa3dElo": 1196.0114,
+   "aa3dEloInterval": {
+    "lower": 1166.6486,
+    "upper": 1225.3742
+   },
    "headline": {
-    "outputSpeed": 172.8142332599706,
-    "timeToFirstToken": 44.26988035737869,
-    "timeToFirstAnswerToken": 44.26988035737869
+    "outputSpeed": 156.896690936577,
+    "timeToFirstToken": 52.5838030428835,
+    "timeToFirstAnswerToken": 52.5838030428835
    },
    "multiTurn": {
-    "timeToFirstToken": 12.018523658368878
+    "timeToFirstToken": 12.071516591185
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 48.45862843785297
+     "timeToFirstToken": 47.2014845591842
     },
     "10k": {
-     "timeToFirstToken": 75.49008860081248
+     "timeToFirstToken": 77.2569738132631
     },
     "100k": {
-     "timeToFirstToken": 105.61499413050004
+     "timeToFirstToken": 114.3175236596
     }
    },
    "performanceDataSource": {
@@ -6021,7 +6280,11 @@
    "release": {
     "slug": "muse-ember",
     "name": "Muse Ember",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "max",
+     "label": "max"
+    }
    },
    "deprecated": false,
    "isOpenWeights": false,
@@ -6086,7 +6349,7 @@
    "price1mBlended0To1To1": 0.3,
    "price1mBlended100To1To1": 0.00980392156862745,
    "price1mBlended0To100To1": 0.10396039603960396,
-   "intelligenceIndexTimePerTask": 192.27696210775022,
+   "intelligenceIndexTimePerTask": 194.33529009299968,
    "intelligenceIndexCost": {
     "total": 117.12454200143999,
     "input": 59.67000500143999,
@@ -6160,28 +6423,28 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1520.48,
-     "lower95ci": 1510.02,
-     "upper95ci": 1531.02
+     "elo": 1519.75,
+     "lower95ci": 1509.51,
+     "upper95ci": 1530.83
     }
    },
    "headline": {
-    "outputSpeed": 439.3748705585935,
-    "timeToFirstToken": 4.9766519318161375,
-    "timeToFirstAnswerToken": 4.9766519318161375
+    "outputSpeed": 434.721173375476,
+    "timeToFirstToken": 4.99080052636295,
+    "timeToFirstAnswerToken": 4.99080052636295
    },
    "multiTurn": {
-    "timeToFirstToken": 2.2410383917433383
+    "timeToFirstToken": 2.44433660931889
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 6.0429850560833716
+     "timeToFirstToken": 6.91842865136831
     },
     "10k": {
-     "timeToFirstToken": 8.009048599583336
+     "timeToFirstToken": 8.60873580605268
     },
     "100k": {
-     "timeToFirstToken": 9.084762760000103
+     "timeToFirstToken": 7.08462887280002
     }
    },
    "performanceDataSource": {
@@ -6235,7 +6498,11 @@
    "release": {
     "slug": "nemotron-3-5-super-vl",
     "name": "Nemotron 3.5 Super VL",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "high",
+     "label": "high"
+    }
    },
    "deprecated": false,
    "isOpenWeights": true,
@@ -6294,34 +6561,34 @@
    "aime25": null,
    "analystAgent": null,
    "automationBenchPartialScore": 0.14818345798643587,
-   "price1mInputTokens": 0.2,
+   "price1mInputTokens": 0.15,
    "price1mOutputTokens": 0.5,
    "cacheHitPrice": 0.05,
    "cacheHitDiscountPercent": 0.8,
    "pricePer1k1mpImages": null,
-   "price1mBlended0To3To1": 0.275,
-   "price1mBlended7To2To1": 0.125,
-   "price1mBlended0To1To1": 0.35,
-   "price1mBlended100To1To1": 0.05588235294117647,
-   "price1mBlended0To100To1": 0.20297029702970298,
-   "intelligenceIndexTimePerTask": 292.7700594316723,
+   "price1mBlended0To3To1": 0.2375,
+   "price1mBlended7To2To1": 0.11499999999999999,
+   "price1mBlended0To1To1": 0.325,
+   "price1mBlended100To1To1": 0.0553921568627451,
+   "price1mBlended0To100To1": 0.15346534653465346,
+   "intelligenceIndexTimePerTask": 248.76920741871282,
    "intelligenceIndexCost": {
-    "total": 478.0208743044203,
-    "input": 418.3217803044203,
-    "nonCacheInput": 1.8454346000000001,
+    "total": 416.1025385862802,
+    "input": 356.4034445862802,
+    "nonCacheInput": 1.38407595,
     "cacheRead": 170.64843743185995,
-    "cacheWrite": 245.82790827256036,
+    "cacheWrite": 184.37093120442026,
     "output": 59.699094,
     "reasoning": 48.2565095,
     "answer": 11.4425845
    },
    "intelligenceIndexCostPerTask": {
     "cost": {
-     "total": 0.5574566144919201,
-     "input": 0.5167392972849647,
-     "nonCacheInput": 0.00084463292,
+     "total": 0.48180884308185656,
+     "input": 0.4410915258749011,
+     "nonCacheInput": 0.0006334746899999999,
      "cacheRead": 0.21414821164471043,
-     "cacheWrite": 0.30174645272025424,
+     "cacheWrite": 0.22630983954019068,
      "output": 0.04071731720695545,
      "reasoning": 0.028074983371453848,
      "answer": 0.0126423338355016
@@ -6329,39 +6596,39 @@
     "evaluations": [
      {
       "slug": "aa-briefcase",
-      "weightedCostPerTask": 0.07597205347590409
+      "weightedCostPerTask": 0.06551874765609722
      },
      {
       "slug": "automationbench-aa",
-      "weightedCostPerTask": 0.00610476871710326
+      "weightedCostPerTask": 0.005272175032609682
      },
      {
       "slug": "terminalbench-4-0",
-      "weightedCostPerTask": 0.07848472019075368
+      "weightedCostPerTask": 0.06805052012716911
      },
      {
       "slug": "frontiercode-2-0",
-      "weightedCostPerTask": 0.21341432835326576
+      "weightedCostPerTask": 0.18365781630748015
      },
      {
       "slug": "omniscience",
-      "weightedCostPerTask": 0.00027662163999999994
+      "weightedCostPerTask": 0.000275637905
      },
      {
       "slug": "gdp-pdf",
-      "weightedCostPerTask": 0.0010105770000000001
+      "weightedCostPerTask": 0.000803069375
      },
      {
       "slug": "hle-diamond",
-      "weightedCostPerTask": 0.00213488263
+      "weightedCostPerTask": 0.00213221576
      },
      {
       "slug": "critpt-v2-hard",
-      "weightedCostPerTask": 0.012297184251297853
+      "weightedCostPerTask": 0.011117991500865234
      },
      {
       "slug": "terminal-bench-science",
-      "weightedCostPerTask": 0.1677614782335955
+      "weightedCostPerTask": 0.1449806694176351
      }
     ]
    },
@@ -6392,79 +6659,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 1066.77,
-     "eloquent": 1273.23,
-     "literate": 933.83,
-     "naturalSounding": 726,
-     "metaphorical": 1492.93,
-     "structured": 1006.84,
-     "scannable": 1397.87,
-     "summarizesBottomLine": 1078.99,
-     "answerFirst": 881.35,
-     "informationDense": 1258.19,
-     "evidenceBased": 869,
-     "resourceSpecific": 1590.82,
-     "providesActionableGuidance": 1357.83,
-     "pragmatic": 915.74,
-     "truthful": 493.13,
-     "admitsUncertainty": 739.38,
-     "disclaimsWithAssumptions": 791.41,
-     "flagsNuances": 987.15,
-     "sycophantic": 973.35,
-     "friendly": 985.15,
-     "humorous": 1046.82,
-     "sincere": 567.88,
-     "emotionallyIntelligent": 835.12,
-     "direct": 561.76,
-     "confident": 1027.01,
-     "opinionated": 849.17,
-     "constructivelyPushesBack": 1140.79,
-     "creative": 1052.2,
-     "openEnded": 737.46,
-     "slop": 1652.51
+     "lexicallyVaried": 1048.17,
+     "eloquent": 1277.49,
+     "literate": 928.47,
+     "naturalSounding": 728.64,
+     "metaphorical": 1473.5,
+     "structured": 1013.33,
+     "scannable": 1395.78,
+     "summarizesBottomLine": 1072.31,
+     "answerFirst": 891.12,
+     "informationDense": 1233.38,
+     "evidenceBased": 851.47,
+     "resourceSpecific": 1574.19,
+     "providesActionableGuidance": 1326.81,
+     "pragmatic": 902.29,
+     "truthful": 494.2,
+     "admitsUncertainty": 723.29,
+     "disclaimsWithAssumptions": 788.19,
+     "flagsNuances": 986.39,
+     "sycophantic": 979.06,
+     "friendly": 976.56,
+     "humorous": 1036.33,
+     "sincere": 572.46,
+     "emotionallyIntelligent": 831.74,
+     "direct": 567.78,
+     "confident": 1040.77,
+     "opinionated": 848.64,
+     "constructivelyPushesBack": 1124.49,
+     "creative": 1038.66,
+     "openEnded": 732.63,
+     "slop": 1649.88
     },
     "indexScores": {
-     "expressiveness": 69.53846153846153,
-     "organization": 98.09615384615384,
-     "informativeness": 61.92307692307693,
-     "transparency": 46.69230769230769,
-     "warmth": 52.40384615384616,
-     "conviction": 25.75,
-     "imagination": 52.40384615384616,
-     "slop": 63.82692307692307
+     "expressiveness": 76.04838709677419,
+     "organization": 98.40322580645162,
+     "informativeness": 64.87096774193549,
+     "transparency": 55.29032258064516,
+     "warmth": 44.11290322580645,
+     "conviction": 23.35483870967742,
+     "imagination": 52.096774193548384,
+     "slop": 69.66129032258065
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 68,
-      "upper": 74
+      "lower": 73,
+      "upper": 78
      },
      "organization": {
-      "lower": 96,
+      "lower": 97,
       "upper": 100
      },
      "informativeness": {
-      "lower": 55,
-      "upper": 65
+      "lower": 62,
+      "upper": 69
      },
      "transparency": {
-      "lower": 43,
-      "upper": 54
+      "lower": 50,
+      "upper": 62
      },
      "warmth": {
-      "lower": 49,
-      "upper": 59
+      "lower": 42,
+      "upper": 54
      },
      "conviction": {
-      "lower": 22,
-      "upper": 35
+      "lower": 21,
+      "upper": 30
      },
      "imagination": {
       "lower": 45,
-      "upper": 55
+      "upper": 56
      },
      "slop": {
-      "lower": 59,
-      "upper": 65
+      "lower": 65,
+      "upper": 71
      }
     }
    },
@@ -6492,22 +6759,22 @@
     "endsWithQuestion": 0.0166666666666667
    },
    "headline": {
-    "outputSpeed": 278.15219415534665,
-    "timeToFirstToken": 1.1486812762701837,
-    "timeToFirstAnswerToken": 13.320075250973924
+    "outputSpeed": 327.350138141676,
+    "timeToFirstToken": 0.996285269169401,
+    "timeToFirstAnswerToken": 9.65020355626507
    },
    "multiTurn": {
-    "timeToFirstToken": 0.6696739980526435
+    "timeToFirstToken": 0.664591540466678
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 0.5480697186470723
+     "timeToFirstToken": 0.510990789500014
     },
     "10k": {
-     "timeToFirstToken": 0.7629974872940645
+     "timeToFirstToken": 0.905163741105339
     },
     "100k": {
-     "timeToFirstToken": 3.005466369749965
+     "timeToFirstToken": 2.77293929200005
     }
    },
    "performanceDataSource": {
@@ -6664,7 +6931,7 @@
    "price1mBlended0To1To1": 0.65,
    "price1mBlended100To1To1": 0.042156862745098035,
    "price1mBlended0To100To1": 0.3069306930693069,
-   "intelligenceIndexTimePerTask": 1434.81237250395,
+   "intelligenceIndexTimePerTask": 1442.6281100455283,
    "intelligenceIndexCost": {
     "total": 791.8145034915001,
     "input": 637.4035224915001,
@@ -6761,22 +7028,22 @@
     "upper": 1034.69
    },
    "headline": {
-    "outputSpeed": 104.38857349995193,
-    "timeToFirstToken": 3.0067493712258333,
-    "timeToFirstAnswerToken": 47.33209112438025
+    "outputSpeed": 103.823026712714,
+    "timeToFirstToken": 2.18153771538492,
+    "timeToFirstAnswerToken": 41.6124669427951
    },
    "multiTurn": {
-    "timeToFirstToken": 2.4076101123127764
+    "timeToFirstToken": 1.70328213062951
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 2.2009150915277247
+     "timeToFirstToken": 1.87726678423692
     },
     "10k": {
-     "timeToFirstToken": 2.413042250388899
+     "timeToFirstToken": 2.13798884918415
     },
     "100k": {
-     "timeToFirstToken": 6.203708548500048
+     "timeToFirstToken": 3.96412426699991
     }
    },
    "performanceDataSource": {
@@ -6797,9 +7064,24 @@
    },
    "hosts": [
     {
+     "slug": "deepinfra",
+     "name": "DeepInfra",
+     "logo": "/img/logos/deepinfra.webp"
+    },
+    {
+     "slug": "nebius",
+     "name": "Nebius",
+     "logo": "/img/logos/nebius.svg"
+    },
+    {
      "slug": "thinking-machines",
      "name": "Thinking Machines",
      "logo": "/img/logos/thinking-machines.svg"
+    },
+    {
+     "slug": "togetherai",
+     "name": "Together AI",
+     "logo": "/img/logos/togetherai.svg"
     }
    ],
    "inputModalityText": true,
@@ -6830,7 +7112,11 @@
    "release": {
     "slug": "muse-wonder-full",
     "name": "Muse Wonder Full",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "max",
+     "label": "max"
+    }
    },
    "deprecated": false,
    "isOpenWeights": false,
@@ -6964,7 +7250,11 @@
    "release": {
     "slug": "mistral-large-4",
     "name": "Mistral Large 4",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "high",
+     "label": "high"
+    }
    },
    "deprecated": false,
    "isOpenWeights": true,
@@ -7029,7 +7319,7 @@
    "price1mBlended0To1To1": 1.4,
    "price1mBlended100To1To1": 0.09607843137254903,
    "price1mBlended0To100To1": 0.7138613861386138,
-   "intelligenceIndexTimePerTask": 960.2561991148705,
+   "intelligenceIndexTimePerTask": 1136.636206046831,
    "intelligenceIndexCost": {
     "total": 1359.6064641616938,
     "input": 1134.7146270616938,
@@ -7110,28 +7400,28 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1347.47,
-     "lower95ci": 1336.91,
-     "upper95ci": 1357.52
+     "elo": 1347.83,
+     "lower95ci": 1338.09,
+     "upper95ci": 1357.97
     }
    },
    "headline": {
-    "outputSpeed": 85.34258301203981,
-    "timeToFirstToken": 3.6432910956418225,
-    "timeToFirstAnswerToken": 46.06644835690244
+    "outputSpeed": 72.0993612114536,
+    "timeToFirstToken": 2.70393036405599,
+    "timeToFirstAnswerToken": 59.6622354292963
    },
    "multiTurn": {
-    "timeToFirstToken": 2.2725025639111553
+    "timeToFirstToken": 1.54404943105761
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 1.7379795876176043
+     "timeToFirstToken": 0.756673846210495
     },
     "10k": {
-     "timeToFirstToken": 4.088880495500031
+     "timeToFirstToken": 2.0056537305526
     },
     "100k": {
-     "timeToFirstToken": 9.215378798999833
+     "timeToFirstToken": 8.82910631440001
     }
    },
    "performanceDataSource": {
@@ -7185,7 +7475,11 @@
    "release": {
     "slug": "deepseek-v4-1-flash-1017",
     "name": "DeepSeek V4.1 Flash 1017",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "high",
+     "label": "high"
+    }
    },
    "deprecated": false,
    "isOpenWeights": true,
@@ -7254,7 +7548,7 @@
    "price1mBlended0To1To1": 0.75,
    "price1mBlended100To1To1": 0.020588235294117643,
    "price1mBlended0To100To1": 0.3089108910891089,
-   "intelligenceIndexTimePerTask": 805.133399045905,
+   "intelligenceIndexTimePerTask": 827.2939617198829,
    "intelligenceIndexCost": {
     "total": 520.6317440908241,
     "input": 311.4045944908241,
@@ -7342,79 +7636,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 1098.06,
+     "lexicallyVaried": 1080.67,
      "eloquent": 1069.92,
-     "literate": 901.41,
-     "naturalSounding": 781.93,
-     "metaphorical": 1181.53,
-     "structured": 851.26,
-     "scannable": 1051.69,
-     "summarizesBottomLine": 1132.07,
-     "answerFirst": 978.13,
-     "informationDense": 1472.71,
-     "evidenceBased": 882.73,
-     "resourceSpecific": 1592.76,
-     "providesActionableGuidance": 1470.6,
-     "pragmatic": 1005.79,
-     "truthful": 768.59,
-     "admitsUncertainty": 942.06,
-     "disclaimsWithAssumptions": 854.04,
-     "flagsNuances": 1160.13,
-     "sycophantic": 858.53,
-     "friendly": 677.22,
-     "humorous": 902.56,
-     "sincere": 737.66,
-     "emotionallyIntelligent": 639.31,
-     "direct": 908.93,
-     "confident": 1331.79,
-     "opinionated": 1163.18,
-     "constructivelyPushesBack": 1316.79,
-     "creative": 1016.91,
-     "openEnded": 599.74,
-     "slop": 1330.88
+     "literate": 898.03,
+     "naturalSounding": 783.45,
+     "metaphorical": 1169.75,
+     "structured": 851,
+     "scannable": 1055.37,
+     "summarizesBottomLine": 1136.35,
+     "answerFirst": 979.92,
+     "informationDense": 1452.65,
+     "evidenceBased": 878.94,
+     "resourceSpecific": 1576.15,
+     "providesActionableGuidance": 1441.28,
+     "pragmatic": 995.74,
+     "truthful": 776.67,
+     "admitsUncertainty": 942.27,
+     "disclaimsWithAssumptions": 842.64,
+     "flagsNuances": 1154.66,
+     "sycophantic": 858.69,
+     "friendly": 664.04,
+     "humorous": 897.19,
+     "sincere": 740.65,
+     "emotionallyIntelligent": 634.13,
+     "direct": 915.13,
+     "confident": 1331.01,
+     "opinionated": 1163.77,
+     "constructivelyPushesBack": 1299.7,
+     "creative": 1018.73,
+     "openEnded": 586.7,
+     "slop": 1327.95
     },
     "indexScores": {
-     "expressiveness": 52.40384615384616,
-     "organization": 88.57692307692308,
-     "informativeness": 71.4423076923077,
-     "transparency": 86.67307692307692,
-     "warmth": 27.653846153846153,
-     "conviction": 94.28846153846153,
-     "imagination": 37.17307692307692,
-     "slop": 39.07692307692308
+     "expressiveness": 50.5,
+     "organization": 92.01612903225806,
+     "informativeness": 76.04838709677419,
+     "transparency": 88.8225806451613,
+     "warmth": 23.35483870967742,
+     "conviction": 95.20967741935485,
+     "imagination": 31.338709677419356,
+     "slop": 48.903225806451616
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 45,
-      "upper": 59
+      "lower": 39,
+      "upper": 63
      },
      "organization": {
-      "lower": 74,
+      "lower": 79,
       "upper": 97
      },
      "informativeness": {
-      "lower": 66,
-      "upper": 74
+      "lower": 71,
+      "upper": 79
      },
      "transparency": {
-      "lower": 82,
+      "lower": 85,
       "upper": 95
      },
      "warmth": {
-      "lower": 26,
-      "upper": 32
+      "lower": 22,
+      "upper": 28
      },
      "conviction": {
-      "lower": 92,
+      "lower": 94,
       "upper": 97
      },
      "imagination": {
-      "lower": 28,
-      "upper": 42
+      "lower": 24,
+      "upper": 38
      },
      "slop": {
-      "lower": 36,
-      "upper": 43
+      "lower": 47,
+      "upper": 51
      }
     }
    },
@@ -7442,22 +7736,22 @@
     "endsWithQuestion": 0.00111111111111111
    },
    "headline": {
-    "outputSpeed": 172.59463593378973,
-    "timeToFirstToken": 1.2625973132377393,
-    "timeToFirstAnswerToken": 39.2267932403652
+    "outputSpeed": 167.971376942691,
+    "timeToFirstToken": 1.2836170814195,
+    "timeToFirstAnswerToken": 41.7601369536545
    },
    "multiTurn": {
-    "timeToFirstToken": 1.0750763677254753
+    "timeToFirstToken": 1.32507901222502
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 0.8606739320882477
+     "timeToFirstToken": 0.758111522815823
     },
     "10k": {
-     "timeToFirstToken": 1.0313461119117364
+     "timeToFirstToken": 1.05088739502633
     },
     "100k": {
-     "timeToFirstToken": 2.458334732250025
+     "timeToFirstToken": 1.91746653399978
     }
    },
    "performanceDataSource": {
@@ -7491,6 +7785,11 @@
      "slug": "coreweave",
      "name": "CoreWeave",
      "logo": "/img/logos/coreweave.svg"
+    },
+    {
+     "slug": "databricks",
+     "name": "Databricks",
+     "logo": "/img/logos/databricks.png"
     },
     {
      "slug": "deepinfra",
@@ -7611,7 +7910,11 @@
    "release": {
     "slug": "qwen4-max",
     "name": "Qwen4 Max",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "xhigh",
+     "label": "xhigh"
+    }
    },
    "deprecated": false,
    "isOpenWeights": false,
@@ -7629,18 +7932,20 @@
     "financeAndAccounting": 54.1068956216928,
     "strategyAndOps": 56.8505476675757,
     "legal": 49.574077249488,
+    "healthcareAndMedical": 48.234105744838,
     "engineering": 50.0565564393939,
     "economics": 51.3173666666667
    },
    "omniscience": 27.7,
    "omniscienceAccuracy": 0.437,
    "omniscienceHallucinationRate": 0.2841918294849023,
+   "mlcrOverall": 0.194444444444444,
    "harveyLab": 0.09444444444444443,
    "gdpPdfAllPass": 0.262,
-   "gdpval": 1808.69,
+   "gdpval": 1808.87,
    "gdpvalInterval": {
-    "lower": 1787.86,
-    "upper": 1829.51
+    "lower": 1785.28,
+    "upper": 1832.45
    },
    "itBenchSre": null,
    "tau2": null,
@@ -7680,6 +7985,7 @@
    "price1mBlended0To1To1": 3,
    "price1mBlended100To1To1": 0.1323529411764706,
    "price1mBlended0To100To1": 1.5297029702970297,
+   "intelligenceIndexTimePerTask": 1584.5986968655045,
    "intelligenceIndexCost": {
     "total": 2394.313957095027,
     "input": 1822.1637700950273,
@@ -7753,16 +8059,33 @@
    },
    "briefcaseBreakdown": {
     "overall": {
-     "elo": 1686.07,
-     "lower95ci": 1675.59,
-     "upper95ci": 1696.55
+     "elo": 1685.07,
+     "lower95ci": 1673.89,
+     "upper95ci": 1696.5
     }
    },
-   "headline": null,
-   "multiTurn": null,
-   "workloads": {},
+   "headline": {
+    "outputSpeed": 66.2248284027588,
+    "timeToFirstToken": 4.38586018694888,
+    "timeToFirstAnswerToken": 99.1715539037779
+   },
+   "multiTurn": {
+    "timeToFirstToken": 3.92382211229249
+   },
+   "workloads": {
+    "1k": {
+     "timeToFirstToken": 1.88735611431586
+    },
+    "10k": {
+     "timeToFirstToken": 3.22423087450004
+    },
+    "100k": {
+     "timeToFirstToken": 9.43210779599989
+    }
+   },
    "performanceDataSource": {
-    "type": "median"
+    "type": "firstParty",
+    "providerName": "Alibaba"
    },
    "priceDataSource": {
     "type": "firstParty",
@@ -7786,7 +8109,7 @@
    "inputModalityText": true,
    "inputModalityImage": true,
    "inputModalitySpeech": false,
-   "inputModalityVideo": false,
+   "inputModalityVideo": true,
    "outputModalityText": true,
    "outputModalityImage": false,
    "outputModalitySpeech": false,
@@ -7811,7 +8134,11 @@
    "release": {
     "slug": "muse-wonder",
     "name": "Muse Wonder",
-    "deprecatedTo": null
+    "deprecatedTo": null,
+    "defaultEffort": {
+     "slug": "high",
+     "label": "high"
+    }
    },
    "deprecated": false,
    "isOpenWeights": false,
@@ -7881,7 +8208,7 @@
    "price1mBlended0To1To1": 12,
    "price1mBlended100To1To1": 0.43137254901960786,
    "price1mBlended0To100To1": 4.158415841584159,
-   "intelligenceIndexTimePerTask": 811.2898000755979,
+   "intelligenceIndexTimePerTask": 895.6649121734347,
    "intelligenceIndexCost": {
     "total": 5414.453637036402,
     "input": 3146.6594770364018,
@@ -7967,79 +8294,79 @@
    },
    "personalityBench": {
     "scores": {
-     "lexicallyVaried": 1467.52,
-     "eloquent": 1474.44,
-     "literate": 770.4,
-     "naturalSounding": 1200.02,
-     "metaphorical": 1558.68,
-     "structured": 935.52,
-     "scannable": 1172.05,
-     "summarizesBottomLine": 1063.68,
-     "answerFirst": 913.36,
-     "informationDense": 1565.33,
-     "evidenceBased": 1428.29,
-     "resourceSpecific": 1732.21,
-     "providesActionableGuidance": 1689.33,
-     "pragmatic": 1460,
-     "truthful": 763.38,
-     "admitsUncertainty": 720.51,
-     "disclaimsWithAssumptions": 793.87,
-     "flagsNuances": 1108.88,
-     "sycophantic": 1083.52,
-     "friendly": 1349.02,
-     "humorous": 1373.6,
-     "sincere": 1012.4,
-     "emotionallyIntelligent": 1319.6,
-     "direct": 538.63,
-     "confident": 1291.34,
-     "opinionated": 1231.73,
-     "constructivelyPushesBack": 1315.82,
-     "creative": 1463.35,
-     "openEnded": 933.96,
-     "slop": 1590.96
+     "lexicallyVaried": 1449.04,
+     "eloquent": 1471.07,
+     "literate": 775.56,
+     "naturalSounding": 1215.44,
+     "metaphorical": 1542.46,
+     "structured": 934.86,
+     "scannable": 1173.22,
+     "summarizesBottomLine": 1060.43,
+     "answerFirst": 918.57,
+     "informationDense": 1544.97,
+     "evidenceBased": 1420.69,
+     "resourceSpecific": 1715.57,
+     "providesActionableGuidance": 1657.11,
+     "pragmatic": 1434.9,
+     "truthful": 772.22,
+     "admitsUncertainty": 711.87,
+     "disclaimsWithAssumptions": 779.34,
+     "flagsNuances": 1105.59,
+     "sycophantic": 1086.95,
+     "friendly": 1341.83,
+     "humorous": 1375.74,
+     "sincere": 1039.75,
+     "emotionallyIntelligent": 1315.68,
+     "direct": 544.75,
+     "confident": 1299,
+     "opinionated": 1230.12,
+     "constructivelyPushesBack": 1297.34,
+     "creative": 1426.12,
+     "openEnded": 934.73,
+     "slop": 1588.3
     },
     "indexScores": {
-     "expressiveness": 88.57692307692308,
-     "organization": 90.48076923076923,
-     "informativeness": 94.28846153846153,
-     "transparency": 56.21153846153846,
+     "expressiveness": 90.41935483870968,
+     "organization": 88.8225806451613,
+     "informativeness": 95.20967741935485,
+     "transparency": 61.67741935483871,
      "warmth": 100,
-     "conviction": 79.0576923076923,
-     "imagination": 90.48076923076923,
-     "slop": 54.30769230769231
+     "conviction": 85.62903225806451,
+     "imagination": 92.01612903225806,
+     "slop": 61.67741935483871
     },
     "indexIntervals": {
      "expressiveness": {
-      "lower": 85,
-      "upper": 90
+      "lower": 88,
+      "upper": 92
      },
      "organization": {
-      "lower": 74,
+      "lower": 79,
       "upper": 97
      },
      "informativeness": {
-      "lower": 91,
-      "upper": 100
+      "lower": 94,
+      "upper": 99
      },
      "transparency": {
-      "lower": 47,
-      "upper": 62
+      "lower": 55,
+      "upper": 65
      },
      "warmth": {
-      "lower": 96,
+      "lower": 99,
       "upper": 100
      },
      "conviction": {
-      "lower": 70,
-      "upper": 89
-     },
-     "imagination": {
-      "lower": 82,
+      "lower": 75,
       "upper": 94
      },
+     "imagination": {
+      "lower": 85,
+      "upper": 95
+     },
      "slop": {
-      "lower": 53,
-      "upper": 61
+      "lower": 60,
+      "upper": 68
      }
     }
    },
@@ -8067,22 +8394,22 @@
     "endsWithQuestion": 0.154788418708241
    },
    "headline": {
-    "outputSpeed": 118.40787235686362,
-    "timeToFirstToken": 19.822721947790285,
-    "timeToFirstAnswerToken": 19.822721947790285
+    "outputSpeed": 107.253391068618,
+    "timeToFirstToken": 24.0063038875465,
+    "timeToFirstAnswerToken": 24.0063038875465
    },
    "multiTurn": {
-    "timeToFirstToken": 9.330845340315834
+    "timeToFirstToken": 9.3136657224333
    },
    "workloads": {
     "1k": {
-     "timeToFirstToken": 29.08972384352946
+     "timeToFirstToken": 33.5538941133158
     },
     "10k": {
-     "timeToFirstToken": 34.118926328764694
+     "timeToFirstToken": 40.0242105742632
     },
     "100k": {
-     "timeToFirstToken": 27.735145493500053
+     "timeToFirstToken": 42.5187214703999
     }
    },
    "performanceDataSource": {

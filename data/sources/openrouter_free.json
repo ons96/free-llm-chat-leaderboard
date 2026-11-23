@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-11-16T14:57:28Z",
- "total_models": 469,
- "free_models_count": 14,
+ "fetched_at": "2026-11-23T17:30:40Z",
+ "total_models": 477,
+ "free_models_count": 12,
  "models": [
   {
    "id": "baidu/ernie-5.5-flash-preview:free",
@@ -18,22 +18,6 @@
    },
    "created": 1794333533,
    "description": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total..."
-  },
-  {
-   "id": "cohere/north-mini-code:free",
-   "name": "Cohere: North Mini Code (free)",
-   "context_length": 256000,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 256000,
-    "max_completion_tokens": 64000,
-    "is_moderated": true
-   },
-   "created": 1781723748,
-   "description": "North Mini Code is Cohere's first agentic coding model and the debut of its North family. A sparse mixture-of-experts model with 30B total parameters and 3B active, it is optimized..."
   },
   {
    "id": "dots-studio/dots-3-note-preview:free",
@@ -210,22 +194,6 @@
    },
    "created": 1792622765,
    "description": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited..."
-  },
-  {
-   "id": "thinkingmachines/inkling-2-small:free",
-   "name": "Thinking Machines: Inkling 2 Small (free)",
-   "context_length": 1048576,
-   "pricing": {
-    "prompt": "0",
-    "completion": "0"
-   },
-   "top_provider": {
-    "context_length": 1048576,
-    "max_completion_tokens": 131072,
-    "is_moderated": false
-   },
-   "created": 1794261847,
-   "description": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second..."
   }
  ]
 }

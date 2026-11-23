@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T14:57:28Z",
-  "count": 282,
+  "generated_at": "2026-11-23T17:30:41Z",
+  "count": 283,
   "scoring": {
     "weights": {
       "intelligence": 0.3,
@@ -49,7 +49,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 1
     },
     {
@@ -70,8 +70,8 @@
         "chat_ui"
       ],
       "chat_score": 74.0,
-      "intelligence": 93.2,
-      "grounding": 93.2,
+      "intelligence": 93.3,
+      "grounding": 93.3,
       "grounding_source": "intelligence_proxy",
       "speed": 34.4,
       "speed_tps": 100.0,
@@ -85,7 +85,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 2
     },
     {
@@ -102,9 +102,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 66.6,
-      "intelligence": 74.4,
-      "grounding": 74.4,
+      "chat_score": 66.4,
+      "intelligence": 74.2,
+      "grounding": 74.2,
       "grounding_source": "intelligence_proxy",
       "speed": 64.1,
       "speed_tps": 200.0,
@@ -116,39 +116,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 3
-    },
-    {
-      "id": "qwen3-235b",
-      "name": "Qwen3 235B",
-      "family": "qwen3-235b",
-      "providers": [
-        "SambaNova"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 66.5,
-      "intelligence": 73.0,
-      "grounding": 73.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 64.1,
-      "speed_tps": 200.0,
-      "latency_ms": null,
-      "context_window": 262144,
-      "arena_score": 1422,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 4
     },
     {
       "id": "gemini-3-pro",
@@ -185,7 +154,38 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
+      "rank": 4
+    },
+    {
+      "id": "qwen3-235b",
+      "name": "Qwen3 235B",
+      "family": "qwen3-235b",
+      "providers": [
+        "SambaNova"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 66.4,
+      "intelligence": 72.8,
+      "grounding": 72.8,
+      "grounding_source": "intelligence_proxy",
+      "speed": 64.1,
+      "speed_tps": 200.0,
+      "latency_ms": null,
+      "context_window": 262144,
+      "arena_score": 1422,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-23",
       "rank": 5
     },
     {
@@ -205,9 +205,9 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 65.3,
-      "intelligence": 72.4,
-      "grounding": 72.4,
+      "chat_score": 65.2,
+      "intelligence": 72.2,
+      "grounding": 72.2,
       "grounding_source": "intelligence_proxy",
       "speed": 64.1,
       "speed_tps": 200.0,
@@ -221,7 +221,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 6
     },
     {
@@ -257,7 +257,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 7
     },
     {
@@ -274,9 +274,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 64.7,
-      "intelligence": 70.7,
-      "grounding": 70.7,
+      "chat_score": 64.6,
+      "intelligence": 70.5,
+      "grounding": 70.5,
       "grounding_source": "intelligence_proxy",
       "speed": 64.1,
       "speed_tps": 200.0,
@@ -291,7 +291,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 8
     },
     {
@@ -308,9 +308,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 63.7,
-      "intelligence": 80.8,
-      "grounding": 80.8,
+      "chat_score": 63.3,
+      "intelligence": 80.1,
+      "grounding": 80.1,
       "grounding_source": "intelligence_proxy",
       "speed": 34.4,
       "speed_tps": 100.0,
@@ -322,7 +322,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 9
     },
     {
@@ -339,7 +339,7 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 63.1,
+      "chat_score": 63.2,
       "intelligence": 97.2,
       "grounding": 97.2,
       "grounding_source": "intelligence_proxy",
@@ -353,7 +353,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 10
     },
     {
@@ -384,7 +384,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 11
     },
     {
@@ -401,7 +401,7 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 62.6,
+      "chat_score": 62.7,
       "intelligence": 96.1,
       "grounding": 96.1,
       "grounding_source": "intelligence_proxy",
@@ -415,7 +415,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 12
     },
     {
@@ -446,7 +446,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 13
     },
     {
@@ -466,9 +466,9 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 61.9,
-      "intelligence": 67.9,
-      "grounding": 67.9,
+      "chat_score": 61.8,
+      "intelligence": 67.7,
+      "grounding": 67.7,
       "grounding_source": "intelligence_proxy",
       "speed": 53.1,
       "speed_tps": 150.0,
@@ -484,7 +484,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 14
     },
     {
@@ -517,7 +517,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 15
     },
     {
@@ -535,8 +535,8 @@
         "arena"
       ],
       "chat_score": 60.4,
-      "intelligence": 87.3,
-      "grounding": 87.3,
+      "intelligence": 87.4,
+      "grounding": 87.4,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -548,7 +548,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 16
     },
     {
@@ -565,9 +565,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 59.3,
-      "intelligence": 73.8,
-      "grounding": 73.8,
+      "chat_score": 59.2,
+      "intelligence": 73.6,
+      "grounding": 73.6,
       "grounding_source": "intelligence_proxy",
       "speed": 34.4,
       "speed_tps": 100.0,
@@ -579,7 +579,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 17
     },
     {
@@ -596,7 +596,7 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 59.0,
+      "chat_score": 59.1,
       "intelligence": 91.0,
       "grounding": 91.0,
       "grounding_source": "intelligence_proxy",
@@ -610,7 +610,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 18
     },
     {
@@ -627,9 +627,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 59.0,
-      "intelligence": 82.8,
-      "grounding": 82.8,
+      "chat_score": 58.7,
+      "intelligence": 82.3,
+      "grounding": 82.3,
       "grounding_source": "intelligence_proxy",
       "speed": 1.6,
       "speed_tps": 50.0,
@@ -641,7 +641,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 19
     },
     {
@@ -675,7 +675,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 20
     },
     {
@@ -692,9 +692,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 58.4,
-      "intelligence": 84.2,
-      "grounding": 84.2,
+      "chat_score": 58.1,
+      "intelligence": 83.7,
+      "grounding": 83.7,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -706,7 +706,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 21
     },
     {
@@ -723,9 +723,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 58.2,
-      "intelligence": 60.3,
-      "grounding": 60.3,
+      "chat_score": 58.1,
+      "intelligence": 60.1,
+      "grounding": 60.1,
       "grounding_source": "intelligence_proxy",
       "speed": 64.1,
       "speed_tps": 200.0,
@@ -740,39 +740,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 22
-    },
-    {
-      "id": "qwen3.6-plus",
-      "name": "Qwen3.6 Plus",
-      "family": "qwen3.6-plus",
-      "providers": [
-        "Alibaba Token Plan Cn"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 56.8,
-      "intelligence": 81.7,
-      "grounding": 81.7,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": 1443,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 23
     },
     {
       "id": "gpt-oss-120b",
@@ -788,9 +757,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 56.7,
-      "intelligence": 51.3,
-      "grounding": 51.3,
+      "chat_score": 56.6,
+      "intelligence": 51.1,
+      "grounding": 51.1,
       "grounding_source": "intelligence_proxy",
       "speed": 85.9,
       "speed_tps": 483.4,
@@ -802,15 +771,15 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 24
+      "last_updated": "2026-11-23",
+      "rank": 23
     },
     {
-      "id": "qwen3-32b",
-      "name": "Qwen3 32B",
-      "family": "qwen3-32b",
+      "id": "qwen3.6-plus",
+      "name": "Qwen3.6 Plus",
+      "family": "qwen3.6-plus",
       "providers": [
-        "SambaNova"
+        "Alibaba Token Plan Cn"
       ],
       "free_via": [
         "gateway"
@@ -819,53 +788,22 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 56.0,
-      "intelligence": 49.6,
-      "grounding": 49.6,
-      "grounding_source": "intelligence_proxy",
-      "speed": 87.5,
-      "speed_tps": 500.0,
-      "latency_ms": null,
-      "context_window": 131072,
-      "arena_score": 1347,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 25
-    },
-    {
-      "id": "qwen3.5-397b-a17b",
-      "name": "Qwen3.5 397B A17B",
-      "family": "qwen3.5-397b-a17b",
-      "providers": [
-        "UnoRouter"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 55.9,
-      "intelligence": 81.4,
-      "grounding": 81.4,
+      "chat_score": 56.5,
+      "intelligence": 81.2,
+      "grounding": 81.2,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
       "latency_ms": null,
-      "context_window": 262144,
-      "arena_score": 1442,
+      "context_window": 1000000,
+      "arena_score": 1443,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 26
+      "last_updated": "2026-11-23",
+      "rank": 24
     },
     {
       "id": "claude-sonnet-4-5",
@@ -881,7 +819,7 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 55.8,
+      "chat_score": 55.9,
       "intelligence": 86.2,
       "grounding": 86.2,
       "grounding_source": "intelligence_proxy",
@@ -897,7 +835,69 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
+      "rank": 25
+    },
+    {
+      "id": "qwen3-32b",
+      "name": "Qwen3 32B",
+      "family": "qwen3-32b",
+      "providers": [
+        "SambaNova"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 55.9,
+      "intelligence": 49.4,
+      "grounding": 49.4,
+      "grounding_source": "intelligence_proxy",
+      "speed": 87.5,
+      "speed_tps": 500.0,
+      "latency_ms": null,
+      "context_window": 131072,
+      "arena_score": 1347,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-23",
+      "rank": 26
+    },
+    {
+      "id": "qwen3.5-397b-a17b",
+      "name": "Qwen3.5 397B A17B",
+      "family": "qwen3.5-397b-a17b",
+      "providers": [
+        "UnoRouter"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 55.6,
+      "intelligence": 80.9,
+      "grounding": 80.9,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 262144,
+      "arena_score": 1442,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-23",
       "rank": 27
     },
     {
@@ -914,9 +914,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 55.8,
-      "intelligence": 80.3,
-      "grounding": 80.3,
+      "chat_score": 55.5,
+      "intelligence": 79.8,
+      "grounding": 79.8,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -928,7 +928,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 28
     },
     {
@@ -948,9 +948,9 @@
         "openrouter",
         "arena"
       ],
-      "chat_score": 54.8,
-      "intelligence": 79.7,
-      "grounding": 79.7,
+      "chat_score": 54.5,
+      "intelligence": 79.2,
+      "grounding": 79.2,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -962,7 +962,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 29
     },
     {
@@ -979,9 +979,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 54.8,
-      "intelligence": 79.7,
-      "grounding": 79.7,
+      "chat_score": 54.5,
+      "intelligence": 79.2,
+      "grounding": 79.2,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -996,7 +996,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 30
     },
     {
@@ -1013,9 +1013,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 53.8,
-      "intelligence": 78.0,
-      "grounding": 78.0,
+      "chat_score": 53.6,
+      "intelligence": 77.8,
+      "grounding": 77.8,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1027,7 +1027,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 31
     },
     {
@@ -1044,9 +1044,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 53.5,
-      "intelligence": 71.5,
-      "grounding": 71.5,
+      "chat_score": 53.4,
+      "intelligence": 71.3,
+      "grounding": 71.3,
       "grounding_source": "intelligence_proxy",
       "speed": 18.8,
       "speed_tps": 80.0,
@@ -1058,7 +1058,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 32
     },
     {
@@ -1075,9 +1075,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 53.0,
-      "intelligence": 77.5,
-      "grounding": 77.5,
+      "chat_score": 52.9,
+      "intelligence": 77.2,
+      "grounding": 77.2,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1089,7 +1089,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 33
     },
     {
@@ -1106,9 +1106,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 52.6,
-      "intelligence": 76.6,
-      "grounding": 76.6,
+      "chat_score": 52.5,
+      "intelligence": 76.4,
+      "grounding": 76.4,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1120,7 +1120,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 34
     },
     {
@@ -1137,9 +1137,9 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 51.9,
-      "intelligence": 75.2,
-      "grounding": 75.2,
+      "chat_score": 51.8,
+      "intelligence": 75.0,
+      "grounding": 75.0,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1153,7 +1153,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 35
     },
     {
@@ -1171,8 +1171,8 @@
         "artificial_analysis"
       ],
       "chat_score": 51.1,
-      "intelligence": 85.9,
-      "grounding": 85.9,
+      "intelligence": 86.0,
+      "grounding": 86.0,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1184,7 +1184,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 36
     },
     {
@@ -1204,9 +1204,9 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 50.9,
-      "intelligence": 68.7,
-      "grounding": 68.7,
+      "chat_score": 50.8,
+      "intelligence": 68.5,
+      "grounding": 68.5,
       "grounding_source": "intelligence_proxy",
       "speed": 18.8,
       "speed_tps": 80.0,
@@ -1220,7 +1220,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 37
     },
     {
@@ -1237,9 +1237,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 50.7,
-      "intelligence": 39.2,
-      "grounding": 39.2,
+      "chat_score": 50.6,
+      "intelligence": 39.0,
+      "grounding": 39.0,
       "grounding_source": "intelligence_proxy",
       "speed": 93.8,
       "speed_tps": 744.0,
@@ -1251,13 +1251,13 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 38
     },
     {
-      "id": "gemini-4-carbon",
-      "name": "Gemini 4 Carbon",
-      "family": "gemini-4-carbon",
+      "id": "gpt-6-2-astra",
+      "name": "GPT 6 2 Astra",
+      "family": "gpt-6-2-astra",
       "providers": [
         "Artificial Analysis"
       ],
@@ -1268,9 +1268,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 49.8,
-      "intelligence": 83.7,
-      "grounding": 83.7,
+      "chat_score": 50.5,
+      "intelligence": 84.8,
+      "grounding": 84.8,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1282,8 +1282,39 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 39
+    },
+    {
+      "id": "gemini-4-neon",
+      "name": "Gemini 4 Neon",
+      "family": "gemini-4-neon",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 50.2,
+      "intelligence": 84.3,
+      "grounding": 84.3,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-23",
+      "rank": 40
     },
     {
       "id": "grok-4",
@@ -1305,9 +1336,9 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 49.8,
-      "intelligence": 67.0,
-      "grounding": 67.0,
+      "chat_score": 49.7,
+      "intelligence": 66.9,
+      "grounding": 66.9,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1321,8 +1352,39 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 40
+      "last_updated": "2026-11-23",
+      "rank": 41
+    },
+    {
+      "id": "gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "family": "gemini-4-carbon",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 49.5,
+      "intelligence": 83.1,
+      "grounding": 83.1,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-23",
+      "rank": 42
     },
     {
       "id": "deepseek-v4",
@@ -1344,9 +1406,9 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 49.4,
-      "intelligence": 66.2,
-      "grounding": 66.2,
+      "chat_score": 49.3,
+      "intelligence": 66.0,
+      "grounding": 66.0,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1360,8 +1422,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 41
+      "last_updated": "2026-11-23",
+      "rank": 43
     },
     {
       "id": "llama-4-maverick-17b-128e",
@@ -1377,9 +1439,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 49.4,
-      "intelligence": 43.1,
-      "grounding": 43.1,
+      "chat_score": 49.3,
+      "intelligence": 43.0,
+      "grounding": 43.0,
       "grounding_source": "intelligence_proxy",
       "speed": 78.1,
       "speed_tps": 400.0,
@@ -1391,39 +1453,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 42
-    },
-    {
-      "id": "claude-opus-5-5",
-      "name": "Claude Opus 5 5",
-      "family": "claude-opus-5-5",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 49.2,
-      "intelligence": 82.5,
-      "grounding": 82.5,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 43
+      "last_updated": "2026-11-23",
+      "rank": 44
     },
     {
       "id": "glm-5",
@@ -1446,8 +1477,8 @@
         "chat_ui"
       ],
       "chat_score": 49.1,
-      "intelligence": 65.1,
-      "grounding": 65.1,
+      "intelligence": 64.9,
+      "grounding": 64.9,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1461,13 +1492,44 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 44
+      "last_updated": "2026-11-23",
+      "rank": 45
     },
     {
-      "id": "gpt-6-astra",
-      "name": "GPT 6 Astra",
-      "family": "gpt-6-astra",
+      "id": "claude-opus-5-5",
+      "name": "Claude Opus 5 5",
+      "family": "claude-opus-5-5",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 48.9,
+      "intelligence": 82.0,
+      "grounding": 82.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-23",
+      "rank": 46
+    },
+    {
+      "id": "gpt-6-2-sol",
+      "name": "GPT 6 2 Sol",
+      "family": "gpt-6-2-sol",
       "providers": [
         "Artificial Analysis"
       ],
@@ -1492,8 +1554,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 45
+      "last_updated": "2026-11-23",
+      "rank": 47
     },
     {
       "id": "claude-haiku-4-5",
@@ -1509,9 +1571,9 @@
         "arena",
         "chat_ui"
       ],
-      "chat_score": 47.8,
-      "intelligence": 69.9,
-      "grounding": 69.9,
+      "chat_score": 47.7,
+      "intelligence": 69.7,
+      "grounding": 69.7,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1525,75 +1587,13 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 46
-    },
-    {
-      "id": "gpt-6-1-sol",
-      "name": "GPT 6 1 Sol",
-      "family": "gpt-6-1-sol",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 47.5,
-      "intelligence": 79.4,
-      "grounding": 79.4,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 47
+      "last_updated": "2026-11-23",
+      "rank": 48
     },
     {
       "id": "claude-sonnet-5-5",
       "name": "Claude Sonnet 5 5",
       "family": "claude-sonnet-5-5",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 47.4,
-      "intelligence": 79.2,
-      "grounding": 79.2,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 48
-    },
-    {
-      "id": "gemini-4-hydrogen",
-      "name": "Gemini 4 Hydrogen",
-      "family": "gemini-4-hydrogen",
       "providers": [
         "Artificial Analysis"
       ],
@@ -1618,8 +1618,39 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 49
+    },
+    {
+      "id": "gemini-4-hydrogen",
+      "name": "Gemini 4 Hydrogen",
+      "family": "gemini-4-hydrogen",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 47.1,
+      "intelligence": 78.7,
+      "grounding": 78.7,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-23",
+      "rank": 50
     },
     {
       "id": "deepseek-v3",
@@ -1635,9 +1666,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 46.9,
-      "intelligence": 63.1,
-      "grounding": 63.1,
+      "chat_score": 46.8,
+      "intelligence": 62.9,
+      "grounding": 62.9,
       "grounding_source": "intelligence_proxy",
       "speed": 18.8,
       "speed_tps": 80.0,
@@ -1649,38 +1680,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 50
-    },
-    {
-      "id": "gpt-6-1-terra",
-      "name": "GPT 6 1 Terra",
-      "family": "gpt-6-1-terra",
-      "providers": [
-        "Artificial Analysis"
-      ],
-      "free_via": [
-        "gateway",
-        "aa-benchmark"
-      ],
-      "sources": [
-        "artificial_analysis"
-      ],
-      "chat_score": 46.3,
-      "intelligence": 77.2,
-      "grounding": 77.2,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 1000000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 51
     },
     {
@@ -1697,9 +1697,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 46.2,
-      "intelligence": 68.7,
-      "grounding": 68.7,
+      "chat_score": 46.1,
+      "intelligence": 68.5,
+      "grounding": 68.5,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1711,8 +1711,39 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 52
+    },
+    {
+      "id": "gpt-6-1-terra",
+      "name": "GPT 6 1 Terra",
+      "family": "gpt-6-1-terra",
+      "providers": [
+        "Artificial Analysis"
+      ],
+      "free_via": [
+        "gateway",
+        "aa-benchmark"
+      ],
+      "sources": [
+        "artificial_analysis"
+      ],
+      "chat_score": 46.1,
+      "intelligence": 77.0,
+      "grounding": 77.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": 1000000,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-23",
+      "rank": 53
     },
     {
       "id": "muse-wonder-full",
@@ -1728,9 +1759,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 45.8,
-      "intelligence": 76.3,
-      "grounding": 76.3,
+      "chat_score": 45.7,
+      "intelligence": 76.1,
+      "grounding": 76.1,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1742,8 +1773,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 53
+      "last_updated": "2026-11-23",
+      "rank": 54
     },
     {
       "id": "mistral-large-4",
@@ -1760,9 +1791,9 @@
         "artificial_analysis",
         "arena"
       ],
-      "chat_score": 45.7,
-      "intelligence": 61.1,
-      "grounding": 61.1,
+      "chat_score": 45.6,
+      "intelligence": 61.0,
+      "grounding": 61.0,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1774,8 +1805,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 54
+      "last_updated": "2026-11-23",
+      "rank": 55
     },
     {
       "id": "qwen3-coder",
@@ -1791,9 +1822,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 45.7,
-      "intelligence": 59.4,
-      "grounding": 59.4,
+      "chat_score": 45.6,
+      "intelligence": 59.3,
+      "grounding": 59.3,
       "grounding_source": "intelligence_proxy",
       "speed": 9.4,
       "speed_tps": 60.0,
@@ -1805,8 +1836,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 55
+      "last_updated": "2026-11-23",
+      "rank": 56
     },
     {
       "id": "kimi-k3-1-pro",
@@ -1822,9 +1853,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 44.6,
-      "intelligence": 74.1,
-      "grounding": 74.1,
+      "chat_score": 44.4,
+      "intelligence": 73.9,
+      "grounding": 73.9,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1836,8 +1867,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 56
+      "last_updated": "2026-11-23",
+      "rank": 57
     },
     {
       "id": "muse-wonder",
@@ -1853,9 +1884,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 44.1,
-      "intelligence": 72.1,
-      "grounding": 72.1,
+      "chat_score": 44.0,
+      "intelligence": 71.9,
+      "grounding": 71.9,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1867,8 +1898,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 57
+      "last_updated": "2026-11-23",
+      "rank": 58
     },
     {
       "id": "qwen4-max",
@@ -1884,9 +1915,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 43.3,
-      "intelligence": 71.8,
-      "grounding": 71.8,
+      "chat_score": 43.2,
+      "intelligence": 71.6,
+      "grounding": 71.6,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1898,8 +1929,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 58
+      "last_updated": "2026-11-23",
+      "rank": 59
     },
     {
       "id": "gemma-3-27b",
@@ -1916,8 +1947,8 @@
         "arena"
       ],
       "chat_score": 41.9,
-      "intelligence": 54.4,
-      "grounding": 54.4,
+      "intelligence": 54.2,
+      "grounding": 54.2,
       "grounding_source": "intelligence_proxy",
       "speed": 18.8,
       "speed_tps": 80.0,
@@ -1929,8 +1960,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 59
+      "last_updated": "2026-11-23",
+      "rank": 60
     },
     {
       "id": "claude-sonnet-4",
@@ -1946,9 +1977,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 41.8,
-      "intelligence": 60.3,
-      "grounding": 60.3,
+      "chat_score": 41.7,
+      "intelligence": 60.1,
+      "grounding": 60.1,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1960,8 +1991,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 60
+      "last_updated": "2026-11-23",
+      "rank": 61
     },
     {
       "id": "muse-ember",
@@ -1977,9 +2008,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 41.5,
-      "intelligence": 67.3,
-      "grounding": 67.3,
+      "chat_score": 41.4,
+      "intelligence": 67.1,
+      "grounding": 67.1,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -1991,8 +2022,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 61
+      "last_updated": "2026-11-23",
+      "rank": 62
     },
     {
       "id": "tencent-hy4",
@@ -2008,9 +2039,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 41.2,
-      "intelligence": 66.8,
-      "grounding": 66.8,
+      "chat_score": 41.1,
+      "intelligence": 66.6,
+      "grounding": 66.6,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2022,8 +2053,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 62
+      "last_updated": "2026-11-23",
+      "rank": 63
     },
     {
       "id": "claude-haiku-5-5",
@@ -2039,9 +2070,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 41.0,
-      "intelligence": 67.6,
-      "grounding": 67.6,
+      "chat_score": 40.9,
+      "intelligence": 67.4,
+      "grounding": 67.4,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2053,8 +2084,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 63
+      "last_updated": "2026-11-23",
+      "rank": 64
     },
     {
       "id": "llama-3.3-70b",
@@ -2071,8 +2102,8 @@
         "arena"
       ],
       "chat_score": 40.7,
-      "intelligence": 39.4,
-      "grounding": 39.4,
+      "intelligence": 39.3,
+      "grounding": 39.3,
       "grounding_source": "intelligence_proxy",
       "speed": 53.1,
       "speed_tps": 150.0,
@@ -2084,8 +2115,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 64
+      "last_updated": "2026-11-23",
+      "rank": 65
     },
     {
       "id": "qwen3-30b-a3b-instruct",
@@ -2101,9 +2132,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 40.7,
-      "intelligence": 57.5,
-      "grounding": 57.5,
+      "chat_score": 40.6,
+      "intelligence": 57.3,
+      "grounding": 57.3,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2115,8 +2146,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 65
+      "last_updated": "2026-11-23",
+      "rank": 66
     },
     {
       "id": "hunyuan-t1",
@@ -2132,9 +2163,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 40.3,
-      "intelligence": 59.2,
-      "grounding": 59.2,
+      "chat_score": 40.2,
+      "intelligence": 59.0,
+      "grounding": 59.0,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2146,42 +2177,39 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 66
+      "last_updated": "2026-11-23",
+      "rank": 67
     },
     {
       "id": "inkling-2-small",
       "name": "Inkling 2 Small",
       "family": "inkling-2-small",
       "providers": [
-        "OpenRouter",
         "Artificial Analysis"
       ],
       "free_via": [
         "gateway",
-        "openrouter-api",
         "aa-benchmark"
       ],
       "sources": [
-        "openrouter",
         "artificial_analysis"
       ],
-      "chat_score": 40.1,
-      "intelligence": 64.8,
-      "grounding": 64.8,
+      "chat_score": 40.0,
+      "intelligence": 64.6,
+      "grounding": 64.6,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
       "latency_ms": null,
-      "context_window": 1048576,
+      "context_window": 1024000,
       "arena_score": null,
       "recency_days": null,
       "reliability_notes": [],
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 67
+      "last_updated": "2026-11-23",
+      "rank": 68
     },
     {
       "id": "ling-3-1-flash",
@@ -2198,8 +2226,8 @@
         "artificial_analysis"
       ],
       "chat_score": 39.6,
-      "intelligence": 63.9,
-      "grounding": 63.9,
+      "intelligence": 63.8,
+      "grounding": 63.8,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2211,8 +2239,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 68
+      "last_updated": "2026-11-23",
+      "rank": 69
     },
     {
       "id": "hunyuan-turbos",
@@ -2229,8 +2257,8 @@
         "arena"
       ],
       "chat_score": 39.5,
-      "intelligence": 58.0,
-      "grounding": 58.0,
+      "intelligence": 57.9,
+      "grounding": 57.9,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2242,8 +2270,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 69
+      "last_updated": "2026-11-23",
+      "rank": 70
     },
     {
       "id": "mimo-v2-6-pro",
@@ -2259,9 +2287,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 39.1,
-      "intelligence": 64.2,
-      "grounding": 64.2,
+      "chat_score": 39.0,
+      "intelligence": 64.0,
+      "grounding": 64.0,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2273,8 +2301,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 70
+      "last_updated": "2026-11-23",
+      "rank": 71
     },
     {
       "id": "glm-4.6v",
@@ -2290,9 +2318,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 38.8,
-      "intelligence": 56.9,
-      "grounding": 56.9,
+      "chat_score": 38.7,
+      "intelligence": 56.7,
+      "grounding": 56.7,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2304,8 +2332,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 71
+      "last_updated": "2026-11-23",
+      "rank": 72
     },
     {
       "id": "minimax-m2",
@@ -2321,9 +2349,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 38.5,
-      "intelligence": 47.3,
-      "grounding": 47.3,
+      "chat_score": 38.4,
+      "intelligence": 47.2,
+      "grounding": 47.2,
       "grounding_source": "intelligence_proxy",
       "speed": 18.8,
       "speed_tps": 80.0,
@@ -2335,8 +2363,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 72
+      "last_updated": "2026-11-23",
+      "rank": 73
     },
     {
       "id": "gpt-6-luna",
@@ -2352,9 +2380,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 38.4,
-      "intelligence": 62.8,
-      "grounding": 62.8,
+      "chat_score": 38.3,
+      "intelligence": 62.6,
+      "grounding": 62.6,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2366,8 +2394,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 73
+      "last_updated": "2026-11-23",
+      "rank": 74
     },
     {
       "id": "mistral-small",
@@ -2383,9 +2411,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 37.5,
-      "intelligence": 52.4,
-      "grounding": 52.4,
+      "chat_score": 37.4,
+      "intelligence": 52.2,
+      "grounding": 52.2,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2397,8 +2425,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 74
+      "last_updated": "2026-11-23",
+      "rank": 75
     },
     {
       "id": "reflection-beam",
@@ -2414,9 +2442,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 35.5,
-      "intelligence": 56.3,
-      "grounding": 56.3,
+      "chat_score": 35.4,
+      "intelligence": 56.2,
+      "grounding": 56.2,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2428,8 +2456,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 75
+      "last_updated": "2026-11-23",
+      "rank": 76
     },
     {
       "id": "k2-horizon-375b-a23b",
@@ -2445,9 +2473,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 34.9,
-      "intelligence": 56.6,
-      "grounding": 56.6,
+      "chat_score": 34.8,
+      "intelligence": 56.5,
+      "grounding": 56.5,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2459,8 +2487,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 76
+      "last_updated": "2026-11-23",
+      "rank": 77
     },
     {
       "id": "glm-4.5v",
@@ -2476,9 +2504,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 34.7,
-      "intelligence": 51.3,
-      "grounding": 51.3,
+      "chat_score": 34.6,
+      "intelligence": 51.1,
+      "grounding": 51.1,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2490,8 +2518,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 77
+      "last_updated": "2026-11-23",
+      "rank": 78
     },
     {
       "id": "qwen3-8-27b",
@@ -2507,9 +2535,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 34.6,
-      "intelligence": 57.7,
-      "grounding": 57.7,
+      "chat_score": 34.5,
+      "intelligence": 57.6,
+      "grounding": 57.6,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2521,8 +2549,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 78
+      "last_updated": "2026-11-23",
+      "rank": 79
     },
     {
       "id": "nemotron-3-5-super-vl",
@@ -2538,9 +2566,9 @@
       "sources": [
         "artificial_analysis"
       ],
-      "chat_score": 34.2,
-      "intelligence": 55.2,
-      "grounding": 55.2,
+      "chat_score": 34.1,
+      "intelligence": 55.1,
+      "grounding": 55.1,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2552,8 +2580,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 79
+      "last_updated": "2026-11-23",
+      "rank": 80
     },
     {
       "id": "gemma-2-27b",
@@ -2570,8 +2598,8 @@
         "arena"
       ],
       "chat_score": 33.6,
-      "intelligence": 32.4,
-      "grounding": 32.4,
+      "intelligence": 32.3,
+      "grounding": 32.3,
       "grounding_source": "intelligence_proxy",
       "speed": 48.4,
       "speed_tps": 120.0,
@@ -2583,8 +2611,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 80
+      "last_updated": "2026-11-23",
+      "rank": 81
     },
     {
       "id": "gpt-4o",
@@ -2600,9 +2628,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 33.5,
-      "intelligence": 48.7,
-      "grounding": 48.7,
+      "chat_score": 33.4,
+      "intelligence": 48.6,
+      "grounding": 48.6,
       "grounding_source": "intelligence_proxy",
       "speed": 1.6,
       "speed_tps": 50.0,
@@ -2614,8 +2642,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 81
+      "last_updated": "2026-11-23",
+      "rank": 82
     },
     {
       "id": "llama-3.1-8b",
@@ -2632,8 +2660,8 @@
         "arena"
       ],
       "chat_score": 33.4,
-      "intelligence": 20.0,
-      "grounding": 20.0,
+      "intelligence": 19.9,
+      "grounding": 19.9,
       "grounding_source": "intelligence_proxy",
       "speed": 75.0,
       "speed_tps": 300.0,
@@ -2645,7 +2673,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -2676,38 +2704,7 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 83
-    },
-    {
-      "id": "llama-3.1-405b",
-      "name": "Llama 3.1 405B",
-      "family": "llama-3.1-405b",
-      "providers": [
-        "NVIDIA NIM"
-      ],
-      "free_via": [
-        "gateway"
-      ],
-      "sources": [
-        "gateway",
-        "arena"
-      ],
-      "chat_score": 31.4,
-      "intelligence": 44.8,
-      "grounding": 44.8,
-      "grounding_source": "intelligence_proxy",
-      "speed": 1.6,
-      "speed_tps": 50.0,
-      "latency_ms": null,
-      "context_window": 131072,
-      "arena_score": 1335,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": false,
-      "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 84
     },
     {
@@ -2725,8 +2722,8 @@
         "arena"
       ],
       "chat_score": 31.4,
-      "intelligence": 25.9,
-      "grounding": 25.9,
+      "intelligence": 25.8,
+      "grounding": 25.8,
       "grounding_source": "intelligence_proxy",
       "speed": 53.1,
       "speed_tps": 150.0,
@@ -2738,8 +2735,39 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": 85
+    },
+    {
+      "id": "llama-3.1-405b",
+      "name": "Llama 3.1 405B",
+      "family": "llama-3.1-405b",
+      "providers": [
+        "NVIDIA NIM"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway",
+        "arena"
+      ],
+      "chat_score": 31.3,
+      "intelligence": 44.7,
+      "grounding": 44.7,
+      "grounding_source": "intelligence_proxy",
+      "speed": 1.6,
+      "speed_tps": 50.0,
+      "latency_ms": null,
+      "context_window": 131072,
+      "arena_score": 1335,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": false,
+      "unverified": false,
+      "last_updated": "2026-11-23",
+      "rank": 86
     },
     {
       "id": "mistral-large",
@@ -2759,8 +2787,8 @@
         "chat_ui"
       ],
       "chat_score": 31.2,
-      "intelligence": 38.0,
-      "grounding": 38.0,
+      "intelligence": 37.9,
+      "grounding": 37.9,
       "grounding_source": "intelligence_proxy",
       "speed": 18.8,
       "speed_tps": 80.0,
@@ -2774,8 +2802,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 86
+      "last_updated": "2026-11-23",
+      "rank": 87
     },
     {
       "id": "claude-3-opus",
@@ -2791,9 +2819,9 @@
         "gateway",
         "arena"
       ],
-      "chat_score": 29.0,
-      "intelligence": 40.6,
-      "grounding": 40.6,
+      "chat_score": 28.9,
+      "intelligence": 40.4,
+      "grounding": 40.4,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": 40.0,
@@ -2805,8 +2833,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 87
+      "last_updated": "2026-11-23",
+      "rank": 88
     },
     {
       "id": "openai-fast",
@@ -2837,7 +2865,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -2867,7 +2895,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -2899,7 +2927,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -2917,8 +2945,8 @@
         "arena"
       ],
       "chat_score": 24.1,
-      "intelligence": 34.4,
-      "grounding": 34.4,
+      "intelligence": 34.3,
+      "grounding": 34.3,
       "grounding_source": "intelligence_proxy",
       "speed": 0.0,
       "speed_tps": null,
@@ -2933,8 +2961,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 91
+      "last_updated": "2026-11-23",
+      "rank": 92
     },
     {
       "id": "compound-mini",
@@ -2963,7 +2991,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -2993,7 +3021,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3023,7 +3051,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3053,7 +3081,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3071,8 +3099,8 @@
         "arena"
       ],
       "chat_score": 21.5,
-      "intelligence": 31.8,
-      "grounding": 31.8,
+      "intelligence": 31.7,
+      "grounding": 31.7,
       "grounding_source": "intelligence_proxy",
       "speed": 1.6,
       "speed_tps": 50.0,
@@ -3084,8 +3112,8 @@
       "match_confidence": "high",
       "below_threshold": false,
       "unverified": false,
-      "last_updated": "2026-11-16",
-      "rank": 96
+      "last_updated": "2026-11-23",
+      "rank": 97
     },
     {
       "id": "meta-llama-3.3-70b",
@@ -3114,7 +3142,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3144,7 +3172,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3174,7 +3202,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3206,7 +3234,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3224,8 +3252,8 @@
         "arena"
       ],
       "chat_score": 19.7,
-      "intelligence": 22.0,
-      "grounding": 22.0,
+      "intelligence": 21.9,
+      "grounding": 21.9,
       "grounding_source": "intelligence_proxy",
       "speed": 18.8,
       "speed_tps": 80.0,
@@ -3237,7 +3265,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": false,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3267,7 +3295,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3297,7 +3325,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3327,7 +3355,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3357,7 +3385,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3387,7 +3415,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3417,7 +3445,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3447,7 +3475,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3479,7 +3507,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3509,7 +3537,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3539,7 +3567,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3569,7 +3597,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3601,7 +3629,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3631,7 +3659,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3661,7 +3689,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3691,7 +3719,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3721,7 +3749,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3752,7 +3780,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3782,7 +3810,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3812,7 +3840,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3845,7 +3873,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3878,7 +3906,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3908,7 +3936,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3939,7 +3967,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -3969,7 +3997,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4000,7 +4028,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4032,7 +4060,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4064,7 +4092,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4094,7 +4122,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4124,7 +4152,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4154,7 +4182,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4184,7 +4212,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4217,7 +4245,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4248,7 +4276,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4278,7 +4306,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4308,7 +4336,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4338,7 +4366,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4368,7 +4396,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4398,7 +4426,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4428,7 +4456,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4461,7 +4489,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4491,7 +4519,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4521,7 +4549,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4552,7 +4580,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4582,7 +4610,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4612,7 +4640,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4642,7 +4670,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4672,7 +4700,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4702,7 +4730,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4733,7 +4761,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4763,7 +4791,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4793,7 +4821,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4823,7 +4851,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4853,7 +4881,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4883,7 +4911,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4913,7 +4941,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4943,7 +4971,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -4973,7 +5001,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5003,7 +5031,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5033,7 +5061,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5063,7 +5091,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5093,7 +5121,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5123,7 +5151,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5153,7 +5181,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5183,7 +5211,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5213,7 +5241,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5243,7 +5271,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5278,7 +5306,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5308,7 +5336,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5338,7 +5366,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5368,7 +5396,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5398,7 +5426,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5434,40 +5462,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
-      "rank": null
-    },
-    {
-      "id": "north-mini-code",
-      "name": "North Mini Code",
-      "family": "north-mini-code",
-      "providers": [
-        "Kiosapi",
-        "OpenRouter"
-      ],
-      "free_via": [
-        "gateway",
-        "openrouter-api"
-      ],
-      "sources": [
-        "gateway",
-        "openrouter"
-      ],
-      "chat_score": 2.8,
-      "intelligence": 0.0,
-      "grounding": 0.0,
-      "grounding_source": "intelligence_proxy",
-      "speed": 0.0,
-      "speed_tps": null,
-      "latency_ms": null,
-      "context_window": 256000,
-      "arena_score": null,
-      "recency_days": null,
-      "reliability_notes": [],
-      "match_confidence": "high",
-      "below_threshold": true,
-      "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5497,7 +5492,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5527,7 +5522,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5557,7 +5552,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5587,7 +5582,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5617,7 +5612,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5647,7 +5642,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5677,7 +5672,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5707,7 +5702,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5737,7 +5732,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5767,7 +5762,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5797,7 +5792,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5827,7 +5822,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5857,7 +5852,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5887,7 +5882,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5917,7 +5912,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5947,7 +5942,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -5977,7 +5972,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6007,7 +6002,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6037,7 +6032,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6067,7 +6062,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6099,7 +6094,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6129,7 +6124,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6159,7 +6154,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6189,7 +6184,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6219,7 +6214,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6249,7 +6244,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6279,7 +6274,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6309,7 +6304,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6339,7 +6334,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6369,7 +6364,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6399,7 +6394,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6429,7 +6424,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6459,7 +6454,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6489,7 +6484,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6519,7 +6514,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6549,7 +6544,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6579,7 +6574,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6609,7 +6604,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6639,7 +6634,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6669,7 +6664,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6699,7 +6694,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6729,7 +6724,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6759,7 +6754,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6789,7 +6784,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6819,7 +6814,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6849,7 +6844,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6879,7 +6874,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6909,7 +6904,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6939,7 +6934,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6969,7 +6964,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -6999,7 +6994,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7029,7 +7024,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7059,7 +7054,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7089,7 +7084,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7119,7 +7114,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7152,7 +7147,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7182,7 +7177,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7212,7 +7207,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7242,7 +7237,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7275,7 +7270,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7308,7 +7303,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7341,7 +7336,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7374,7 +7369,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7404,7 +7399,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7434,7 +7429,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7464,7 +7459,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7494,7 +7489,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7524,7 +7519,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7554,7 +7549,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7584,7 +7579,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7614,7 +7609,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7644,7 +7639,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7677,7 +7672,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7710,7 +7705,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7743,7 +7738,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7776,7 +7771,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7808,7 +7803,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7841,7 +7836,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7871,7 +7866,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7904,7 +7899,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7934,7 +7929,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -7967,7 +7962,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8000,7 +7995,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8033,7 +8028,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8066,7 +8061,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8099,7 +8094,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8132,7 +8127,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8165,7 +8160,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8198,7 +8193,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8231,7 +8226,37 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
+      "rank": null
+    },
+    {
+      "id": "north-mini-code",
+      "name": "North Mini Code",
+      "family": "north-mini-code",
+      "providers": [
+        "Kiosapi"
+      ],
+      "free_via": [
+        "gateway"
+      ],
+      "sources": [
+        "gateway"
+      ],
+      "chat_score": 0.0,
+      "intelligence": 0.0,
+      "grounding": 0.0,
+      "grounding_source": "intelligence_proxy",
+      "speed": 0.0,
+      "speed_tps": null,
+      "latency_ms": null,
+      "context_window": null,
+      "arena_score": null,
+      "recency_days": null,
+      "reliability_notes": [],
+      "match_confidence": "high",
+      "below_threshold": true,
+      "unverified": true,
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8264,7 +8289,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8297,7 +8322,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8330,7 +8355,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8362,7 +8387,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8392,7 +8417,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8422,7 +8447,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8452,7 +8477,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8482,7 +8507,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8512,7 +8537,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8542,7 +8567,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8575,7 +8600,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8605,7 +8630,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8635,7 +8660,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8665,7 +8690,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8698,7 +8723,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8728,7 +8753,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8761,7 +8786,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     },
     {
@@ -8794,7 +8819,7 @@
       "match_confidence": "high",
       "below_threshold": true,
       "unverified": true,
-      "last_updated": "2026-11-16",
+      "last_updated": "2026-11-23",
       "rank": null
     }
   ]
